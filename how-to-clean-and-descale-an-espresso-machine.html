@@ -1,0 +1,612 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>How to Clean and Descale an Espresso Machine (So It Lasts)</title>
+<meta name="description" content="The full maintenance ladder for a home espresso machine: a two-minute daily routine, a weekly deep clean, backflushing (and which machines can't), grinder and gasket care, and how to descale without damaging seals.">
+<link rel="canonical" href="https://best-espresso-machines.com/how-to-clean-and-descale-an-espresso-machine">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Best Espresso Machines">
+<meta property="og:title" content="How to Clean and Descale an Espresso Machine (So It Lasts)">
+<meta property="og:description" content="Coffee oil, milk protein and limescale are what actually kill home espresso machines. Here is the routine that keeps all three from winning.">
+<meta property="og:url" content="https://best-espresso-machines.com/how-to-clean-and-descale-an-espresso-machine">
+<meta property="og:image" content="https://best-espresso-machines.com/images/hero-clean.webp">
+<meta name="theme-color" content="#1A100C">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png">
+<link rel="alternate icon" href="/favicon.ico">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<style>
+  /* premium-editorial-v1 — palette: coffee / amber / copper.
+     NOTE: the --aqua* variable names are inherited from the network template;
+     on this site they carry the copper accent. Do not rename (tools/rebuild-site.js
+     and every article file reference them). */
+  :root{
+    --ground:#F7F3EE; --surface:#FFFFFF; --surface-2:#F0E8DF;
+    --ink:#1F1410; --ink-soft:#43302A; --muted:#7A655A; --line:#E6DACE;
+    --aqua:#B4622A; --aqua-deep:#8F4A18; --aqua-tint:#F8EAE0;
+    --brass:#A9803A; --brass-lite:#DFBB78; --brass-tint:#F6EEDF;
+    --dark:#1A100C; --dark-2:#2C1C14; --on-dark:#F4EAE1; --on-dark-mute:#B69C8B;
+    --star:#D9A400;
+    --shadow:0 1px 2px rgba(31,20,16,.05),0 22px 48px -26px rgba(31,20,16,.30);
+    --shadow-sm:0 1px 2px rgba(31,20,16,.05),0 10px 24px -16px rgba(31,20,16,.24);
+    --radius:20px; --radius-sm:12px; --maxw:1120px;
+    --serif:"Iowan Old Style","Palatino Linotype",Palatino,Georgia,"Times New Roman",serif;
+    --sans:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  }
+  @media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+    --ground:#140C09; --surface:#1F1410; --surface-2:#2A1B15;
+    --ink:#F4EAE1; --ink-soft:#DCC9BC; --muted:#AF9788; --line:#3A2720;
+    --aqua:#E08B4E; --aqua-deep:#F0A96E; --aqua-tint:#2A1B12;
+    --brass:#DFBB78; --brass-lite:#EDD4A0; --brass-tint:#2A200F;
+    --shadow:0 1px 2px rgba(0,0,0,.4),0 24px 52px -28px rgba(0,0,0,.7);
+    --shadow-sm:0 1px 2px rgba(0,0,0,.4),0 12px 26px -18px rgba(0,0,0,.6);
+  }}
+  :root[data-theme="dark"]{
+    --ground:#140C09; --surface:#1F1410; --surface-2:#2A1B15;
+    --ink:#F4EAE1; --ink-soft:#DCC9BC; --muted:#AF9788; --line:#3A2720;
+    --aqua:#E08B4E; --aqua-deep:#F0A96E; --aqua-tint:#2A1B12;
+    --brass:#DFBB78; --brass-lite:#EDD4A0; --brass-tint:#2A200F;
+    --shadow:0 1px 2px rgba(0,0,0,.4),0 24px 52px -28px rgba(0,0,0,.7);
+    --shadow-sm:0 1px 2px rgba(0,0,0,.4),0 12px 26px -18px rgba(0,0,0,.6);
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{margin:0;background:var(--ground);color:var(--ink);font-family:var(--sans);
+    font-size:18px;line-height:1.6;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
+  .wrap{max-width:var(--maxw);margin:0 auto;padding:0 26px}
+  a{color:inherit}
+  h1,h2,h3{margin:0;line-height:1.08;letter-spacing:-.01em;text-wrap:balance}
+  .serif{font-family:var(--serif)}
+  p{margin:0 0 1rem}
+  .eyebrow{font-family:var(--sans);font-size:.72rem;font-weight:700;letter-spacing:.22em;text-transform:uppercase}
+  .tnum{font-variant-numeric:tabular-nums}
+  .stars{color:var(--star);letter-spacing:2px}
+
+  /* ---------- header ---------- */
+  header.site{position:sticky;top:0;z-index:30;background:color-mix(in srgb,var(--ground) 82%,transparent);
+    backdrop-filter:saturate(1.3) blur(12px);border-bottom:1px solid var(--line)}
+  .bar{display:flex;align-items:center;justify-content:space-between;height:64px}
+  .brand{display:inline-flex;align-items:center;gap:11px;text-decoration:none;color:var(--ink);font-weight:700;letter-spacing:-.01em}
+  .brand .bn{font-family:var(--serif);font-size:1.16rem}
+  nav.site a{color:var(--muted);text-decoration:none;font-size:.86rem;font-weight:600;letter-spacing:.01em;margin-left:22px;transition:color .2s}
+  nav.site a:hover{color:var(--ink)}
+  @media (max-width:660px){nav.site{display:none}}
+
+  /* ---------- hero (immersive dark, roast bloom) ---------- */
+  .hero{position:relative;background:radial-gradient(120% 90% at 80% -10%,var(--dark-2),var(--dark) 60%);color:var(--on-dark);overflow:hidden;isolation:isolate}
+  .caustic{position:absolute;inset:-30%;z-index:0;opacity:.5;pointer-events:none;filter:blur(30px);
+    background:
+      radial-gradient(28% 40% at 22% 30%,rgba(224,139,78,.26),transparent 60%),
+      radial-gradient(24% 34% at 74% 24%,rgba(223,187,120,.22),transparent 60%),
+      radial-gradient(30% 42% at 60% 78%,rgba(180,98,42,.26),transparent 62%);
+    animation:drift 22s ease-in-out infinite alternate}
+  .caustic.b{opacity:.34;animation-duration:30s;animation-direction:alternate-reverse;
+    background:
+      radial-gradient(26% 36% at 40% 60%,rgba(240,169,110,.22),transparent 60%),
+      radial-gradient(22% 30% at 85% 70%,rgba(169,128,58,.20),transparent 60%)}
+  @keyframes drift{0%{transform:translate3d(-2%,-1%,0) scale(1)}50%{transform:translate3d(3%,2%,0) scale(1.08)}100%{transform:translate3d(-1%,3%,0) scale(1.04)}}
+  .hero .wrap{position:relative;z-index:1;padding:74px 26px 88px}
+  .hero .eyebrow{color:var(--brass-lite)}
+  .hero h1{font-family:var(--serif);font-weight:600;font-size:clamp(2.5rem,1.4rem+4.6vw,4.7rem);letter-spacing:-.02em;max-width:15ch;margin:.5rem 0 0}
+  .hero h1 em{font-style:italic;color:var(--brass-lite)}
+  .hero .lede{font-size:1.24rem;line-height:1.55;color:var(--on-dark-mute);max-width:52ch;margin-top:1.3rem}
+  .hero .meta{display:flex;flex-wrap:wrap;gap:10px 26px;margin-top:26px;font-size:.86rem;color:var(--on-dark-mute)}
+  .hero .meta b{color:var(--on-dark)}
+  .rule{height:1px;background:linear-gradient(90deg,var(--brass),transparent);border:0;margin:26px 0 0;max-width:220px}
+
+  /* ---------- #1 feature (the centerpiece) ---------- */
+  .feature{position:relative;z-index:2;margin:-56px 0 0}
+  .feature .card{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);
+    display:grid;grid-template-columns:1.1fr 1fr;overflow:hidden}
+  .feature .left{padding:38px}
+  .feature .kick{display:inline-flex;align-items:center;gap:9px;color:var(--brass-text);font-weight:700;font-size:.74rem;letter-spacing:.16em;text-transform:uppercase}
+  .feature .kick::before{content:"";width:26px;height:1px;background:var(--brass)}
+  .feature h2{font-family:var(--serif);font-weight:600;font-size:clamp(1.8rem,1.2rem+2vw,2.7rem);margin:.5rem 0 .2rem}
+  .feature .verdict{color:var(--ink-soft);font-size:1.06rem;margin:.4rem 0 1rem;max-width:44ch}
+  .feature .rl{display:flex;align-items:center;flex-wrap:wrap;gap:8px 10px;font-size:.92rem;color:var(--muted);margin-bottom:1.2rem}
+  .feature .rl b{color:var(--ink)}
+  .btn{display:inline-flex;align-items:center;gap:9px;background:var(--aqua);color:#fff;font-weight:700;
+    padding:14px 26px;border-radius:12px;text-decoration:none;box-shadow:var(--shadow-sm);transition:transform .15s,background .2s}
+  .btn:hover{background:var(--aqua-deep);transform:translateY(-1px)}
+  .btn .arw{transition:transform .2s}.btn:hover .arw{transform:translateX(3px)}
+  .feature .right{background:linear-gradient(160deg,var(--dark-2),var(--dark));color:var(--on-dark);padding:38px;display:flex;flex-direction:column;justify-content:center;gap:6px;position:relative}
+  .feature .right .lab{font-size:.72rem;letter-spacing:.18em;text-transform:uppercase;color:var(--on-dark-mute)}
+  .feature .bigprice{font-family:var(--serif);font-size:clamp(3rem,2rem+4vw,4.4rem);font-weight:600;line-height:1;color:var(--brass-lite)}
+  .feature .bigprice sup{font-size:.4em;top:-1.2em;color:var(--on-dark)}
+  .feature .right .note{color:var(--on-dark-mute);font-size:.92rem;margin-top:6px;max-width:30ch}
+  .feature .right .mono{margin-top:16px;font-family:var(--serif);font-size:1.05rem;color:var(--on-dark)}
+  @media (max-width:820px){.feature .card{grid-template-columns:1fr}.feature .right{order:-1}}
+
+  /* ---------- generic section ---------- */
+  section{padding:44px 0}
+  .kicker{display:flex;align-items:center;gap:14px;margin-bottom:6px}
+  .kicker .eyebrow{color:var(--aqua-deep)}
+  .kicker::after{content:"";flex:1;height:1px;background:var(--line)}
+  .h2{font-family:var(--serif);font-weight:600;font-size:clamp(1.7rem,1.2rem+1.7vw,2.5rem);letter-spacing:-.01em}
+  .sub{color:var(--muted);max-width:62ch;margin:.6rem 0 0}
+
+  .notes{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--line);border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;margin-top:24px}
+  .notes .n{background:var(--surface);padding:24px}
+  .notes .num{font-family:var(--serif);font-size:1.5rem;color:var(--brass-text);line-height:1}
+  .notes h3{font-size:1.02rem;font-weight:750;margin:.5rem 0 .35rem}
+  .notes p{font-size:.9rem;color:var(--muted);margin:0}
+  @media (max-width:820px){.notes{grid-template-columns:1fr 1fr}}
+  @media (max-width:520px){.notes{grid-template-columns:1fr}}
+
+  /* honesty band */
+  .band{background:var(--brass-tint);border:1px solid var(--line);border-left:3px solid var(--brass);
+    border-radius:var(--radius-sm);padding:22px 24px;margin-top:26px}
+  .band h3{font-family:var(--serif);font-weight:600;font-size:1.16rem;margin-bottom:.5rem}
+  .band p{color:var(--ink-soft);font-size:.95rem;margin:0}
+  .band p+p{margin-top:.6rem}
+
+  /* comparison */
+  .tablewrap{overflow-x:auto;border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow-sm);background:var(--surface);margin-top:22px}
+  table{border-collapse:collapse;width:100%;min-width:740px;font-size:.94rem}
+  thead th{background:var(--surface-2);text-align:left;padding:16px;font-size:.7rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);border-bottom:1px solid var(--line)}
+  td{padding:15px 16px;border-bottom:1px solid var(--line);vertical-align:middle}
+  tbody tr:last-child td{border-bottom:0}
+  tbody tr:hover{background:var(--surface-2)}
+  td.name{font-family:var(--serif);font-weight:600;font-size:1.05rem}
+  .win td{background:var(--brass-tint)}
+  .win td.name{color:var(--brass-text)}
+  .win td:first-child{box-shadow:inset 3px 0 0 var(--brass)}
+  .price{font-weight:800;font-variant-numeric:tabular-nums}
+  .rev{color:var(--muted);font-size:.82rem}
+  .tget{display:inline-block;background:var(--ink);color:var(--surface);font-weight:700;font-size:.8rem;padding:8px 14px;border-radius:9px;text-decoration:none;white-space:nowrap;transition:background .2s}
+  .tget:hover{background:var(--aqua-deep);color:#fff}
+
+  /* picks (editorial cards) */
+  .picks{display:flex;flex-direction:column;gap:26px;margin-top:26px}
+  .pick{display:grid;grid-template-columns:96px 1fr auto;gap:26px;align-items:start;
+    background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow-sm);padding:28px}
+  .pick .rank{font-family:var(--serif);font-size:2.6rem;color:var(--brass-text);line-height:.9;font-weight:600}
+  .pick .rank small{display:block;font-family:var(--sans);font-size:.6rem;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);font-weight:700;margin-top:8px}
+  .pick h3{font-family:var(--serif);font-weight:600;font-size:1.44rem}
+  .pick .who{color:var(--aqua-deep);font-weight:700;font-size:.9rem;margin:.25rem 0 .5rem}
+  .pick .rl2{display:flex;align-items:center;flex-wrap:wrap;gap:6px 8px;font-size:.86rem;color:var(--muted);margin-bottom:.7rem}
+  .pick .rl2 b{color:var(--ink)}
+  .pick p.body{margin:.2rem 0 0;color:var(--ink-soft)}
+  .quote{border-left:2px solid var(--brass);padding-left:14px;margin:.9rem 0 0;font-family:var(--serif);color:var(--ink);font-size:1.02rem}
+  .quote b{font-family:var(--sans);font-size:.74rem;letter-spacing:.14em;text-transform:uppercase;color:var(--brass-text);display:block;margin-bottom:.2rem;font-weight:700}
+  .aside{display:flex;flex-direction:column;align-items:flex-end;gap:12px;text-align:right;min-width:150px}
+  .aside .pr{font-family:var(--serif);font-size:2rem;font-weight:600;font-variant-numeric:tabular-nums;line-height:1}
+  .aside .tag{font-size:.72rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+  .buy{display:inline-flex;align-items:center;gap:8px;background:var(--aqua);color:#fff;font-weight:700;padding:11px 20px;border-radius:10px;text-decoration:none;transition:background .2s,transform .15s;font-size:.92rem}
+  .buy:hover{background:var(--aqua-deep);transform:translateY(-1px)}
+  @media (max-width:820px){.pick{grid-template-columns:64px 1fr}.aside{grid-column:1/-1;flex-direction:row;justify-content:space-between;align-items:center;text-align:left;border-top:1px solid var(--line);padding-top:16px}}
+
+  /* method / faq */
+  .cols{display:grid;grid-template-columns:1fr 1fr;gap:26px;margin-top:22px}
+  @media (max-width:760px){.cols{grid-template-columns:1fr}}
+  .panel{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:28px;box-shadow:var(--shadow-sm)}
+  .panel .eyebrow{color:var(--aqua-deep)}
+  .panel h3{font-family:var(--serif);font-weight:600;font-size:1.3rem;margin:.5rem 0 .5rem}
+  .panel p{color:var(--muted);margin:0}
+  .faq details{border-top:1px solid var(--line);padding:16px 0}
+  .faq details:first-of-type{border-top:0}
+  .faq summary{cursor:pointer;font-family:var(--serif);font-size:1.12rem;list-style:none;display:flex;justify-content:space-between;gap:14px;color:var(--ink)}
+  .faq summary::-webkit-details-marker{display:none}
+  .faq summary::after{content:"+";color:var(--brass-text);font-family:var(--sans);font-weight:700}
+  .faq details[open] summary::after{content:"–"}
+  .faq p{margin:.8rem 0 0;color:var(--muted)}
+
+  footer.site{margin-top:20px;background:var(--dark);color:var(--on-dark-mute)}
+  footer .wrap{padding:40px 26px}
+  footer .fbrand{font-family:var(--serif);color:var(--on-dark);font-size:1.2rem}
+  footer p{font-size:.84rem;margin:.6rem 0 0;max-width:80ch}
+  footer a{color:var(--brass-lite)}
+  /* imagery */
+  .hero .wrap{display:grid;grid-template-columns:1.12fr .88fr;gap:48px;align-items:center}
+  .hero .himg{border-radius:20px;border:1px solid rgba(223,187,120,.4);box-shadow:0 30px 60px -30px rgba(0,0,0,.55);width:100%;height:auto;display:block}
+  @media (max-width:860px){.hero .wrap{grid-template-columns:1fr;gap:30px}}
+  .fpimg{background:#fff;border-radius:14px;padding:14px;box-shadow:0 12px 28px -14px rgba(0,0,0,.5);width:min(230px,70%);margin-bottom:16px}
+  .fpimg img{width:100%;height:auto;display:block}
+  .aside .pimg{width:150px;height:150px;background:#fff;border:1px solid var(--line);border-radius:12px;padding:10px;display:flex;align-items:center;justify-content:center}
+  .aside .pimg img{max-width:100%;max-height:100%;display:block}
+  @media (max-width:820px){.aside .pimg{width:96px;height:96px;padding:6px}}
+  td.name{display:flex;align-items:center;gap:12px}
+  .thumb{width:46px;height:46px;flex:0 0 auto;background:#fff;border:1px solid var(--line);border-radius:9px;padding:4px}
+  .thumb img{width:100%;height:100%;object-fit:contain;display:block}
+  :focus-visible{outline:2px solid var(--aqua);outline-offset:3px;border-radius:5px}
+  @media (prefers-reduced-motion:reduce){*{animation:none!important;scroll-behavior:auto!important}.btn:hover,.buy:hover{transform:none}}
+</style>
+<style>
+  /* article-only additions (premium-editorial-v1) */
+  .hero.article .wrap{grid-template-columns:1fr;padding:64px 26px 74px}
+  .hero.article h1{max-width:24ch;font-size:clamp(2.1rem,1.3rem+3.1vw,3.5rem)}
+  .byline{margin-top:22px;font-size:.9rem;color:var(--on-dark)}
+  .disclose{font-size:.82rem;color:var(--on-dark-mute);margin:.5rem 0 0;max-width:64ch}
+  .heroshot{margin:-46px 0 0;position:relative;z-index:2}
+  .heroshot img{width:100%;height:auto;display:block;border-radius:var(--radius);border:1px solid var(--line);box-shadow:var(--shadow)}
+  .heroshot figcaption{color:var(--muted);font-size:.82rem;margin-top:10px}
+  .prose{max-width:68ch}
+  .prose p{color:var(--ink-soft)}
+  .prose h3{font-family:var(--serif);font-weight:600;font-size:1.32rem;margin:1.8rem 0 .6rem}
+  .prose ul,.prose ol{color:var(--ink-soft);padding-left:1.2rem;margin:0 0 1rem}
+  .prose li{margin:0 0 .55rem}
+  .prose li b,.prose p b{color:var(--ink)}
+  .prose a{color:var(--aqua-deep);font-weight:600;text-decoration:none;border-bottom:1px solid var(--line)}
+  .prose a:hover{border-bottom-color:var(--aqua-deep)}
+  .toc{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius-sm);padding:20px 24px;margin:34px 0 0}
+  .toc .eyebrow{color:var(--aqua-deep)}
+  .toc ol{margin:.7rem 0 0;padding-left:1.2rem;color:var(--ink-soft);font-size:.95rem}
+  .toc li{margin:0 0 .3rem}
+  .toc a{color:var(--ink);text-decoration:none;border-bottom:1px solid var(--line)}
+  .toc a:hover{border-bottom-color:var(--aqua-deep)}
+  .mcards{display:grid;grid-template-columns:1fr 1fr;gap:22px;margin-top:24px}
+  @media (max-width:760px){.mcards{grid-template-columns:1fr}}
+  .mcard{display:grid;grid-template-columns:112px 1fr;gap:20px;background:var(--surface);border:1px solid var(--line);
+    border-radius:var(--radius);box-shadow:var(--shadow-sm);padding:22px}
+  .mcard .mimg{width:112px;height:112px;background:#fff;border:1px solid var(--line);border-radius:12px;padding:8px;display:flex;align-items:center;justify-content:center}
+  .mcard .mimg img{max-width:100%;max-height:100%;display:block}
+  .mcard h3{font-family:var(--serif);font-weight:600;font-size:1.14rem}
+  .mcard .cls{font-size:.78rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin:.35rem 0 .5rem}
+  .mcard p{font-size:.92rem;color:var(--ink-soft);margin:0 0 .9rem}
+  .mcard .foot{display:flex;align-items:center;gap:14px;flex-wrap:wrap}
+  .mcard .pr{font-family:var(--serif);font-size:1.2rem;font-weight:600;font-variant-numeric:tabular-nums}
+  .keep{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-top:22px}
+  @media (max-width:760px){.keep{grid-template-columns:1fr}}
+  .keep a{display:block;background:var(--surface);border:1px solid var(--line);border-radius:var(--radius-sm);
+    padding:20px 22px;text-decoration:none;color:var(--ink);box-shadow:var(--shadow-sm);transition:transform .18s}
+  .keep a:hover{transform:translateY(-2px)}
+  .keep .kt{font-family:var(--serif);font-size:1.1rem;display:block}
+  .keep .kd{color:var(--muted);font-size:.88rem;display:block;margin-top:.35rem}
+  @media (prefers-reduced-motion:reduce){.keep a:hover{transform:none}}
+</style>
+<style id="a11y">:root{--brass-text:#7A5A20;--star:#B07E00}@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--brass-text:#EDD4A0;--star:#E8B84B}}:root[data-theme="dark"]{--brass-text:#EDD4A0;--star:#E8B84B}nav.site a{color:var(--ink-soft)}.stars{color:var(--star)}thead th{color:var(--ink-soft)}.rev{color:var(--ink-soft)}.kick{color:var(--brass-text)}.win td.name{color:var(--brass-text)}a.btn,a.buy,.btn,.buy{background:#8F4A18 !important;color:#fff !important;text-decoration:none !important}a.btn:hover,a.buy:hover,.btn:hover,.buy:hover{background:#6E3810 !important}@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) a.btn,:root:not([data-theme="light"]) a.buy,:root:not([data-theme="light"]) .btn,:root:not([data-theme="light"]) .buy{background:#E08B4E !important;color:#24120A !important}:root:not([data-theme="light"]) .btn:hover,:root:not([data-theme="light"]) .buy:hover{background:#F0A96E !important}}:root[data-theme="dark"] a.btn,:root[data-theme="dark"] a.buy,:root[data-theme="dark"] .btn,:root[data-theme="dark"] .buy{background:#E08B4E !important;color:#24120A !important}</style>
+</head>
+<body>
+<header class="site"><div class="wrap bar">
+  <a class="brand" href="/" aria-label="Best Espresso Machines">
+    <svg class="logomark" width="36" height="36" viewBox="0 0 40 40" aria-hidden="true">
+      <defs><radialGradient id="lm" cx="34%" cy="26%" r="86%"><stop offset="0" stop-color="#C2703C"/><stop offset=".68" stop-color="#5A2F16"/><stop offset="1" stop-color="#2A1A10"/></radialGradient></defs>
+      <circle cx="20" cy="20" r="19" fill="url(#lm)"/>
+      <circle cx="20" cy="20" r="18.4" fill="none" stroke="#DFBB78" stroke-width="1.1" stroke-opacity=".92"/>
+      <circle cx="20" cy="20" r="15.3" fill="none" stroke="#F4EAE1" stroke-width=".6" stroke-opacity=".22"/>
+      <path d="M13.2 17.6h11.1v4.9a5.55 5.55 0 0 1-5.55 5.55h0A5.55 5.55 0 0 1 13.2 22.5v-4.9Z" fill="#F9F3EC"/>
+      <path d="M24.6 18.9h1.6a2.5 2.5 0 0 1 0 5h-1.6" fill="none" stroke="#F9F3EC" stroke-width="1.5" stroke-linecap="round"/>
+      <path d="M12 29.4h14.6" stroke="#DFBB78" stroke-width="1.3" stroke-linecap="round" stroke-opacity=".9"/>
+      <path d="M17.4 14.4c1.5-1.2-1.1-2.5.4-4.1M21.4 14.4c1.5-1.2-1.1-2.5.4-4.1" fill="none" stroke="#F4EAE1" stroke-width="1.3" stroke-linecap="round" stroke-opacity=".75"/>
+    </svg>
+    <span class="bn">Best&thinsp;Espresso&thinsp;Machines</span>
+  </a>
+  <nav class="site" aria-label="Primary">
+    <a href="/#feature">Top pick</a><a href="/#compare">Compare</a><a href="/#picks">The eight</a><a href="/#how">Method</a><a href="/#faq">FAQ</a>
+  <a href="/guides">All guides</a></nav>
+</div></header>
+
+<div class="hero article">
+  <div class="caustic" aria-hidden="true"></div><div class="caustic b" aria-hidden="true"></div>
+  <div class="wrap">
+    <div>
+      <span class="eyebrow">Maintenance</span>
+      <h1 class="serif">How to Clean and Descale an Espresso Machine <em>(So It Lasts)</em></h1>
+      <p class="lede">Almost every home machine that dies young dies of one of three things: rancid coffee oil, cooked milk, or limescale. None of them need more than a few minutes a week to prevent.</p>
+      <div class="byline">By Ilane Tall · Updated August 12, 2026 · Research-based.</div>
+      <p class="disclose">Some links on this page are affiliate links: if you buy through them we may earn a commission, at no extra cost to you. We don't recommend cleaning products by name because we have no verified data on them — use whatever your machine's manufacturer specifies.</p>
+      <hr class="rule">
+    </div>
+  </div>
+</div>
+
+<div class="wrap">
+  <figure class="heroshot">
+    <img src="/images/hero-clean.webp" alt="A stainless steel espresso machine being cleaned on a kitchen counter, with portafilter, basket and brush laid out beside it" width="1600" height="900" loading="eager" fetchpriority="high" decoding="async">
+    <figcaption>The whole maintenance ladder fits in a drawer: a brush, a blind disc if your machine takes one, a detergent for oils and a descaler for scale.</figcaption>
+  </figure>
+
+  <section id="intro">
+    <div class="prose">
+      <p>An espresso machine does something no other kitchen appliance does: push near-boiling water at roughly 9 bar through a bed of oily grounds, then blast steam through milk, several times a day, for years. Every part of that job leaves something behind. Coffee is oily, and those oils coat the basket, the shower screen and the group. Milk is protein and sugar, and both bake onto hot metal. Tap water carries dissolved calcium and magnesium, and heat drops them out of solution as hard, insulating crust.</p>
+      <p>Neglect doesn't announce itself. There's no warning light for a group screen glazed with oxidized oil. The machine just quietly gets worse: shots go bitter and hollow, heat-up creeps from 30 seconds to two minutes, the pump starts to whine, and one morning nothing comes out. By then the repair estimate often approaches the price of a replacement — which is why maintenance is the highest-return habit in home espresso, ahead of better beans and well ahead of a better machine.</p>
+      <p>What follows is the whole ladder as a routine you can keep: two minutes a day, fifteen minutes a week, half an hour a month, and a descale on the schedule your water sets. One honest note first, because it shapes everything here: we compare specifications, box contents and prices, we don't run a testing lab, and we don't publish ratings we can't verify. Nothing below is a summary of review sentiment — it's mechanism, plus the published features of the machines in <a href="/">our main espresso machine guide</a>. Where your manual disagrees with us, your manual wins. It's the only document written for your exact boiler, seals and pump.</p>
+    </div>
+
+    <div class="toc">
+      <span class="eyebrow">On this page</span>
+      <ol>
+        <li><a href="#daily">The two-minute daily routine</a></li>
+        <li><a href="#weekly">The weekly deep clean (and backflushing)</a></li>
+        <li><a href="#monthly">Monthly and quarterly: burrs, gaskets, filters</a></li>
+        <li><a href="#descaling">Descaling, properly</a></li>
+        <li><a href="#water">Water: the upstream fix</a></li>
+        <li><a href="#symptoms">Symptoms and their causes</a></li>
+        <li><a href="#machines">What this looks like on specific machines</a></li>
+        <li><a href="#calendar">The maintenance calendar</a></li>
+        <li><a href="#faq">FAQ</a></li>
+      </ol>
+    </div>
+  </section>
+
+  <section id="daily">
+    <div class="kicker"><span class="eyebrow">Every shot, every day</span></div>
+    <h2 class="h2">The two-minute routine that does most of the work</h2>
+    <div class="prose">
+      <p>This is the part that matters. If you only ever do the daily routine and a descale when the manual tells you to, your machine will outlive most of its peers.</p>
+      <h3>Purge the group before and after</h3>
+      <p>Run a two- or three-second flush of water through the empty group before you lock in the portafilter, and again after you knock out the puck. The first flush stabilizes the temperature of the group and rinses off grounds sitting on the shower screen; the second washes away the fine layer of coffee mud the shot just deposited. On a thermoblock machine this also brings fresh water into the brew path instead of leaving stale water sitting in it overnight.</p>
+      <h3>Knock out the puck, then rinse and dry the basket</h3>
+      <p>Dump the puck immediately, while it's still a solid disc — it comes out cleanly and the basket doesn't have time to varnish. Rinse the basket under the tap and wipe it dry. The reason is the perforations: a basket's holes are tiny, and coffee fines plus oil dry into them like grout. Half-blocked holes force water through the remaining ones, which is a slow drift toward channeled, uneven, sour shots. If you're chasing consistency, dirty baskets are one of the quiet variables behind it, which is worth knowing before you start blaming your grind in <a href="/how-to-pull-a-good-espresso-shot">the shot-dialing process</a>.</p>
+      <h3>Why old coffee oil is a taste problem, not just a hygiene one</h3>
+      <p>Coffee's oils oxidize on contact with air and accelerate when they're kept warm — exactly the conditions inside a group head. Oxidized, rancid oil tastes bitter and stale, and because it sits in the path every drop of your espresso travels through, it re-contaminates each shot. This is the mechanism behind the machine that "used to make better coffee." No fresh, expensive bean can survive being filtered through a year of rancid residue. You can't taste your way out of it; you can only clean it out.</p>
+      <h3>Wipe the steam wand immediately, then purge it</h3>
+      <p>The instant you finish steaming, wipe the wand with a damp cloth kept only for that job, then open the steam valve for a second to blow out the milk that gets drawn back into the tip as it cools. Do it in that order and do it now, not after you drink your coffee.</p>
+      <p>Milk's proteins denature and its sugars caramelize on hot brass. Within a minute or two, milk on a hot wand goes from wipeable to a hard, yellowed lacquer that water won't touch — at that point it needs a soak in a dedicated milk-line cleaner, and the tip holes clog. A partially blocked tip is the most common cause of a wand that "stopped steaming properly": the steam is there, the holes aren't. Machines with automatic frothing, like the Bambino's temperature-controlled wand, still need the same wipe-and-purge; automation handles the texturing, not the cleaning.</p>
+      <h3>Empty the drip tray and leave the portafilter out</h3>
+      <p>Empty and rinse the drip tray daily. It collects sugary milk drips and coffee water, and in a warm kitchen that mixture starts smelling within a couple of days. Then leave the portafilter sitting out of the group to dry, rather than clamped in it. Two reasons: a locked-in portafilter keeps the group gasket compressed and hot around the clock, which hardens it faster, and a shut group traps moisture against whatever coffee residue is still in there. Both are free to avoid.</p>
+    </div>
+  </section>
+
+  <section id="weekly">
+    <div class="kicker"><span class="eyebrow">Once a week</span></div>
+    <h2 class="h2">The weekly deep clean, and the truth about backflushing</h2>
+    <div class="prose">
+      <p>Set aside fifteen minutes. Most of it is soaking time, so you can start it and walk away.</p>
+      <h3>Soak the basket and portafilter</h3>
+      <p>Pop the basket out of the portafilter and put both into a bowl of hot water with a coffee-oil detergent — the alkaline powders or tablets sold for espresso equipment, not dish soap, which isn't formulated to break down oxidized coffee oil and tends to leave a soapy taste behind. Fifteen to twenty minutes is usually enough; you'll see the water go brown. Then brush both, paying attention to the basket's rim and the underside of the portafilter's spouts, and rinse very thoroughly. Two points of caution: check your manual before submerging a portafilter with a plastic handle in hot water, and don't put espresso parts in the dishwasher unless the manual explicitly allows it — dishwasher detergent is aggressive to aluminum and to some coatings.</p>
+      <h3>Brush the group gasket and shower screen</h3>
+      <p>With the machine warm but not brewing, run a stiff nylon brush around the group gasket — the rubber ring the portafilter seals against — and across the shower screen. You'll dislodge a surprising quantity of stale grounds packed into the gasket's lip. If your shower screen is held by a central screw and your manual says it's removable, take it off weekly or monthly, soak it in the same detergent solution and hold it up to a light to check every hole is clear. If it isn't removable, brush it and flush water through it instead.</p>
+      <h3>Backflushing: which machines can, and which can't</h3>
+      <p>Backflushing is the most effective way to clean a group, and also the most misunderstood. It requires a <b>three-way solenoid valve</b> — the part that releases the pressure trapped above the puck at the end of a shot and dumps it to the drip tray, which is why machines that have one leave you a dry, knockable puck. If your machine has that valve, you fit a <b>blind disc</b> (a basket with no holes, sometimes called a blank or cleaning disc) into the portafilter, lock it in, and run the pump. Water has nowhere to go, so it backs up through the shower screen and out through the three-way valve, carrying dissolved oils out of the parts you can't reach. Add the manufacturer's cleaning tablet or detergent for a chemical backflush, then repeat several times with clean water until nothing coloured comes out.</p>
+      <p>Here's the part most guides skip: <b>many entry-level machines cannot be backflushed at all.</b> Machines built around a pressurized (dual-wall) basket and without a three-way valve have no drain path, so blocking the outlet just makes the pump strain against a dead end — at best it does nothing useful, at worst you're stressing the pump and pushing water past seals. The reliable test isn't the price of the machine, it's the documentation: look in your manual's index for "backflush", or for a supplied blind or cleaning disc in the box contents. If neither exists, treat your machine as manual-clean only, and get your group cleaning from soaking the basket, brushing the screen and flushing plain water. Among the machines in our guide, the Breville Barista Express is documented with a cleaning disc, cleaning tablets and a brush tool in the box; the sub-$150 machines like the Chefman CraftBrew and the CASABREWS models list no such accessories, so assume manual cleaning unless their manuals say otherwise. If you want the full logic of what separates these tiers, we lay it out in <a href="/semi-automatic-vs-super-automatic-espresso-machines">the machine-classes guide</a>.</p>
+      <h3>Wash the water tank</h3>
+      <p>Empty the tank, wash it with warm water and a little mild soap, rinse it well and let it air-dry. Standing water in a warm plastic reservoir grows a biofilm — that faint slimy feel on the inside walls — and it's the start of every "my coffee tastes musty" mystery. Removable tanks make this a thirty-second job, which is a maintenance feature people undervalue when shopping: the AMZCHEF's 60 oz tank and the Chefman CraftBrew's 1.5 L removable reservoir both lift out. Also, don't leave water sitting in the tank for weeks. If the machine won't be used, empty it.</p>
+      <h3>Wipe the bean hopper and grinder chute — dry</h3>
+      <p>Bean oils build a sticky film inside a hopper, and that film goes stale and taints fresh beans. Empty it weekly and wipe it with a dry cloth or a paper towel. The absolute rule for the grinding side: <b>never put water inside a grinder.</b> Water plus coffee dust makes a paste that sets hard in the chute and around the burr carrier, and moisture on steel burrs invites rust. Use a dry brush and, if you have one, a vacuum. That applies equally to a built-in grinder — Breville's half-pound hopper, the AMZCHEF's 44-setting grinder, the Gevi's 30-setting conical burr — and to a separate one, a trade-off we go through in <a href="/espresso-machine-with-grinder-vs-separate-grinder">built-in versus separate grinders</a>.</p>
+    </div>
+  </section>
+
+  <section id="monthly">
+    <div class="kicker"><span class="eyebrow">Monthly and quarterly</span></div>
+    <h2 class="h2">Burrs, gaskets and filters: the parts that fail slowly</h2>
+    <div class="prose">
+      <h3>Clean the grinder burrs</h3>
+      <p>Ground coffee leaves fines and oil in the burr chamber, and old grounds retained there get pushed into your next dose. Monthly is a reasonable default for a household pulling a shot or two a day; if you drink dark, oily roasts, sooner. Empty the hopper, run the grinder briefly with nothing in it to clear the chamber, then follow the manual to remove the upper burr — on most consumer machines it's a quarter-turn or a couple of screws — and brush out the burr carrier and the chute. Purpose-made grinder cleaning pellets are the low-effort option where the manual allows them. Skip the old internet trick of grinding rice: it's harder than coffee and it's a good way to damage burrs or a motor. Reassemble exactly as the manual shows, because burr alignment is what your grind settings are calibrated against.</p>
+      <h3>Inspect the group gasket</h3>
+      <p>The group gasket is a rubber or silicone ring living permanently at brew temperature, and heat cycles harden it. As it hardens it stops deforming to seal, and the classic symptom appears: <b>water sprays or dribbles from the edge of the portafilter mid-shot</b>, sometimes with a hiss. A second tell is the handle position drifting — you find yourself pushing the portafilter further and further around to get it tight. A gasket is one of the cheapest parts in the machine and, on most models, a user-replaceable one. Under daily use, plan on inspecting it every few months and replacing it roughly annually rather than waiting for it to fail. A hardened gasket also masks itself as a bad-shot problem, since a leaking seal drops brew pressure at the puck.</p>
+      <h3>Replace the water filter, if your machine has one</h3>
+      <p>Some machines ship with an in-tank water filter — the Breville BES870XL, for example, includes a water filter with a holder. These use carbon and ion-exchange media to cut chlorine taste and reduce some of the minerals that form scale, and they exhaust on a schedule set by volume, typically expressed in the manual as a number of tank-fills or months. An exhausted filter gives you no warning at all: it simply stops reducing anything while looking identical. Put the replacement date in the same calendar as your descale. And note the interaction covered in the next section: most manuals tell you to remove the water filter before running a descaling cycle, because descaling solution passing through the media will strip it.</p>
+      <h3>If your machine is a super-automatic or a capsule machine</h3>
+      <p>The monthly list changes shape. On a super-automatic like the De'Longhi Magnifica Start, most cleaning is automated cycles plus emptying the used-puck container and the internal drip tray — the machine drops a compressed puck into an internal bin after every drink, and if you don't empty it on schedule it jams the brew unit. Your job is largely to obey the machine's prompts, remove and rinse the brew unit and the milk frother parts per the manual, and never ignore a rinse or descale request. On a capsule machine like the Ninja CFN601 there's no group head to clean at all: maintenance is descaling on schedule, cleaning the frother after every milk drink, emptying the used-capsule bin, and wiping the capsule holder and the piercing area where grounds accumulate.</p>
+    </div>
+  </section>
+
+  <section id="descaling">
+    <div class="kicker"><span class="eyebrow">The big one</span></div>
+    <h2 class="h2">Descaling, properly — and why generic recipes are a bad idea</h2>
+    <div class="prose">
+      <h3>What limescale actually is</h3>
+      <p>Tap water carries dissolved calcium and magnesium compounds. When you heat it, those compounds come out of solution and plate themselves onto the hottest surfaces in the machine: the heating element, the boiler walls, and the narrow internal passages of a thermoblock or thermocoil. That deposit is limescale — chalky, hard, and a poor conductor of heat.</p>
+      <p>Two consequences follow, and both are gradual enough to feel like the machine "getting old." First, an insulating layer between the element and the water means longer heat-up times and lower, less stable brew temperature. Second, and worse, the scale narrows the water path. Thermoblock machines — which is most machines under $700 — heat water in thin channels, so they have very little room to lose. Flow drops, the pump has to work against a restriction and starts to whine, and eventually a passage blocks completely. That's the failure that turns into a repair quote that can exceed the price of a replacement, especially on the machines in <a href="/best-espresso-machines-under-200">the under-$200 tier</a> where labour costs more than the appliance. Scale is the main killer of home espresso machines, and unlike most failures it is entirely preventable.</p>
+      <h3>How often: your water decides, not the calendar</h3>
+      <p>Descaling frequency is a function of water hardness and how much water you put through the machine. Hardness is usually expressed in milligrams per litre as calcium carbonate: below about 60 mg/L is soft, 60–120 is moderately hard, 120–180 is hard, and above that is very hard. Your municipal water utility publishes the number, and a $10 packet of test strips settles it for well water.</p>
+      <p>As a starting frame, manufacturers commonly specify something in the range of every three to six months on soft water, every two to three months on moderately hard water, and monthly to every six weeks on hard water — then adjust for volume, since a household pulling six drinks a day pushes several times the water of one pulling a single morning shot. Many machines also count for you and simply ask. If yours has a descale indicator, believe it: it's tracking volume, which is a better proxy than your memory. Whatever your manual specifies for your model overrides these general ranges.</p>
+      <h3>The honest instruction: use your manufacturer's procedure and product</h3>
+      <p>We're deliberately not giving you a recipe. Use the descaling product your machine's manufacturer specifies, and follow their procedure for your model. That isn't a legal hedge, it's mechanical: the dwell time, dilution and number of rinse cycles in a manual are matched to that machine's metals, seals and pump, and some warranties are conditional on using an approved descaler. Machines differ in ways that matter — where the solution needs to travel, whether the steam circuit is included, whether the pump can be run dry, and whether there's a hidden reservoir that keeps holding solution after the tank looks empty.</p>
+      <p>Which is also why we'd avoid the vinegar recipes that dominate search results. Acetic acid is variable in strength, it's harsher on some seals and on aluminum than the citric- and lactic-acid blends sold as descalers, and its smell has a talent for surviving in a boiler for weeks. If your manual names vinegar as acceptable for your model, fine. If it doesn't, don't improvise with your own machine as the experiment.</p>
+      <h3>Descaler is not detergent — they solve opposite problems</h3>
+      <p>This confusion damages machines. <b>Descaler is acidic</b> and dissolves mineral scale; it goes in the water tank and travels the water path — boiler, thermoblock, brew and steam circuits. <b>Group detergent is alkaline</b> and dissolves coffee oils; it goes in the blind disc for a backflush, or in a bowl for soaking baskets and screens. Swapping them accomplishes nothing useful in either direction: detergent in the tank won't remove a milligram of scale, and acid in a blind-disc backflush won't shift oxidized oil while putting acid exactly where it isn't wanted. Buy both, keep them separate, and don't ever mix them in one operation.</p>
+      <h3>Why you must finish the rinse</h3>
+      <p>The step people skip is the one that protects the machine. Descaling solution keeps reacting as long as it's in contact with metal and rubber, and it doesn't distinguish between limescale and your gaskets, brass fittings or aluminum boiler. Acid left sitting inside can pit metal, harden seals prematurely, and taint the next dozen shots with a sour, chemical edge. So: run the full number of clean-water tanks the manual specifies — often two or three complete tanks, through both the brew path and the steam wand — and don't leave a machine standing full of solution overnight unless the manual explicitly prescribes a soak. On the same logic, dissolve powdered descaler completely in warm water before it goes in the tank. Undissolved granules don't descale anything; they sit in the tank, get drawn into the pump, and act as an abrasive.</p>
+      <h3>Built-in programs versus a manual cycle</h3>
+      <p>Some machines run the cycle for you, which removes most of the ways to get it wrong. The AMZCHEF Espresso Machine with Grinder lists a descaling function, so the machine controls the pump timing and dwell itself; you supply the solution and follow the prompts. Super-automatics like the De'Longhi Magnifica Start are built around this idea, and the Ninja CFN601's descaling routine is effectively its main maintenance task, since a capsule machine has no group to clean.</p>
+      <p>If your machine has no program, the manual cycle generally looks like the steps below — but treat this as the shape of the job, not as a substitute for your manual's exact instructions.</p>
+      <ol>
+        <li>Turn the machine off and let it cool. Empty the drip tray. Remove the water filter if one is fitted.</li>
+        <li>Dissolve the manufacturer's descaler fully in the volume of water their instructions specify, and fill the tank with it.</li>
+        <li>Place a large container under the group and the steam wand. The output is hot, and there will be more of it than you expect.</li>
+        <li>Run solution through the brew path in stages, and also through the steam wand and hot-water outlet if the manual includes them — scale forms everywhere water gets hot, and the steam circuit is the part people forget.</li>
+        <li>Pause where the manual tells you to pause. Dwell time is how a descaler works; rushing it means you run the whole cycle for half the effect.</li>
+        <li>Rinse with two to three full tanks of clean water, through every path you sent solution down, until there's no taste or smell of the product.</li>
+        <li>Refit a fresh water filter, then pull and discard one shot before you drink anything from the machine.</li>
+      </ol>
+      <p>On handling, briefly and practically: descalers are acids, so work in a ventilated kitchen, keep the solution off your skin and out of your eyes, don't lean over the outlet while hot liquid is running, keep it away from children and pets, and read the product label alongside your manual. General guidance, not a substitute for either document.</p>
+    </div>
+  </section>
+
+  <section id="water">
+    <div class="kicker"><span class="eyebrow">Upstream</span></div>
+    <h2 class="h2">Fix the water and you halve the problem</h2>
+    <div class="prose">
+      <p>Descaling removes scale. Better water stops making it. If you use filtered water or a low-mineral bottled water instead of hard tap water, there is simply less calcium and magnesium going in, so less comes out on the element. The arithmetic is crude but useful: if switching sources takes you from hard water to soft, and your manual's interval scales with hardness the way most do, you can reasonably expect to descale roughly half as often. That assumes the same number of drinks per day and no change in tank volume.</p>
+      <p>A basic carbon or ion-exchange pitcher filter is enough for most people, as is bottled spring water with a low mineral content printed on the label. Two cautions. Water from a salt-based softener isn't a great choice for coffee: the sodium that replaces the calcium doesn't build scale, but it can be corrosive over time and it tastes flat in the cup. And if your machine came with its own in-tank filter, use it — it's cheaper than a pitcher and it's matched to the machine.</p>
+      <h3>Don't reach for distilled water</h3>
+      <p>Zero-TDS water — distilled, or output from a de-ionizing filter — looks like the perfect answer and is usually a mistake. Two reasons.</p>
+      <p>The practical one: many machines detect water level or presence <b>electrically</b>, using a probe that relies on the water conducting a small current between contacts. Pure water is a poor conductor, so a machine using that method can read a full tank as empty, refuse to pump, or throw a fill error. It looks like a fault and isn't one. Super-automatics and machines with electronic level sensing are the usual victims.</p>
+      <p>The taste one: extraction needs some mineral content. Brewing standards put the useful range for total dissolved solids somewhere around 75 to 150 mg/L, with roughly 150 as a common target, because those minerals participate in pulling flavour compounds out of the coffee. Water with nothing in it makes espresso that tastes thin and dull. Very pure water is also more aggressive toward some metals than moderately mineralized water. Aim for the middle: filtered, not stripped.</p>
+    </div>
+  </section>
+
+  <section id="symptoms">
+    <div class="kicker"><span class="eyebrow">Diagnostics</span></div>
+    <h2 class="h2">Symptoms and what they usually mean</h2>
+    <p class="sub">Most home espresso complaints trace back to one of three residues. Start with the cheapest, most reversible cause, and only then consider a fault.</p>
+    <div class="tablewrap"><table>
+      <thead><tr><th>What you notice</th><th>Most likely cause</th><th>What to do first</th></tr></thead>
+      <tbody>
+        <tr><td class="name">Weak or slow flow, shots choking or dripping</td><td>Scale narrowing the water path, or a blocked basket or shower screen clogged with coffee fines and oil</td><td>Soak and brush the basket and screen; run a flush with no basket in. If flow is still low, descale per your manual.</td></tr>
+        <tr><td class="name">Heat-up takes noticeably longer than it used to</td><td>Scale insulating the heating element or thermoblock</td><td>Descale, then switch to filtered water so it doesn't come back at the same rate.</td></tr>
+        <tr><td class="name">Whining, straining or unusually loud pump</td><td>Pump working against a restriction — scale downstream, or an empty/airlocked tank</td><td>Check the tank level and reseat it, purge water through the group to clear air, then descale. Persistent whining after descaling suggests service.</td></tr>
+        <tr><td class="name">Water leaking or spraying from the edge of the portafilter</td><td>Hardened or coffee-packed group gasket losing its seal; or an overfilled basket holding the puck against the screen</td><td>Brush the gasket clean and check whether it still flexes. If it's hard and shiny, replace it — it's a cheap part. Also try a slightly lower dose.</td></tr>
+        <tr><td class="name">Steam wand won't steam, or steams weakly</td><td>Dried milk blocking the tip holes; scale in the steam circuit; or steaming before the boiler is up to temperature</td><td>Cool the machine, remove the tip if it unscrews and soak it, clear the holes, purge. If clear tips still steam weakly, descale the steam path.</td></tr>
+        <tr><td class="name">Coffee tastes sour, bitter, muddy or musty</td><td>Rancid oil in the group and basket, biofilm in the water tank, or descaler not fully rinsed out</td><td>Do the full weekly clean including a tank wash, and rinse an extra tank of water if you descaled recently. Then revisit grind and dose.</td></tr>
+      </tbody>
+    </table></div>
+    <div class="band">
+      <h3 class="serif">Cleaning first, dialing second</h3>
+      <p>If a machine that used to make good espresso stopped, clean it before you change anything else. Adjusting grind to compensate for a clogged basket or a leaking gasket just buries the fault under a second variable, and you'll spend a week chasing a shot that was never about the coffee.</p>
+    </div>
+  </section>
+
+  <section id="machines">
+    <div class="kicker"><span class="eyebrow">In practice</span></div>
+    <h2 class="h2">What maintenance looks like on the machines we recommend</h2>
+    <p class="sub">Machine class determines the workload more than price does. Prices below are what we last recorded on Amazon and move constantly — confirm the live price.</p>
+    <div class="mcards">
+
+      <article class="mcard">
+        <div class="mimg"><img src="/images/amazon-B00CH9QWOU.webp" alt="Breville BES870XL Barista Express espresso machine" width="800" height="800" loading="lazy" decoding="async"></div>
+        <div>
+          <h3>Breville BES870XL Barista Express</h3>
+          <div class="cls">Semi-automatic · grinder · $684.96</div>
+          <p>The most maintenance-complete machine in our guide, because the tools ship with it: a cleaning disc, cleaning tablets, a brush tool and a water filter with holder. That means the weekly routine is the full one — soak the single-wall and dual-wall baskets, brush the group, run the documented cleaning cycle with the disc — plus a filter change on the manual's interval and a half-pound hopper to wipe dry.</p>
+          <div class="foot"><span class="pr">$684.96</span><a class="buy" href="https://www.amazon.com/dp/B00CH9QWOU?tag=best-espressomach-20" rel="nofollow sponsored noopener" target="_blank">Check price →</a></div>
+        </div>
+      </article>
+
+      <article class="mcard">
+        <div class="mimg"><img src="/images/amazon-B0GXV36GJK.webp" alt="AMZCHEF espresso machine with built-in grinder" width="800" height="800" loading="lazy" decoding="async"></div>
+        <div>
+          <h3>AMZCHEF Espresso Machine with Grinder</h3>
+          <div class="cls">Semi-automatic · descaling function · $199.99</div>
+          <p>The listed descaling function is a genuine convenience at this price: the machine sequences the cycle instead of leaving you to time it. The 60 oz tank lifts out for washing, which matters more at this volume — a big reservoir is a big reservoir of standing water. The 44-setting grinder gets the dry-brush treatment; no water, ever.</p>
+          <div class="foot"><span class="pr">$199.99</span><a class="buy" href="https://www.amazon.com/dp/B0GXV36GJK?tag=best-espressomach-20" rel="nofollow sponsored noopener" target="_blank">Check price →</a></div>
+        </div>
+      </article>
+
+      <article class="mcard">
+        <div class="mimg"><img src="/images/amazon-B0FXBY6BVL.webp" alt="Chefman CraftBrew espresso machine" width="800" height="800" loading="lazy" decoding="async"></div>
+        <div>
+          <h3>Chefman CraftBrew</h3>
+          <div class="cls">Semi-automatic · 1.5 L removable tank · $79.99</div>
+          <p>At $79.99 there's no cleaning disc or tablet in the box, so plan on manual cleaning: soak the two shot baskets, brush the screen, flush plain water, and check the manual before assuming anything about backflushing. The 1.5 L removable reservoir is the maintenance highlight — easy to wash, and easy to empty when the machine sits unused.</p>
+          <div class="foot"><span class="pr">$79.99</span><a class="buy" href="https://www.amazon.com/dp/B0FXBY6BVL?tag=best-espressomach-20" rel="nofollow sponsored noopener" target="_blank">Check price →</a></div>
+        </div>
+      </article>
+
+      <article class="mcard">
+        <div class="mimg"><img src="/images/amazon-B0CWCHHDK5.webp" alt="De'Longhi Magnifica Start super-automatic espresso machine" width="800" height="800" loading="lazy" decoding="async"></div>
+        <div>
+          <h3>De'Longhi Magnifica Start</h3>
+          <div class="cls">Super-automatic · one-touch · $649.95</div>
+          <p>A super-automatic moves the work from technique to housekeeping. Cleaning is mostly automated cycles you're prompted to run, plus emptying the used-puck container and the internal drip tray before they back up into the brew unit. There's no portafilter or shower screen to service — but there is a manual frother to wipe and purge after every milk drink, and 13 grind settings behind a hopper to keep dry.</p>
+          <div class="foot"><span class="pr">$649.95</span><a class="buy" href="https://www.amazon.com/dp/B0CWCHHDK5?tag=best-espressomach-20" rel="nofollow sponsored noopener" target="_blank">Check price →</a></div>
+        </div>
+      </article>
+
+      <article class="mcard">
+        <div class="mimg"><img src="/images/amazon-B0B9YP76FN.webp" alt="Ninja CFN601 espresso and coffee maker" width="800" height="800" loading="lazy" decoding="async"></div>
+        <div>
+          <h3>Ninja CFN601 Espresso &amp; Coffee Maker</h3>
+          <div class="cls">Capsule + drip · fold-away frother · $279.95</div>
+          <p>A capsule machine has the shortest maintenance list on this page and the least room to skip it. There's no group or basket to clean, so the whole job is descaling on the manual's schedule, cleaning the fold-away frother after milk, emptying the used-capsule bin, and wiping the capsule holder. The 12-cup coffee side needs its own carafe and basket wash.</p>
+          <div class="foot"><span class="pr">$279.95</span><a class="buy" href="https://www.amazon.com/dp/B0B9YP76FN?tag=best-espressomach-20" rel="nofollow sponsored noopener" target="_blank">Check price →</a></div>
+        </div>
+      </article>
+
+      <article class="mcard">
+        <div class="mimg"><img src="/images/amazon-B0B1JPPG2L.webp" alt="Breville Bambino BES450BSS espresso machine" width="800" height="800" loading="lazy" decoding="async"></div>
+        <div>
+          <h3>Breville BES450BSS Bambino</h3>
+          <div class="cls">Semi-automatic · auto microfoam wand · $299.95</div>
+          <p>No grinder means no burrs and no hopper, so the weekly list is shorter — but the automatic microfoam wand does more milk work than most, and automation doesn't clean anything. Wipe and purge it after every single milk drink; a blocked tip is the failure mode you'd notice first on this machine.</p>
+          <div class="foot"><span class="pr">$299.95</span><a class="buy" href="https://www.amazon.com/dp/B0B1JPPG2L?tag=best-espressomach-20" rel="nofollow sponsored noopener" target="_blank">Check price →</a></div>
+        </div>
+      </article>
+
+    </div>
+    <div class="prose" style="margin-top:26px">
+      <p>One pattern is worth naming. The cheaper the machine, the more of the maintenance is manual and the less the machine will remind you to do it — and also the smaller the repair budget that makes economic sense. On a sub-$100 machine, a blocked thermoblock is usually the end. On a $650 machine it's a service visit. That asymmetry is a real part of the ownership math we work through in <a href="/are-home-espresso-machines-worth-it">whether a home machine is worth it</a>.</p>
+    </div>
+  </section>
+
+  <section id="calendar">
+    <div class="kicker"><span class="eyebrow">Copy this</span></div>
+    <h2 class="h2">A maintenance calendar you'll actually keep</h2>
+    <p class="sub">Write the descale date on a piece of tape on the back of the machine. It's the only task with a long enough interval to forget.</p>
+    <div class="tablewrap"><table>
+      <thead><tr><th>When</th><th>Time</th><th>What you do</th></tr></thead>
+      <tbody>
+        <tr><td class="name">After every shot</td><td>30 sec</td><td>Purge the group, knock out the puck, rinse and dry the basket, wipe the steam wand and purge it immediately after steaming.</td></tr>
+        <tr><td class="name">End of each day</td><td>1–2 min</td><td>Empty and rinse the drip tray, wipe the drip area and the machine body, leave the portafilter out of the group to dry, switch the machine off.</td></tr>
+        <tr><td class="name">Weekly</td><td>15 min</td><td>Soak the basket and portafilter in coffee-oil detergent and brush them. Brush the group gasket and shower screen. Backflush with a blind disc <b>if your manual says your machine supports it</b>. Wash the water tank. Empty and dry-wipe the bean hopper and grinder chute.</td></tr>
+        <tr><td class="name">Monthly</td><td>20–30 min</td><td>Clean the grinder burrs and chute dry. Remove and soak the shower screen if it's removable. Inspect the group gasket for hardening or cracking. On a super-automatic, run the full prompted cleaning cycle and clean the brew unit per the manual.</td></tr>
+        <tr><td class="name">Every 1–3 months <span class="rev">(set by water hardness)</span></td><td>30–45 min</td><td>Descale with the manufacturer's product and procedure — monthly to six-weekly on hard water, every two to three months on moderately hard, every three to six months on soft. Remove the water filter first; finish every rinse tank.</td></tr>
+        <tr><td class="name">Every 2–3 months</td><td>5 min</td><td>Replace the in-tank water filter if your machine has one, or sooner if the manual's volume interval comes first. Check the steam wand tip holes are all clear.</td></tr>
+        <tr><td class="name">Annually</td><td>15 min</td><td>Replace the group gasket, replace the shower screen if it's pitted or the holes won't clear, and check the tank seal and drip-tray grate. Re-read the maintenance section of your manual — you'll have forgotten a step.</td></tr>
+      </tbody>
+    </table></div>
+    <div class="prose" style="margin-top:26px">
+      <p>The honest summary is that none of this is difficult and none of it is optional. Two minutes a day and a quarter of an hour a week is the difference between a machine you replace in three years and one that's still pulling clean shots in ten — and it's also the difference between coffee that slowly gets worse and coffee that stays as good as the day you dialed it in.</p>
+    </div>
+  </section>
+
+  <section id="faq">
+    <div class="kicker"><span class="eyebrow">FAQ</span></div>
+    <h2 class="h2">Common questions</h2>
+    <div class="panel faq" style="margin-top:22px">
+      <details open><summary>How often should I descale my espresso machine?</summary><p>Water hardness sets the interval, not the calendar. As a general frame, manufacturers commonly specify every three to six months on soft water (below about 60 mg/L as calcium carbonate), every two to three months on moderately hard water (60–120), and monthly to six-weekly on hard water (above 120) — adjusted upward for volume, since a household making six drinks a day pushes several times the water of one making a single morning shot. Your manual's interval for your specific model takes precedence, and if the machine has a descale indicator, trust it, because it's counting volume rather than relying on your memory.</p></details>
+      <details><summary>Can I use vinegar to descale an espresso machine?</summary><p>We'd avoid it unless your manual names it as acceptable for your model. Acetic acid varies in strength, it's harsher on some seals and on aluminum than the citric- and lactic-acid blends sold specifically as descalers, and the smell can linger in a boiler for weeks. The safer answer is also the simplest: use the descaling product your manufacturer specifies and follow their procedure, because the dilution, dwell time and rinse count in the manual are matched to your machine's metals and seals. Whatever you use, dissolve it fully and finish every rinse tank — acid left inside keeps working on gaskets and metal.</p></details>
+      <details><summary>Can I backflush any espresso machine?</summary><p>No, and trying can do harm. Backflushing requires a three-way solenoid valve, the part that dumps the pressure above the puck to the drip tray at the end of a shot and gives you a dry puck. With that valve, a blind disc in the portafilter forces water back through the shower screen and out the drain, carrying oils with it. Without it there's no drain path, so the pump just strains against a dead end. Check your manual for the word "backflush" or for a blind or cleaning disc in the box contents — many entry-level machines have neither and should be cleaned by soaking the basket, brushing the screen and flushing plain water.</p></details>
+      <details><summary>Is distilled water good for an espresso machine?</summary><p>No, on two counts. Many machines sense water level electrically, using the water's conductivity to complete a circuit; distilled or de-ionized water conducts poorly, so the machine can read a full tank as empty and refuse to pump. And extraction needs some mineral content — brewing standards put the useful total-dissolved-solids range at roughly 75 to 150 mg/L — so zero-mineral water makes flat, thin-tasting espresso. Use filtered or low-mineral bottled water instead: enough minerals to taste right, few enough to slow scale formation.</p></details>
+      <details><summary>What's the difference between descaler and espresso machine cleaner?</summary><p>They target opposite residues with opposite chemistry. Descaler is acidic and dissolves mineral limescale; it goes in the water tank and travels the water path, including the steam circuit. Espresso machine cleaner, the detergent used for backflushing and soaking, is alkaline and dissolves coffee oils; it goes in a blind disc or a bowl and never in the tank. Neither substitutes for the other, and you shouldn't combine them in one operation. You need both products, kept separate, on different schedules.</p></details>
+    </div>
+  </section>
+
+  <section id="keep-reading">
+    <div class="kicker"><span class="eyebrow">Keep reading</span></div>
+    <h2 class="h2">Next, from the same shelf</h2>
+    <div class="keep">
+      <a href="/how-to-pull-a-good-espresso-shot"><span class="kt">How to Pull a Good Espresso Shot at Home</span><span class="kd">Dose, grind, tamp, time — and how to fix a shot that runs too fast or too slow.</span></a>
+      <a href="/semi-automatic-vs-super-automatic-espresso-machines"><span class="kt">Semi-Automatic vs Super-Automatic</span><span class="kd">The four machine classes decoded, including how much maintenance each one asks of you.</span></a>
+      <a href="/espresso-machine-with-grinder-vs-separate-grinder"><span class="kt">Built-In Grinder or Separate Grinder?</span><span class="kd">Which is cheaper, which grinds better, and which one you keep when you upgrade.</span></a>
+      <a href="/are-home-espresso-machines-worth-it"><span class="kt">Are Home Espresso Machines Worth It?</span><span class="kd">The honest cost math, with every assumption on the table — including the cost of neglect.</span></a>
+      <a href="/best-espresso-machines-under-200"><span class="kt">The Best Espresso Machines Under $200</span><span class="kd">What you give up at the bottom of the market, and where we'd draw the line.</span></a>
+      <a href="/guides"><span class="kt">All guides</span><span class="kd">Every comparison, buying guide and how-to on the site.</span></a>
+    </div>
+  </section>
+
+</div>
+
+<footer class="site"><div class="wrap">
+  <div class="fbrand">Best Espresso Machines</div>
+  <p>Independent, research-based comparisons of home espresso machines, grinders and the gear around them.</p>
+  <p style="margin:.5rem 0 0"><a href="/about">About</a> · <a href="/guides">All guides</a> · <a href="/contact">Contact</a> · <a href="/privacy">Privacy</a></p>
+  <p>Reader-supported: we may earn a commission when you buy through our links, at no additional cost to you. Comparisons are based on published specifications and pricing; we do not physically test products and we do not publish ratings we cannot verify. Prices change frequently — confirm the current price on Amazon. As an Amazon Associate, we earn from qualifying purchases. © 2026 Best Espresso Machines.</p>
+</div></footer>
+
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Article",
+ "headline":"How to Clean and Descale an Espresso Machine (So It Lasts)",
+ "description":"The full maintenance ladder for a home espresso machine: a two-minute daily routine, a weekly deep clean, backflushing and which machines cannot be backflushed, grinder and gasket care, and how to descale without damaging seals.",
+ "image":"https://best-espresso-machines.com/images/hero-clean.webp",
+ "author":{"@type":"Person","name":"Ilane Tall"},
+ "publisher":{"@type":"Organization","name":"Best Espresso Machines"},
+ "datePublished":"2026-08-12","dateModified":"2026-08-12",
+ "mainEntityOfPage":{"@type":"WebPage","@id":"https://best-espresso-machines.com/how-to-clean-and-descale-an-espresso-machine"},
+ "articleSection":"Maintenance"}
+</script>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"HowTo",
+ "name":"How to descale a home espresso machine",
+ "description":"A generic descaling sequence for a home espresso machine. Always follow the descaling product and procedure specified by your machine's manufacturer, which takes precedence over any general guide.",
+ "image":"https://best-espresso-machines.com/images/hero-clean.webp",
+ "totalTime":"PT40M",
+ "tool":[{"@type":"HowToTool","name":"A container large enough to catch a full tank of hot liquid"},{"@type":"HowToTool","name":"The descaling product specified in your machine's manual"}],
+ "supply":[{"@type":"HowToSupply","name":"Clean filtered water for the rinse cycles"}],
+ "step":[
+  {"@type":"HowToStep","name":"Read your manual first","text":"Find the descaling section for your exact model. Dilution, dwell time and the number of rinse cycles are matched to that machine's metals and seals, and some warranties require an approved descaling product."},
+  {"@type":"HowToStep","name":"Cool the machine and prepare it","text":"Switch the machine off and let it cool. Empty and rinse the drip tray and remove the in-tank water filter if one is fitted, since descaling solution passing through the filter media will strip it."},
+  {"@type":"HowToStep","name":"Mix the solution completely","text":"Dissolve the manufacturer's descaler fully in the volume of water their instructions specify, then fill the tank. Undissolved powder does not descale and can be drawn into the pump as an abrasive."},
+  {"@type":"HowToStep","name":"Run solution through every hot-water path","text":"Place a large container under the group head and steam wand, then run the solution in stages through the brew path and, if the manual includes them, the steam wand and hot-water outlet. Scale forms wherever water gets hot."},
+  {"@type":"HowToStep","name":"Respect the dwell time","text":"Pause where the manual tells you to pause. Contact time is how a descaler dissolves scale; shortening it runs the whole cycle for a fraction of the effect."},
+  {"@type":"HowToStep","name":"Rinse with two to three full tanks","text":"Rinse with clean water through every path the solution travelled until there is no smell or taste of the product. Acid left inside continues to attack gaskets, brass and aluminium."},
+  {"@type":"HowToStep","name":"Refit the filter and discard one shot","text":"Install a fresh water filter if your machine uses one, then pull and throw away one shot before drinking anything from the machine."}
+ ]}
+</script>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[
+ {"@type":"Question","name":"How often should I descale my espresso machine?","acceptedAnswer":{"@type":"Answer","text":"Water hardness sets the interval. Manufacturers commonly specify every three to six months on soft water (below about 60 mg/L as calcium carbonate), every two to three months on moderately hard water (60-120), and monthly to six-weekly on hard water (above 120), adjusted upward for volume. Your manual's interval for your model takes precedence, and a built-in descale indicator is more reliable than memory because it counts volume."}},
+ {"@type":"Question","name":"Can I use vinegar to descale an espresso machine?","acceptedAnswer":{"@type":"Answer","text":"Avoid it unless your manual names vinegar as acceptable for your model. Acetic acid varies in strength, is harsher on some seals and on aluminium than the citric- and lactic-acid blends sold as descalers, and its smell can linger in a boiler. Use the product and procedure your manufacturer specifies, dissolve it fully, and finish every rinse cycle, because acid left inside keeps attacking gaskets and metal."}},
+ {"@type":"Question","name":"Can I backflush any espresso machine?","acceptedAnswer":{"@type":"Answer","text":"No. Backflushing requires a three-way solenoid valve, which releases the pressure above the puck to the drip tray at the end of a shot. With that valve, a blind disc forces water back through the shower screen and out the drain, carrying coffee oils away. Without it there is no drain path and the pump strains against a dead end. Check your manual for the word backflush or for a blind or cleaning disc in the box contents; many entry-level machines have neither and should be cleaned by soaking the basket, brushing the screen and flushing plain water."}},
+ {"@type":"Question","name":"Is distilled water good for an espresso machine?","acceptedAnswer":{"@type":"Answer","text":"No. Many machines sense water level electrically and rely on the water conducting a small current, so distilled or de-ionised water can make a full tank read as empty. Extraction also needs some mineral content, with brewing standards putting the useful total-dissolved-solids range at roughly 75 to 150 mg/L, so zero-mineral water tastes flat. Use filtered or low-mineral bottled water instead."}}
+]}
+</script>
+
+<script src="/site.js" defer></script>
+</body>
+</html>

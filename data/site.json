@@ -1,0 +1,79 @@
+{
+  "site": {
+    "name": "Best Espresso Machines",
+    "domain": "best-espresso-machines.com",
+    "base_url": "https://best-espresso-machines.com",
+    "affiliate_tag": "best-espressomach-20",
+    "author": "Ilane Tall",
+    "template": "premium-editorial-v1",
+    "static_pages": [
+      { "path": "", "priority": "1.0" },
+      { "path": "guides", "priority": "0.6" },
+      { "path": "about", "priority": "0.3" },
+      { "path": "contact", "priority": "0.3" },
+      { "path": "privacy", "priority": "0.3" }
+    ]
+  },
+  "articles": [
+    {
+      "slug": "espresso-machine-with-grinder-vs-separate-grinder",
+      "title": "Built-In Grinder or Separate Grinder? The Honest Answer",
+      "description": "Bean-to-cup machines bundle the grinder; buying one separately grinds better and outlives the machine. How to decide, by budget.",
+      "category": "Comparison",
+      "hero": "hero-grinder",
+      "minutes": 13,
+      "date": "2026-08-12",
+      "featured": true
+    },
+    {
+      "slug": "how-to-pull-a-good-espresso-shot",
+      "title": "How to Pull a Good Espresso Shot at Home, Step by Step",
+      "description": "Dose, grind, tamp, time — the 1:2 ratio starting point and how to fix a shot that runs too fast or too slow.",
+      "category": "How-to",
+      "hero": "hero-shot",
+      "minutes": 14,
+      "date": "2026-08-12",
+      "featured": true
+    },
+    {
+      "slug": "are-home-espresso-machines-worth-it",
+      "title": "Are Home Espresso Machines Worth It? The Honest Cost Math",
+      "description": "Payback periods worked out at three budgets, with every assumption on the table — plus the reasons people stop using theirs.",
+      "category": "Honest take",
+      "hero": "hero-worth-it",
+      "minutes": 13,
+      "date": "2026-08-12",
+      "featured": true
+    },
+    {
+      "slug": "semi-automatic-vs-super-automatic-espresso-machines",
+      "title": "Semi-Automatic vs Super-Automatic: Which Espresso Machine Suits You?",
+      "description": "Four machine classes decoded — steam-driven, semi-automatic, super-automatic and capsule — and who each one is genuinely for.",
+      "category": "Buying advice",
+      "hero": "hero-types",
+      "minutes": 13,
+      "date": "2026-08-12",
+      "featured": true
+    },
+    {
+      "slug": "best-espresso-machines-under-200",
+      "title": "The Best Espresso Machines Under $200 (And What You Give Up)",
+      "description": "What $80, $100 and $200 actually buy you in pumps, boilers and grinders — and where the false economies are.",
+      "category": "Budget picks",
+      "hero": "hero-budget",
+      "minutes": 12,
+      "date": "2026-08-12",
+      "featured": true
+    },
+    {
+      "slug": "how-to-clean-and-descale-an-espresso-machine",
+      "title": "How to Clean and Descale an Espresso Machine (So It Lasts)",
+      "description": "The daily two-minute routine, the weekly backflush and the descaling schedule that decides whether your machine sees year five.",
+      "category": "Maintenance",
+      "hero": "hero-clean",
+      "minutes": 12,
+      "date": "2026-08-12",
+      "featured": true
+    }
+  ]
+}

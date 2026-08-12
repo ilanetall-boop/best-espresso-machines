@@ -1,0 +1,41 @@
+# Best Espresso Machines
+
+> Independent, research-based comparisons of home espresso machines for US kitchens. We compare published specifications, what ships in the box, machine class, footprint and live pricing across 32 machines. We do not physically test products, and we publish no star ratings because Amazon's product API returns no verifiable rating data for this category — we would rather show nothing than invent a number.
+
+## Top picks (2026)
+
+- **Best overall — Breville BES870XL Barista Express (~$685):** built-in conical burr grinder with dose control, 54 mm portafilter, 67 oz tank, 1,600 W, low-pressure pre-infusion. Grinder included, so it usually costs less than a comparable machine plus a separate grinder.
+- **Best for milk drinks — Breville Bambino BES450BSS (~$300):** automatic microfoam steam wand with adjustable milk temperature and texture, compact footprint. No grinder, so budget for one separately.
+- **Best value bean-to-cup — AMZCHEF Espresso Machine with Grinder (~$200):** built-in burr grinder with 44 settings, brew-temperature control 190–201 °F, 60 oz tank, cold-brew mode, descaling function. Newer brand, so long-term reliability is unproven.
+- **Best one-touch — De'Longhi Magnifica Start (~$650):** super-automatic; grinds, doses and brews behind one button, 13 grind settings, 3 one-touch recipes. Lower ceiling than a semi-automatic, manual milk frother.
+- **Best all-rounder — Ninja Luxe Café Premier 3-in-1 (~$599):** espresso plus 3 drip styles and 2 cold-brew styles, built-in burr grinder, dual automatic froth system including cold foam. Breadth over espresso depth.
+- **Best capsule + coffee — Ninja CFN601 (~$280):** Nespresso original-capsule compatible espresso side (espresso, lungo, over ice) plus a 12-cup drip side. Cheap to buy, permanent per-cup capsule cost.
+- **Best under $100 — CASABREWS 3700 Essential (~$100):** 1,350 W boiler, manual steam wand, stainless, only 5.7 inches wide. No grinder, small boiler.
+- **Cheapest worth buying — Chefman CraftBrew (~$80):** 15-bar pump, 1.5 L removable reservoir, programmable shot volume, two baskets. Below this price you reach steam-driven machines that brew well under espresso pressure.
+
+## How to choose
+
+- **The grinder decides more than the machine.** You need a burr grinder — built into the machine or standing beside it. Blade grinders cannot produce an even espresso grind.
+- **Bar ratings are marketing.** Espresso brews at roughly 9 bar at the puck; "15 bar" or "20 bar" is the pump's maximum rating and tells you nothing about the cup.
+- **Milk is a real decision axis.** A manual steam wand gives control and latte art with a learning curve; an automatic frother gives a walk-away routine with less control.
+- **Machine classes:** steam-driven (cheapest, well below espresso pressure), pump semi-automatic (you grind, dose, tamp), super-automatic (one button does everything), capsule (no control, ongoing cost).
+- **Measure the counter** with the lid open and the tank removable, and check tank size if more than one person drinks coffee.
+
+## Method
+
+We start from every espresso machine we can source through Amazon's official product API (32 machines for this category), sort them by machine class rather than marketing copy, compare the specifications that change the cup — grinder, boiler wattage, brew-temperature control, steam wand, footprint, tank — and pick one winner per buying situation. We read manufacturer pressure claims sceptically. We do not run a testing lab, and we publish no ratings we cannot verify.
+
+## Guides
+
+<!--LLMS-GUIDES:START-->
+- [Are Home Espresso Machines Worth It? The Honest Cost Math](https://best-espresso-machines.com/are-home-espresso-machines-worth-it): Payback periods worked out at three budgets, with every assumption on the table — plus the reasons people stop using theirs.
+- [The Best Espresso Machines Under $200 (And What You Give Up)](https://best-espresso-machines.com/best-espresso-machines-under-200): What $80, $100 and $200 actually buy you in pumps, boilers and grinders — and where the false economies are.
+- [Built-In Grinder or Separate Grinder? The Honest Answer](https://best-espresso-machines.com/espresso-machine-with-grinder-vs-separate-grinder): Bean-to-cup machines bundle the grinder; buying one separately grinds better and outlives the machine. How to decide, by budget.
+- [How to Clean and Descale an Espresso Machine (So It Lasts)](https://best-espresso-machines.com/how-to-clean-and-descale-an-espresso-machine): The daily two-minute routine, the weekly backflush and the descaling schedule that decides whether your machine sees year five.
+- [How to Pull a Good Espresso Shot at Home, Step by Step](https://best-espresso-machines.com/how-to-pull-a-good-espresso-shot): Dose, grind, tamp, time — the 1:2 ratio starting point and how to fix a shot that runs too fast or too slow.
+- [Semi-Automatic vs Super-Automatic: Which Espresso Machine Suits You?](https://best-espresso-machines.com/semi-automatic-vs-super-automatic-espresso-machines): Four machine classes decoded — steam-driven, semi-automatic, super-automatic and capsule — and who each one is genuinely for.
+<!--LLMS-GUIDES:END-->
+
+## About
+
+Best Espresso Machines is written by Ilane Tall and published by Neclid LTD, Ashdod, Israel. It is reader-supported: we may earn a commission on purchases made through our links, at no additional cost to you, and as an Amazon Associate we earn from qualifying purchases. This never changes our picks. Content is general consumer information, not professional installation or repair advice.

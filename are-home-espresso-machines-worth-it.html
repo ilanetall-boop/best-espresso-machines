@@ -1,0 +1,553 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Are Home Espresso Machines Worth It? The Honest Cost Math</title>
+<meta name="description" content="We work the arithmetic openly: what a home latte really costs per cup, payback in months at three machine tiers, why capsules flatten the curve — and who genuinely should not buy a machine.">
+<link rel="canonical" href="https://best-espresso-machines.com/are-home-espresso-machines-worth-it">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Best Espresso Machines">
+<meta property="og:title" content="Are Home Espresso Machines Worth It? The Honest Cost Math">
+<meta property="og:description" content="Cost per cup, payback tables at $80, $200 and $650, the capsule trap, and the reasons a machine ends up unused. Assumptions labelled as assumptions.">
+<meta property="og:url" content="https://best-espresso-machines.com/are-home-espresso-machines-worth-it">
+<meta property="og:image" content="https://best-espresso-machines.com/images/hero-worth-it.webp">
+<meta name="theme-color" content="#1A100C">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png">
+<link rel="alternate icon" href="/favicon.ico">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<style>
+  /* premium-editorial-v1 — palette: coffee / amber / copper.
+     NOTE: the --aqua* variable names are inherited from the network template;
+     on this site they carry the copper accent. Do not rename (tools/rebuild-site.js
+     and every article file reference them). */
+  :root{
+    --ground:#F7F3EE; --surface:#FFFFFF; --surface-2:#F0E8DF;
+    --ink:#1F1410; --ink-soft:#43302A; --muted:#7A655A; --line:#E6DACE;
+    --aqua:#B4622A; --aqua-deep:#8F4A18; --aqua-tint:#F8EAE0;
+    --brass:#A9803A; --brass-lite:#DFBB78; --brass-tint:#F6EEDF;
+    --dark:#1A100C; --dark-2:#2C1C14; --on-dark:#F4EAE1; --on-dark-mute:#B69C8B;
+    --star:#D9A400;
+    --shadow:0 1px 2px rgba(31,20,16,.05),0 22px 48px -26px rgba(31,20,16,.30);
+    --shadow-sm:0 1px 2px rgba(31,20,16,.05),0 10px 24px -16px rgba(31,20,16,.24);
+    --radius:20px; --radius-sm:12px; --maxw:1120px;
+    --serif:"Iowan Old Style","Palatino Linotype",Palatino,Georgia,"Times New Roman",serif;
+    --sans:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  }
+  @media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+    --ground:#140C09; --surface:#1F1410; --surface-2:#2A1B15;
+    --ink:#F4EAE1; --ink-soft:#DCC9BC; --muted:#AF9788; --line:#3A2720;
+    --aqua:#E08B4E; --aqua-deep:#F0A96E; --aqua-tint:#2A1B12;
+    --brass:#DFBB78; --brass-lite:#EDD4A0; --brass-tint:#2A200F;
+    --shadow:0 1px 2px rgba(0,0,0,.4),0 24px 52px -28px rgba(0,0,0,.7);
+    --shadow-sm:0 1px 2px rgba(0,0,0,.4),0 12px 26px -18px rgba(0,0,0,.6);
+  }}
+  :root[data-theme="dark"]{
+    --ground:#140C09; --surface:#1F1410; --surface-2:#2A1B15;
+    --ink:#F4EAE1; --ink-soft:#DCC9BC; --muted:#AF9788; --line:#3A2720;
+    --aqua:#E08B4E; --aqua-deep:#F0A96E; --aqua-tint:#2A1B12;
+    --brass:#DFBB78; --brass-lite:#EDD4A0; --brass-tint:#2A200F;
+    --shadow:0 1px 2px rgba(0,0,0,.4),0 24px 52px -28px rgba(0,0,0,.7);
+    --shadow-sm:0 1px 2px rgba(0,0,0,.4),0 12px 26px -18px rgba(0,0,0,.6);
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{margin:0;background:var(--ground);color:var(--ink);font-family:var(--sans);
+    font-size:18px;line-height:1.6;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
+  .wrap{max-width:var(--maxw);margin:0 auto;padding:0 26px}
+  a{color:inherit}
+  h1,h2,h3{margin:0;line-height:1.08;letter-spacing:-.01em;text-wrap:balance}
+  .serif{font-family:var(--serif)}
+  p{margin:0 0 1rem}
+  .eyebrow{font-family:var(--sans);font-size:.72rem;font-weight:700;letter-spacing:.22em;text-transform:uppercase}
+  .tnum{font-variant-numeric:tabular-nums}
+  .stars{color:var(--star);letter-spacing:2px}
+
+  /* ---------- header ---------- */
+  header.site{position:sticky;top:0;z-index:30;background:color-mix(in srgb,var(--ground) 82%,transparent);
+    backdrop-filter:saturate(1.3) blur(12px);border-bottom:1px solid var(--line)}
+  .bar{display:flex;align-items:center;justify-content:space-between;height:64px}
+  .brand{display:inline-flex;align-items:center;gap:11px;text-decoration:none;color:var(--ink);font-weight:700;letter-spacing:-.01em}
+  .brand .bn{font-family:var(--serif);font-size:1.16rem}
+  nav.site a{color:var(--muted);text-decoration:none;font-size:.86rem;font-weight:600;letter-spacing:.01em;margin-left:22px;transition:color .2s}
+  nav.site a:hover{color:var(--ink)}
+  @media (max-width:660px){nav.site{display:none}}
+
+  /* ---------- hero (immersive dark, roast bloom) ---------- */
+  .hero{position:relative;background:radial-gradient(120% 90% at 80% -10%,var(--dark-2),var(--dark) 60%);color:var(--on-dark);overflow:hidden;isolation:isolate}
+  .caustic{position:absolute;inset:-30%;z-index:0;opacity:.5;pointer-events:none;filter:blur(30px);
+    background:
+      radial-gradient(28% 40% at 22% 30%,rgba(224,139,78,.26),transparent 60%),
+      radial-gradient(24% 34% at 74% 24%,rgba(223,187,120,.22),transparent 60%),
+      radial-gradient(30% 42% at 60% 78%,rgba(180,98,42,.26),transparent 62%);
+    animation:drift 22s ease-in-out infinite alternate}
+  .caustic.b{opacity:.34;animation-duration:30s;animation-direction:alternate-reverse;
+    background:
+      radial-gradient(26% 36% at 40% 60%,rgba(240,169,110,.22),transparent 60%),
+      radial-gradient(22% 30% at 85% 70%,rgba(169,128,58,.20),transparent 60%)}
+  @keyframes drift{0%{transform:translate3d(-2%,-1%,0) scale(1)}50%{transform:translate3d(3%,2%,0) scale(1.08)}100%{transform:translate3d(-1%,3%,0) scale(1.04)}}
+  .hero .wrap{position:relative;z-index:1;padding:74px 26px 88px}
+  .hero .eyebrow{color:var(--brass-lite)}
+  .hero h1{font-family:var(--serif);font-weight:600;font-size:clamp(2.5rem,1.4rem+4.6vw,4.7rem);letter-spacing:-.02em;max-width:15ch;margin:.5rem 0 0}
+  .hero h1 em{font-style:italic;color:var(--brass-lite)}
+  .hero .lede{font-size:1.24rem;line-height:1.55;color:var(--on-dark-mute);max-width:52ch;margin-top:1.3rem}
+  .hero .meta{display:flex;flex-wrap:wrap;gap:10px 26px;margin-top:26px;font-size:.86rem;color:var(--on-dark-mute)}
+  .hero .meta b{color:var(--on-dark)}
+  .rule{height:1px;background:linear-gradient(90deg,var(--brass),transparent);border:0;margin:26px 0 0;max-width:220px}
+
+  /* ---------- #1 feature (the centerpiece) ---------- */
+  .feature{position:relative;z-index:2;margin:-56px 0 0}
+  .feature .card{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);
+    display:grid;grid-template-columns:1.1fr 1fr;overflow:hidden}
+  .feature .left{padding:38px}
+  .feature .kick{display:inline-flex;align-items:center;gap:9px;color:var(--brass-text);font-weight:700;font-size:.74rem;letter-spacing:.16em;text-transform:uppercase}
+  .feature .kick::before{content:"";width:26px;height:1px;background:var(--brass)}
+  .feature h2{font-family:var(--serif);font-weight:600;font-size:clamp(1.8rem,1.2rem+2vw,2.7rem);margin:.5rem 0 .2rem}
+  .feature .verdict{color:var(--ink-soft);font-size:1.06rem;margin:.4rem 0 1rem;max-width:44ch}
+  .feature .rl{display:flex;align-items:center;flex-wrap:wrap;gap:8px 10px;font-size:.92rem;color:var(--muted);margin-bottom:1.2rem}
+  .feature .rl b{color:var(--ink)}
+  .btn{display:inline-flex;align-items:center;gap:9px;background:var(--aqua);color:#fff;font-weight:700;
+    padding:14px 26px;border-radius:12px;text-decoration:none;box-shadow:var(--shadow-sm);transition:transform .15s,background .2s}
+  .btn:hover{background:var(--aqua-deep);transform:translateY(-1px)}
+  .btn .arw{transition:transform .2s}.btn:hover .arw{transform:translateX(3px)}
+  .feature .right{background:linear-gradient(160deg,var(--dark-2),var(--dark));color:var(--on-dark);padding:38px;display:flex;flex-direction:column;justify-content:center;gap:6px;position:relative}
+  .feature .right .lab{font-size:.72rem;letter-spacing:.18em;text-transform:uppercase;color:var(--on-dark-mute)}
+  .feature .bigprice{font-family:var(--serif);font-size:clamp(3rem,2rem+4vw,4.4rem);font-weight:600;line-height:1;color:var(--brass-lite)}
+  .feature .bigprice sup{font-size:.4em;top:-1.2em;color:var(--on-dark)}
+  .feature .right .note{color:var(--on-dark-mute);font-size:.92rem;margin-top:6px;max-width:30ch}
+  .feature .right .mono{margin-top:16px;font-family:var(--serif);font-size:1.05rem;color:var(--on-dark)}
+  @media (max-width:820px){.feature .card{grid-template-columns:1fr}.feature .right{order:-1}}
+
+  /* ---------- generic section ---------- */
+  section{padding:44px 0}
+  .kicker{display:flex;align-items:center;gap:14px;margin-bottom:6px}
+  .kicker .eyebrow{color:var(--aqua-deep)}
+  .kicker::after{content:"";flex:1;height:1px;background:var(--line)}
+  .h2{font-family:var(--serif);font-weight:600;font-size:clamp(1.7rem,1.2rem+1.7vw,2.5rem);letter-spacing:-.01em}
+  .sub{color:var(--muted);max-width:62ch;margin:.6rem 0 0}
+
+  .notes{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--line);border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;margin-top:24px}
+  .notes .n{background:var(--surface);padding:24px}
+  .notes .num{font-family:var(--serif);font-size:1.5rem;color:var(--brass-text);line-height:1}
+  .notes h3{font-size:1.02rem;font-weight:750;margin:.5rem 0 .35rem}
+  .notes p{font-size:.9rem;color:var(--muted);margin:0}
+  @media (max-width:820px){.notes{grid-template-columns:1fr 1fr}}
+  @media (max-width:520px){.notes{grid-template-columns:1fr}}
+
+  /* honesty band */
+  .band{background:var(--brass-tint);border:1px solid var(--line);border-left:3px solid var(--brass);
+    border-radius:var(--radius-sm);padding:22px 24px;margin-top:26px}
+  .band h3{font-family:var(--serif);font-weight:600;font-size:1.16rem;margin-bottom:.5rem}
+  .band p{color:var(--ink-soft);font-size:.95rem;margin:0}
+  .band p+p{margin-top:.6rem}
+
+  /* comparison */
+  .tablewrap{overflow-x:auto;border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow-sm);background:var(--surface);margin-top:22px}
+  table{border-collapse:collapse;width:100%;min-width:740px;font-size:.94rem}
+  thead th{background:var(--surface-2);text-align:left;padding:16px;font-size:.7rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);border-bottom:1px solid var(--line)}
+  td{padding:15px 16px;border-bottom:1px solid var(--line);vertical-align:middle}
+  tbody tr:last-child td{border-bottom:0}
+  tbody tr:hover{background:var(--surface-2)}
+  td.name{font-family:var(--serif);font-weight:600;font-size:1.05rem}
+  .win td{background:var(--brass-tint)}
+  .win td.name{color:var(--brass-text)}
+  .win td:first-child{box-shadow:inset 3px 0 0 var(--brass)}
+  .price{font-weight:800;font-variant-numeric:tabular-nums}
+  .rev{color:var(--muted);font-size:.82rem}
+  .tget{display:inline-block;background:var(--ink);color:var(--surface);font-weight:700;font-size:.8rem;padding:8px 14px;border-radius:9px;text-decoration:none;white-space:nowrap;transition:background .2s}
+  .tget:hover{background:var(--aqua-deep);color:#fff}
+
+  /* picks (editorial cards) */
+  .picks{display:flex;flex-direction:column;gap:26px;margin-top:26px}
+  .pick{display:grid;grid-template-columns:96px 1fr auto;gap:26px;align-items:start;
+    background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow-sm);padding:28px}
+  .pick .rank{font-family:var(--serif);font-size:2.6rem;color:var(--brass-text);line-height:.9;font-weight:600}
+  .pick .rank small{display:block;font-family:var(--sans);font-size:.6rem;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);font-weight:700;margin-top:8px}
+  .pick h3{font-family:var(--serif);font-weight:600;font-size:1.44rem}
+  .pick .who{color:var(--aqua-deep);font-weight:700;font-size:.9rem;margin:.25rem 0 .5rem}
+  .pick .rl2{display:flex;align-items:center;flex-wrap:wrap;gap:6px 8px;font-size:.86rem;color:var(--muted);margin-bottom:.7rem}
+  .pick .rl2 b{color:var(--ink)}
+  .pick p.body{margin:.2rem 0 0;color:var(--ink-soft)}
+  .quote{border-left:2px solid var(--brass);padding-left:14px;margin:.9rem 0 0;font-family:var(--serif);color:var(--ink);font-size:1.02rem}
+  .quote b{font-family:var(--sans);font-size:.74rem;letter-spacing:.14em;text-transform:uppercase;color:var(--brass-text);display:block;margin-bottom:.2rem;font-weight:700}
+  .aside{display:flex;flex-direction:column;align-items:flex-end;gap:12px;text-align:right;min-width:150px}
+  .aside .pr{font-family:var(--serif);font-size:2rem;font-weight:600;font-variant-numeric:tabular-nums;line-height:1}
+  .aside .tag{font-size:.72rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+  .buy{display:inline-flex;align-items:center;gap:8px;background:var(--aqua);color:#fff;font-weight:700;padding:11px 20px;border-radius:10px;text-decoration:none;transition:background .2s,transform .15s;font-size:.92rem}
+  .buy:hover{background:var(--aqua-deep);transform:translateY(-1px)}
+  @media (max-width:820px){.pick{grid-template-columns:64px 1fr}.aside{grid-column:1/-1;flex-direction:row;justify-content:space-between;align-items:center;text-align:left;border-top:1px solid var(--line);padding-top:16px}}
+
+  /* method / faq */
+  .cols{display:grid;grid-template-columns:1fr 1fr;gap:26px;margin-top:22px}
+  @media (max-width:760px){.cols{grid-template-columns:1fr}}
+  .panel{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:28px;box-shadow:var(--shadow-sm)}
+  .panel .eyebrow{color:var(--aqua-deep)}
+  .panel h3{font-family:var(--serif);font-weight:600;font-size:1.3rem;margin:.5rem 0 .5rem}
+  .panel p{color:var(--muted);margin:0}
+  .faq details{border-top:1px solid var(--line);padding:16px 0}
+  .faq details:first-of-type{border-top:0}
+  .faq summary{cursor:pointer;font-family:var(--serif);font-size:1.12rem;list-style:none;display:flex;justify-content:space-between;gap:14px;color:var(--ink)}
+  .faq summary::-webkit-details-marker{display:none}
+  .faq summary::after{content:"+";color:var(--brass-text);font-family:var(--sans);font-weight:700}
+  .faq details[open] summary::after{content:"–"}
+  .faq p{margin:.8rem 0 0;color:var(--muted)}
+
+  footer.site{margin-top:20px;background:var(--dark);color:var(--on-dark-mute)}
+  footer .wrap{padding:40px 26px}
+  footer .fbrand{font-family:var(--serif);color:var(--on-dark);font-size:1.2rem}
+  footer p{font-size:.84rem;margin:.6rem 0 0;max-width:80ch}
+  footer a{color:var(--brass-lite)}
+  /* imagery */
+  .hero .wrap{display:grid;grid-template-columns:1.12fr .88fr;gap:48px;align-items:center}
+  .hero .himg{border-radius:20px;border:1px solid rgba(223,187,120,.4);box-shadow:0 30px 60px -30px rgba(0,0,0,.55);width:100%;height:auto;display:block}
+  @media (max-width:860px){.hero .wrap{grid-template-columns:1fr;gap:30px}}
+  .fpimg{background:#fff;border-radius:14px;padding:14px;box-shadow:0 12px 28px -14px rgba(0,0,0,.5);width:min(230px,70%);margin-bottom:16px}
+  .fpimg img{width:100%;height:auto;display:block}
+  .aside .pimg{width:150px;height:150px;background:#fff;border:1px solid var(--line);border-radius:12px;padding:10px;display:flex;align-items:center;justify-content:center}
+  .aside .pimg img{max-width:100%;max-height:100%;display:block}
+  @media (max-width:820px){.aside .pimg{width:96px;height:96px;padding:6px}}
+  td.name{display:flex;align-items:center;gap:12px}
+  .thumb{width:46px;height:46px;flex:0 0 auto;background:#fff;border:1px solid var(--line);border-radius:9px;padding:4px}
+  .thumb img{width:100%;height:100%;object-fit:contain;display:block}
+  :focus-visible{outline:2px solid var(--aqua);outline-offset:3px;border-radius:5px}
+  @media (prefers-reduced-motion:reduce){*{animation:none!important;scroll-behavior:auto!important}.btn:hover,.buy:hover{transform:none}}
+</style>
+<style id="a11y">:root{--brass-text:#7A5A20;--star:#B07E00}@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--brass-text:#EDD4A0;--star:#E8B84B}}:root[data-theme="dark"]{--brass-text:#EDD4A0;--star:#E8B84B}nav.site a{color:var(--ink-soft)}.stars{color:var(--star)}thead th{color:var(--ink-soft)}.rev{color:var(--ink-soft)}.kick{color:var(--brass-text)}.win td.name{color:var(--brass-text)}a.btn,a.buy,.btn,.buy{background:#8F4A18 !important;color:#fff !important;text-decoration:none !important}a.btn:hover,a.buy:hover,.btn:hover,.buy:hover{background:#6E3810 !important}@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) a.btn,:root:not([data-theme="light"]) a.buy,:root:not([data-theme="light"]) .btn,:root:not([data-theme="light"]) .buy{background:#E08B4E !important;color:#24120A !important}:root:not([data-theme="light"]) .btn:hover,:root:not([data-theme="light"]) .buy:hover{background:#F0A96E !important}}:root[data-theme="dark"] a.btn,:root[data-theme="dark"] a.buy,:root[data-theme="dark"] .btn,:root[data-theme="dark"] .buy{background:#E08B4E !important;color:#24120A !important}</style>
+<style id="article">
+  /* article-only additions. The a11y block owns .btn/.buy — never restyle their colours here. */
+  .art{padding:34px 0 8px}
+  .art .cat{color:var(--aqua-deep)}
+  .art h1{font-family:var(--serif);font-weight:600;font-size:clamp(2.1rem,1.3rem+2.9vw,3.5rem);margin:.6rem 0 0;max-width:26ch}
+  .art .lede{font-size:1.2rem;line-height:1.55;color:var(--ink-soft);max-width:64ch;margin-top:1.1rem}
+  .art .byline{font-size:.9rem;color:var(--muted);margin:1.1rem 0 0}
+  .art .byline b{color:var(--ink)}
+  .art .disclosure{font-size:.84rem;color:var(--muted);border-left:2px solid var(--brass);padding-left:13px;margin:.9rem 0 0;max-width:70ch}
+  .artimg{width:100%;height:auto;display:block;border-radius:var(--radius);border:1px solid var(--line);box-shadow:var(--shadow);margin:28px 0 0}
+  .toc{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius-sm);padding:18px 24px;margin:28px 0 0;max-width:70ch}
+  .toc .eyebrow{color:var(--aqua-deep)}
+  .toc ol{margin:.6rem 0 0;padding-left:1.25rem;font-size:.95rem;color:var(--muted)}
+  .toc li{margin:.28rem 0}
+  .toc a{color:var(--aqua-deep);font-weight:600;text-decoration:none}
+  .toc a:hover{text-decoration:underline}
+  .prose{max-width:70ch}
+  .prose h2{font-family:var(--serif);font-weight:600;font-size:clamp(1.55rem,1.15rem+1.3vw,2.15rem);margin:2.5rem 0 .85rem;max-width:32ch}
+  .prose h3{font-family:var(--serif);font-weight:600;font-size:1.26rem;margin:2rem 0 .55rem}
+  .prose p{color:var(--ink-soft)}
+  .prose strong{color:var(--ink)}
+  .prose ul{margin:0 0 1rem;padding-left:1.2rem;color:var(--ink-soft)}
+  .prose li{margin:.4rem 0}
+  .prose li b{color:var(--ink)}
+  .caption{font-size:.82rem;color:var(--muted);margin:.7rem 0 0;max-width:70ch}
+  .maths{background:var(--surface-2);border:1px solid var(--line);border-radius:var(--radius-sm);
+    padding:16px 20px;margin:0 0 1.2rem;font-variant-numeric:tabular-nums;max-width:70ch;color:var(--ink)}
+  .maths b{font-family:var(--serif);font-weight:600}
+  .prodrow{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;margin-top:26px}
+  .prodcard{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);
+    box-shadow:var(--shadow-sm);padding:22px;display:flex;flex-direction:column}
+  .prodcard .pw{background:#fff;border:1px solid var(--line);border-radius:12px;padding:12px;margin-bottom:15px}
+  .prodcard .pw img{width:100%;height:auto;display:block}
+  .prodcard .lab{font-size:.7rem;letter-spacing:.14em;text-transform:uppercase;color:var(--brass-text);font-weight:700}
+  .prodcard h3{font-family:var(--serif);font-weight:600;font-size:1.14rem;margin:.4rem 0 .3rem}
+  .prodcard p{font-size:.9rem;color:var(--muted);margin:.35rem 0 1rem}
+  .prodcard .pp{font-family:var(--serif);font-size:1.6rem;font-weight:600;font-variant-numeric:tabular-nums;margin:0 0 14px}
+  .prodcard .cta{margin-top:auto}
+  @media (max-width:820px){.prodrow{grid-template-columns:1fr}}
+  .krgrid{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-top:22px}
+  @media (max-width:700px){.krgrid{grid-template-columns:1fr}}
+  .kr{display:block;background:var(--surface);border:1px solid var(--line);border-radius:var(--radius-sm);
+    padding:20px 22px;text-decoration:none;box-shadow:var(--shadow-sm);transition:transform .15s,border-color .2s}
+  .kr:hover{transform:translateY(-2px);border-color:var(--brass)}
+  .kr .krt{font-family:var(--serif);font-size:1.1rem;color:var(--ink);display:block}
+  .kr .krd{font-size:.87rem;color:var(--muted);display:block;margin-top:.35rem}
+</style>
+</head>
+<body>
+<header class="site"><div class="wrap bar">
+  <a class="brand" href="/" aria-label="Best Espresso Machines">
+    <svg class="logomark" width="36" height="36" viewBox="0 0 40 40" aria-hidden="true">
+      <defs><radialGradient id="lm" cx="34%" cy="26%" r="86%"><stop offset="0" stop-color="#C2703C"/><stop offset=".68" stop-color="#5A2F16"/><stop offset="1" stop-color="#2A1A10"/></radialGradient></defs>
+      <circle cx="20" cy="20" r="19" fill="url(#lm)"/>
+      <circle cx="20" cy="20" r="18.4" fill="none" stroke="#DFBB78" stroke-width="1.1" stroke-opacity=".92"/>
+      <circle cx="20" cy="20" r="15.3" fill="none" stroke="#F4EAE1" stroke-width=".6" stroke-opacity=".22"/>
+      <path d="M13.2 17.6h11.1v4.9a5.55 5.55 0 0 1-5.55 5.55h0A5.55 5.55 0 0 1 13.2 22.5v-4.9Z" fill="#F9F3EC"/>
+      <path d="M24.6 18.9h1.6a2.5 2.5 0 0 1 0 5h-1.6" fill="none" stroke="#F9F3EC" stroke-width="1.5" stroke-linecap="round"/>
+      <path d="M12 29.4h14.6" stroke="#DFBB78" stroke-width="1.3" stroke-linecap="round" stroke-opacity=".9"/>
+      <path d="M17.4 14.4c1.5-1.2-1.1-2.5.4-4.1M21.4 14.4c1.5-1.2-1.1-2.5.4-4.1" fill="none" stroke="#F4EAE1" stroke-width="1.3" stroke-linecap="round" stroke-opacity=".75"/>
+    </svg>
+    <span class="bn">Best&thinsp;Espresso&thinsp;Machines</span>
+  </a>
+  <nav class="site" aria-label="Primary">
+    <a href="/#feature">Top pick</a><a href="/#compare">Compare</a><a href="/#picks">The eight</a><a href="/#how">Method</a><a href="/#faq">FAQ</a>
+  <a href="/guides">All guides</a></nav>
+</div></header>
+
+<div class="wrap">
+<article class="art">
+
+  <header>
+    <span class="eyebrow cat">Honest take</span>
+    <h1 class="serif">Are Home Espresso Machines Worth It? The Honest Cost Math</h1>
+    <p class="lede">Every espresso guide on the internet tells you a machine "pays for itself." Almost none of them show the arithmetic. So here it is, worked in the open, with every assumption labelled as an assumption — including the part where the numbers say yes and the honest answer is still "probably not, for you."</p>
+    <p class="byline">By <b>Ilane Tall</b> · Updated August 12, 2026 · Research-based.</p>
+    <p class="disclosure">We're reader-supported: if you buy through a link on this page we may earn a commission, at no extra cost to you. It doesn't change the numbers below — and we compare published specs and live prices, we don't run a testing lab, and we don't publish ratings we can't verify.</p>
+    <img class="artimg" src="/images/hero-worth-it.webp" alt="Home espresso machine on a kitchen counter beside a notepad of handwritten cost calculations and a bag of coffee beans" width="1600" height="900" loading="eager" fetchpriority="high" decoding="async">
+  </header>
+
+  <div class="toc">
+    <span class="eyebrow">On this page</span>
+    <ol>
+      <li><a href="#short-answer">The short answer</a></li>
+      <li><a href="#cafe-math">What the café cup actually costs you</a></li>
+      <li><a href="#home-cost">Cost per cup at home, line by line</a></li>
+      <li><a href="#payback">Payback at three price tiers</a></li>
+      <li><a href="#capsules">The capsule trap: cheapest to buy, dearest to drink</a></li>
+      <li><a href="#quit">Why machines end up unused</a></li>
+      <li><a href="#skip">Who genuinely shouldn't buy one</a></li>
+      <li><a href="#verdict">Who it is worth it for — and what to buy</a></li>
+      <li><a href="#faq">Questions we get asked</a></li>
+    </ol>
+  </div>
+
+  <div class="prose">
+
+    <h2 id="short-answer">The short answer</h2>
+    <p>On money alone it isn't close. Buy one $6 café latte a day and an $80 machine repays itself in about a month, a $685 machine in about five. After that the same habit costs roughly a fifth of what it did. There is no version of the arithmetic where a daily café habit beats a competent home setup.</p>
+    <p>Which is why the arithmetic is the least interesting part of the question. The machine only wins if you keep using it after the novelty wears off, and the reasons people stop have nothing to do with money: heat-up time on a weekday, the clean-down after the shot, the counter space it permanently occupies, and the fortnight of learning between you and a shot you want to drink.</p>
+    <p>So this page builds the cost model properly, with every assumption written down so you can swap in your own — then argues against itself.</p>
+
+    <div class="band">
+      <h3 class="serif">How to read every number on this page</h3>
+      <p>These are <strong>illustrative US figures for 2026</strong>, chosen to be plausible and easy to check, not measured in your kitchen. Coffee prices, milk prices, electricity rates and café menus vary enormously by city and by month. Every figure below is a starting point you should overwrite with what you actually pay. Where we assume something, we say so in the same sentence.</p>
+      <p>Machine prices come from our product database extract and move constantly on Amazon — confirm the live price before you act on a payback figure.</p>
+    </div>
+
+    <h2 id="cafe-math">What the café cup actually costs you</h2>
+    <p>Start with the number you're actually trying to beat. In 2026, a 12 oz latte at a US café runs roughly <strong>$5 to $7</strong> depending on the city — call it $5 in a mid-size market, $6 as a fair national middle, and $7 in Manhattan, San Francisco or an airport. That is the drink, before tip and before the pastry you didn't plan on.</p>
+    <p>Turn that into the numbers that matter:</p>
+    <div class="maths">
+      <b>Assumption:</b> one 12 oz latte per day at $6.<br>
+      $6.00 × 30.4 days = <b>$182 a month</b> · × 365 = <b>$2,190 a year</b>
+    </div>
+    <p>At $5 a cup that's $152 a month; at $7, $213. Two drinks a day doubles all of it. We use 30.4 days as the average month throughout so monthly and annual figures agree.</p>
+    <p>Two honest caveats. Most people don't buy a café drink every single day, and if you buy three a week the whole model stretches by a factor of roughly 2.3 — a five-month payback becomes a year. And you aren't only buying coffee at a café; you're buying somewhere to sit, someone else's cleaning, and a walk out of the house. The arithmetic can't price those. It can only tell you what you're paying for them.</p>
+
+    <h2 id="home-cost">Cost per cup at home, line by line</h2>
+    <p>Now the other side. A home latte has four cost lines, and only the first one is big.</p>
+
+    <h3>Coffee: the only line that really moves</h3>
+    <p>A double shot conventionally uses about <strong>18 g of ground coffee in, about 36 g of liquid out, in roughly 25 to 30 seconds</strong>. That 18 g dose is the number that drives everything.</p>
+    <div class="maths">
+      <b>Assumption:</b> a 12 oz (340 g) bag of decent whole-bean coffee at $16–20.<br>
+      340 g ÷ 18 g = <b>~19 doubles per bag</b><br>
+      $16 ÷ 19 = <b>$0.84</b> · $20 ÷ 19 = <b>$1.05</b> → call it <b>$0.85–1.05 of coffee per double</b>
+    </div>
+    <p>Nineteen doubles per bag is fewer than people expect, and you'll lose a few grams a week to purged shots and stale hoppers — so treat 19 as an optimistic ceiling, not a promise. Buy $12 supermarket beans and the line drops to about $0.63; buy $24 single-origin and it climbs to $1.26. That spread is bigger than every other cost on this page combined, which tells you where to look first for a cheaper cup.</p>
+
+    <h3>Milk, electricity and upkeep: the small lines</h3>
+    <p>A latte takes roughly 8 oz of milk. Electricity is trivial: a 1,600 W machine like the <a href="https://www.amazon.com/dp/B00CH9QWOU?tag=best-espressomach-20" rel="nofollow sponsored noopener" target="_blank">Breville Barista Express</a> draws its rated power only while the heater is on, which across heat-up, a shot and some steaming is a few minutes. Upkeep means descaling solution and, on machines that take them, water filters.</p>
+
+    <div class="tablewrap"><table>
+      <thead><tr><th>Line item</th><th>Stated assumption</th><th>Cost per drink</th></tr></thead>
+      <tbody>
+        <tr><td class="name">Coffee, 18 g double</td><td>340 g bag at $16–20, ~19 doubles per bag</td><td class="price">$0.85–1.05</td></tr>
+        <tr><td class="name">Milk, 8 oz</td><td>Whole milk at $4.80 per 128 oz gallon → 16 servings</td><td class="price">$0.30</td></tr>
+        <tr><td class="name">Electricity</td><td>~0.1 kWh per heat-up + shot + steam, at $0.17/kWh</td><td class="price">$0.02</td></tr>
+        <tr><td class="name">Descaler + water filter</td><td>~$30 of consumables a year ÷ 365 drinks</td><td class="price">$0.08</td></tr>
+        <tr class="win"><td class="name">Total, one home latte</td><td>Sum of the above, at the middle of the coffee range</td><td class="price">$1.25–1.45 · call it $1.35</td></tr>
+      </tbody>
+    </table></div>
+    <p class="caption">Illustrative US 2026 figures. Swap in your own bean price, milk price and utility rate — the coffee line is the one that will change your answer.</p>
+
+    <p>Skip the milk and a straight double espresso lands at about <strong>$1.05</strong>. Use oat milk at $4.50 a half-gallon and the milk line roughly doubles to $0.56, pushing the latte to $1.60. Neither moves the conclusion.</p>
+    <p>Note how small the maintenance line is next to how much people worry about it — and that skipping it is still the most expensive decision in the model, because limescale is what kills home machines. Our <a href="/how-to-clean-and-descale-an-espresso-machine">descaling walkthrough</a> covers frequency, which depends on your water hardness and your manufacturer's instructions rather than any universal rule. Treat descaling chemicals like any household product: follow the label.</p>
+
+    <div class="maths">
+      <b>The core saving, per drink:</b> $6.00 café − $1.35 home = <b>$4.65</b><br>
+      One drink a day: $4.65 × 30.4 = <b>$141 a month</b><br>
+      Two drinks a day: $9.30 × 30.4 = <b>$283 a month</b>
+    </div>
+    <p>Those two figures — $141 and $283 — drive every payback number below. If your café latte is $5, replace them with $111 and $222 and every payback stretches by about a quarter.</p>
+
+    <h2 id="payback">Payback at three price tiers</h2>
+    <p>Payback here means one thing: <strong>upfront cost ÷ monthly saving</strong>. It ignores the time value of money, warranty risk and resale value, all of which we'd have to invent numbers for. One assumption matters more than any of those, and most guides bury it: <strong>a machine without a grinder has a higher true entry cost than its price tag</strong>. Espresso needs an even particle size, which only a burr grinder produces — a blade grinder can't, at any price. So we add the grinder to every grinderless machine, because otherwise you're comparing a complete setup to half of one. The long version is in <a href="/espresso-machine-with-grinder-vs-separate-grinder">grinder built in versus grinder alongside</a>.</p>
+
+    <h3>Tier 1 — the $80 to $100 entry</h3>
+    <p>At the bottom of the pump-machine market you get a real portafilter, a real steam wand, and not much else. The <a href="https://www.amazon.com/dp/B0FXBY6BVL?tag=best-espressomach-20" rel="nofollow sponsored noopener" target="_blank">Chefman CraftBrew</a> at $79.99 runs a 15-bar pump with a 1.5 L removable reservoir, two shot baskets and a digital panel with programmable shot volume. The <a href="https://www.amazon.com/dp/B0BRSP8YT6?tag=best-espressomach-20" rel="nofollow sponsored noopener" target="_blank">CASABREWS 3700 Essential</a> at $99.99 is a 1,350 W stainless machine only 5.7 inches wide. Neither has a grinder, so add $60 for a hand grinder — the honest floor for a burr grinder worth using.</p>
+
+    <div class="tablewrap"><table>
+      <thead><tr><th>Machine</th><th>Price</th><th>Grinder</th><th>True entry cost</th><th>Payback, 1/day</th><th>Payback, 2/day</th></tr></thead>
+      <tbody>
+        <tr><td class="name">Chefman CraftBrew</td><td class="price">$79.99</td><td>None · add ~$60 hand grinder</td><td class="price">~$140</td><td class="price">1.0 month</td><td class="price">0.5 month</td></tr>
+        <tr><td class="name">CASABREWS 3700 Essential</td><td class="price">$99.99</td><td>None · add ~$60 hand grinder</td><td class="price">~$160</td><td class="price">1.1 months</td><td class="price">0.6 month</td></tr>
+      </tbody>
+    </table></div>
+    <p class="caption">Payback = true entry cost ÷ $141 (one drink a day) or ÷ $283 (two a day), on the $6-café and $1.35-home assumptions above.</p>
+
+    <p>That is the most useful row on the page: <strong>a complete entry-level setup pays for itself in about a month.</strong> Roughly thirty drinks. That's a small enough bet that "is it worth it" stops being a financial question almost immediately, which is exactly why the entry tier is the right place to find out whether the habit sticks. We break that field down in our <a href="/best-espresso-machines-under-200">under-$200 guide</a>.</p>
+    <p>One caution on going lower. Below the pump-machine floor you land in steam-driven machines — the <a href="https://www.amazon.com/dp/B0C3N7B91Q?tag=best-espressomach-20" rel="nofollow sponsored noopener" target="_blank">Mr. Coffee 4-Shot Steam</a> at $54.99 is the archetype — which make pressure by boiling water rather than pumping it, and so brew at a fraction of the roughly 9 bar that defines espresso. The payback math doesn't apply, because what they produce isn't what you were buying at the café.</p>
+
+    <h3>Tier 2 — the $200 to $300 middle</h3>
+    <p>This is where the grinder assumption bites, and where two machines at similar prices turn out to cost very different amounts.</p>
+    <p>The <a href="https://www.amazon.com/dp/B0GXV36GJK?tag=best-espressomach-20" rel="nofollow sponsored noopener" target="_blank">AMZCHEF Espresso Machine with Grinder</a> at $199.99 has a built-in grinder with 44 settings, brew-temperature control from 190 to 201 °F, a 60 oz tank and a descaling function. Its price tag <em>is</em> its entry cost. The <a href="https://www.amazon.com/dp/B0B1JPPG2L?tag=best-espressomach-20" rel="nofollow sponsored noopener" target="_blank">Breville Bambino</a> at $299.95 has no grinder at all; what it has is an automatic microfoam steam wand with adjustable milk temperature and texture, the best milk hardware in this bracket by a distance. But you must add a grinder, and a decent burr grinder is <strong>roughly $80 to $200</strong>, so the Bambino's true entry cost is $380 to $500. That's not a criticism of the machine — it's a correction to its sticker.</p>
+
+    <div class="tablewrap"><table>
+      <thead><tr><th>Machine</th><th>Price</th><th>Grinder</th><th>True entry cost</th><th>Payback, 1/day</th><th>Payback, 2/day</th></tr></thead>
+      <tbody>
+        <tr><td class="name">AMZCHEF with Grinder</td><td class="price">$199.99</td><td>Built-in, 44 settings</td><td class="price">$200</td><td class="price">1.4 months</td><td class="price">0.7 month</td></tr>
+        <tr><td class="name">Breville Bambino</td><td class="price">$299.95</td><td>None · add $80–200 burr grinder</td><td class="price">$380–500</td><td class="price">2.7–3.5 months</td><td class="price">1.3–1.8 months</td></tr>
+      </tbody>
+    </table></div>
+    <p class="caption">Same divisors. The Bambino's range is the grinder range, not price uncertainty on the machine.</p>
+
+    <p>So a $300 machine can take two and a half times longer to repay than a $200 one, and the gap is entirely the grinder. Worth saying plainly: that separate grinder isn't wasted money. It grinds better than most built-ins at this price and it stays with you when you upgrade, while a built-in grinder is thrown away with the appliance it lives in. The arithmetic penalises it; the five-year view doesn't.</p>
+
+    <h3>Tier 3 — the $600 to $700 top</h3>
+    <p>All three machines here include grinders, so their price tags are their entry costs — which is why they look better against the mid-tier than you'd expect.</p>
+
+    <div class="tablewrap"><table>
+      <thead><tr><th>Machine</th><th>Price</th><th>Class</th><th>True entry cost</th><th>Payback, 1/day</th><th>Payback, 2/day</th></tr></thead>
+      <tbody>
+        <tr><td class="name">Ninja Luxe Café Premier</td><td class="price">$599.00</td><td>3-in-1, built-in burr</td><td class="price">$599</td><td class="price">4.2 months</td><td class="price">2.1 months</td></tr>
+        <tr><td class="name">De'Longhi Magnifica Start</td><td class="price">$649.95</td><td>Super-automatic, 13 grind settings</td><td class="price">$650</td><td class="price">4.6 months</td><td class="price">2.3 months</td></tr>
+        <tr><td class="name">Breville BES870XL Barista Express</td><td class="price">$684.96</td><td>Semi-automatic, built-in conical burr</td><td class="price">$685</td><td class="price">4.9 months</td><td class="price">2.4 months</td></tr>
+      </tbody>
+    </table></div>
+    <p class="caption">Grinder included on all three, so no adjustment is needed. Prices from our database extract; confirm live before buying.</p>
+
+    <p>Under five months at one drink a day, under two and a half at two. That shouldn't surprise: the model is dominated by the $4.65 you save per drink, so upfront price only shifts the crossing point by weeks. Spending $685 instead of $140 buys about four extra months of payback and — the part the arithmetic can't score — a machine you're likelier to still be using in year three, because grinding into the portafilter is one motion instead of three appliances.</p>
+    <p>The tier splits on temperament rather than money. The Barista Express is semi-automatic: you grind, dose, tamp and start the shot, which means control, a higher ceiling, a few weeks of dialling in. The Magnifica Start is super-automatic: one button, three recipes, no portafilter, no learning curve, a lower ceiling. Our <a href="/semi-automatic-vs-super-automatic-espresso-machines">semi-automatic versus super-automatic comparison</a> is the real fork in the road, and it decides whether you keep using the machine more than any payback figure here.</p>
+
+    <h2 id="capsules">The capsule trap: cheapest to buy, dearest to drink</h2>
+    <p>Capsule machines deserve their own arithmetic, because they're the one case where a lower purchase price can mean a genuinely higher lifetime cost — and the payback chart hides it.</p>
+    <p>The <a href="https://www.amazon.com/dp/B0B9YP76FN?tag=best-espressomach-20" rel="nofollow sponsored noopener" target="_blank">Ninja CFN601</a> at $279.95 is the best-argued capsule machine we compared, because it isn't only a capsule machine: Nespresso original capsules on a 19-bar system for espresso, lungo or over-ice, plus a 12-cup drip side in the same body. As hardware that's a lot of function for $280. The problem isn't the machine — it's that <strong>the capsule is a permanent per-cup cost that never goes down</strong>, and no amount of use amortises it away.</p>
+    <div class="maths">
+      <b>Assumptions:</b> Nespresso original-line capsules at $0.90 each (typical range roughly $0.80–1.10),<br>
+      about 5 g of coffee per capsule, so two capsules to approximate the strength of an 18 g double.<br>
+      Per gram: $0.90 ÷ 5 g = <b>$0.18/g</b> · beans: $16–20 ÷ 340 g = <b>$0.047–0.059/g</b><br>
+      → capsule coffee costs roughly <b>3 to 4 times more per gram</b> than the same coffee as beans.
+    </div>
+    <p>That ratio is the whole story, and it's why a single capsule looks deceptively competitive: at $0.90 it undercuts an 18 g double's $0.85–1.05 of beans, but only because it holds a third of the coffee. Compare like for like and a double-strength capsule drink costs $1.80 of coffee against $0.95 of beans.</p>
+    <p>Run it to five years — one double-strength milk drink a day, 1,825 drinks, milk at $0.30, and $0.03 of descaler per drink for the capsule machine, which needs no water filter:</p>
+
+    <div class="tablewrap"><table>
+      <thead><tr><th>Route</th><th>Upfront</th><th>Per drink</th><th>Coffee + milk + upkeep, 5 yrs</th><th>Five-year total</th></tr></thead>
+      <tbody>
+        <tr><td class="name">Café latte at $6</td><td class="price">$0</td><td class="price">$6.00</td><td class="price">$10,950</td><td class="price">$10,950</td></tr>
+        <tr><td class="name">Ninja CFN601, 2 capsules/drink</td><td class="price">$280</td><td class="price">$2.13</td><td class="price">$3,887</td><td class="price">$4,167</td></tr>
+        <tr><td class="name">Ninja CFN601, 1 capsule/drink</td><td class="price">$280</td><td class="price">$1.23</td><td class="price">$2,245</td><td class="price">$2,525</td></tr>
+        <tr class="win"><td class="name">Chefman CraftBrew + hand grinder</td><td class="price">$140</td><td class="price">$1.35</td><td class="price">$2,464</td><td class="price">$2,604</td></tr>
+        <tr><td class="name">Breville Bambino + $140 grinder</td><td class="price">$440</td><td class="price">$1.35</td><td class="price">$2,464</td><td class="price">$2,904</td></tr>
+        <tr><td class="name">Breville Barista Express</td><td class="price">$685</td><td class="price">$1.35</td><td class="price">$2,464</td><td class="price">$3,149</td></tr>
+      </tbody>
+    </table></div>
+    <p class="caption">1,825 drinks over five years, one a day. Assumes no repairs and no machine replacement on any row — an assumption that flatters the expensive machines least, since they're the ones most likely to survive the period.</p>
+
+    <p>There's the point in one row-pair: <strong>the $280 machine finishes five years at about $4,167 and the $685 machine at about $3,149.</strong> If you drink doubles, the cheapest purchase in the table is over a thousand dollars more expensive to drink from. You can find the moment it flips:</p>
+    <div class="maths">
+      Extra upfront on the Barista Express: $685 − $280 = <b>$405</b><br>
+      Extra per drink on capsules: $2.13 − $1.35 = <b>$0.78</b><br>
+      $405 ÷ $0.78 = <b>519 drinks ≈ 17 months</b> at one a day
+    </div>
+    <p>After about a year and a half the expensive machine has cost you less in total than the cheap one. That's what a flattening payback curve means: bean machines get cheaper per cup for as long as you own them, capsule machines don't get cheaper at all.</p>
+    <p>Two honest counterpoints, because this section could easily be unfair. If you drink single-strength capsule espresso rather than doubles, the CFN601 finishes five years at about $2,525 — cheaper than every bean setup in the table except the $140 one, and that's a real result, not a rounding error. And capsules buy something the arithmetic can't price: no grinder, no dosing, no tamping, no puck to knock out, and a machine still convenient on the morning you have four minutes. If the alternative to a capsule machine is no machine at all, the capsule machine wins.</p>
+
+    <h2 id="quit">Why machines end up unused</h2>
+    <p>Everything above says buy one. Here's the case against, and it's stronger than the numbers because it isn't about numbers. A machine costs $1.35 a cup only if you actually pull the shot. Every drink you don't make raises the real cost, and a $685 machine used twice a month costs about $12 a cup in year one.</p>
+    <p>The friction is mechanical rather than mysterious:</p>
+    <ul>
+      <li><b>The learning curve is real on a semi-automatic.</b> Grind size, dose and tamp all interact, and the standard starting point — 18 g in, 36 g out, 25 to 30 seconds — is a target you walk towards over a couple of weeks, not a setting you dial in on day one. Our <a href="/how-to-pull-a-good-espresso-shot">shot-pulling guide</a> shortens that; it can't remove it.</li>
+      <li><b>The clean-down is daily.</b> Knock the puck out, rinse and wipe the basket, flush the group, purge and wipe the wand before milk dries in it. Call it two minutes — nothing on Sunday, a genuine obstacle at 7:04 on a Tuesday.</li>
+      <li><b>Counter space is permanent.</b> These machines don't get put away. Measure with the lid open and the tank out, and be honest about accepting the footprint every day for years.</li>
+      <li><b>Waiting for heat.</b> Some machines are ready in seconds, some make you wait, and steaming after brewing can mean a second wait while the boiler recovers. A small boiler plus back-to-back milk drinks is the classic bottleneck at the bottom of the market.</li>
+      <li><b>Bad grind ruins everything downstream.</b> Pre-ground supermarket coffee is too coarse and too stale for espresso, so a good machine fed bad grounds makes a disappointing drink — and the natural conclusion is "this machine isn't very good", which is the wrong diagnosis and the usual reason one goes cold.</li>
+      <li><b>One bad shot in a hurry is enough.</b> A sour, fast, thin shot at the moment you needed a coffee does more damage to the habit than any spec on the box. Two or three in a row and the café looks like a bargain again — at which point every payback figure here is irrelevant.</li>
+    </ul>
+    <p>None of that argues against buying a machine. It argues that <strong>"worth it" is a question about habit, and the arithmetic is only the permission slip.</strong> What determines your outcome isn't which machine — it's whether you'll run two minutes of cleaning every morning and descale on schedule. If yes, everything above applies. If no, the cheapest machine here is still a waste of money.</p>
+
+    <h2 id="skip">Who genuinely shouldn't buy one</h2>
+    <p>Most guides can't bring themselves to write this section. Four groups should keep their money:</p>
+    <ul>
+      <li><b>Occasional drinkers.</b> Two or three milk coffees a week stretches the model by roughly 2.3×, so a mid-tier setup takes most of a year to repay — and a machine used three times a week is the one that stops being used at all. A hand grinder plus a moka pot or an AeroPress serves you better for under $60.</li>
+      <li><b>People who actually want drip coffee.</b> If what you drink is a large mug of black filter coffee, espresso is the wrong tool. Buy a good drip brewer. A household split between the two camps is the one real argument for a combination machine — the CFN601's 12-cup drip side, or the <a href="https://www.amazon.com/dp/B0D45PK5V4?tag=best-espressomach-20" rel="nofollow sponsored noopener" target="_blank">Ninja Luxe Café Premier</a>, which handles espresso, three drip styles and two cold-brew styles from one built-in grinder.</li>
+      <li><b>People with no counter space.</b> Not "tight" — none. If the machine lives in a cupboard between uses it gets used at weekends and then not at all. If space is merely tight, the narrow machines exist: the CASABREWS 3700 is 5.7 inches wide, and the Bambino's footprint is deliberately small.</li>
+      <li><b>People who won't descale.</b> Limescale is the main killer of home machines, and the schedule depends on your water hardness and your manufacturer's instructions. If you know you won't do it, buy the $80 machine and treat it as a two-year consumable rather than spending $685 on something you'll cook.</li>
+    </ul>
+
+    <h2 id="verdict">Who it is worth it for — and what to buy</h2>
+    <p>It's worth it if you already buy a café drink most days, you have a permanent home for the machine, and either you like the ritual or you're honest enough to buy a machine that removes it. That's the whole test. Meet it and the money question answers itself in one to five months; fail it and no price tag saves you. Where to start depends on which part you're unsure about:</p>
+
+    <div class="prodrow">
+      <div class="prodcard">
+        <div class="pw"><img src="/images/amazon-B0FXBY6BVL.webp" alt="Chefman CraftBrew espresso machine" width="800" height="800" loading="lazy" decoding="async"></div>
+        <span class="lab">If you're not sure you'll keep it up</span>
+        <h3>Chefman CraftBrew</h3>
+        <p>15-bar pump, 1.5 L removable reservoir, programmable shot volume, two baskets. Add a hand grinder and the whole setup repays in about a month — the cheapest honest way to test the habit.</p>
+        <div class="pp">$79.99</div>
+        <div class="cta"><a class="buy" href="https://www.amazon.com/dp/B0FXBY6BVL?tag=best-espressomach-20" rel="nofollow sponsored noopener" target="_blank">Check price →</a></div>
+      </div>
+      <div class="prodcard">
+        <div class="pw"><img src="/images/amazon-B0GXV36GJK.webp" alt="AMZCHEF espresso machine with built-in grinder" width="800" height="800" loading="lazy" decoding="async"></div>
+        <span class="lab">If you know the habit sticks</span>
+        <h3>AMZCHEF with Grinder</h3>
+        <p>Built-in grinder with 44 settings, brew temperature adjustable from 190 to 201 °F, 60 oz tank, descaling function. One purchase, no grinder to add, payback around six weeks.</p>
+        <div class="pp">$199.99</div>
+        <div class="cta"><a class="buy" href="https://www.amazon.com/dp/B0GXV36GJK?tag=best-espressomach-20" rel="nofollow sponsored noopener" target="_blank">Check price →</a></div>
+      </div>
+      <div class="prodcard">
+        <div class="pw"><img src="/images/amazon-B00CH9QWOU.webp" alt="Breville BES870XL Barista Express espresso machine" width="800" height="800" loading="lazy" decoding="async"></div>
+        <span class="lab">If you want it to be the last one</span>
+        <h3>Breville Barista Express</h3>
+        <p>Conical burr grinder with dose control, 54 mm portafilter, razor trimming tool, 67 oz tank, low-pressure pre-infusion. Five months to repay, and a ceiling you won't outgrow.</p>
+        <div class="pp">$684.96</div>
+        <div class="cta"><a class="buy" href="https://www.amazon.com/dp/B00CH9QWOU?tag=best-espressomach-20" rel="nofollow sponsored noopener" target="_blank">Check price →</a></div>
+      </div>
+    </div>
+
+    <p style="margin-top:1.6rem">If the ritual is the part you don't want, skip all three and buy one-touch: the De'Longhi Magnifica Start grinds, doses and brews behind a single button, three recipes, 13 grind settings, repaying in about 4.6 months on the same assumptions. If convenience is non-negotiable and you accept the per-cup cost with open eyes, the Ninja CFN601 is defensible — just don't tell yourself it's the cheap option. For the full field rather than the cost argument, the <a href="/">main espresso machine guide</a> ranks eight machines by buying situation, still with no invented ratings.</p>
+
+    <h2 id="faq">Questions we get asked</h2>
+    <div class="panel faq" style="margin-top:22px;max-width:70ch">
+      <details open><summary>How long does a home espresso machine take to pay for itself?</summary><p>On the assumptions used throughout this page — a $6 café latte, a $1.35 home latte, one drink a day, 30.4 days a month — an $80 machine plus a $60 hand grinder repays in about one month, a $200 machine with a built-in grinder in about 1.4 months, and a $685 machine with a grinder in about 4.9 months. Two drinks a day halves all of those. Replace $6 and $1.35 with your own café price and bean price before trusting any of it.</p></details>
+      <details><summary>How much does a homemade latte actually cost?</summary><p>About $1.35 on illustrative US 2026 figures: $0.85–1.05 of coffee for an 18 g double from a $16–20 bag of 340 g beans that yields roughly 19 doubles, plus $0.30 of milk at $4.80 a gallon, about $0.02 of electricity, and about $0.08 a day of descaler and water filters. A straight double espresso with no milk is closer to $1.05. Your bean price is the line that moves the total.</p></details>
+      <details><summary>Is a capsule machine cheaper in the long run?</summary><p>Usually not, if you drink double-strength coffee. A capsule holds about 5 g and costs roughly $0.90, which is about $0.18 per gram against $0.047–0.059 per gram for beans — three to four times more. Assuming two capsules per drink, the $279.95 Ninja CFN601 costs about $4,167 over five years at one drink a day, while the $684.96 Barista Express costs about $3,149, and the cheaper machine overtakes the pricier one at roughly 519 drinks, about 17 months. If you drink single capsules the picture is far closer.</p></details>
+      <details><summary>Who should not buy a home espresso machine?</summary><p>Occasional drinkers whose habit is two or three milk drinks a week, since payback stretches and the machine tends to go unused; people whose real preference is large mugs of drip coffee; people with no permanent counter space, because a machine stored in a cupboard stops being used; and anyone who knows they won't descale on schedule, as limescale is the main killer of home machines. In those cases a hand grinder with a moka pot or an AeroPress is the better use of the money.</p></details>
+    </div>
+
+    <h2 id="keep-reading">Keep reading</h2>
+    <div class="krgrid">
+      <a class="kr" href="/espresso-machine-with-grinder-vs-separate-grinder"><span class="krt">Grinder built in, or grinder alongside?</span><span class="krd">The decision that changes the true entry cost by $80–200 — and what you keep when you upgrade.</span></a>
+      <a class="kr" href="/best-espresso-machines-under-200"><span class="krt">The best espresso machines under $200</span><span class="krd">Where the entry tier is genuinely good, and where the pump-machine floor actually is.</span></a>
+      <a class="kr" href="/semi-automatic-vs-super-automatic-espresso-machines"><span class="krt">Semi-automatic vs super-automatic</span><span class="krd">Hobby or chore: the fork in the road that decides whether you keep using the machine.</span></a>
+      <a class="kr" href="/how-to-pull-a-good-espresso-shot"><span class="krt">How to pull a good espresso shot</span><span class="krd">18 g in, 36 g out, 25–30 seconds — and how to read the shot when it goes wrong.</span></a>
+      <a class="kr" href="/how-to-clean-and-descale-an-espresso-machine"><span class="krt">Cleaning and descaling, properly</span><span class="krd">The eight-cents-a-day habit that decides whether your machine lasts two years or ten.</span></a>
+      <a class="kr" href="/guides"><span class="krt">All espresso guides</span><span class="krd">Every guide on the site, from choosing a machine to living with one.</span></a>
+    </div>
+
+  </div>
+</article>
+</div>
+
+<footer class="site"><div class="wrap">
+  <div class="fbrand">Best Espresso Machines</div>
+  <p>Independent, research-based comparisons of home espresso machines, grinders and the gear around them.</p>
+  <p style="margin:.5rem 0 0"><a href="/about">About</a> · <a href="/guides">All guides</a> · <a href="/contact">Contact</a> · <a href="/privacy">Privacy</a></p>
+  <p>Reader-supported: we may earn a commission when you buy through our links, at no additional cost to you. Comparisons are based on published specifications and pricing; we do not physically test products and we do not publish ratings we cannot verify. Prices change frequently — confirm the current price on Amazon. As an Amazon Associate, we earn from qualifying purchases. © 2026 Best Espresso Machines.</p>
+</div></footer>
+
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Article","headline":"Are Home Espresso Machines Worth It? The Honest Cost Math","description":"A worked cost-per-cup model for home espresso, payback tables at three machine tiers, the permanent per-cup cost of capsules, and an honest account of who should not buy a machine.","author":{"@type":"Person","name":"Ilane Tall"},"publisher":{"@type":"Organization","name":"Best Espresso Machines"},"datePublished":"2026-08-12","dateModified":"2026-08-12","mainEntityOfPage":{"@type":"WebPage","@id":"https://best-espresso-machines.com/are-home-espresso-machines-worth-it"},"image":"https://best-espresso-machines.com/images/hero-worth-it.webp","articleSection":"Honest take"}
+</script>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[
+ {"@type":"Question","name":"How long does a home espresso machine take to pay for itself?","acceptedAnswer":{"@type":"Answer","text":"On the assumptions used in this article - a $6 cafe latte, a $1.35 home latte, one drink a day and 30.4 days a month - an $80 machine plus a $60 hand grinder repays in about one month, a $200 machine with a built-in grinder in about 1.4 months, and a $685 machine with a grinder in about 4.9 months. Two drinks a day halves all of those figures. Replace the $6 and $1.35 with your own cafe price and bean price before relying on any of it."}},
+ {"@type":"Question","name":"How much does a homemade latte actually cost?","acceptedAnswer":{"@type":"Answer","text":"About $1.35 on illustrative US 2026 figures: $0.85 to $1.05 of coffee for an 18 g double from a $16-20 bag of 340 g beans that yields roughly 19 doubles, plus $0.30 of milk at $4.80 a gallon, about $0.02 of electricity, and about $0.08 a day of descaler and water filters. A straight double espresso with no milk is closer to $1.05."}},
+ {"@type":"Question","name":"Is a capsule machine cheaper in the long run?","acceptedAnswer":{"@type":"Answer","text":"Usually not, if you drink double-strength coffee. A capsule holds about 5 g and costs roughly $0.90, which is about $0.18 per gram against $0.047 to $0.059 per gram for beans, three to four times more. Assuming two capsules per drink, the $279.95 Ninja CFN601 costs about $4,167 over five years at one drink a day while the $684.96 Breville Barista Express costs about $3,149, and the cheaper machine overtakes the pricier one at roughly 519 drinks, about 17 months. If you drink single capsules the picture is much closer."}},
+ {"@type":"Question","name":"Who should not buy a home espresso machine?","acceptedAnswer":{"@type":"Answer","text":"Occasional drinkers whose habit is two or three milk drinks a week, since payback stretches and the machine tends to go unused; people whose real preference is large mugs of drip coffee; people with no permanent counter space, because a machine stored in a cupboard stops being used; and anyone who knows they will not descale on schedule, since limescale is the main killer of home machines. In those cases a hand grinder with a moka pot or an AeroPress is a better use of the money."}}
+]}
+</script>
+
+<script src="/site.js" defer></script>
+</body>
+</html>
