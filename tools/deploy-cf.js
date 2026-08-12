@@ -37,13 +37,26 @@ const DRY = process.argv.includes('--dry-run');
 const SKIP_DOMAIN = process.argv.includes('--skip-domain');
 const API = 'https://api.cloudflare.com/client/v4';
 
+/* Credentials live in the Usine data dir. On the Hetzner box this repo sits at
+   <usine>/premium/<blog>/, on the PC the Usine root is c:/Dev/Usine-a-blog — try
+   both (plus $USINE_CREDENTIALS) so the same script deploys from either. */
+function credsPath() {
+  return [
+    process.env.USINE_CREDENTIALS,
+    path.join(ROOT, '..', '..', 'data', 'cloudflare-credentials.json'),
+    '/home/usine/usine/data/cloudflare-credentials.json',
+    'c:/Dev/Usine-a-blog/data/cloudflare-credentials.json'
+  ].filter(Boolean).find(f => { try { return fs.existsSync(f); } catch (e) { return false; } });
+}
+function creds() {
+  const f = credsPath();
+  if (!f) return {};
+  try { return JSON.parse(fs.readFileSync(f, 'utf8')); } catch (e) { return {}; }
+}
 function token() {
   if (process.env.CLOUDFLARE_API_TOKEN) return process.env.CLOUDFLARE_API_TOKEN.trim();
-  const f = 'c:/Dev/Usine-a-blog/data/cloudflare-credentials.json';
-  if (fs.existsSync(f)) {
-    const j = JSON.parse(fs.readFileSync(f, 'utf8'));
-    return j.pages_api_token || j.api_token;
-  }
+  const t = creds().pages_api_token || creds().api_token;
+  if (t) return t;
   die('no Cloudflare API token: set $CLOUDFLARE_API_TOKEN or add "pages_api_token" to data/cloudflare-credentials.json');
 }
 const TOKEN = token();
@@ -82,18 +95,21 @@ async function cf(method, urlPath, body) {
   const OUT = path.join(os.tmpdir(), 'cf-deploy-' + PROJECT);
   fs.rmSync(OUT, { recursive: true, force: true });
   fs.mkdirSync(OUT, { recursive: true });
-  sh(`git archive HEAD | tar -x -C "${OUT.replace(/\\/g, '/')}"`, { cwd: ROOT, quiet: true, shell: 'C:/Program Files/Git/bin/bash.exe' });
+  /* Windows needs Git-bash for the pipe; on Linux the default /bin/sh handles it. */
+  const PIPE = process.platform === 'win32' ? { shell: 'C:/Program Files/Git/bin/bash.exe' } : {};
+  sh(`git archive HEAD | tar -x -C "${OUT.replace(/\\/g, '/')}"`, { cwd: ROOT, quiet: true, ...PIPE });
   for (const forbidden of ['.git', 'tools', 'data']) {
     if (fs.existsSync(path.join(OUT, forbidden))) die(`export contains ${forbidden}/ — check .gitattributes export-ignore`);
   }
-  const n = sh(`find "${OUT.replace(/\\/g, '/')}" -type f | wc -l`, { quiet: true, shell: 'C:/Program Files/Git/bin/bash.exe' }).trim();
+  const countFiles = (d) => fs.readdirSync(d, { withFileTypes: true })
+    .reduce((n, e) => n + (e.isDirectory() ? countFiles(path.join(d, e.name)) : 1), 0);
+  const n = countFiles(OUT);
   console.log(`      ${n} files at ${OUT}`);
 
   /* 3. Account + project. */
   console.log('[3/6] account + Pages project');
   /* least-privilege tokens can't list /accounts — prefer env/creds account_id */
-  let ACC = process.env.CF_ACCOUNT_ID || null;
-  if (!ACC) { try { const j = JSON.parse(fs.readFileSync('c:/Dev/Usine-a-blog/data/cloudflare-credentials.json','utf8')); ACC = j.account_id || null; } catch (e) {} }
+  let ACC = process.env.CF_ACCOUNT_ID || creds().account_id || null;
   if (!ACC) { const accounts = await cf('GET', '/accounts'); if (!accounts.length) die('token cannot list /accounts and no account_id in env/creds'); ACC = accounts[0].id; }
   console.log('      account ' + ACC);
   let exists = true;
