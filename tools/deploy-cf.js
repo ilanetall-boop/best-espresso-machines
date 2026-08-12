@@ -91,9 +91,11 @@ async function cf(method, urlPath, body) {
 
   /* 3. Account + project. */
   console.log('[3/6] account + Pages project');
-  const accounts = await cf('GET', '/accounts');
-  const ACC = accounts[0].id;
-  console.log(`      account ${ACC} (${accounts[0].name})`);
+  /* least-privilege tokens can't list /accounts — prefer env/creds account_id */
+  let ACC = process.env.CF_ACCOUNT_ID || null;
+  if (!ACC) { try { const j = JSON.parse(fs.readFileSync('c:/Dev/Usine-a-blog/data/cloudflare-credentials.json','utf8')); ACC = j.account_id || null; } catch (e) {} }
+  if (!ACC) { const accounts = await cf('GET', '/accounts'); if (!accounts.length) die('token cannot list /accounts and no account_id in env/creds'); ACC = accounts[0].id; }
+  console.log('      account ' + ACC);
   let exists = true;
   try { await cf('GET', `/accounts/${ACC}/pages/projects/${PROJECT}`); }
   catch (e) { if (/8000007|not.found/i.test(e.message)) exists = false; else throw e; }
