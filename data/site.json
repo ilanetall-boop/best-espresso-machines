@@ -7,11 +7,26 @@
     "author": "Ilane Tall",
     "template": "premium-editorial-v1",
     "static_pages": [
-      { "path": "", "priority": "1.0" },
-      { "path": "guides", "priority": "0.6" },
-      { "path": "about", "priority": "0.3" },
-      { "path": "contact", "priority": "0.3" },
-      { "path": "privacy", "priority": "0.3" }
+      {
+        "path": "",
+        "priority": "1.0"
+      },
+      {
+        "path": "guides",
+        "priority": "0.6"
+      },
+      {
+        "path": "about",
+        "priority": "0.3"
+      },
+      {
+        "path": "contact",
+        "priority": "0.3"
+      },
+      {
+        "path": "privacy",
+        "priority": "0.3"
+      }
     ]
   },
   "articles": [
@@ -73,6 +88,16 @@
       "hero": "hero-clean",
       "minutes": 12,
       "date": "2026-08-12",
+      "featured": true
+    },
+    {
+      "slug": "best-espresso-machines-with-milk-frother",
+      "title": "The Best Espresso Machines With a Milk Frother (2026)",
+      "description": "Steam wand or automatic frother? The machines that actually make a decent flat white at home, from $80 to $600.",
+      "category": "Buying guide",
+      "hero": "hero-best-espresso-machines-with-milk-frother",
+      "minutes": 15,
+      "date": "2026-08-13",
       "featured": true
     }
   ]
