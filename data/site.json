@@ -105,6 +105,16 @@
       "minutes": 15,
       "date": "2026-08-13",
       "featured": true
+    },
+    {
+      "slug": "espresso-machine-maintenance-schedule",
+      "title": "The Espresso Machine Maintenance Schedule That Actually Keeps It Alive",
+      "description": "Daily, weekly, monthly and yearly — what to do, what it costs, and the neglected step that kills most home machines.",
+      "category": "How-to",
+      "hero": "hero-espresso-machine-maintenance-schedule",
+      "minutes": 16,
+      "date": "2026-08-16",
+      "featured": true
     }
   ]
 }
