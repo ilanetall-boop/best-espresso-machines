@@ -125,6 +125,16 @@
       "minutes": 16,
       "date": "2026-08-17",
       "featured": true
+    },
+    {
+      "slug": "espresso-machine-vs-moka-pot-vs-aeropress",
+      "title": "Espresso Machine vs Moka Pot vs AeroPress: What You Actually Get",
+      "description": "Real pressure, real crema, real money. An honest comparison of three very different ways to make strong coffee at home.",
+      "category": "Comparison",
+      "hero": "hero-espresso-machine-vs-moka-pot-vs-aeropress",
+      "minutes": 16,
+      "date": "2026-08-18",
+      "featured": true
     }
   ]
 }
