@@ -135,6 +135,16 @@
       "minutes": 16,
       "date": "2026-08-18",
       "featured": true
+    },
+    {
+      "slug": "how-to-choose-espresso-beans-and-grind-size",
+      "title": "Beans and Grind Size: The Two Things That Fix a Bad Shot",
+      "description": "Before you blame the machine — roast date, bean choice and grind size explain most disappointing home espresso.",
+      "category": "How-to",
+      "hero": "hero-how-to-choose-espresso-beans-and-grind-size",
+      "minutes": 14,
+      "date": "2026-08-19",
+      "featured": true
     }
   ]
 }
