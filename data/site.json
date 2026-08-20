@@ -145,6 +145,16 @@
       "minutes": 14,
       "date": "2026-08-19",
       "featured": true
+    },
+    {
+      "slug": "best-espresso-machines-under-500",
+      "title": "The Best Espresso Machines Under $500 (2026)",
+      "description": "The sweet spot of home espresso: real steam power and consistency without prosumer pricing.",
+      "category": "Buying guide",
+      "hero": "hero-best-espresso-machines-under-500",
+      "minutes": 18,
+      "date": "2026-08-20",
+      "featured": true
     }
   ]
 }
