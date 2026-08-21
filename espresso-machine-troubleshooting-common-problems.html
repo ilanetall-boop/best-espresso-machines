@@ -1,0 +1,450 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Espresso Machine Troubleshooting: 12 Common Problems, Fixed</title>
+<meta name="description" content="No pressure, watery shots, a wand that won't steam — the fixes that work, in order of likelihood.">
+<link rel="canonical" href="https://best-espresso-machines.com/espresso-machine-troubleshooting-common-problems">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Best Espresso Machines">
+<meta property="og:title" content="Espresso Machine Troubleshooting: 12 Common Problems, Fixed">
+<meta property="og:description" content="No pressure, watery shots, a wand that won't steam — the fixes that work, in order of likelihood.">
+<meta property="og:url" content="https://best-espresso-machines.com/espresso-machine-troubleshooting-common-problems">
+<meta property="og:image" content="https://best-espresso-machines.com/images/hero-espresso-machine-troubleshooting-common-problems.webp">
+<meta name="theme-color" content="#1A100C">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png">
+<link rel="alternate icon" href="/favicon.ico">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<style>
+  /* premium-editorial-v1 — palette: coffee / amber / copper.
+     NOTE: the --aqua* variable names are inherited from the network template;
+     on this site they carry the copper accent. Do not rename (tools/rebuild-site.js
+     and every article file reference them). */
+  :root{
+    --ground:#F7F3EE; --surface:#FFFFFF; --surface-2:#F0E8DF;
+    --ink:#1F1410; --ink-soft:#43302A; --muted:#7A655A; --line:#E6DACE;
+    --aqua:#B4622A; --aqua-deep:#8F4A18; --aqua-tint:#F8EAE0;
+    --brass:#A9803A; --brass-lite:#DFBB78; --brass-tint:#F6EEDF;
+    --dark:#1A100C; --dark-2:#2C1C14; --on-dark:#F4EAE1; --on-dark-mute:#B69C8B;
+    --star:#D9A400;
+    --shadow:0 1px 2px rgba(31,20,16,.05),0 22px 48px -26px rgba(31,20,16,.30);
+    --shadow-sm:0 1px 2px rgba(31,20,16,.05),0 10px 24px -16px rgba(31,20,16,.24);
+    --radius:20px; --radius-sm:12px; --maxw:1120px;
+    --serif:"Iowan Old Style","Palatino Linotype",Palatino,Georgia,"Times New Roman",serif;
+    --sans:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  }
+  @media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+    --ground:#140C09; --surface:#1F1410; --surface-2:#2A1B15;
+    --ink:#F4EAE1; --ink-soft:#DCC9BC; --muted:#AF9788; --line:#3A2720;
+    --aqua:#E08B4E; --aqua-deep:#F0A96E; --aqua-tint:#2A1B12;
+    --brass:#DFBB78; --brass-lite:#EDD4A0; --brass-tint:#2A200F;
+    --shadow:0 1px 2px rgba(0,0,0,.4),0 24px 52px -28px rgba(0,0,0,.7);
+    --shadow-sm:0 1px 2px rgba(0,0,0,.4),0 12px 26px -18px rgba(0,0,0,.6);
+  }}
+  :root[data-theme="dark"]{
+    --ground:#140C09; --surface:#1F1410; --surface-2:#2A1B15;
+    --ink:#F4EAE1; --ink-soft:#DCC9BC; --muted:#AF9788; --line:#3A2720;
+    --aqua:#E08B4E; --aqua-deep:#F0A96E; --aqua-tint:#2A1B12;
+    --brass:#DFBB78; --brass-lite:#EDD4A0; --brass-tint:#2A200F;
+    --shadow:0 1px 2px rgba(0,0,0,.4),0 24px 52px -28px rgba(0,0,0,.7);
+    --shadow-sm:0 1px 2px rgba(0,0,0,.4),0 12px 26px -18px rgba(0,0,0,.6);
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{margin:0;background:var(--ground);color:var(--ink);font-family:var(--sans);
+    font-size:18px;line-height:1.6;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
+  .wrap{max-width:var(--maxw);margin:0 auto;padding:0 26px}
+  a{color:inherit}
+  h1,h2,h3{margin:0;line-height:1.08;letter-spacing:-.01em;text-wrap:balance}
+  .serif{font-family:var(--serif)}
+  p{margin:0 0 1rem}
+  .eyebrow{font-family:var(--sans);font-size:.72rem;font-weight:700;letter-spacing:.22em;text-transform:uppercase}
+  .tnum{font-variant-numeric:tabular-nums}
+  .stars{color:var(--star);letter-spacing:2px}
+
+  /* ---------- header ---------- */
+  header.site{position:sticky;top:0;z-index:30;background:color-mix(in srgb,var(--ground) 82%,transparent);
+    backdrop-filter:saturate(1.3) blur(12px);border-bottom:1px solid var(--line)}
+  .bar{display:flex;align-items:center;justify-content:space-between;height:64px}
+  .brand{display:inline-flex;align-items:center;gap:11px;text-decoration:none;color:var(--ink);font-weight:700;letter-spacing:-.01em}
+  .brand .bn{font-family:var(--serif);font-size:1.16rem}
+  nav.site a{color:var(--muted);text-decoration:none;font-size:.86rem;font-weight:600;letter-spacing:.01em;margin-left:22px;transition:color .2s}
+  nav.site a:hover{color:var(--ink)}
+  @media (max-width:660px){nav.site{display:none}}
+
+  /* ---------- hero (immersive dark, roast bloom) ---------- */
+  .hero{position:relative;background:radial-gradient(120% 90% at 80% -10%,var(--dark-2),var(--dark) 60%);color:var(--on-dark);overflow:hidden;isolation:isolate}
+  .caustic{position:absolute;inset:-30%;z-index:0;opacity:.5;pointer-events:none;filter:blur(30px);
+    background:
+      radial-gradient(28% 40% at 22% 30%,rgba(224,139,78,.26),transparent 60%),
+      radial-gradient(24% 34% at 74% 24%,rgba(223,187,120,.22),transparent 60%),
+      radial-gradient(30% 42% at 60% 78%,rgba(180,98,42,.26),transparent 62%);
+    animation:drift 22s ease-in-out infinite alternate}
+  .caustic.b{opacity:.34;animation-duration:30s;animation-direction:alternate-reverse;
+    background:
+      radial-gradient(26% 36% at 40% 60%,rgba(240,169,110,.22),transparent 60%),
+      radial-gradient(22% 30% at 85% 70%,rgba(169,128,58,.20),transparent 60%)}
+  @keyframes drift{0%{transform:translate3d(-2%,-1%,0) scale(1)}50%{transform:translate3d(3%,2%,0) scale(1.08)}100%{transform:translate3d(-1%,3%,0) scale(1.04)}}
+  .hero .wrap{position:relative;z-index:1;padding:74px 26px 88px}
+  .hero .eyebrow{color:var(--brass-lite)}
+  .hero h1{font-family:var(--serif);font-weight:600;font-size:clamp(2.5rem,1.4rem+4.6vw,4.7rem);letter-spacing:-.02em;max-width:15ch;margin:.5rem 0 0}
+  .hero h1 em{font-style:italic;color:var(--brass-lite)}
+  .hero .lede{font-size:1.24rem;line-height:1.55;color:var(--on-dark-mute);max-width:52ch;margin-top:1.3rem}
+  .hero .meta{display:flex;flex-wrap:wrap;gap:10px 26px;margin-top:26px;font-size:.86rem;color:var(--on-dark-mute)}
+  .hero .meta b{color:var(--on-dark)}
+  .rule{height:1px;background:linear-gradient(90deg,var(--brass),transparent);border:0;margin:26px 0 0;max-width:220px}
+
+  /* ---------- #1 feature (the centerpiece) ---------- */
+  .feature{position:relative;z-index:2;margin:-56px 0 0}
+  .feature .card{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);
+    display:grid;grid-template-columns:1.1fr 1fr;overflow:hidden}
+  .feature .left{padding:38px}
+  .feature .kick{display:inline-flex;align-items:center;gap:9px;color:var(--brass-text);font-weight:700;font-size:.74rem;letter-spacing:.16em;text-transform:uppercase}
+  .feature .kick::before{content:"";width:26px;height:1px;background:var(--brass)}
+  .feature h2{font-family:var(--serif);font-weight:600;font-size:clamp(1.8rem,1.2rem+2vw,2.7rem);margin:.5rem 0 .2rem}
+  .feature .verdict{color:var(--ink-soft);font-size:1.06rem;margin:.4rem 0 1rem;max-width:44ch}
+  .feature .rl{display:flex;align-items:center;flex-wrap:wrap;gap:8px 10px;font-size:.92rem;color:var(--muted);margin-bottom:1.2rem}
+  .feature .rl b{color:var(--ink)}
+  .btn{display:inline-flex;align-items:center;gap:9px;background:var(--aqua);color:#fff;font-weight:700;
+    padding:14px 26px;border-radius:12px;text-decoration:none;box-shadow:var(--shadow-sm);transition:transform .15s,background .2s}
+  .btn:hover{background:var(--aqua-deep);transform:translateY(-1px)}
+  .btn .arw{transition:transform .2s}.btn:hover .arw{transform:translateX(3px)}
+  .feature .right{background:linear-gradient(160deg,var(--dark-2),var(--dark));color:var(--on-dark);padding:38px;display:flex;flex-direction:column;justify-content:center;gap:6px;position:relative}
+  .feature .right .lab{font-size:.72rem;letter-spacing:.18em;text-transform:uppercase;color:var(--on-dark-mute)}
+  .feature .bigprice{font-family:var(--serif);font-size:clamp(3rem,2rem+4vw,4.4rem);font-weight:600;line-height:1;color:var(--brass-lite)}
+  .feature .bigprice sup{font-size:.4em;top:-1.2em;color:var(--on-dark)}
+  .feature .right .note{color:var(--on-dark-mute);font-size:.92rem;margin-top:6px;max-width:30ch}
+  .feature .right .mono{margin-top:16px;font-family:var(--serif);font-size:1.05rem;color:var(--on-dark)}
+  @media (max-width:820px){.feature .card{grid-template-columns:1fr}.feature .right{order:-1}}
+
+  /* ---------- generic section ---------- */
+  section{padding:44px 0}
+  .kicker{display:flex;align-items:center;gap:14px;margin-bottom:6px}
+  .kicker .eyebrow{color:var(--aqua-deep)}
+  .kicker::after{content:"";flex:1;height:1px;background:var(--line)}
+  .h2{font-family:var(--serif);font-weight:600;font-size:clamp(1.7rem,1.2rem+1.7vw,2.5rem);letter-spacing:-.01em}
+  .sub{color:var(--muted);max-width:62ch;margin:.6rem 0 0}
+
+  .notes{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--line);border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;margin-top:24px}
+  .notes .n{background:var(--surface);padding:24px}
+  .notes .num{font-family:var(--serif);font-size:1.5rem;color:var(--brass-text);line-height:1}
+  .notes h3{font-size:1.02rem;font-weight:750;margin:.5rem 0 .35rem}
+  .notes p{font-size:.9rem;color:var(--muted);margin:0}
+  @media (max-width:820px){.notes{grid-template-columns:1fr 1fr}}
+  @media (max-width:520px){.notes{grid-template-columns:1fr}}
+
+  /* honesty band */
+  .band{background:var(--brass-tint);border:1px solid var(--line);border-left:3px solid var(--brass);
+    border-radius:var(--radius-sm);padding:22px 24px;margin-top:26px}
+  .band h3{font-family:var(--serif);font-weight:600;font-size:1.16rem;margin-bottom:.5rem}
+  .band p{color:var(--ink-soft);font-size:.95rem;margin:0}
+  .band p+p{margin-top:.6rem}
+
+  /* comparison */
+  .tablewrap{overflow-x:auto;border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow-sm);background:var(--surface);margin-top:22px}
+  table{border-collapse:collapse;width:100%;min-width:740px;font-size:.94rem}
+  thead th{background:var(--surface-2);text-align:left;padding:16px;font-size:.7rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);border-bottom:1px solid var(--line)}
+  td{padding:15px 16px;border-bottom:1px solid var(--line);vertical-align:middle}
+  tbody tr:last-child td{border-bottom:0}
+  tbody tr:hover{background:var(--surface-2)}
+  td.name{font-family:var(--serif);font-weight:600;font-size:1.05rem}
+  .win td{background:var(--brass-tint)}
+  .win td.name{color:var(--brass-text)}
+  .win td:first-child{box-shadow:inset 3px 0 0 var(--brass)}
+  .price{font-weight:800;font-variant-numeric:tabular-nums}
+  .rev{color:var(--muted);font-size:.82rem}
+  .tget{display:inline-block;background:var(--ink);color:var(--surface);font-weight:700;font-size:.8rem;padding:8px 14px;border-radius:9px;text-decoration:none;white-space:nowrap;transition:background .2s}
+  .tget:hover{background:var(--aqua-deep);color:#fff}
+
+  /* picks (editorial cards) */
+  .picks{display:flex;flex-direction:column;gap:26px;margin-top:26px}
+  .pick{display:grid;grid-template-columns:96px 1fr auto;gap:26px;align-items:start;
+    background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow-sm);padding:28px}
+  .pick .rank{font-family:var(--serif);font-size:2.6rem;color:var(--brass-text);line-height:.9;font-weight:600}
+  .pick .rank small{display:block;font-family:var(--sans);font-size:.6rem;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);font-weight:700;margin-top:8px}
+  .pick h3{font-family:var(--serif);font-weight:600;font-size:1.44rem}
+  .pick .who{color:var(--aqua-deep);font-weight:700;font-size:.9rem;margin:.25rem 0 .5rem}
+  .pick .rl2{display:flex;align-items:center;flex-wrap:wrap;gap:6px 8px;font-size:.86rem;color:var(--muted);margin-bottom:.7rem}
+  .pick .rl2 b{color:var(--ink)}
+  .pick p.body{margin:.2rem 0 0;color:var(--ink-soft)}
+  .quote{border-left:2px solid var(--brass);padding-left:14px;margin:.9rem 0 0;font-family:var(--serif);color:var(--ink);font-size:1.02rem}
+  .quote b{font-family:var(--sans);font-size:.74rem;letter-spacing:.14em;text-transform:uppercase;color:var(--brass-text);display:block;margin-bottom:.2rem;font-weight:700}
+  .aside{display:flex;flex-direction:column;align-items:flex-end;gap:12px;text-align:right;min-width:150px}
+  .aside .pr{font-family:var(--serif);font-size:2rem;font-weight:600;font-variant-numeric:tabular-nums;line-height:1}
+  .aside .tag{font-size:.72rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+  .buy{display:inline-flex;align-items:center;gap:8px;background:var(--aqua);color:#fff;font-weight:700;padding:11px 20px;border-radius:10px;text-decoration:none;transition:background .2s,transform .15s;font-size:.92rem}
+  .buy:hover{background:var(--aqua-deep);transform:translateY(-1px)}
+  @media (max-width:820px){.pick{grid-template-columns:64px 1fr}.aside{grid-column:1/-1;flex-direction:row;justify-content:space-between;align-items:center;text-align:left;border-top:1px solid var(--line);padding-top:16px}}
+
+  /* method / faq */
+  .cols{display:grid;grid-template-columns:1fr 1fr;gap:26px;margin-top:22px}
+  @media (max-width:760px){.cols{grid-template-columns:1fr}}
+  .panel{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:28px;box-shadow:var(--shadow-sm)}
+  .panel .eyebrow{color:var(--aqua-deep)}
+  .panel h3{font-family:var(--serif);font-weight:600;font-size:1.3rem;margin:.5rem 0 .5rem}
+  .panel p{color:var(--muted);margin:0}
+  .faq details{border-top:1px solid var(--line);padding:16px 0}
+  .faq details:first-of-type{border-top:0}
+  .faq summary{cursor:pointer;font-family:var(--serif);font-size:1.12rem;list-style:none;display:flex;justify-content:space-between;gap:14px;color:var(--ink)}
+  .faq summary::-webkit-details-marker{display:none}
+  .faq summary::after{content:"+";color:var(--brass-text);font-family:var(--sans);font-weight:700}
+  .faq details[open] summary::after{content:"–"}
+  .faq p{margin:.8rem 0 0;color:var(--muted)}
+
+  footer.site{margin-top:20px;background:var(--dark);color:var(--on-dark-mute)}
+  footer .wrap{padding:40px 26px}
+  footer .fbrand{font-family:var(--serif);color:var(--on-dark);font-size:1.2rem}
+  footer p{font-size:.84rem;margin:.6rem 0 0;max-width:80ch}
+  footer a{color:var(--brass-lite)}
+  /* imagery */
+  .hero .wrap{display:grid;grid-template-columns:1.12fr .88fr;gap:48px;align-items:center}
+  .hero .himg{border-radius:20px;border:1px solid rgba(223,187,120,.4);box-shadow:0 30px 60px -30px rgba(0,0,0,.55);width:100%;height:auto;display:block}
+  @media (max-width:860px){.hero .wrap{grid-template-columns:1fr;gap:30px}}
+  .fpimg{background:#fff;border-radius:14px;padding:14px;box-shadow:0 12px 28px -14px rgba(0,0,0,.5);width:min(230px,70%);margin-bottom:16px}
+  .fpimg img{width:100%;height:auto;display:block}
+  .aside .pimg{width:150px;height:150px;background:#fff;border:1px solid var(--line);border-radius:12px;padding:10px;display:flex;align-items:center;justify-content:center}
+  .aside .pimg img{max-width:100%;max-height:100%;display:block}
+  @media (max-width:820px){.aside .pimg{width:96px;height:96px;padding:6px}}
+  td.name{display:flex;align-items:center;gap:12px}
+  .thumb{width:46px;height:46px;flex:0 0 auto;background:#fff;border:1px solid var(--line);border-radius:9px;padding:4px}
+  .thumb img{width:100%;height:100%;object-fit:contain;display:block}
+  :focus-visible{outline:2px solid var(--aqua);outline-offset:3px;border-radius:5px}
+  @media (prefers-reduced-motion:reduce){*{animation:none!important;scroll-behavior:auto!important}.btn:hover,.buy:hover{transform:none}}
+</style>
+<style id="a11y">:root{--brass-text:#7A5A20;--star:#B07E00}@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--brass-text:#EDD4A0;--star:#E8B84B}}:root[data-theme="dark"]{--brass-text:#EDD4A0;--star:#E8B84B}nav.site a{color:var(--ink-soft)}.stars{color:var(--star)}thead th{color:var(--ink-soft)}.rev{color:var(--ink-soft)}.kick{color:var(--brass-text)}.win td.name{color:var(--brass-text)}a.btn,a.buy,.btn,.buy{background:#8F4A18 !important;color:#fff !important;text-decoration:none !important}a.btn:hover,a.buy:hover,.btn:hover,.buy:hover{background:#6E3810 !important}@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) a.btn,:root:not([data-theme="light"]) a.buy,:root:not([data-theme="light"]) .btn,:root:not([data-theme="light"]) .buy{background:#E08B4E !important;color:#24120A !important}:root:not([data-theme="light"]) .btn:hover,:root:not([data-theme="light"]) .buy:hover{background:#F0A96E !important}}:root[data-theme="dark"] a.btn,:root[data-theme="dark"] a.buy,:root[data-theme="dark"] .btn,:root[data-theme="dark"] .buy{background:#E08B4E !important;color:#24120A !important}</style>
+<style id="article">
+  .art{max-width:var(--maxw);margin:0 auto;padding:0 26px}
+  .arthead{padding:52px 0 0;max-width:760px}
+  .arthead h1{font-family:var(--serif);font-weight:600;font-size:clamp(2.1rem,1.3rem+3.1vw,3.5rem);margin:.5rem 0 0}
+  .arthead .lede{font-size:1.18rem;line-height:1.55;color:var(--ink-soft);margin-top:1.1rem}
+  .byline{font-size:.88rem;color:var(--muted);margin-top:1.1rem}
+  .byline b{color:var(--ink)}
+  .disclose{font-size:.82rem;color:var(--muted);border-left:2px solid var(--brass);padding-left:12px;margin-top:1rem;max-width:70ch}
+  .artimg{width:100%;height:auto;display:block;border-radius:var(--radius);border:1px solid var(--line);box-shadow:var(--shadow);margin:30px 0 8px}
+  .prose{max-width:68ch;margin:0 auto}
+  .prose h2{font-family:var(--serif);font-weight:600;font-size:clamp(1.55rem,1.15rem+1.3vw,2.1rem);margin:2.4rem 0 .8rem}
+  .prose h3{font-family:var(--serif);font-weight:600;font-size:1.24rem;margin:1.7rem 0 .6rem}
+  .prose p{color:var(--ink-soft)}
+  .prose a{color:var(--aqua-deep);font-weight:600;text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:2px}
+  .prose strong{color:var(--ink)}
+  .toc{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius-sm);padding:20px 24px;margin:26px 0 0;box-shadow:var(--shadow-sm)}
+  .toc .eyebrow{color:var(--aqua-deep);display:block;margin-bottom:.6rem}
+  .toc ol{margin:0;padding-left:1.2rem;color:var(--ink-soft);font-size:.94rem}
+  .toc li{margin-bottom:.3rem}
+  .toc a{color:var(--ink-soft);text-decoration:none}
+  .toc a:hover{color:var(--aqua-deep)}
+  .inline-pick{display:grid;grid-template-columns:120px 1fr;gap:20px;align-items:center;background:var(--surface);
+    border:1px solid var(--line);border-radius:var(--radius-sm);box-shadow:var(--shadow-sm);padding:20px;margin:1.6rem 0}
+  .inline-pick .ipimg{width:120px;height:120px;background:#fff;border:1px solid var(--line);border-radius:10px;padding:8px;display:flex;align-items:center;justify-content:center}
+  .inline-pick .ipimg img{max-width:100%;max-height:100%;display:block}
+  .inline-pick h3{font-family:var(--serif);font-weight:600;font-size:1.2rem;margin:0 0 .25rem}
+  .inline-pick p{font-size:.92rem;color:var(--muted);margin:0 0 .7rem}
+  .inline-pick .ipp{font-weight:800;font-variant-numeric:tabular-nums;color:var(--ink)}
+  @media (max-width:620px){.inline-pick{grid-template-columns:1fr}.inline-pick .ipimg{width:96px;height:96px}}
+  .keep{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:22px}
+  .keep a{display:block;background:var(--surface);border:1px solid var(--line);border-radius:var(--radius-sm);
+    padding:18px 20px;text-decoration:none;box-shadow:var(--shadow-sm);transition:transform .15s,border-color .2s}
+  .keep a:hover{transform:translateY(-2px);border-color:var(--brass)}
+  .keep .kt{font-family:var(--serif);font-size:1.06rem;color:var(--ink);display:block;margin-bottom:.25rem}
+  .keep .kd{font-size:.86rem;color:var(--muted)}
+  @media (max-width:620px){.keep{grid-template-columns:1fr}}
+  .steps{counter-reset:step;margin:1.4rem 0}
+  .steps li{list-style:none;counter-increment:step;position:relative;padding-left:44px;margin-bottom:1.1rem;color:var(--ink-soft)}
+  .steps li::before{content:counter(step);position:absolute;left:0;top:.05em;width:30px;height:30px;border-radius:50%;
+    background:var(--brass-tint);color:var(--brass-text);font-family:var(--serif);font-weight:700;font-size:.92rem;
+    display:flex;align-items:center;justify-content:center;border:1px solid var(--line)}
+</style>
+</head>
+<body>
+<header class="site"><div class="wrap bar">
+  <a class="brand" href="/" aria-label="Best Espresso Machines">
+    <svg class="logomark" width="36" height="36" viewBox="0 0 40 40" aria-hidden="true">
+      <defs><radialGradient id="lm" cx="34%" cy="26%" r="86%"><stop offset="0" stop-color="#C2703C"/><stop offset=".68" stop-color="#5A2F16"/><stop offset="1" stop-color="#2A1A10"/></radialGradient></defs>
+      <circle cx="20" cy="20" r="19" fill="url(#lm)"/>
+      <circle cx="20" cy="20" r="18.4" fill="none" stroke="#DFBB78" stroke-width="1.1" stroke-opacity=".92"/>
+      <circle cx="20" cy="20" r="15.3" fill="none" stroke="#F4EAE1" stroke-width=".6" stroke-opacity=".22"/>
+      <path d="M13.2 17.6h11.1v4.9a5.55 5.55 0 0 1-5.55 5.55h0A5.55 5.55 0 0 1 13.2 22.5v-4.9Z" fill="#F9F3EC"/>
+      <path d="M24.6 18.9h1.6a2.5 2.5 0 0 1 0 5h-1.6" fill="none" stroke="#F9F3EC" stroke-width="1.5" stroke-linecap="round"/>
+      <path d="M12 29.4h14.6" stroke="#DFBB78" stroke-width="1.3" stroke-linecap="round" stroke-opacity=".9"/>
+      <path d="M17.4 14.4c1.5-1.2-1.1-2.5.4-4.1M21.4 14.4c1.5-1.2-1.1-2.5.4-4.1" fill="none" stroke="#F4EAE1" stroke-width="1.3" stroke-linecap="round" stroke-opacity=".75"/>
+    </svg>
+    <span class="bn">Best&thinsp;Espresso&thinsp;Machines</span>
+  </a>
+  <nav class="site" aria-label="Primary">
+    <a href="/#feature">Top pick</a><a href="/#compare">Compare</a><a href="/#picks">The eight</a><a href="/#how">Method</a><a href="/#faq">FAQ</a>
+  <a href="/guides">All guides</a></nav>
+</div></header>
+
+<div class="art">
+  <div class="arthead">
+    <span class="eyebrow" style="color:var(--aqua-deep)">How-to</span>
+    <h1>Espresso Machine Troubleshooting: 12 Common Problems, Fixed</h1>
+    <p class="lede">Most espresso machine complaints trace back to five or six root causes that repeat across every brand and price point. Before you call it broken or start shopping for a replacement, work through the fixes in the order they most often resolve the problem — cheapest and most likely first.</p>
+    <p class="byline">By <b>Ilane Tall</b> · Updated August 21, 2026 · Research-based.</p>
+    <p class="disclose">Reader-supported: we may earn a commission if you buy through our links, at no extra cost to you. This guide compares published specifications and manufacturer guidance; we do not physically test these machines. Prices were recorded on the dates noted below and move constantly — confirm the live price before buying.</p>
+  </div>
+
+  <img class="artimg" src="/images/hero-espresso-machine-troubleshooting-common-problems.webp" alt="Espresso machine on a kitchen counter with a portafilter removed during a troubleshooting check" width="1600" height="900" loading="eager" fetchpriority="high" decoding="async">
+
+  <div class="prose">
+
+    <div class="toc" role="navigation" aria-label="On this page">
+      <span class="eyebrow">On this page</span>
+      <ol>
+        <li><a href="#order">Work through problems in this order</a></li>
+        <li><a href="#watery">1–3. Watery, fast shots: grind, dose, tamp</a></li>
+        <li><a href="#pressure">4–6. No or low pressure</a></li>
+        <li><a href="#steam">7–8. Steam wand won't froth</a></li>
+        <li><a href="#leak">9. Leaking portafilter and gasket wear</a></li>
+        <li><a href="#pump">10–11. Loud pump, rattling, no water pickup</a></li>
+        <li><a href="#machine">12. When it is genuinely the machine</a></li>
+        <li><a href="#prevent">Preventing the repeat</a></li>
+        <li><a href="#honest">How we compared these</a></li>
+        <li><a href="#faq">FAQ</a></li>
+      </ol>
+    </div>
+
+    <h2 id="order">Work through problems in this order</h2>
+    <p>Espresso machine complaints cluster around a small number of root causes, and the fixes below are ordered by how often each one turns out to be the actual culprit — not by how dramatic the symptom feels. A shot that runs out thin and fast feels like a broken machine. Almost always, it's the grind.</p>
+    <p>That ordering matters because it saves you money and a return shipment. Machines get returned or replaced for problems that a $15 descaling kit or a five-minute cleaning pin would have solved. Work the list top to bottom before you assume the worst.</p>
+    <p><strong>The one honest caveat up front:</strong> we compare published manufacturer guidance, common mechanical causes, and specifications — we do not physically test these machines or run a repair bench. Where a fix is standard manufacturer advice (descaling, pin-clearing a steam tip, reseating a portafilter), we say so; where it's a judgement call about probability, we say that too.</p>
+
+    <h2 id="watery">1–3. Watery, fast shots: grind, dose, tamp — in that order</h2>
+    <p>A shot that finishes in under 20 seconds and tastes thin and sour is the single most common espresso complaint, and it is almost never the machine. Espresso works by forcing water through a compacted bed of coffee at roughly 9 bar; if that bed offers too little resistance, water races through before it can extract anything worth drinking. Three things build resistance, and they fail in a predictable order.</p>
+    <h3>1. Grind too coarse</h3>
+    <p>This is the fix that resolves the largest share of "watery shot" complaints. If your grinder is set anywhere close to drip-coffee coarseness, water finds gaps between particles instead of forcing its way through them. Espresso grind should look like fine table salt or slightly finer — noticeably finer than what you'd use for a pour-over. Go two to four clicks finer on a stepped grinder and pull another shot; if the shot now runs 25–30 seconds instead of 12–15, that was it.</p>
+    <p>A blade grinder cannot produce this consistently no matter how long you run it — it produces a mix of dust and boulders rather than a uniform particle size, and no amount of grind-size guessing fixes that. If you're using one, the "fix" is a burr grinder, not a setting.</p>
+    <h3>2. Dose too low</h3>
+    <p>A standard double shot starts around 18 grams of dry coffee. Baskets vary, but a basket that looks full at 14–15 grams leaves too little coffee to build resistance against 9 bar of water, regardless of grind. Weigh your dose on a kitchen scale once — most people underestimate by 2–3 grams simply by eyeballing a scoop.</p>
+    <h3>3. Tamp too light or uneven</h3>
+    <p>Tamping compresses the dose into a level, even puck. A light or lopsided tamp leaves a channel of low resistance on one side of the basket, and water carves that channel wider as the shot runs — a phenomenon baristas call channeling. Tamp level, firm, and straight down; you're aiming for a puck that's compressed evenly, not for a specific pressure number. If you pull the spent puck and see a hole or a pale streak through the middle, that's channeling, and it points at tamp technique before it points at the machine.</p>
+    <p>Work these three in order — grind, then dose, then tamp — because grind has the largest effect and is the fastest to test. If all three are correct and shots are still thin, move to the pressure section below.</p>
+
+    <div class="inline-pick">
+      <div class="ipimg"><img src="/images/amazon-B0DP1WXVK8.webp" alt="atatix espresso machine with milk frother, 20 bar pressure" width="800" height="800" loading="lazy" decoding="async"></div>
+      <div>
+        <h3>atatix Espresso Machine with Milk Frother</h3>
+        <p>A 20-bar pump semi-automatic in a compact footprint. Like every pump machine in this category, the "20 bar" figure describes the pump's maximum rating, not the roughly 9 bar that actually reaches the coffee — grind, dose and tamp still do the work of building resistance.</p>
+        <span class="ipp">$111.09</span> &nbsp; <a class="buy" href="https://www.amazon.com/dp/B0DP1WXVK8?tag=best-espressomach-20" rel="nofollow sponsored noopener" target="_blank">Check price →</a>
+      </div>
+    </div>
+
+    <h2 id="pressure">4–6. No or low pressure</h2>
+    <p>If grind, dose and tamp are all correct and the shot still runs thin, weak, or barely drips, the problem has moved from technique to mechanics. Three causes account for most of these cases.</p>
+    <h3>4. Pump not primed</h3>
+    <p>On many pump machines, especially after the water tank has run dry or been removed and refilled, the pump can lose its prime — it spins but doesn't move water because air has entered the line. The fix is usually running the brew or hot-water function with the portafilter out for several seconds until water flows steadily, then trying again. Check your machine's manual for a specific priming sequence; most semi-automatics need this occasionally, and it isn't a defect.</p>
+    <h3>5. Blocked shower screen or basket</h3>
+    <p>The shower screen (the small perforated disc above the portafilter) and the basket holes themselves clog with dried coffee oils and fine grounds over weeks of use. A partially blocked screen restricts water flow and drops the pressure the coffee bed actually sees, producing a slow, weak-looking shot despite a correct grind. Unclip and rinse the screen, and back-flush or brush out the basket holes; this is routine maintenance, not a repair.</p>
+    <h3>6. Scale buildup in the boiler or lines</h3>
+    <p>Mineral scale from hard water narrows the internal pathways the machine relies on, and a scaled boiler both restricts flow and struggles to hold temperature — the combination reads as weak, lukewarm shots. This is the most common reason a machine's performance degrades gradually over months rather than failing all at once. Descaling on the schedule your manufacturer recommends (our <a href="/espresso-machine-maintenance-schedule">maintenance schedule guide</a> covers typical intervals) is the standard fix, and it's cheap: descaling solution runs a few dollars a bottle.</p>
+    <p>If you've primed the pump, cleaned the screen and descaled on schedule and pressure is still low, that combination points toward the machine itself rather than something fixable at home — see the warranty section near the end of this guide.</p>
+
+    <h2 id="steam">7–8. Steam wand won't froth</h2>
+    <h3>7. Blocked steam tip</h3>
+    <p>By far the most common cause of a wand that hisses but won't texture milk is a clogged tip — dried milk residue plugs the tiny holes the steam exits through. The standard fix takes about 30 seconds: after every use, purge the wand (a short steam burst with nothing under it) before the milk dries, then wipe the tip with a damp cloth. If milk has already dried on, soak the tip in warm water for a few minutes or clear the holes gently with the pin many machines ship with, then purge again. Manufacturers universally recommend purging after every single use for exactly this reason — skip it once or twice and the tip clogs.</p>
+    <h3>8. Insufficient boiler heat-up or wrong technique</h3>
+    <p>If the tip is clear and steam still won't froth properly, two other things matter: giving the machine its full recommended warm-up time before steaming (a cold boiler produces wet, weak steam), and positioning the wand tip just below the milk surface at an angle, rather than buried deep in the pitcher, which creates the whirlpool that actually incorporates air. This is technique rather than a fault, and it's worth practicing with plain milk a few times before assuming the wand is underpowered.</p>
+    <p>A manual wand and an automatic frother fail differently. Automatic frother units clog at the milk-intake line rather than a simple tip, and manufacturer cleaning cycles (often a button-press auto-clean using water or a cleaning solution) are the fix — check your model's manual for the specific cycle rather than trying to disassemble it.</p>
+
+    <div class="inline-pick">
+      <div class="ipimg"><img src="/images/amazon-B0DW8C9R95.webp" alt="Maestri House Slim espresso machine with milk frother, 20 bar Italian pump" width="800" height="800" loading="lazy" decoding="async"></div>
+      <div>
+        <h3>Maestri House Slim Espresso Machine with Milk Frother</h3>
+        <p>A 20-bar Italian-pump machine with a 1.3&nbsp;L tank and a milk frother. Whatever wand or frother a machine ships with, purging it immediately after every use is the single habit that prevents most of the clogging problems in this section.</p>
+        <span class="ipp">$139.99</span> &nbsp; <a class="buy" href="https://www.amazon.com/dp/B0DW8C9R95?tag=best-espressomach-20" rel="nofollow sponsored noopener" target="_blank">Check price →</a>
+      </div>
+    </div>
+
+    <h2 id="leak">9. Leaking portafilter and gasket wear</h2>
+    <p>Water or coffee dripping from around the portafilter's edges rather than through the spouts usually traces to the group gasket — the rubber seal the portafilter locks against. Two things wear it out over time: normal use (rubber compresses and hardens with heat cycling, typically needing replacement every one to two years of regular use, sooner with heavier daily use) and over-tightening or under-tightening the portafilter, which stresses the seal unevenly.</p>
+    <p>Before assuming the gasket has failed, check the basics: make sure the portafilter is locked in fully (a firm quarter-turn stop, not a partial twist), that the dose isn't overfilled to the point the puck presses against the screen and prevents a full seal, and that dried coffee grounds haven't built up on the gasket's sealing surface — wiping it after each use prevents this. If the leak persists with a clean, correctly dosed portafilter locked in fully, the gasket has likely hardened or cracked and needs replacing; it's a standard, inexpensive part on most semi-automatic machines and manufacturers typically sell it directly.</p>
+
+    <h2 id="pump">10–11. Loud pump, rattling, or no water pickup</h2>
+    <h3>10. Unusually loud or rattling pump</h3>
+    <p>Vibration pumps (the type used in most home semi-automatics) always make some mechanical noise — that's normal. A sudden change from the usual hum to a harsh rattle or grinding sound is different, and it's most often either a loose internal mounting (common after a machine has been moved or shipped) or the pump straining because it isn't drawing water properly, which brings you to the next point.</p>
+    <h3>11. No water pickup from the tank</h3>
+    <p>If the pump runs but no water reaches the group, check the simple things first: the tank is seated fully in its slot, the water level is above the intake tube's minimum line, and the intake filter or tube isn't kinked or clogged with scale. An empty or nearly empty tank is the most common cause of "no water" complaints, followed by a tank that looks seated but isn't fully clicked into its connector. If the tank is full, seated, and the machine still won't draw, that combination — like persistent low pressure after cleaning and descaling — is a mechanical sign rather than a maintenance one.</p>
+
+    <h2 id="machine">12. When it is genuinely the machine: warranty and replacement math</h2>
+    <p>Most of what's above resolves with cleaning, technique, or a five-minute fix. But if you've worked through grind, dose, tamp, priming, cleaning, descaling and gasket checks and the problem persists, it's reasonable to conclude the fault sits inside the machine — a failed pump, a cracked boiler, or an electrical fault are not things to attempt to repair yourself on a machine still under warranty, and often not worth attempting even once it's expired.</p>
+    <p>Check your proof of purchase date against the manufacturer's stated warranty term before doing anything else; most home espresso machines carry a one- to two-year limited warranty on the unit, and a persistent pressure or heating fault within that window should go back to the manufacturer rather than to a third-party repair shop, which can void what's left of the coverage.</p>
+    <p>Outside of warranty, the math is straightforward: get a repair quote before assuming replacement is cheaper. A budget machine like the <strong>CASABREWS 3700 Essential</strong> at $99.99 is priced close enough to a like-for-like replacement that a repair bill of $60–80 on a multi-year-old unit rarely makes sense. On a machine with a built-in grinder — the kind of investment represented by the <strong>Breville BES870XL Barista Express</strong> at $675.00 — a repair is far more often worth pursuing, since replacing the whole unit means also replacing a grinder, dose control and accessories that may still be working perfectly. As a rule of thumb: if a quoted repair is under roughly a quarter of the machine's original price and the rest of the unit is sound, repair; above that, price a replacement instead. Our <a href="/best-espresso-machines-under-500">picks under $500</a> and <a href="/best-espresso-machines-under-200">picks under $200</a> cover where that replacement money goes furthest.</p>
+
+    <div class="band">
+      <h3 class="serif">The habit that prevents most of this list</h3>
+      <p>Purge the steam wand after every use, wipe the group gasket and shower screen weekly, and descale on the schedule your manufacturer publishes for your water hardness. Those three habits are behind most of the problems in sections 4 through 9 — prevention here is genuinely cheaper and faster than any fix.</p>
+    </div>
+
+    <h2 id="prevent">Preventing the repeat</h2>
+    <p>Once a problem is fixed, the more useful question is why it happened, since most of these causes recur on a schedule if left alone. Grind drifts as burrs wear, scale accumulates continuously in hard-water areas, and gaskets harden on a timeline regardless of how carefully you use the machine. Our <a href="/espresso-machine-maintenance-schedule">maintenance schedule guide</a> lays out daily, weekly, monthly and yearly tasks by name, so the fixes above become things you do on a calendar instead of things you troubleshoot in a panic before work. If the grind-dose-tamp section above was the one that applied to you, <a href="/how-to-choose-espresso-beans-and-grind-size">beans and grind size</a> goes further into dialing that in specifically.</p>
+
+    <h2 id="honest">How we compared these</h2>
+    <p>This guide is built from published manufacturer troubleshooting guidance and standard mechanical causes that repeat across pump espresso machines regardless of brand — priming behavior, gasket wear, scale accumulation and steam-tip clogging are documented failure modes, not speculation. <strong>We do not physically test these machines and we do not run a repair bench</strong>: where a fix reflects manufacturer instructions (purging a wand, descaling, checking a warranty term) we say so, and where a claim is a judgement about which cause is most likely, we've said that in our own voice rather than presenting it as verified fact. We publish no star ratings or review counts for the products named here because Amazon's product data provides none for these machines.</p>
+
+    <h2 id="faq">Frequently asked questions</h2>
+    <div class="panel faq" style="margin-top:22px">
+      <details open><summary>My espresso shot runs too fast and tastes watery — what's the first thing to check?</summary><p>Grind size, almost always. Espresso grind should look like fine table salt; anything close to drip-coffee coarseness lets water race through the coffee bed in under 15 seconds instead of the usual 25–30, and the shot comes out thin and sour. Adjust two to four clicks finer before checking dose or tamp.</p></details>
+      <details><summary>Why won't my steam wand froth milk anymore?</summary><p>The most common cause by far is a clogged steam tip from dried milk residue blocking the small holes the steam exits through. Purging the wand immediately after every use — a short steam burst with nothing under it, before milk can dry — prevents this. If milk has already hardened on, soak the tip in warm water or clear it with the pin many machines include, then purge again.</p></details>
+      <details><summary>Is it normal for my espresso machine's pump to be loud?</summary><p>Some mechanical hum is normal for the vibration pumps used in most home machines. A sudden change to a harsh rattle or grinding sound is not, and it's usually either a loose internal mount or the pump straining because it isn't drawing water properly — check the water tank is full and fully seated before assuming a mechanical fault.</p></details>
+      <details><summary>Should I repair my espresso machine or replace it?</summary><p>Get a repair quote first. As a rough rule, if the quote is under about a quarter of what the machine originally cost and the rest of the unit is in good shape, repair is usually worth it — especially on a machine with a built-in grinder, since replacing the whole unit means replacing working parts too. On an inexpensive machine, a repair bill can approach the cost of buying a new one outright, which tips the math toward replacement.</p></details>
+    </div>
+
+    <h2 id="keep">Keep reading</h2>
+    <div class="keep">
+      <a href="/espresso-machine-maintenance-schedule"><span class="kt">The maintenance schedule that actually keeps it alive</span><span class="kd">Daily, weekly, monthly and yearly tasks, by name.</span></a>
+      <a href="/how-to-clean-and-descale-an-espresso-machine"><span class="kt">How to clean and descale an espresso machine</span><span class="kd">The step that kills most machines, done right.</span></a>
+      <a href="/how-to-choose-espresso-beans-and-grind-size"><span class="kt">Beans and grind size</span><span class="kd">The two things that fix a bad shot before the machine does.</span></a>
+      <a href="/best-espresso-machines-under-200"><span class="kt">Best espresso machines under $200</span><span class="kd">Where replacement money goes furthest.</span></a>
+      <a href="/best-espresso-machines-under-500"><span class="kt">Best espresso machines under $500 (2026)</span><span class="kd">The sweet spot if a repair isn't worth it.</span></a>
+      <a href="/guides"><span class="kt">All espresso guides</span><span class="kd">Choosing, dialling in and living with a machine.</span></a>
+    </div>
+
+  </div>
+</div>
+
+<footer class="site"><div class="wrap">
+  <div class="fbrand">Best Espresso Machines</div>
+  <p>Independent, research-based comparisons of home espresso machines, grinders and the gear around them.</p>
+  <p style="margin:.5rem 0 0"><a href="/about">About</a> · <a href="/guides">All guides</a> · <a href="/contact">Contact</a> · <a href="/privacy">Privacy</a></p>
+  <p>Reader-supported: we may earn a commission when you buy through our links, at no additional cost to you. Comparisons are based on published specifications and pricing; we do not physically test products and we do not publish ratings we cannot verify. Prices change frequently — confirm the current price on Amazon. As an Amazon Associate, we earn from qualifying purchases. © 2026 Best Espresso Machines.</p>
+</div></footer>
+
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Article",
+ "headline":"Espresso Machine Troubleshooting: 12 Common Problems, Fixed",
+ "description":"No pressure, watery shots, a wand that won't steam — the fixes that work, in order of likelihood.",
+ "image":"https://best-espresso-machines.com/images/hero-espresso-machine-troubleshooting-common-problems.webp",
+ "author":{"@type":"Person","name":"Ilane Tall"},
+ "publisher":{"@type":"Organization","name":"Best Espresso Machines"},
+ "datePublished":"2026-08-21","dateModified":"2026-08-21",
+ "mainEntityOfPage":{"@type":"WebPage","@id":"https://best-espresso-machines.com/espresso-machine-troubleshooting-common-problems"},
+ "articleSection":"How-to"}
+</script>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"HowTo",
+ "name":"How to troubleshoot common espresso machine problems",
+ "description":"Work through watery shots, low pressure, a steam wand that won't froth, leaks and pump noise in order of likelihood before assuming the machine itself has failed.",
+ "step":[
+  {"@type":"HowToStep","name":"Fix a watery, fast shot","text":"Check grind size first (fine table salt or finer), then dose (around 18 grams for a double), then tamp (level, firm, straight down)."},
+  {"@type":"HowToStep","name":"Restore pressure","text":"Re-prime the pump by running it with the portafilter out, clean the shower screen and basket holes, then descale on the manufacturer's recommended schedule."},
+  {"@type":"HowToStep","name":"Fix a steam wand that won't froth","text":"Purge the wand after every use and clear the tip of dried milk with warm water or the cleaning pin; allow full boiler warm-up before steaming."},
+  {"@type":"HowToStep","name":"Stop a portafilter leak","text":"Lock the portafilter in fully, avoid overfilling the dose, wipe the gasket surface clean, and replace the gasket if it has hardened or cracked."},
+  {"@type":"HowToStep","name":"Diagnose pump noise or no water pickup","text":"Confirm the tank is full and fully seated; a sudden harsh rattle after these checks points to a mechanical fault rather than routine maintenance."},
+  {"@type":"HowToStep","name":"Decide between repair and replacement","text":"Check the warranty term first; outside warranty, repair if the quote is under about a quarter of the machine's original price, otherwise price a replacement."}
+ ]}
+</script>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[
+ {"@type":"Question","name":"My espresso shot runs too fast and tastes watery — what's the first thing to check?","acceptedAnswer":{"@type":"Answer","text":"Grind size, almost always. Espresso grind should look like fine table salt; anything close to drip-coffee coarseness lets water race through the coffee bed in under 15 seconds instead of the usual 25-30, and the shot comes out thin and sour. Adjust two to four clicks finer before checking dose or tamp."}},
+ {"@type":"Question","name":"Why won't my steam wand froth milk anymore?","acceptedAnswer":{"@type":"Answer","text":"The most common cause by far is a clogged steam tip from dried milk residue blocking the small holes the steam exits through. Purging the wand immediately after every use prevents this. If milk has already hardened on, soak the tip in warm water or clear it with the cleaning pin many machines include, then purge again."}},
+ {"@type":"Question","name":"Is it normal for my espresso machine's pump to be loud?","acceptedAnswer":{"@type":"Answer","text":"Some mechanical hum is normal for the vibration pumps used in most home machines. A sudden change to a harsh rattle or grinding sound is not, and it is usually either a loose internal mount or the pump straining because it is not drawing water properly, so check the water tank first."}},
+ {"@type":"Question","name":"Should I repair my espresso machine or replace it?","acceptedAnswer":{"@type":"Answer","text":"Get a repair quote first. As a rough rule, if the quote is under about a quarter of what the machine originally cost and the rest of the unit is in good shape, repair is usually worth it, especially on a machine with a built-in grinder. On an inexpensive machine, a repair bill can approach the cost of buying a new one outright, which tips the math toward replacement."}}
+]}
+</script>
+
+<script src="/site.js" defer></script>
+</body>
+</html>

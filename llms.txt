@@ -28,6 +28,7 @@ We start from every espresso machine we can source through Amazon's official pro
 ## Guides
 
 <!--LLMS-GUIDES:START-->
+- [Espresso Machine Troubleshooting: 12 Common Problems, Fixed](https://best-espresso-machines.com/espresso-machine-troubleshooting-common-problems): No pressure, watery shots, a wand that won't steam — the fixes that work, in order of likelihood.
 - [The Best Espresso Machines Under $500 (2026)](https://best-espresso-machines.com/best-espresso-machines-under-500): The sweet spot of home espresso: real steam power and consistency without prosumer pricing.
 - [Beans and Grind Size: The Two Things That Fix a Bad Shot](https://best-espresso-machines.com/how-to-choose-espresso-beans-and-grind-size): Before you blame the machine — roast date, bean choice and grind size explain most disappointing home espresso.
 - [Espresso Machine vs Moka Pot vs AeroPress: What You Actually Get](https://best-espresso-machines.com/espresso-machine-vs-moka-pot-vs-aeropress): Real pressure, real crema, real money. An honest comparison of three very different ways to make strong coffee at home.

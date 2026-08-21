@@ -155,6 +155,16 @@
       "minutes": 18,
       "date": "2026-08-20",
       "featured": true
+    },
+    {
+      "slug": "espresso-machine-troubleshooting-common-problems",
+      "title": "Espresso Machine Troubleshooting: 12 Common Problems, Fixed",
+      "description": "No pressure, watery shots, a wand that won't steam — the fixes that work, in order of likelihood.",
+      "category": "How-to",
+      "hero": "hero-espresso-machine-troubleshooting-common-problems",
+      "minutes": 13,
+      "date": "2026-08-21",
+      "featured": true
     }
   ]
 }
