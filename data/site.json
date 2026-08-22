@@ -165,6 +165,16 @@
       "minutes": 13,
       "date": "2026-08-21",
       "featured": true
+    },
+    {
+      "slug": "espresso-machine-buying-guide",
+      "title": "How to Choose an Espresso Machine (2026 Buying Guide)",
+      "description": "Machine types, the specs that matter, the ones that don't, and how much you actually need to spend.",
+      "category": "Buying guide",
+      "hero": "hero-espresso-machine-buying-guide",
+      "minutes": 15,
+      "date": "2026-08-22",
+      "featured": true
     }
   ]
 }
