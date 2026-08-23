@@ -175,6 +175,16 @@
       "minutes": 15,
       "date": "2026-08-22",
       "featured": true
+    },
+    {
+      "slug": "best-espresso-machines-for-beginners",
+      "title": "The Best Espresso Machines for Beginners (2026)",
+      "description": "Forgiving machines that make a good shot before you learn to dial in — and the ones that will frustrate you.",
+      "category": "Buying guide",
+      "hero": "hero-best-espresso-machines-for-beginners",
+      "minutes": 16,
+      "date": "2026-08-23",
+      "featured": true
     }
   ]
 }
