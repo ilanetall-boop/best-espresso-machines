@@ -185,6 +185,16 @@
       "minutes": 16,
       "date": "2026-08-23",
       "featured": true
+    },
+    {
+      "slug": "espresso-machine-water-quality-and-descaling",
+      "title": "Water Quality and Descaling: The Cheapest Way to Double Your Machine's Life",
+      "description": "Scale kills more home espresso machines than anything else. What water to use, how often to descale, and what it costs.",
+      "category": "How-to",
+      "hero": "hero-espresso-machine-water-quality-and-descaling",
+      "minutes": 16,
+      "date": "2026-08-24",
+      "featured": true
     }
   ]
 }
