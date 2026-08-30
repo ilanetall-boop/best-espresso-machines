@@ -195,6 +195,16 @@
       "minutes": 16,
       "date": "2026-08-24",
       "featured": true
+    },
+    {
+      "slug": "best-espresso-machines-with-grinders",
+      "title": "The Best Espresso Machines With Built-In Grinders",
+      "description": "One appliance instead of two, and the counter space that buys back. What an integrated grinder gives up to a separate one.",
+      "category": "Buying guide",
+      "hero": "hero-best-espresso-machines-with-grinders",
+      "minutes": 17,
+      "date": "2026-08-30",
+      "featured": true
     }
   ]
 }
