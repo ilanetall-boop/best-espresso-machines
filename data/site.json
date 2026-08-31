@@ -205,6 +205,16 @@
       "minutes": 17,
       "date": "2026-08-30",
       "featured": true
+    },
+    {
+      "slug": "espresso-machine-pid-temperature-control",
+      "title": "PID Temperature Control: What It Actually Does to Your Shot",
+      "description": "Three letters on a spec sheet that change how repeatable your espresso is. What PID controls, and when a machine is fine without it.",
+      "category": "Guide",
+      "hero": "hero-espresso-machine-pid-temperature-control",
+      "minutes": 15,
+      "date": "2026-08-31",
+      "featured": true
     }
   ]
 }
