@@ -28,6 +28,7 @@ We start from every espresso machine we can source through Amazon's official pro
 ## Guides
 
 <!--LLMS-GUIDES:START-->
+- [Why 9 Bar Matters, and Why 20 Bar on the Box Does Not](https://best-espresso-machines.com/espresso-machine-pressure-9-bar-explained): Machines advertise 20 bar. Espresso is brewed at 9. The number on the box describes the pump, not the shot.
 - [PID Temperature Control: What It Actually Does to Your Shot](https://best-espresso-machines.com/espresso-machine-pid-temperature-control): Three letters on a spec sheet that change how repeatable your espresso is. What PID controls, and when a machine is fine without it.
 - [The Best Espresso Machines With Built-In Grinders](https://best-espresso-machines.com/best-espresso-machines-with-grinders): One appliance instead of two, and the counter space that buys back. What an integrated grinder gives up to a separate one.
 - [Water Quality and Descaling: The Cheapest Way to Double Your Machine's Life](https://best-espresso-machines.com/espresso-machine-water-quality-and-descaling): Scale kills more home espresso machines than anything else. What water to use, how often to descale, and what it costs.

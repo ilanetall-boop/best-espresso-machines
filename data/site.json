@@ -215,6 +215,16 @@
       "minutes": 15,
       "date": "2026-08-31",
       "featured": true
+    },
+    {
+      "slug": "espresso-machine-pressure-9-bar-explained",
+      "title": "Why 9 Bar Matters, and Why 20 Bar on the Box Does Not",
+      "description": "Machines advertise 20 bar. Espresso is brewed at 9. The number on the box describes the pump, not the shot.",
+      "category": "Guide",
+      "hero": "hero-espresso-machine-pressure-9-bar-explained",
+      "minutes": 17,
+      "date": "2026-09-01",
+      "featured": true
     }
   ]
 }
