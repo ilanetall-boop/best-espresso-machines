@@ -1,0 +1,436 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Espresso Machine vs Pod Machine: The Real Cost Per Cup</title>
+<meta name="description" content="Pods are genuinely convenient. Over three years, here is what each one costs, and what you can and cannot change about the coffee.">
+<link rel="canonical" href="https://best-espresso-machines.com/espresso-machine-vs-pod-machine">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Best Espresso Machines">
+<meta property="og:title" content="Espresso Machine vs Pod Machine: The Real Cost Per Cup">
+<meta property="og:description" content="Pods are genuinely convenient. Over three years, here is what each one costs, and what you can and cannot change about the coffee.">
+<meta property="og:url" content="https://best-espresso-machines.com/espresso-machine-vs-pod-machine">
+<meta property="og:image" content="https://best-espresso-machines.com/images/hero-espresso-machine-vs-pod-machine.webp">
+<meta name="theme-color" content="#1A100C">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png">
+<link rel="alternate icon" href="/favicon.ico">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<style>
+  /* premium-editorial-v1 — palette: coffee / amber / copper.
+     NOTE: the --aqua* variable names are inherited from the network template;
+     on this site they carry the copper accent. Do not rename (tools/rebuild-site.js
+     and every article file reference them). */
+  :root{
+    --ground:#F7F3EE; --surface:#FFFFFF; --surface-2:#F0E8DF;
+    --ink:#1F1410; --ink-soft:#43302A; --muted:#7A655A; --line:#E6DACE;
+    --aqua:#B4622A; --aqua-deep:#8F4A18; --aqua-tint:#F8EAE0;
+    --brass:#A9803A; --brass-lite:#DFBB78; --brass-tint:#F6EEDF;
+    --dark:#1A100C; --dark-2:#2C1C14; --on-dark:#F4EAE1; --on-dark-mute:#B69C8B;
+    --star:#D9A400;
+    --shadow:0 1px 2px rgba(31,20,16,.05),0 22px 48px -26px rgba(31,20,16,.30);
+    --shadow-sm:0 1px 2px rgba(31,20,16,.05),0 10px 24px -16px rgba(31,20,16,.24);
+    --radius:20px; --radius-sm:12px; --maxw:1120px;
+    --serif:"Iowan Old Style","Palatino Linotype",Palatino,Georgia,"Times New Roman",serif;
+    --sans:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  }
+  @media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+    --ground:#140C09; --surface:#1F1410; --surface-2:#2A1B15;
+    --ink:#F4EAE1; --ink-soft:#DCC9BC; --muted:#AF9788; --line:#3A2720;
+    --aqua:#E08B4E; --aqua-deep:#F0A96E; --aqua-tint:#2A1B12;
+    --brass:#DFBB78; --brass-lite:#EDD4A0; --brass-tint:#2A200F;
+    --shadow:0 1px 2px rgba(0,0,0,.4),0 24px 52px -28px rgba(0,0,0,.7);
+    --shadow-sm:0 1px 2px rgba(0,0,0,.4),0 12px 26px -18px rgba(0,0,0,.6);
+  }}
+  :root[data-theme="dark"]{
+    --ground:#140C09; --surface:#1F1410; --surface-2:#2A1B15;
+    --ink:#F4EAE1; --ink-soft:#DCC9BC; --muted:#AF9788; --line:#3A2720;
+    --aqua:#E08B4E; --aqua-deep:#F0A96E; --aqua-tint:#2A1B12;
+    --brass:#DFBB78; --brass-lite:#EDD4A0; --brass-tint:#2A200F;
+    --shadow:0 1px 2px rgba(0,0,0,.4),0 24px 52px -28px rgba(0,0,0,.7);
+    --shadow-sm:0 1px 2px rgba(0,0,0,.4),0 12px 26px -18px rgba(0,0,0,.6);
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{margin:0;background:var(--ground);color:var(--ink);font-family:var(--sans);
+    font-size:18px;line-height:1.6;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
+  .wrap{max-width:var(--maxw);margin:0 auto;padding:0 26px}
+  a{color:inherit}
+  h1,h2,h3{margin:0;line-height:1.08;letter-spacing:-.01em;text-wrap:balance}
+  .serif{font-family:var(--serif)}
+  p{margin:0 0 1rem}
+  .eyebrow{font-family:var(--sans);font-size:.72rem;font-weight:700;letter-spacing:.22em;text-transform:uppercase}
+  .tnum{font-variant-numeric:tabular-nums}
+  .stars{color:var(--star);letter-spacing:2px}
+
+  /* ---------- header ---------- */
+  header.site{position:sticky;top:0;z-index:30;background:color-mix(in srgb,var(--ground) 82%,transparent);
+    backdrop-filter:saturate(1.3) blur(12px);border-bottom:1px solid var(--line)}
+  .bar{display:flex;align-items:center;justify-content:space-between;height:64px}
+  .brand{display:inline-flex;align-items:center;gap:11px;text-decoration:none;color:var(--ink);font-weight:700;letter-spacing:-.01em}
+  .brand .bn{font-family:var(--serif);font-size:1.16rem}
+  nav.site a{color:var(--muted);text-decoration:none;font-size:.86rem;font-weight:600;letter-spacing:.01em;margin-left:22px;transition:color .2s}
+  nav.site a:hover{color:var(--ink)}
+  @media (max-width:660px){nav.site{display:none}}
+
+  /* ---------- hero (immersive dark, roast bloom) ---------- */
+  .hero{position:relative;background:radial-gradient(120% 90% at 80% -10%,var(--dark-2),var(--dark) 60%);color:var(--on-dark);overflow:hidden;isolation:isolate}
+  .caustic{position:absolute;inset:-30%;z-index:0;opacity:.5;pointer-events:none;filter:blur(30px);
+    background:
+      radial-gradient(28% 40% at 22% 30%,rgba(224,139,78,.26),transparent 60%),
+      radial-gradient(24% 34% at 74% 24%,rgba(223,187,120,.22),transparent 60%),
+      radial-gradient(30% 42% at 60% 78%,rgba(180,98,42,.26),transparent 62%);
+    animation:drift 22s ease-in-out infinite alternate}
+  .caustic.b{opacity:.34;animation-duration:30s;animation-direction:alternate-reverse;
+    background:
+      radial-gradient(26% 36% at 40% 60%,rgba(240,169,110,.22),transparent 60%),
+      radial-gradient(22% 30% at 85% 70%,rgba(169,128,58,.20),transparent 60%)}
+  @keyframes drift{0%{transform:translate3d(-2%,-1%,0) scale(1)}50%{transform:translate3d(3%,2%,0) scale(1.08)}100%{transform:translate3d(-1%,3%,0) scale(1.04)}}
+  .hero .wrap{position:relative;z-index:1;padding:74px 26px 88px}
+  .hero .eyebrow{color:var(--brass-lite)}
+  .hero h1{font-family:var(--serif);font-weight:600;font-size:clamp(2.5rem,1.4rem+4.6vw,4.7rem);letter-spacing:-.02em;max-width:15ch;margin:.5rem 0 0}
+  .hero h1 em{font-style:italic;color:var(--brass-lite)}
+  .hero .lede{font-size:1.24rem;line-height:1.55;color:var(--on-dark-mute);max-width:52ch;margin-top:1.3rem}
+  .hero .meta{display:flex;flex-wrap:wrap;gap:10px 26px;margin-top:26px;font-size:.86rem;color:var(--on-dark-mute)}
+  .hero .meta b{color:var(--on-dark)}
+  .rule{height:1px;background:linear-gradient(90deg,var(--brass),transparent);border:0;margin:26px 0 0;max-width:220px}
+
+  /* ---------- #1 feature (the centerpiece) ---------- */
+  .feature{position:relative;z-index:2;margin:-56px 0 0}
+  .feature .card{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);
+    display:grid;grid-template-columns:1.1fr 1fr;overflow:hidden}
+  .feature .left{padding:38px}
+  .feature .kick{display:inline-flex;align-items:center;gap:9px;color:var(--brass-text);font-weight:700;font-size:.74rem;letter-spacing:.16em;text-transform:uppercase}
+  .feature .kick::before{content:"";width:26px;height:1px;background:var(--brass)}
+  .feature h2{font-family:var(--serif);font-weight:600;font-size:clamp(1.8rem,1.2rem+2vw,2.7rem);margin:.5rem 0 .2rem}
+  .feature .verdict{color:var(--ink-soft);font-size:1.06rem;margin:.4rem 0 1rem;max-width:44ch}
+  .feature .rl{display:flex;align-items:center;flex-wrap:wrap;gap:8px 10px;font-size:.92rem;color:var(--muted);margin-bottom:1.2rem}
+  .feature .rl b{color:var(--ink)}
+  .btn{display:inline-flex;align-items:center;gap:9px;background:var(--aqua);color:#fff;font-weight:700;
+    padding:14px 26px;border-radius:12px;text-decoration:none;box-shadow:var(--shadow-sm);transition:transform .15s,background .2s}
+  .btn:hover{background:var(--aqua-deep);transform:translateY(-1px)}
+  .btn .arw{transition:transform .2s}.btn:hover .arw{transform:translateX(3px)}
+  .feature .right{background:linear-gradient(160deg,var(--dark-2),var(--dark));color:var(--on-dark);padding:38px;display:flex;flex-direction:column;justify-content:center;gap:6px;position:relative}
+  .feature .right .lab{font-size:.72rem;letter-spacing:.18em;text-transform:uppercase;color:var(--on-dark-mute)}
+  .feature .bigprice{font-family:var(--serif);font-size:clamp(3rem,2rem+4vw,4.4rem);font-weight:600;line-height:1;color:var(--brass-lite)}
+  .feature .bigprice sup{font-size:.4em;top:-1.2em;color:var(--on-dark)}
+  .feature .right .note{color:var(--on-dark-mute);font-size:.92rem;margin-top:6px;max-width:30ch}
+  .feature .right .mono{margin-top:16px;font-family:var(--serif);font-size:1.05rem;color:var(--on-dark)}
+  @media (max-width:820px){.feature .card{grid-template-columns:1fr}.feature .right{order:-1}}
+
+  /* ---------- generic section ---------- */
+  section{padding:44px 0}
+  .kicker{display:flex;align-items:center;gap:14px;margin-bottom:6px}
+  .kicker .eyebrow{color:var(--aqua-deep)}
+  .kicker::after{content:"";flex:1;height:1px;background:var(--line)}
+  .h2{font-family:var(--serif);font-weight:600;font-size:clamp(1.7rem,1.2rem+1.7vw,2.5rem);letter-spacing:-.01em}
+  .sub{color:var(--muted);max-width:62ch;margin:.6rem 0 0}
+
+  .notes{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--line);border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;margin-top:24px}
+  .notes .n{background:var(--surface);padding:24px}
+  .notes .num{font-family:var(--serif);font-size:1.5rem;color:var(--brass-text);line-height:1}
+  .notes h3{font-size:1.02rem;font-weight:750;margin:.5rem 0 .35rem}
+  .notes p{font-size:.9rem;color:var(--muted);margin:0}
+  @media (max-width:820px){.notes{grid-template-columns:1fr 1fr}}
+  @media (max-width:520px){.notes{grid-template-columns:1fr}}
+
+  /* honesty band */
+  .band{background:var(--brass-tint);border:1px solid var(--line);border-left:3px solid var(--brass);
+    border-radius:var(--radius-sm);padding:22px 24px;margin-top:26px}
+  .band h3{font-family:var(--serif);font-weight:600;font-size:1.16rem;margin-bottom:.5rem}
+  .band p{color:var(--ink-soft);font-size:.95rem;margin:0}
+  .band p+p{margin-top:.6rem}
+
+  /* comparison */
+  .tablewrap{overflow-x:auto;border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow-sm);background:var(--surface);margin-top:22px}
+  table{border-collapse:collapse;width:100%;min-width:740px;font-size:.94rem}
+  thead th{background:var(--surface-2);text-align:left;padding:16px;font-size:.7rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);border-bottom:1px solid var(--line)}
+  td{padding:15px 16px;border-bottom:1px solid var(--line);vertical-align:middle}
+  tbody tr:last-child td{border-bottom:0}
+  tbody tr:hover{background:var(--surface-2)}
+  td.name{font-family:var(--serif);font-weight:600;font-size:1.05rem}
+  .win td{background:var(--brass-tint)}
+  .win td.name{color:var(--brass-text)}
+  .win td:first-child{box-shadow:inset 3px 0 0 var(--brass)}
+  .price{font-weight:800;font-variant-numeric:tabular-nums}
+  .rev{color:var(--muted);font-size:.82rem}
+  .tget{display:inline-block;background:var(--ink);color:var(--surface);font-weight:700;font-size:.8rem;padding:8px 14px;border-radius:9px;text-decoration:none;white-space:nowrap;transition:background .2s}
+  .tget:hover{background:var(--aqua-deep);color:#fff}
+
+  /* picks (editorial cards) */
+  .picks{display:flex;flex-direction:column;gap:26px;margin-top:26px}
+  .pick{display:grid;grid-template-columns:96px 1fr auto;gap:26px;align-items:start;
+    background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow-sm);padding:28px}
+  .pick .rank{font-family:var(--serif);font-size:2.6rem;color:var(--brass-text);line-height:.9;font-weight:600}
+  .pick .rank small{display:block;font-family:var(--sans);font-size:.6rem;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);font-weight:700;margin-top:8px}
+  .pick h3{font-family:var(--serif);font-weight:600;font-size:1.44rem}
+  .pick .who{color:var(--aqua-deep);font-weight:700;font-size:.9rem;margin:.25rem 0 .5rem}
+  .pick .rl2{display:flex;align-items:center;flex-wrap:wrap;gap:6px 8px;font-size:.86rem;color:var(--muted);margin-bottom:.7rem}
+  .pick .rl2 b{color:var(--ink)}
+  .pick p.body{margin:.2rem 0 0;color:var(--ink-soft)}
+  .quote{border-left:2px solid var(--brass);padding-left:14px;margin:.9rem 0 0;font-family:var(--serif);color:var(--ink);font-size:1.02rem}
+  .quote b{font-family:var(--sans);font-size:.74rem;letter-spacing:.14em;text-transform:uppercase;color:var(--brass-text);display:block;margin-bottom:.2rem;font-weight:700}
+  .aside{display:flex;flex-direction:column;align-items:flex-end;gap:12px;text-align:right;min-width:150px}
+  .aside .pr{font-family:var(--serif);font-size:2rem;font-weight:600;font-variant-numeric:tabular-nums;line-height:1}
+  .aside .tag{font-size:.72rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+  .buy{display:inline-flex;align-items:center;gap:8px;background:var(--aqua);color:#fff;font-weight:700;padding:11px 20px;border-radius:10px;text-decoration:none;transition:background .2s,transform .15s;font-size:.92rem}
+  .buy:hover{background:var(--aqua-deep);transform:translateY(-1px)}
+  @media (max-width:820px){.pick{grid-template-columns:64px 1fr}.aside{grid-column:1/-1;flex-direction:row;justify-content:space-between;align-items:center;text-align:left;border-top:1px solid var(--line);padding-top:16px}}
+
+  /* method / faq */
+  .cols{display:grid;grid-template-columns:1fr 1fr;gap:26px;margin-top:22px}
+  @media (max-width:760px){.cols{grid-template-columns:1fr}}
+  .panel{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:28px;box-shadow:var(--shadow-sm)}
+  .panel .eyebrow{color:var(--aqua-deep)}
+  .panel h3{font-family:var(--serif);font-weight:600;font-size:1.3rem;margin:.5rem 0 .5rem}
+  .panel p{color:var(--muted);margin:0}
+  .faq details{border-top:1px solid var(--line);padding:16px 0}
+  .faq details:first-of-type{border-top:0}
+  .faq summary{cursor:pointer;font-family:var(--serif);font-size:1.12rem;list-style:none;display:flex;justify-content:space-between;gap:14px;color:var(--ink)}
+  .faq summary::-webkit-details-marker{display:none}
+  .faq summary::after{content:"+";color:var(--brass-text);font-family:var(--sans);font-weight:700}
+  .faq details[open] summary::after{content:"–"}
+  .faq p{margin:.8rem 0 0;color:var(--muted)}
+
+  footer.site{margin-top:20px;background:var(--dark);color:var(--on-dark-mute)}
+  footer .wrap{padding:40px 26px}
+  footer .fbrand{font-family:var(--serif);color:var(--on-dark);font-size:1.2rem}
+  footer p{font-size:.84rem;margin:.6rem 0 0;max-width:80ch}
+  footer a{color:var(--brass-lite)}
+  /* imagery */
+  .hero .wrap{display:grid;grid-template-columns:1.12fr .88fr;gap:48px;align-items:center}
+  .hero .himg{border-radius:20px;border:1px solid rgba(223,187,120,.4);box-shadow:0 30px 60px -30px rgba(0,0,0,.55);width:100%;height:auto;display:block}
+  @media (max-width:860px){.hero .wrap{grid-template-columns:1fr;gap:30px}}
+  .fpimg{background:#fff;border-radius:14px;padding:14px;box-shadow:0 12px 28px -14px rgba(0,0,0,.5);width:min(230px,70%);margin-bottom:16px}
+  .fpimg img{width:100%;height:auto;display:block}
+  .aside .pimg{width:150px;height:150px;background:#fff;border:1px solid var(--line);border-radius:12px;padding:10px;display:flex;align-items:center;justify-content:center}
+  .aside .pimg img{max-width:100%;max-height:100%;display:block}
+  @media (max-width:820px){.aside .pimg{width:96px;height:96px;padding:6px}}
+  td.name{display:flex;align-items:center;gap:12px}
+  .thumb{width:46px;height:46px;flex:0 0 auto;background:#fff;border:1px solid var(--line);border-radius:9px;padding:4px}
+  .thumb img{width:100%;height:100%;object-fit:contain;display:block}
+  :focus-visible{outline:2px solid var(--aqua);outline-offset:3px;border-radius:5px}
+  @media (prefers-reduced-motion:reduce){*{animation:none!important;scroll-behavior:auto!important}.btn:hover,.buy:hover{transform:none}}
+</style>
+<style id="a11y">:root{--brass-text:#7A5A20;--star:#B07E00}@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--brass-text:#EDD4A0;--star:#E8B84B}}:root[data-theme="dark"]{--brass-text:#EDD4A0;--star:#E8B84B}nav.site a{color:var(--ink-soft)}.stars{color:var(--star)}thead th{color:var(--ink-soft)}.rev{color:var(--ink-soft)}.kick{color:var(--brass-text)}.win td.name{color:var(--brass-text)}a.btn,a.buy,.btn,.buy{background:#8F4A18 !important;color:#fff !important;text-decoration:none !important}a.btn:hover,a.buy:hover,.btn:hover,.buy:hover{background:#6E3810 !important}@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) a.btn,:root:not([data-theme="light"]) a.buy,:root:not([data-theme="light"]) .btn,:root:not([data-theme="light"]) .buy{background:#E08B4E !important;color:#24120A !important}:root:not([data-theme="light"]) .btn:hover,:root:not([data-theme="light"]) .buy:hover{background:#F0A96E !important}}:root[data-theme="dark"] a.btn,:root[data-theme="dark"] a.buy,:root[data-theme="dark"] .btn,:root[data-theme="dark"] .buy{background:#E08B4E !important;color:#24120A !important}</style>
+<style id="article">
+  .art{max-width:var(--maxw);margin:0 auto;padding:0 26px}
+  .arthead{padding:52px 0 0;max-width:760px}
+  .arthead h1{font-family:var(--serif);font-weight:600;font-size:clamp(2.1rem,1.3rem+3.1vw,3.5rem);margin:.5rem 0 0}
+  .arthead .lede{font-size:1.18rem;line-height:1.55;color:var(--ink-soft);margin-top:1.1rem}
+  .byline{font-size:.88rem;color:var(--muted);margin-top:1.1rem}
+  .byline b{color:var(--ink)}
+  .disclose{font-size:.82rem;color:var(--muted);border-left:2px solid var(--brass);padding-left:12px;margin-top:1rem;max-width:70ch}
+  .artimg{width:100%;height:auto;display:block;border-radius:var(--radius);border:1px solid var(--line);box-shadow:var(--shadow);margin:30px 0 8px}
+  .prose{max-width:68ch;margin:0 auto}
+  .prose h2{font-family:var(--serif);font-weight:600;font-size:clamp(1.55rem,1.15rem+1.3vw,2.1rem);margin:2.4rem 0 .8rem}
+  .prose h3{font-family:var(--serif);font-weight:600;font-size:1.24rem;margin:1.7rem 0 .6rem}
+  .prose p{color:var(--ink-soft)}
+  .prose a{color:var(--aqua-deep);font-weight:600;text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:2px}
+  .prose strong{color:var(--ink)}
+  .toc{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius-sm);padding:20px 24px;margin:26px 0 0;box-shadow:var(--shadow-sm)}
+  .toc .eyebrow{color:var(--aqua-deep);display:block;margin-bottom:.6rem}
+  .toc ol{margin:0;padding-left:1.2rem;color:var(--ink-soft);font-size:.94rem}
+  .toc li{margin-bottom:.3rem}
+  .toc a{color:var(--ink-soft);text-decoration:none}
+  .toc a:hover{color:var(--aqua-deep)}
+  .inline-pick{display:grid;grid-template-columns:120px 1fr;gap:20px;align-items:center;background:var(--surface);
+    border:1px solid var(--line);border-radius:var(--radius-sm);box-shadow:var(--shadow-sm);padding:20px;margin:1.6rem 0}
+  .inline-pick .ipimg{width:120px;height:120px;background:#fff;border:1px solid var(--line);border-radius:10px;padding:8px;display:flex;align-items:center;justify-content:center}
+  .inline-pick .ipimg img{max-width:100%;max-height:100%;display:block}
+  .inline-pick h3{font-family:var(--serif);font-weight:600;font-size:1.2rem;margin:0 0 .25rem}
+  .inline-pick p{font-size:.92rem;color:var(--muted);margin:0 0 .7rem}
+  .inline-pick .ipp{font-weight:800;font-variant-numeric:tabular-nums;color:var(--ink)}
+  @media (max-width:620px){.inline-pick{grid-template-columns:1fr}.inline-pick .ipimg{width:96px;height:96px}}
+  .keep{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:22px}
+  .keep a{display:block;background:var(--surface);border:1px solid var(--line);border-radius:var(--radius-sm);
+    padding:18px 20px;text-decoration:none;box-shadow:var(--shadow-sm);transition:transform .15s,border-color .2s}
+  .keep a:hover{transform:translateY(-2px);border-color:var(--brass)}
+  .keep .kt{font-family:var(--serif);font-size:1.06rem;color:var(--ink);display:block;margin-bottom:.25rem}
+  .keep .kd{font-size:.86rem;color:var(--muted)}
+  @media (max-width:620px){.keep{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<header class="site"><div class="wrap bar">
+  <a class="brand" href="/" aria-label="Best Espresso Machines">
+    <svg class="logomark" width="36" height="36" viewBox="0 0 40 40" aria-hidden="true">
+      <defs><radialGradient id="lm" cx="34%" cy="26%" r="86%"><stop offset="0" stop-color="#C2703C"/><stop offset=".68" stop-color="#5A2F16"/><stop offset="1" stop-color="#2A1A10"/></radialGradient></defs>
+      <circle cx="20" cy="20" r="19" fill="url(#lm)"/>
+      <circle cx="20" cy="20" r="18.4" fill="none" stroke="#DFBB78" stroke-width="1.1" stroke-opacity=".92"/>
+      <circle cx="20" cy="20" r="15.3" fill="none" stroke="#F4EAE1" stroke-width=".6" stroke-opacity=".22"/>
+      <path d="M13.2 17.6h11.1v4.9a5.55 5.55 0 0 1-5.55 5.55h0A5.55 5.55 0 0 1 13.2 22.5v-4.9Z" fill="#F9F3EC"/>
+      <path d="M24.6 18.9h1.6a2.5 2.5 0 0 1 0 5h-1.6" fill="none" stroke="#F9F3EC" stroke-width="1.5" stroke-linecap="round"/>
+      <path d="M12 29.4h14.6" stroke="#DFBB78" stroke-width="1.3" stroke-linecap="round" stroke-opacity=".9"/>
+      <path d="M17.4 14.4c1.5-1.2-1.1-2.5.4-4.1M21.4 14.4c1.5-1.2-1.1-2.5.4-4.1" fill="none" stroke="#F4EAE1" stroke-width="1.3" stroke-linecap="round" stroke-opacity=".75"/>
+    </svg>
+    <span class="bn">Best&thinsp;Espresso&thinsp;Machines</span>
+  </a>
+  <nav class="site" aria-label="Primary">
+    <a href="/#feature">Top pick</a><a href="/#compare">Compare</a><a href="/#picks">The eight</a><a href="/#how">Method</a><a href="/#faq">FAQ</a>
+  <a href="/guides">All guides</a></nav>
+</div></header>
+
+<div class="art">
+  <div class="arthead">
+    <span class="eyebrow" style="color:var(--aqua-deep)">Comparison</span>
+    <h1>Espresso Machine vs Pod Machine: The Real Cost Per Cup</h1>
+    <p class="lede">Pods are genuinely convenient — nobody buys a capsule machine by accident. The question that actually matters is what three years of that convenience costs, in dollars and in control over what lands in the cup. We ran both numbers with a portafilter machine and a capsule machine at three prices, so you can see where the trade breaks even.</p>
+    <p class="byline">By <b>Ilane Tall</b> · Updated September 2, 2026 · Research-based.</p>
+    <p class="disclose">Reader-supported: we may earn a commission if you buy through our links, at no extra cost to you. Prices are the ones we recorded between August 15 and September 1, 2026, and they move constantly — confirm the live price before buying.</p>
+  </div>
+
+  <img class="artimg" src="/images/hero-espresso-machine-vs-pod-machine.webp" width="1600" height="900" loading="eager" fetchpriority="high" decoding="async" alt="A portafilter espresso machine next to a row of coffee capsules on a kitchen counter">
+
+  <div class="prose">
+
+    <div class="toc" role="navigation" aria-label="On this page">
+      <span class="eyebrow">On this page</span>
+      <ol>
+        <li><a href="#short">The short answer</a></li>
+        <li><a href="#convenience">Convenience, compared honestly</a></li>
+        <li><a href="#cost">Cost per cup over three years</a></li>
+        <li><a href="#control">What a portafilter gives you that a pod cannot</a></li>
+        <li><a href="#hybrid">The hybrid machines that take both</a></li>
+        <li><a href="#picks">The picks</a></li>
+        <li><a href="#staying">Who should stay on pods, and not feel bad about it</a></li>
+        <li><a href="#honest">How we compared these</a></li>
+        <li><a href="#faq">FAQ</a></li>
+      </ol>
+    </div>
+
+    <h2 id="short">The short answer</h2>
+    <p>A pod machine wins on convenience every single morning: capsule in, button pressed, cup ready in under a minute, no mess to clean beyond a used capsule. A portafilter machine wins on cost and on control, but only if you actually use the control it gives you — dose, grind, roast, ratio — because none of that comes free with a bag of beans sitting on the counter.</p>
+    <p>Over three years, on the assumptions we lay out below, the portafilter route on a machine like the <strong>Maestri House Slim Espresso Machine</strong> at $139.99 runs several hundred dollars cheaper than the capsule route on a machine like the <strong>Ninja CFN601</strong> at $249.95, once you price in a typical capsule cost per cup. That gap is not a reason to feel bad about owning a pod machine — it is the price of the convenience, stated honestly instead of buried in a per-capsule number nobody adds up.</p>
+
+    <h2 id="convenience">Convenience, compared honestly</h2>
+    <p>Start with what a capsule machine actually removes from your morning, because it is more than "no grinding." On the <a href="/espresso-machine-buying-guide">buying guide</a> we lay out the full range of machine types; the practical version for this comparison is two workflows.</p>
+    <p>A capsule side, like the one on the Ninja CFN601, is: open the lid, drop in a capsule, close it, press a button. There is no dose to weigh, no tamp to get even, no shot timer to watch, and cleanup is lifting out a used capsule and wiping a drip tray. The 12-cup drip side of the same machine adds a second convenience most espresso-only machines skip entirely — scoop grounds into the basket, hit brew, and a full pot is ready for the rest of the household without touching the espresso side at all.</p>
+    <p>A portafilter machine like the Maestri House asks for more at every step: grind or buy pre-ground coffee at the right size, weigh or eyeball a dose into the basket, tamp it level, lock the portafilter in, and start the shot while watching the color and timing of what comes out. The 20 bar Italian pump and the 1.3&nbsp;L tank do the mechanical work, but the decisions before the shot are entirely yours, every time.</p>
+    <p>Neither workflow is objectively better. A capsule machine trades decisions for consistency; a portafilter machine trades consistency for decisions. If your mornings are already tight, that trade isn't close — which is exactly why pod machines sell well, and why this article isn't trying to talk anyone out of one.</p>
+
+    <div class="inline-pick">
+      <div class="ipimg"><img src="/images/amazon-B0B9YP76FN.webp" alt="Ninja CFN601 espresso and coffee maker, Nespresso capsule compatible" width="800" height="800" loading="lazy" decoding="async"></div>
+      <div>
+        <h3>Ninja Espresso &amp; Coffee Maker CFN601</h3>
+        <p>Nespresso-capsule-compatible espresso side plus a full 12-cup drip coffee side in one body, so a household split between "I want an espresso in thirty seconds" and "I want a mug of regular coffee" doesn't need two appliances.</p>
+        <span class="ipp">$249.95</span> &nbsp; <a class="buy" href="https://www.amazon.com/dp/B0B9YP76FN?tag=best-espressomach-20" rel="nofollow sponsored noopener" target="_blank">Check price →</a>
+      </div>
+    </div>
+
+    <h2 id="cost">Cost per cup over three years</h2>
+    <p>Every capsule machine comparison eventually gets to this number, and the honest way to do it is to state every assumption before running the math, since the real answer depends entirely on how much you drink and what you pay per capsule and per bag.</p>
+    <p><strong>Assumptions.</strong> One espresso-style drink per day, every day, for three years: 1,095 drinks. For the capsule route, one capsule per drink, priced at a typical $0.75–$1.00 for a Nespresso-OriginalLine-compatible capsule bought in bulk — we'll use the $0.85 midpoint, since capsule pricing is a market fact rather than a spec of any single machine. For the beans route, an 18-gram dose per double shot, drawn from roasted beans priced around $16 per pound, which works out to roughly 25 doses per pound, or about $0.64 per drink. These are category estimates, not prices we are quoting for a specific bag of coffee or a specific box of capsules — check current pricing before you run the numbers on your own habit.</p>
+    <p><strong>The capsule route.</strong> 1,095 drinks × $0.85 ≈ $931 in capsules over three years, plus the $249.95 Ninja CFN601 up front. Three-year total: roughly <strong>$1,181</strong>.</p>
+    <p><strong>The beans route.</strong> 1,095 drinks × $0.64 ≈ $701 in beans over three years, plus the $139.99 Maestri House up front. Three-year total: roughly <strong>$841</strong>.</p>
+    <p>That's a gap of about $340 over three years, or a little under $10 a month, favoring the portafilter machine on these assumptions. It narrows fast below one drink a day and widens above it — the math scales linearly with volume, so check it against your own habit rather than trusting a number built around someone else's. It also ignores water, milk and electricity, which are a wash between the two machines and small next to the coffee cost itself.</p>
+    <p>One more honest caveat: neither machine's price above buys you a grinder. The Maestri House's spec sheet, as listed, does not include one, so if your beans route assumes whole beans rather than pre-ground, add the cost of a burr grinder to the portafilter side of this math — our <a href="/best-espresso-machines-with-grinders">guide to machines with built-in grinders</a> covers the models that fold that cost in.</p>
+
+    <div class="inline-pick">
+      <div class="ipimg"><img src="/images/amazon-B0DW8C9R95.webp" alt="Maestri House slim espresso machine with milk frother in stainless steel" width="800" height="800" loading="lazy" decoding="async"></div>
+      <div>
+        <h3>Maestri House Slim Espresso Machine with Milk Frother</h3>
+        <p>A 20 bar Italian pump portafilter machine with a built-in milk frother and a 1.3&nbsp;L tank — the cheaper machine in this comparison, and the one where the ongoing cost is beans rather than capsules.</p>
+        <span class="ipp">$139.99</span> &nbsp; <a class="buy" href="https://www.amazon.com/dp/B0DW8C9R95?tag=best-espressomach-20" rel="nofollow sponsored noopener" target="_blank">Check price →</a>
+      </div>
+    </div>
+
+    <h2 id="control">What a portafilter gives you that a pod cannot</h2>
+    <p>The cost gap above is the visible trade. The invisible one is control, and it matters more to some people than the money ever will.</p>
+    <p>A capsule is a sealed, fixed dose of a specific roast, ground to a specific size, at a pressure profile the manufacturer already chose for you. That's precisely why it's consistent — nothing is left for you to get wrong — and precisely why it has a ceiling. You cannot pull a longer or shorter shot to taste, switch to a brighter single-origin roast on a whim, or fix a shot that tastes off, because every variable that would let you fix it was decided before the capsule was sealed.</p>
+    <p>A portafilter machine like the Maestri House puts those variables back in your hands. Dose weight changes strength. Grind size — coarser or finer, whether you own a grinder or buy pre-ground at different settings — changes how fast water moves through the puck, the single biggest lever on whether a shot tastes sour, balanced or bitter. Roast and origin are an open choice at any grocery store or roaster, not a fixed menu of capsule flavors. And because the pump does continuous work rather than piercing a sealed capsule, you can pull a shot short for something concentrated or let it run longer for something milder, on your own judgment.</p>
+    <p>That control can also go wrong in all the same ways it can go right. A pod never gives you a bitter, over-extracted shot from a grind that was too fine; a portafilter machine will, until you learn to read one. If troubleshooting sounds like a chore rather than a hobby, that's useful information about which machine to buy — our <a href="/espresso-machine-troubleshooting-common-problems">troubleshooting guide</a> covers the ways a shot goes wrong on the manual side, none of which exist on the capsule side.</p>
+    <p>Be skeptical of the pressure number on either box, too. The Maestri House advertises a 20 bar pump, and espresso is actually extracted at roughly 9 bar at the coffee itself — 20 bar describes the pump's maximum, not what happens in the cup, a distinction covered fully in <a href="/espresso-machine-pressure-9-bar-explained">why 9 bar matters, and why 20 bar on the box does not</a>. It doesn't change the control argument above, but it means you shouldn't pick a portafilter machine over a pod one on the strength of a bar number alone.</p>
+
+    <h2 id="hybrid">The hybrid machines that take both</h2>
+    <p>Some households don't have to choose, because the choice isn't one person's to make — someone wants a fast, no-mess espresso, someone else wants a full pot of regular coffee, and buying two machines is its own inconvenience. That's the gap the Ninja CFN601 closes: a Nespresso-original-capsule-compatible espresso side on one half, and a genuine 12-cup drip coffeemaker taking ordinary ground coffee on the other. It's a hybrid in the literal sense — pod convenience for one drink, grounds-based coffee for the other, from one machine, rather than a single brew head that accepts both formats at once.</p>
+    <p>There's a second kind of hybrid worth knowing about: machines that skip pods entirely but spread across multiple brew formats from a shared reservoir. The <strong>Ninja Luxe Café Premier 3-in-1</strong> is built this way — espresso, drip coffee and cold brew from one $599 appliance, sized at roughly 13 by 13.4 by 14.6 inches. It doesn't touch capsules, so it isn't a pod-and-portafilter hybrid in the CFN601 sense, but it answers the same problem — one household, more than one coffee format, one appliance — by covering espresso, drip and cold brew instead of pods and grounds.</p>
+    <p>Whichever kind of hybrid you're weighing, the rule holds: if a listing doesn't explicitly say a machine accepts both a capsule and a portafilter or reusable pod in the same brew head, don't assume it does. Check the product page rather than inferring it from the word "hybrid" — it gets used loosely across this category.</p>
+
+    <h2 id="picks">The picks</h2>
+    <p>Same three machines, sorted by which side of this comparison they actually belong to. Prices are what we recorded between August 15 and September 1, 2026.</p>
+    <div class="tablewrap"><table>
+      <thead><tr><th>Machine</th><th>Format</th><th>Best for</th><th>Price</th><th></th></tr></thead>
+      <tbody>
+        <tr class="win"><td class="name"><span class="thumb"><img src="/images/amazon-B0DW8C9R95.webp" alt="" width="46" height="46" loading="lazy" decoding="async"></span><span>Maestri House Slim Espresso Machine</span></td><td>Portafilter</td><td>Lowest cost per cup, full control</td><td class="price">$139.99</td><td><a class="tget" href="https://www.amazon.com/dp/B0DW8C9R95?tag=best-espressomach-20" rel="nofollow sponsored noopener" target="_blank">Price</a></td></tr>
+        <tr><td class="name"><span class="thumb"><img src="/images/amazon-B0B9YP76FN.webp" alt="" width="46" height="46" loading="lazy" decoding="async"></span><span>Ninja CFN601</span></td><td>Capsule + drip</td><td>Households split between pods and a full pot</td><td class="price">$249.95</td><td><a class="tget" href="https://www.amazon.com/dp/B0B9YP76FN?tag=best-espressomach-20" rel="nofollow sponsored noopener" target="_blank">Price</a></td></tr>
+        <tr><td class="name"><span class="thumb"><img src="/images/amazon-B0D45PK5V4.webp" alt="" width="46" height="46" loading="lazy" decoding="async"></span><span>Ninja Luxe Café Premier 3-in-1</span></td><td>Espresso + drip + cold brew</td><td>Format variety without touching pods</td><td class="price">$599.00</td><td><a class="tget" href="https://www.amazon.com/dp/B0D45PK5V4?tag=best-espressomach-20" rel="nofollow sponsored noopener" target="_blank">Price</a></td></tr>
+      </tbody>
+    </table></div>
+    <p>If the deciding factor for you is the three-year number, buy the <strong>Maestri House</strong> and commit to a bag of beans instead of a box of capsules — the arithmetic above only pays off if you actually stop buying capsules. If your household genuinely needs both formats and one appliance is non-negotiable, the <strong>Ninja CFN601</strong> is the more literal answer to "espresso machine vs pod machine," because it's built to be both rather than to force a choice. If your priority is brew-format variety on one countertop rather than the pod question at all, the <strong>Ninja Luxe Café Premier</strong> covers espresso, drip and cold brew for $599, at the cost of being the largest and most expensive of the three.</p>
+
+    <div class="band">
+      <h3 class="serif">One thing not to do</h3>
+      <p>Don't buy the portafilter machine on the cost-per-cup math above and then keep buying capsules for the drip side of a hybrid you already own, or keep a bag of beans in the freezer "for later" while you actually drink capsules every day. The savings only exist if the habit changes with the machine — a $139.99 espresso machine that sits next to an unopened bag of beans saves nothing.</p>
+    </div>
+
+    <h2 id="staying">Who should stay on pods, and not feel bad about it</h2>
+    <p>This comparison is not an argument that everyone should own a portafilter machine. Several situations make the pod route the correct call, not just the easy one.</p>
+    <p>If you drink one cup a day or less, the three-year gap calculated above shrinks toward the cost of a few coffee-shop visits — not nothing, but not enough to justify learning a skill you don't want. If you rent, move often, or have limited counter space, a compact capsule machine with no grinder, no hopper and a small footprint fits better than a portafilter setup that rewards a permanent spot on the counter. If you've already tried a manual machine and didn't enjoy the grinding, the tamping, the occasional bad shot, buying another one because the math says you should is a way to spend money on an appliance you'll resent, not a way to save it.</p>
+    <p>And if what you actually want is a reliably good cup with zero learning curve so you can get on with your morning, that preference doesn't need defending. The Ninja CFN601 and machines like it exist because that preference is common and legitimate, and paying roughly $340 more over three years for a cup that never varies and never asks anything of you is a completely rational trade for a lot of households. Our <a href="/best-espresso-machines-for-beginners">guide for beginners</a> covers the low-commitment end of this category if you're weighing whether to try the manual side at all before deciding.</p>
+
+    <h2 id="honest">How we compared these</h2>
+    <p>We compare published specifications, what ships in the box, machine format and live pricing, and we read cost claims skeptically — a per-capsule price is easy to make look small until you multiply it by three years of daily use. <strong>We do not physically test these machines, we do not run a testing lab, and we do not publish ratings we cannot verify</strong>: Amazon's product data returns no rating and no review count for the machines on this site, so there are no stars and no invented scores anywhere on this page.</p>
+    <p>Every dollar figure in the cost-per-cup section above rests on a stated assumption — drink frequency, capsule price, bean price and dose size — rather than on a specification of any single product, and we've flagged each one as an estimate rather than a fact about a specific machine. The general coffee facts used elsewhere (9 bar of brewing pressure at the puck, roughly 18 grams in for a double shot, grind size as the primary lever on extraction) are standard background rather than claims about any one product. The rest of our method sits on <a href="/">our main espresso machine guide</a>.</p>
+
+    <h2 id="faq">Frequently asked questions</h2>
+    <div class="panel faq" style="margin-top:22px">
+      <details open><summary>Is pod coffee really more expensive than beans?</summary><p>On typical pricing, yes, over any meaningful stretch of time. Using a category estimate of about $0.85 per capsule against about $0.64 per double shot from $16-a-pound beans, one drink a day for three years runs roughly $931 in capsules versus $701 in beans — a gap of about $230 in coffee alone before you count the machine price. It narrows or widens depending on how much you actually drink and what you pay per capsule or per pound, so it's worth running with your own numbers rather than trusting a generic one.</p></details>
+      <details><summary>Can I use my own ground coffee in a capsule machine?</summary><p>It depends entirely on the specific machine, and we don't have that spec confirmed for the Ninja CFN601 covered here — some capsule systems on the market accept a reusable pod you fill yourself, others accept only sealed capsules. Check the product listing for "reusable capsule" or "refillable pod" language before assuming either way; we won't guess at a capability we can't verify.</p></details>
+      <details><summary>What is a hybrid espresso machine?</summary><p>The term gets used loosely. Some machines, like the Ninja CFN601, are hybrids in the sense that one side takes capsules and the other takes ordinary ground coffee for full-pot drip brewing. Others, like the Ninja Luxe Café Premier 3-in-1, are hybrids in the sense of covering multiple grounds-based formats — espresso, drip, cold brew — from one appliance without touching pods at all. The word "hybrid" doesn't tell you which kind you're looking at, so check what formats a specific listing actually supports.</p></details>
+      <details><summary>Should I feel bad about staying on a pod machine?</summary><p>No. Pods cost more per cup on typical pricing, but that premium buys real things: no grinding, no tamping, no bad shots from a grind that was slightly off, and a smaller footprint. If you drink modestly, move often, or already know you don't enjoy the manual process, paying more per cup for a machine that asks nothing of you is a rational choice, not a mistake.</p></details>
+    </div>
+
+    <h2 id="keep">Keep reading</h2>
+    <div class="keep">
+      <a href="/espresso-machine-buying-guide"><span class="kt">How to choose an espresso machine</span><span class="kd">Machine types, the specs that matter, and how much to spend.</span></a>
+      <a href="/best-espresso-machines-with-grinders"><span class="kt">Best espresso machines with built-in grinders</span><span class="kd">Where the grinder cost in our math above gets folded in.</span></a>
+      <a href="/espresso-machine-pressure-9-bar-explained"><span class="kt">Why 9 bar matters, and why 20 bar does not</span><span class="kd">The pump number on the box, decoded.</span></a>
+      <a href="/best-espresso-machines-for-beginners"><span class="kt">Best espresso machines for beginners</span><span class="kd">The low-commitment end of the portafilter route.</span></a>
+      <a href="/espresso-machine-troubleshooting-common-problems"><span class="kt">Espresso machine troubleshooting</span><span class="kd">The dozen ways a manual shot goes wrong, and the fixes.</span></a>
+      <a href="/best-espresso-machines-under-500"><span class="kt">Best espresso machines under $500</span><span class="kd">Where both machines in this comparison land on budget.</span></a>
+      <a href="/guides"><span class="kt">All espresso guides</span><span class="kd">Choosing, dialling in and living with a machine.</span></a>
+    </div>
+
+  </div>
+</div>
+
+<footer class="site"><div class="wrap">
+  <div class="fbrand">Best Espresso Machines</div>
+  <p>Independent, research-based comparisons of home espresso machines, grinders and the gear around them.</p>
+  <p style="margin:.5rem 0 0"><a href="/about">About</a> · <a href="/guides">All guides</a> · <a href="/contact">Contact</a> · <a href="/privacy">Privacy</a></p>
+  <p>Reader-supported: we may earn a commission when you buy through our links, at no additional cost to you. Comparisons are based on published specifications and pricing; we do not physically test products and we do not publish ratings we cannot verify. Prices change frequently — confirm the current price on Amazon. As an Amazon Associate, we earn from qualifying purchases. © 2026 Best Espresso Machines.</p>
+</div></footer>
+
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Article",
+ "headline":"Espresso Machine vs Pod Machine: The Real Cost Per Cup",
+ "description":"Pods are genuinely convenient. Over three years, here is what each one costs, and what you can and cannot change about the coffee.",
+ "image":"https://best-espresso-machines.com/images/hero-espresso-machine-vs-pod-machine.webp",
+ "author":{"@type":"Person","name":"Ilane Tall"},
+ "publisher":{"@type":"Organization","name":"Best Espresso Machines"},
+ "datePublished":"2026-09-02","dateModified":"2026-09-02",
+ "mainEntityOfPage":{"@type":"WebPage","@id":"https://best-espresso-machines.com/espresso-machine-vs-pod-machine"},
+ "articleSection":"Comparison"}
+</script>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"ItemList","name":"Espresso Machine vs Pod Machine: The Machines Compared","itemListElement":[
+ {"@type":"ListItem","position":1,"item":{"@type":"Product","name":"Maestri House Slim Espresso Machine with Milk Frother, 20 Bar Italian Pump","brand":{"@type":"Brand","name":"Maestri House"},"offers":{"@type":"Offer","price":"139.99","priceCurrency":"USD","availability":"https://schema.org/InStock","url":"https://www.amazon.com/dp/B0DW8C9R95?tag=best-espressomach-20"}}},
+ {"@type":"ListItem","position":2,"item":{"@type":"Product","name":"Ninja Espresso & Coffee Maker CFN601, Nespresso Capsule Compatible","brand":{"@type":"Brand","name":"Ninja"},"offers":{"@type":"Offer","price":"249.95","priceCurrency":"USD","availability":"https://schema.org/InStock","url":"https://www.amazon.com/dp/B0B9YP76FN?tag=best-espressomach-20"}}},
+ {"@type":"ListItem","position":3,"item":{"@type":"Product","name":"Ninja Luxe Café Premier 3-in-1 Espresso Machine, Drip Coffee, & Cold Brew","brand":{"@type":"Brand","name":"Ninja"},"offers":{"@type":"Offer","price":"599.00","priceCurrency":"USD","availability":"https://schema.org/InStock","url":"https://www.amazon.com/dp/B0D45PK5V4?tag=best-espressomach-20"}}}
+]}
+</script>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[
+ {"@type":"Question","name":"Is pod coffee really more expensive than beans?","acceptedAnswer":{"@type":"Answer","text":"On typical pricing, yes, over any meaningful stretch of time. Using a category estimate of about $0.85 per capsule against about $0.64 per double shot from $16-a-pound beans, one drink a day for three years runs roughly $931 in capsules versus $701 in beans, a gap of about $230 in coffee alone before counting the machine price. The gap narrows or widens with how much you actually drink and what you pay per capsule or per pound."}},
+ {"@type":"Question","name":"Can I use my own ground coffee in a capsule machine?","acceptedAnswer":{"@type":"Answer","text":"It depends entirely on the specific machine. Some capsule systems accept a reusable pod you fill yourself; others accept only sealed capsules. Check the product listing for reusable-capsule or refillable-pod language before assuming either way."}},
+ {"@type":"Question","name":"What is a hybrid espresso machine?","acceptedAnswer":{"@type":"Answer","text":"The term is used loosely. Some machines have one side that takes capsules and another side that takes ordinary ground coffee for full-pot drip brewing. Others cover multiple grounds-based formats, such as espresso, drip and cold brew, from one appliance without touching capsules at all. Check what formats a specific listing actually supports rather than assuming from the word hybrid."}},
+ {"@type":"Question","name":"Should I feel bad about staying on a pod machine?","acceptedAnswer":{"@type":"Answer","text":"No. Pods cost more per cup on typical pricing, but that premium buys no grinding, no tamping, no inconsistent shots and a smaller footprint. For modest drinkers, frequent movers, or anyone who has tried and disliked the manual process, paying more per cup for a machine that asks nothing of you is a rational choice."}}
+]}
+</script>
+
+<script src="/site.js" defer></script>
+</body>
+</html>

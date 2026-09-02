@@ -225,6 +225,16 @@
       "minutes": 17,
       "date": "2026-09-01",
       "featured": true
+    },
+    {
+      "slug": "espresso-machine-vs-pod-machine",
+      "title": "Espresso Machine vs Pod Machine: The Real Cost Per Cup",
+      "description": "Pods are genuinely convenient. Over three years, here is what each one costs, and what you can and cannot change about the coffee.",
+      "category": "Comparison",
+      "hero": "hero-espresso-machine-vs-pod-machine",
+      "minutes": 14,
+      "date": "2026-09-02",
+      "featured": true
     }
   ]
 }
