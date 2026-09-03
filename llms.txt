@@ -28,6 +28,7 @@ We start from every espresso machine we can source through Amazon's official pro
 ## Guides
 
 <!--LLMS-GUIDES:START-->
+- [The Best Espresso Machines Under $100](https://best-espresso-machines.com/best-espresso-machines-under-100): Below $100 you are buying steam pressure, not pump pressure. What that changes in the cup.
 - [Espresso Machine vs Pod Machine: The Real Cost Per Cup](https://best-espresso-machines.com/espresso-machine-vs-pod-machine): Pods are genuinely convenient. Over three years, here is what each one costs, and what you can and cannot change about the coffee.
 - [Why 9 Bar Matters, and Why 20 Bar on the Box Does Not](https://best-espresso-machines.com/espresso-machine-pressure-9-bar-explained): Machines advertise 20 bar. Espresso is brewed at 9. The number on the box describes the pump, not the shot.
 - [PID Temperature Control: What It Actually Does to Your Shot](https://best-espresso-machines.com/espresso-machine-pid-temperature-control): Three letters on a spec sheet that change how repeatable your espresso is. What PID controls, and when a machine is fine without it.

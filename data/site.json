@@ -235,6 +235,16 @@
       "minutes": 14,
       "date": "2026-09-02",
       "featured": true
+    },
+    {
+      "slug": "best-espresso-machines-under-100",
+      "title": "The Best Espresso Machines Under $100",
+      "description": "Below $100 you are buying steam pressure, not pump pressure. What that changes in the cup.",
+      "category": "Buying guide",
+      "hero": "hero-best-espresso-machines-under-100",
+      "minutes": 17,
+      "date": "2026-09-03",
+      "featured": true
     }
   ]
 }
