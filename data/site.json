@@ -255,6 +255,16 @@
       "minutes": 13,
       "date": "2026-09-04",
       "featured": true
+    },
+    {
+      "slug": "espresso-portafilter-and-basket-sizes",
+      "title": "Portafilter and Basket Sizes: 51mm, 54mm, 58mm",
+      "description": "The number decides which accessories fit for the life of the machine. Nobody mentions it on the box.",
+      "category": "Guide",
+      "hero": "hero-espresso-portafilter-and-basket-sizes",
+      "minutes": 13,
+      "date": "2026-09-05",
+      "featured": true
     }
   ]
 }

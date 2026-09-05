@@ -28,6 +28,7 @@ We start from every espresso machine we can source through Amazon's official pro
 ## Guides
 
 <!--LLMS-GUIDES:START-->
+- [Portafilter and Basket Sizes: 51mm, 54mm, 58mm](https://best-espresso-machines.com/espresso-portafilter-and-basket-sizes): The number decides which accessories fit for the life of the machine. Nobody mentions it on the box.
 - [How to Froth Milk at Home (and Why Yours Goes Flat)](https://best-espresso-machines.com/how-to-froth-milk-at-home): Temperature, angle, and the fifteen seconds that decide whether you get microfoam or bubbles.
 - [The Best Espresso Machines Under $100](https://best-espresso-machines.com/best-espresso-machines-under-100): Below $100 you are buying steam pressure, not pump pressure. What that changes in the cup.
 - [Espresso Machine vs Pod Machine: The Real Cost Per Cup](https://best-espresso-machines.com/espresso-machine-vs-pod-machine): Pods are genuinely convenient. Over three years, here is what each one costs, and what you can and cannot change about the coffee.
