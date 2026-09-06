@@ -265,6 +265,16 @@
       "minutes": 13,
       "date": "2026-09-05",
       "featured": true
+    },
+    {
+      "slug": "what-an-espresso-machine-costs-to-run",
+      "title": "What an Espresso Machine Really Costs to Run",
+      "description": "Beans, power, descaler, filters, and the repair nobody budgets for. The honest yearly figure.",
+      "category": "Guide",
+      "hero": "hero-what-an-espresso-machine-costs-to-run",
+      "minutes": 14,
+      "date": "2026-09-06",
+      "featured": true
     }
   ]
 }

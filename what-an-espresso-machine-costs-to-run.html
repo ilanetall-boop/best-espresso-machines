@@ -1,0 +1,439 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>What an Espresso Machine Really Costs to Run</title>
+<meta name="description" content="Beans, power, descaler, filters, and the repair nobody budgets for. The honest yearly figure.">
+<link rel="canonical" href="https://best-espresso-machines.com/what-an-espresso-machine-costs-to-run">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Best Espresso Machines">
+<meta property="og:title" content="What an Espresso Machine Really Costs to Run">
+<meta property="og:description" content="Beans, power, descaler, filters, and the repair nobody budgets for. The honest yearly figure.">
+<meta property="og:url" content="https://best-espresso-machines.com/what-an-espresso-machine-costs-to-run">
+<meta property="og:image" content="https://best-espresso-machines.com/images/hero-what-an-espresso-machine-costs-to-run.webp">
+<meta name="theme-color" content="#1A100C">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png">
+<link rel="alternate icon" href="/favicon.ico">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<style>
+  /* premium-editorial-v1 — palette: coffee / amber / copper.
+     NOTE: the --aqua* variable names are inherited from the network template;
+     on this site they carry the copper accent. Do not rename (tools/rebuild-site.js
+     and every article file reference them). */
+  :root{
+    --ground:#F7F3EE; --surface:#FFFFFF; --surface-2:#F0E8DF;
+    --ink:#1F1410; --ink-soft:#43302A; --muted:#7A655A; --line:#E6DACE;
+    --aqua:#B4622A; --aqua-deep:#8F4A18; --aqua-tint:#F8EAE0;
+    --brass:#A9803A; --brass-lite:#DFBB78; --brass-tint:#F6EEDF;
+    --dark:#1A100C; --dark-2:#2C1C14; --on-dark:#F4EAE1; --on-dark-mute:#B69C8B;
+    --star:#D9A400;
+    --shadow:0 1px 2px rgba(31,20,16,.05),0 22px 48px -26px rgba(31,20,16,.30);
+    --shadow-sm:0 1px 2px rgba(31,20,16,.05),0 10px 24px -16px rgba(31,20,16,.24);
+    --radius:20px; --radius-sm:12px; --maxw:1120px;
+    --serif:"Iowan Old Style","Palatino Linotype",Palatino,Georgia,"Times New Roman",serif;
+    --sans:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  }
+  @media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+    --ground:#140C09; --surface:#1F1410; --surface-2:#2A1B15;
+    --ink:#F4EAE1; --ink-soft:#DCC9BC; --muted:#AF9788; --line:#3A2720;
+    --aqua:#E08B4E; --aqua-deep:#F0A96E; --aqua-tint:#2A1B12;
+    --brass:#DFBB78; --brass-lite:#EDD4A0; --brass-tint:#2A200F;
+    --shadow:0 1px 2px rgba(0,0,0,.4),0 24px 52px -28px rgba(0,0,0,.7);
+    --shadow-sm:0 1px 2px rgba(0,0,0,.4),0 12px 26px -18px rgba(0,0,0,.6);
+  }}
+  :root[data-theme="dark"]{
+    --ground:#140C09; --surface:#1F1410; --surface-2:#2A1B15;
+    --ink:#F4EAE1; --ink-soft:#DCC9BC; --muted:#AF9788; --line:#3A2720;
+    --aqua:#E08B4E; --aqua-deep:#F0A96E; --aqua-tint:#2A1B12;
+    --brass:#DFBB78; --brass-lite:#EDD4A0; --brass-tint:#2A200F;
+    --shadow:0 1px 2px rgba(0,0,0,.4),0 24px 52px -28px rgba(0,0,0,.7);
+    --shadow-sm:0 1px 2px rgba(0,0,0,.4),0 12px 26px -18px rgba(0,0,0,.6);
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{margin:0;background:var(--ground);color:var(--ink);font-family:var(--sans);
+    font-size:18px;line-height:1.6;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
+  .wrap{max-width:var(--maxw);margin:0 auto;padding:0 26px}
+  a{color:inherit}
+  h1,h2,h3{margin:0;line-height:1.08;letter-spacing:-.01em;text-wrap:balance}
+  .serif{font-family:var(--serif)}
+  p{margin:0 0 1rem}
+  .eyebrow{font-family:var(--sans);font-size:.72rem;font-weight:700;letter-spacing:.22em;text-transform:uppercase}
+  .tnum{font-variant-numeric:tabular-nums}
+  .stars{color:var(--star);letter-spacing:2px}
+
+  /* ---------- header ---------- */
+  header.site{position:sticky;top:0;z-index:30;background:color-mix(in srgb,var(--ground) 82%,transparent);
+    backdrop-filter:saturate(1.3) blur(12px);border-bottom:1px solid var(--line)}
+  .bar{display:flex;align-items:center;justify-content:space-between;height:64px}
+  .brand{display:inline-flex;align-items:center;gap:11px;text-decoration:none;color:var(--ink);font-weight:700;letter-spacing:-.01em}
+  .brand .bn{font-family:var(--serif);font-size:1.16rem}
+  nav.site a{color:var(--muted);text-decoration:none;font-size:.86rem;font-weight:600;letter-spacing:.01em;margin-left:22px;transition:color .2s}
+  nav.site a:hover{color:var(--ink)}
+  @media (max-width:660px){nav.site{display:none}}
+
+  /* ---------- hero (immersive dark, roast bloom) ---------- */
+  .hero{position:relative;background:radial-gradient(120% 90% at 80% -10%,var(--dark-2),var(--dark) 60%);color:var(--on-dark);overflow:hidden;isolation:isolate}
+  .caustic{position:absolute;inset:-30%;z-index:0;opacity:.5;pointer-events:none;filter:blur(30px);
+    background:
+      radial-gradient(28% 40% at 22% 30%,rgba(224,139,78,.26),transparent 60%),
+      radial-gradient(24% 34% at 74% 24%,rgba(223,187,120,.22),transparent 60%),
+      radial-gradient(30% 42% at 60% 78%,rgba(180,98,42,.26),transparent 62%);
+    animation:drift 22s ease-in-out infinite alternate}
+  .caustic.b{opacity:.34;animation-duration:30s;animation-direction:alternate-reverse;
+    background:
+      radial-gradient(26% 36% at 40% 60%,rgba(240,169,110,.22),transparent 60%),
+      radial-gradient(22% 30% at 85% 70%,rgba(169,128,58,.20),transparent 60%)}
+  @keyframes drift{0%{transform:translate3d(-2%,-1%,0) scale(1)}50%{transform:translate3d(3%,2%,0) scale(1.08)}100%{transform:translate3d(-1%,3%,0) scale(1.04)}}
+  .hero .wrap{position:relative;z-index:1;padding:74px 26px 88px}
+  .hero .eyebrow{color:var(--brass-lite)}
+  .hero h1{font-family:var(--serif);font-weight:600;font-size:clamp(2.5rem,1.4rem+4.6vw,4.7rem);letter-spacing:-.02em;max-width:15ch;margin:.5rem 0 0}
+  .hero h1 em{font-style:italic;color:var(--brass-lite)}
+  .hero .lede{font-size:1.24rem;line-height:1.55;color:var(--on-dark-mute);max-width:52ch;margin-top:1.3rem}
+  .hero .meta{display:flex;flex-wrap:wrap;gap:10px 26px;margin-top:26px;font-size:.86rem;color:var(--on-dark-mute)}
+  .hero .meta b{color:var(--on-dark)}
+  .rule{height:1px;background:linear-gradient(90deg,var(--brass),transparent);border:0;margin:26px 0 0;max-width:220px}
+
+  /* ---------- #1 feature (the centerpiece) ---------- */
+  .feature{position:relative;z-index:2;margin:-56px 0 0}
+  .feature .card{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);
+    display:grid;grid-template-columns:1.1fr 1fr;overflow:hidden}
+  .feature .left{padding:38px}
+  .feature .kick{display:inline-flex;align-items:center;gap:9px;color:var(--brass-text);font-weight:700;font-size:.74rem;letter-spacing:.16em;text-transform:uppercase}
+  .feature .kick::before{content:"";width:26px;height:1px;background:var(--brass)}
+  .feature h2{font-family:var(--serif);font-weight:600;font-size:clamp(1.8rem,1.2rem+2vw,2.7rem);margin:.5rem 0 .2rem}
+  .feature .verdict{color:var(--ink-soft);font-size:1.06rem;margin:.4rem 0 1rem;max-width:44ch}
+  .feature .rl{display:flex;align-items:center;flex-wrap:wrap;gap:8px 10px;font-size:.92rem;color:var(--muted);margin-bottom:1.2rem}
+  .feature .rl b{color:var(--ink)}
+  .btn{display:inline-flex;align-items:center;gap:9px;background:var(--aqua);color:#fff;font-weight:700;
+    padding:14px 26px;border-radius:12px;text-decoration:none;box-shadow:var(--shadow-sm);transition:transform .15s,background .2s}
+  .btn:hover{background:var(--aqua-deep);transform:translateY(-1px)}
+  .btn .arw{transition:transform .2s}.btn:hover .arw{transform:translateX(3px)}
+  .feature .right{background:linear-gradient(160deg,var(--dark-2),var(--dark));color:var(--on-dark);padding:38px;display:flex;flex-direction:column;justify-content:center;gap:6px;position:relative}
+  .feature .right .lab{font-size:.72rem;letter-spacing:.18em;text-transform:uppercase;color:var(--on-dark-mute)}
+  .feature .bigprice{font-family:var(--serif);font-size:clamp(3rem,2rem+4vw,4.4rem);font-weight:600;line-height:1;color:var(--brass-lite)}
+  .feature .bigprice sup{font-size:.4em;top:-1.2em;color:var(--on-dark)}
+  .feature .right .note{color:var(--on-dark-mute);font-size:.92rem;margin-top:6px;max-width:30ch}
+  .feature .right .mono{margin-top:16px;font-family:var(--serif);font-size:1.05rem;color:var(--on-dark)}
+  @media (max-width:820px){.feature .card{grid-template-columns:1fr}.feature .right{order:-1}}
+
+  /* ---------- generic section ---------- */
+  section{padding:44px 0}
+  .kicker{display:flex;align-items:center;gap:14px;margin-bottom:6px}
+  .kicker .eyebrow{color:var(--aqua-deep)}
+  .kicker::after{content:"";flex:1;height:1px;background:var(--line)}
+  .h2{font-family:var(--serif);font-weight:600;font-size:clamp(1.7rem,1.2rem+1.7vw,2.5rem);letter-spacing:-.01em}
+  .sub{color:var(--muted);max-width:62ch;margin:.6rem 0 0}
+
+  .notes{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--line);border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;margin-top:24px}
+  .notes .n{background:var(--surface);padding:24px}
+  .notes .num{font-family:var(--serif);font-size:1.5rem;color:var(--brass-text);line-height:1}
+  .notes h3{font-size:1.02rem;font-weight:750;margin:.5rem 0 .35rem}
+  .notes p{font-size:.9rem;color:var(--muted);margin:0}
+  @media (max-width:820px){.notes{grid-template-columns:1fr 1fr}}
+  @media (max-width:520px){.notes{grid-template-columns:1fr}}
+
+  /* honesty band */
+  .band{background:var(--brass-tint);border:1px solid var(--line);border-left:3px solid var(--brass);
+    border-radius:var(--radius-sm);padding:22px 24px;margin-top:26px}
+  .band h3{font-family:var(--serif);font-weight:600;font-size:1.16rem;margin-bottom:.5rem}
+  .band p{color:var(--ink-soft);font-size:.95rem;margin:0}
+  .band p+p{margin-top:.6rem}
+
+  /* comparison */
+  .tablewrap{overflow-x:auto;border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow-sm);background:var(--surface);margin-top:22px}
+  table{border-collapse:collapse;width:100%;min-width:740px;font-size:.94rem}
+  thead th{background:var(--surface-2);text-align:left;padding:16px;font-size:.7rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);border-bottom:1px solid var(--line)}
+  td{padding:15px 16px;border-bottom:1px solid var(--line);vertical-align:middle}
+  tbody tr:last-child td{border-bottom:0}
+  tbody tr:hover{background:var(--surface-2)}
+  td.name{font-family:var(--serif);font-weight:600;font-size:1.05rem}
+  .win td{background:var(--brass-tint)}
+  .win td.name{color:var(--brass-text)}
+  .win td:first-child{box-shadow:inset 3px 0 0 var(--brass)}
+  .price{font-weight:800;font-variant-numeric:tabular-nums}
+  .rev{color:var(--muted);font-size:.82rem}
+  .tget{display:inline-block;background:var(--ink);color:var(--surface);font-weight:700;font-size:.8rem;padding:8px 14px;border-radius:9px;text-decoration:none;white-space:nowrap;transition:background .2s}
+  .tget:hover{background:var(--aqua-deep);color:#fff}
+
+  /* picks (editorial cards) */
+  .picks{display:flex;flex-direction:column;gap:26px;margin-top:26px}
+  .pick{display:grid;grid-template-columns:96px 1fr auto;gap:26px;align-items:start;
+    background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow-sm);padding:28px}
+  .pick .rank{font-family:var(--serif);font-size:2.6rem;color:var(--brass-text);line-height:.9;font-weight:600}
+  .pick .rank small{display:block;font-family:var(--sans);font-size:.6rem;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);font-weight:700;margin-top:8px}
+  .pick h3{font-family:var(--serif);font-weight:600;font-size:1.44rem}
+  .pick .who{color:var(--aqua-deep);font-weight:700;font-size:.9rem;margin:.25rem 0 .5rem}
+  .pick .rl2{display:flex;align-items:center;flex-wrap:wrap;gap:6px 8px;font-size:.86rem;color:var(--muted);margin-bottom:.7rem}
+  .pick .rl2 b{color:var(--ink)}
+  .pick p.body{margin:.2rem 0 0;color:var(--ink-soft)}
+  .quote{border-left:2px solid var(--brass);padding-left:14px;margin:.9rem 0 0;font-family:var(--serif);color:var(--ink);font-size:1.02rem}
+  .quote b{font-family:var(--sans);font-size:.74rem;letter-spacing:.14em;text-transform:uppercase;color:var(--brass-text);display:block;margin-bottom:.2rem;font-weight:700}
+  .aside{display:flex;flex-direction:column;align-items:flex-end;gap:12px;text-align:right;min-width:150px}
+  .aside .pr{font-family:var(--serif);font-size:2rem;font-weight:600;font-variant-numeric:tabular-nums;line-height:1}
+  .aside .tag{font-size:.72rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+  .buy{display:inline-flex;align-items:center;gap:8px;background:var(--aqua);color:#fff;font-weight:700;padding:11px 20px;border-radius:10px;text-decoration:none;transition:background .2s,transform .15s;font-size:.92rem}
+  .buy:hover{background:var(--aqua-deep);transform:translateY(-1px)}
+  @media (max-width:820px){.pick{grid-template-columns:64px 1fr}.aside{grid-column:1/-1;flex-direction:row;justify-content:space-between;align-items:center;text-align:left;border-top:1px solid var(--line);padding-top:16px}}
+
+  /* method / faq */
+  .cols{display:grid;grid-template-columns:1fr 1fr;gap:26px;margin-top:22px}
+  @media (max-width:760px){.cols{grid-template-columns:1fr}}
+  .panel{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:28px;box-shadow:var(--shadow-sm)}
+  .panel .eyebrow{color:var(--aqua-deep)}
+  .panel h3{font-family:var(--serif);font-weight:600;font-size:1.3rem;margin:.5rem 0 .5rem}
+  .panel p{color:var(--muted);margin:0}
+  .faq details{border-top:1px solid var(--line);padding:16px 0}
+  .faq details:first-of-type{border-top:0}
+  .faq summary{cursor:pointer;font-family:var(--serif);font-size:1.12rem;list-style:none;display:flex;justify-content:space-between;gap:14px;color:var(--ink)}
+  .faq summary::-webkit-details-marker{display:none}
+  .faq summary::after{content:"+";color:var(--brass-text);font-family:var(--sans);font-weight:700}
+  .faq details[open] summary::after{content:"–"}
+  .faq p{margin:.8rem 0 0;color:var(--muted)}
+
+  footer.site{margin-top:20px;background:var(--dark);color:var(--on-dark-mute)}
+  footer .wrap{padding:40px 26px}
+  footer .fbrand{font-family:var(--serif);color:var(--on-dark);font-size:1.2rem}
+  footer p{font-size:.84rem;margin:.6rem 0 0;max-width:80ch}
+  footer a{color:var(--brass-lite)}
+  /* imagery */
+  .hero .wrap{display:grid;grid-template-columns:1.12fr .88fr;gap:48px;align-items:center}
+  .hero .himg{border-radius:20px;border:1px solid rgba(223,187,120,.4);box-shadow:0 30px 60px -30px rgba(0,0,0,.55);width:100%;height:auto;display:block}
+  @media (max-width:860px){.hero .wrap{grid-template-columns:1fr;gap:30px}}
+  .fpimg{background:#fff;border-radius:14px;padding:14px;box-shadow:0 12px 28px -14px rgba(0,0,0,.5);width:min(230px,70%);margin-bottom:16px}
+  .fpimg img{width:100%;height:auto;display:block}
+  .aside .pimg{width:150px;height:150px;background:#fff;border:1px solid var(--line);border-radius:12px;padding:10px;display:flex;align-items:center;justify-content:center}
+  .aside .pimg img{max-width:100%;max-height:100%;display:block}
+  @media (max-width:820px){.aside .pimg{width:96px;height:96px;padding:6px}}
+  td.name{display:flex;align-items:center;gap:12px}
+  .thumb{width:46px;height:46px;flex:0 0 auto;background:#fff;border:1px solid var(--line);border-radius:9px;padding:4px}
+  .thumb img{width:100%;height:100%;object-fit:contain;display:block}
+  :focus-visible{outline:2px solid var(--aqua);outline-offset:3px;border-radius:5px}
+  @media (prefers-reduced-motion:reduce){*{animation:none!important;scroll-behavior:auto!important}.btn:hover,.buy:hover{transform:none}}
+</style>
+<style id="a11y">:root{--brass-text:#7A5A20;--star:#B07E00}@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--brass-text:#EDD4A0;--star:#E8B84B}}:root[data-theme="dark"]{--brass-text:#EDD4A0;--star:#E8B84B}nav.site a{color:var(--ink-soft)}.stars{color:var(--star)}thead th{color:var(--ink-soft)}.rev{color:var(--ink-soft)}.kick{color:var(--brass-text)}.win td.name{color:var(--brass-text)}a.btn,a.buy,.btn,.buy{background:#8F4A18 !important;color:#fff !important;text-decoration:none !important}a.btn:hover,a.buy:hover,.btn:hover,.buy:hover{background:#6E3810 !important}@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) a.btn,:root:not([data-theme="light"]) a.buy,:root:not([data-theme="light"]) .btn,:root:not([data-theme="light"]) .buy{background:#E08B4E !important;color:#24120A !important}:root:not([data-theme="light"]) .btn:hover,:root:not([data-theme="light"]) .buy:hover{background:#F0A96E !important}}:root[data-theme="dark"] a.btn,:root[data-theme="dark"] a.buy,:root[data-theme="dark"] .btn,:root[data-theme="dark"] .buy{background:#E08B4E !important;color:#24120A !important}</style>
+<style id="article">
+  .art{max-width:var(--maxw);margin:0 auto;padding:0 26px}
+  .arthead{padding:52px 0 0;max-width:760px}
+  .arthead h1{font-family:var(--serif);font-weight:600;font-size:clamp(2.1rem,1.3rem+3.1vw,3.5rem);margin:.5rem 0 0}
+  .arthead .lede{font-size:1.18rem;line-height:1.55;color:var(--ink-soft);margin-top:1.1rem}
+  .byline{font-size:.88rem;color:var(--muted);margin-top:1.1rem}
+  .byline b{color:var(--ink)}
+  .disclose{font-size:.82rem;color:var(--muted);border-left:2px solid var(--brass);padding-left:12px;margin-top:1rem;max-width:70ch}
+  .artimg{width:100%;height:auto;display:block;border-radius:var(--radius);border:1px solid var(--line);box-shadow:var(--shadow);margin:30px 0 8px}
+  .prose{max-width:68ch;margin:0 auto}
+  .prose h2{font-family:var(--serif);font-weight:600;font-size:clamp(1.55rem,1.15rem+1.3vw,2.1rem);margin:2.4rem 0 .8rem}
+  .prose h3{font-family:var(--serif);font-weight:600;font-size:1.24rem;margin:1.7rem 0 .6rem}
+  .prose p{color:var(--ink-soft)}
+  .prose a{color:var(--aqua-deep);font-weight:600;text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:2px}
+  .prose strong{color:var(--ink)}
+  .toc{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius-sm);padding:20px 24px;margin:26px 0 0;box-shadow:var(--shadow-sm)}
+  .toc .eyebrow{color:var(--aqua-deep);display:block;margin-bottom:.6rem}
+  .toc ol{margin:0;padding-left:1.2rem;color:var(--ink-soft);font-size:.94rem}
+  .toc li{margin-bottom:.3rem}
+  .toc a{color:var(--ink-soft);text-decoration:none}
+  .toc a:hover{color:var(--aqua-deep)}
+  .inline-pick{display:grid;grid-template-columns:120px 1fr;gap:20px;align-items:center;background:var(--surface);
+    border:1px solid var(--line);border-radius:var(--radius-sm);box-shadow:var(--shadow-sm);padding:20px;margin:1.6rem 0}
+  .inline-pick .ipimg{width:120px;height:120px;background:#fff;border:1px solid var(--line);border-radius:10px;padding:8px;display:flex;align-items:center;justify-content:center}
+  .inline-pick .ipimg img{max-width:100%;max-height:100%;display:block}
+  .inline-pick h3{font-family:var(--serif);font-weight:600;font-size:1.2rem;margin:0 0 .25rem}
+  .inline-pick p{font-size:.92rem;color:var(--muted);margin:0 0 .7rem}
+  .inline-pick .ipp{font-weight:800;font-variant-numeric:tabular-nums;color:var(--ink)}
+  @media (max-width:620px){.inline-pick{grid-template-columns:1fr}.inline-pick .ipimg{width:96px;height:96px}}
+  .keep{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:22px}
+  .keep a{display:block;background:var(--surface);border:1px solid var(--line);border-radius:var(--radius-sm);
+    padding:18px 20px;text-decoration:none;box-shadow:var(--shadow-sm);transition:transform .15s,border-color .2s}
+  .keep a:hover{transform:translateY(-2px);border-color:var(--brass)}
+  .keep .kt{font-family:var(--serif);font-size:1.06rem;color:var(--ink);display:block;margin-bottom:.25rem}
+  .keep .kd{font-size:.86rem;color:var(--muted)}
+  @media (max-width:620px){.keep{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<header class="site"><div class="wrap bar">
+  <a class="brand" href="/" aria-label="Best Espresso Machines">
+    <svg class="logomark" width="36" height="36" viewBox="0 0 40 40" aria-hidden="true">
+      <defs><radialGradient id="lm" cx="34%" cy="26%" r="86%"><stop offset="0" stop-color="#C2703C"/><stop offset=".68" stop-color="#5A2F16"/><stop offset="1" stop-color="#2A1A10"/></radialGradient></defs>
+      <circle cx="20" cy="20" r="19" fill="url(#lm)"/>
+      <circle cx="20" cy="20" r="18.4" fill="none" stroke="#DFBB78" stroke-width="1.1" stroke-opacity=".92"/>
+      <circle cx="20" cy="20" r="15.3" fill="none" stroke="#F4EAE1" stroke-width=".6" stroke-opacity=".22"/>
+      <path d="M13.2 17.6h11.1v4.9a5.55 5.55 0 0 1-5.55 5.55h0A5.55 5.55 0 0 1 13.2 22.5v-4.9Z" fill="#F9F3EC"/>
+      <path d="M24.6 18.9h1.6a2.5 2.5 0 0 1 0 5h-1.6" fill="none" stroke="#F9F3EC" stroke-width="1.5" stroke-linecap="round"/>
+      <path d="M12 29.4h14.6" stroke="#DFBB78" stroke-width="1.3" stroke-linecap="round" stroke-opacity=".9"/>
+      <path d="M17.4 14.4c1.5-1.2-1.1-2.5.4-4.1M21.4 14.4c1.5-1.2-1.1-2.5.4-4.1" fill="none" stroke="#F4EAE1" stroke-width="1.3" stroke-linecap="round" stroke-opacity=".75"/>
+    </svg>
+    <span class="bn">Best&thinsp;Espresso&thinsp;Machines</span>
+  </a>
+  <nav class="site" aria-label="Primary">
+    <a href="/#feature">Top pick</a><a href="/#compare">Compare</a><a href="/#picks">The eight</a><a href="/#how">Method</a><a href="/#faq">FAQ</a>
+  <a href="/guides">All guides</a></nav>
+</div></header>
+
+<div class="art">
+  <div class="arthead">
+    <span class="eyebrow" style="color:var(--aqua-deep)">Guide</span>
+    <h1>What an Espresso Machine Really Costs to Run</h1>
+    <p class="lede">The sticker price is the smallest number in the whole relationship. Beans, electricity, descaler, filters and the one repair that ends a cheap machine's life all keep billing you long after checkout — here is the honest yearly figure, worked out from real specs and stated assumptions rather than a marketing footnote.</p>
+    <p class="byline">By <b>Ilane Tall</b> · Updated September 6, 2026 · Research-based.</p>
+    <p class="disclose">Reader-supported: we may earn a commission if you buy through our links, at no extra cost to you. Prices are the ones we recorded on September 6, 2026 and they move constantly — confirm the live price before buying.</p>
+  </div>
+
+  <img class="artimg" src="/images/hero-what-an-espresso-machine-costs-to-run.webp" width="1600" height="900" loading="eager" fetchpriority="high" decoding="async" alt="Espresso machine, bag of beans, descaling bottle and a water filter cartridge laid out on a kitchen counter">
+
+  <div class="prose">
+
+    <div class="toc" role="navigation" aria-label="On this page">
+      <span class="eyebrow">On this page</span>
+      <ol>
+        <li><a href="#answer">The honest yearly figure</a></li>
+        <li><a href="#beans">Beans: the cost that dwarfs the rest</a></li>
+        <li><a href="#power">Electricity per cup, calculated honestly</a></li>
+        <li><a href="#maintenance">Descaler and filters on a real schedule</a></li>
+        <li><a href="#repair">The repair that ends cheap machines</a></li>
+        <li><a href="#picks">The picks by cost of ownership</a></li>
+        <li><a href="#threeyear">Cost per cup over three years</a></li>
+        <li><a href="#honest">How we compared these</a></li>
+        <li><a href="#faq">FAQ</a></li>
+      </ol>
+    </div>
+
+    <h2 id="answer">The honest yearly figure</h2>
+    <p>Run the numbers for one person drinking two double shots a day, every day, for a year, and the total lands somewhere between <strong>$230 and $320</strong> depending on bean spend and how conscientious you are about descaling — and roughly <strong>85 to 90 percent of that is beans</strong>. Electricity is a rounding error. Descaler and filters are a once-or-twice-a-year line item measured in single dollars per month. The number nobody budgets for is the repair that shows up around year three or four on a machine that skipped its descaling schedule, and it can equal a full year of running costs in one bill.</p>
+    <p>None of that is a reason to avoid buying a machine — a $6 café latte times 730 doubles a year is well over $1,000, and even the honest home figure above beats that by a wide margin. It is a reason to budget for the machine's whole first year, not just the checkout price, and to pick a machine whose ongoing costs match your habits rather than the one with the lowest number on the box.</p>
+
+    <h2 id="beans">Beans: the cost that dwarfs the rest</h2>
+    <p>Start with the one line item that decides almost the entire bill. A standard double shot uses about 18 grams of ground coffee. A 12-ounce bag of beans is roughly 340 grams, which works out to around 18 doubles per bag before you account for any waste in dialing in the grind.</p>
+    <p>Specialty beans generally run $14–20 per 12-ounce bag; call it $17 as a working midpoint. At 18 doubles per bag, that is roughly <strong>$0.94 per double shot</strong> in beans alone. Two doubles a day, 365 days a year, comes to 730 doubles — and at that rate, beans alone cost about <strong>$685 a year</strong> if you drink two doubles every single day without exception.</p>
+    <p>That figure is higher than most people's real spend, because most people don't drink espresso literally every day, and grocery-aisle beans at $9–12 a bag pull the average down considerably. Recalculating at a more typical $10 bag and one double a day (a milk drink most mornings, black coffee or nothing on weekends) brings bean cost to roughly <strong>$200 a year</strong> — which is why the $230–320 all-in estimate above assumes a moderate habit, not a daily double-shot ritual. The point holds regardless of where your own number lands: beans are the input you actually control, and they are the input worth spending time comparing, because a $3 difference per bag compounds into real money over a year in a way that a $50 difference in machine price does not.</p>
+    <p>This is also the strongest argument for a machine with a built-in grinder, since fresh-ground beans extract more efficiently than pre-ground coffee that has already lost aroma to the bag — you get more usable flavor per gram, which is a real (if hard to price precisely) saving layered on top of the sticker math. Our <a href="/best-espresso-machines-with-grinders">guide to machines with built-in grinders</a> goes through the trade-offs of grinding at the machine versus buying pre-ground.</p>
+
+    <h2 id="power">Electricity per cup, calculated honestly</h2>
+    <p>Electricity is the easiest cost to overstate, because a machine's wattage rating describes its heating element at full draw, not what it actually consumes making one cup. Here is the honest version of the math, assumptions stated.</p>
+    <p>A typical semi-automatic espresso machine draws somewhere in the 1,200–1,600 W range while its boiler is actively heating, but that draw only happens for a fraction of the time it's plugged in — heating from cold takes roughly 60–90 seconds, and the thermostat then cycles the heating element on and off to hold temperature rather than running continuously. A conservative estimate for one shot, counting warm-up plus the brew cycle plus some idle cycling while you steam milk, is about <strong>0.05–0.08 kWh</strong> — call it 0.06 kWh as a rounded middle figure.</p>
+    <p>At the U.S. average residential electricity rate of roughly <strong>$0.16–0.17 per kWh</strong>, one shot's worth of electricity costs approximately <strong>1 cent</strong>. Two doubles a day, 365 days a year, is about <strong>730 shots</strong>, which puts annual electricity cost at roughly <strong>$7–9 a year</strong> — genuinely a rounding error next to beans. Leaving a machine powered on standby all day adds a small amount on top (most modern machines auto-shut-off after 15–30 minutes of inactivity specifically to limit this), but even a household that never turns the machine off is unlikely to clear $20–25 a year in electricity.</p>
+    <p>The exception is super-automatic machines like the <strong>De'Longhi Magnifica Start</strong>, which run a grinder motor and sometimes a self-clean or rinse cycle on top of the boiler — still a small draw in absolute terms, but worth knowing it's a slightly higher number than a simple semi-automatic pulling shots from pre-ground coffee.</p>
+
+    <h2 id="maintenance">Descaler and filters on a real schedule</h2>
+    <p>This is the maintenance category people actually skip, and it is also the cheapest one to do properly. Two separate things are being maintained here: the water itself, and the mineral scale that hard water leaves behind inside the boiler.</p>
+    <p>A water filter cartridge for a machine's tank — the kind that reduces chlorine taste and some hardness before water ever reaches the boiler — typically costs <strong>$8–15</strong> and is rated for roughly two to three months of typical use before it needs replacing. Over a year that's three to four cartridges, or about <strong>$30–50 annually</strong>, and it is optional in the sense that a machine will run without one, but it slows the mineral buildup that descaling has to fight later.</p>
+    <p>Descaling solution is the non-optional part. Manufacturers generally recommend descaling every one to three months depending on your local water hardness — more often in hard-water regions, less in soft-water ones — using either a dedicated descaling solution (about <strong>$10–15</strong> per bottle, good for one to a few cycles depending on concentration) or a food-safe citric acid mix, which is cheaper still. Budgeting for descaling four times a year at roughly $12 a bottle comes to about <strong>$48 a year</strong>. Combined with filters, a realistic total for water maintenance is <strong>$60–100 a year</strong> — a genuinely small number, and the one most owners skip anyway because nothing visibly breaks the week they miss it.</p>
+    <p>That's the trap. Skipping descaling doesn't cause a visible failure in month one; it causes a slow, invisible one that shows up as the next section. Our <a href="/espresso-machine-water-quality-and-descaling">water quality and descaling guide</a> covers how to read your local water hardness and set an actual schedule instead of guessing.</p>
+
+    <h2 id="repair">The repair that ends cheap machines</h2>
+    <p>Here is the cost nobody puts in a comparison table, because it doesn't happen to everyone and it doesn't happen on a fixed schedule. It happens to machines that run hard water without descaling, and it happens on a timeline of roughly two to five years rather than months.</p>
+    <p>Mineral scale from hard water builds up inside the boiler, the internal tubing and the valves. A thin layer barely matters. A thick one restricts water flow, forces the heating element to work harder to reach temperature, and eventually clogs or jams a valve outright — which is when a machine that was pulling fine shots one week starts leaking, stalling mid-brew, or refusing to heat the next. On a machine with a simple boiler and few components, that failure is sometimes a $20–40 replacement descaling valve or a thorough manual descale that restores function. On a machine with a more complex thermoblock or a super-automatic's internal plumbing, the same failure is often a same-as-new repair quote, because the affected part isn't sold separately or the labor to reach it costs more than the machine did.</p>
+    <p>This is where machine price and repair risk actually connect, and not in the direction people assume. A $700 super-automatic and an $80 semi-automatic both scale up under hard water at the same rate — water doesn't know what the machine cost — but the cheap machine was never built with the expectation of being repaired. Manufacturers of budget machines price them to be replaced, not serviced: parts availability is limited, and a repair quote frequently exceeds the machine's own price, at which point "the repair that ends cheap machines" is really just the manufacturer declining to compete with its own replacement unit. On a more expensive, more established machine, a factory service center and available parts at least make the repair option real, even if it isn't cheap.</p>
+    <p>The fix costs $10 in citric acid and fifteen minutes, four times a year. It's the single highest-leverage line item in this entire article, and it's also the one with a $0 marketing budget behind it — nobody sells descaling the way they sell milk frothers.</p>
+
+    <h2 id="picks">The picks by cost of ownership</h2>
+    <p>Ranking by cost of ownership rather than by feature list changes the order, because a machine's honest running cost is a function of its price bracket, its complexity, and how forgiving it is of a missed descaling cycle — not of how many settings are on the box.</p>
+
+    <div class="inline-pick">
+      <div class="ipimg"><img src="/images/amazon-B0GY74JMX3.webp" alt="AERCANA compact espresso machine with milk frother, 20 bar, stainless steel" width="800" height="800" loading="lazy" decoding="async"></div>
+      <div>
+        <h3>AERCANA Espresso Machine 20 Bar</h3>
+        <p>Lowest cost of ownership on this list by simple mechanics: no grinder to fail, a small boiler that heats and descales fast, and a compact stainless build with a 34 oz removable tank. Fewer components sharing a chassis means fewer places for hard-water scale to concentrate its damage.</p>
+        <span class="ipp">$159.99</span> &nbsp; <a class="buy" href="https://www.amazon.com/dp/B0GY74JMX3?tag=best-espressomach-20" rel="nofollow sponsored noopener" target="_blank">Check price →</a>
+      </div>
+    </div>
+
+    <p>The <strong>AERCANA</strong> above wins on ownership cost for the same reason budget semi-automatics generally do: a 20-bar pump, a milk frother and a 34-ounce tank are the whole feature set, so there's less plumbing for scale to attack and less to go wrong when it does. Its risk is the one described above — as a newer, simpler build, expect the manufacturer's repair option to be limited, so treat the descaling schedule as non-negotiable rather than optional on this class of machine.</p>
+
+    <div class="inline-pick">
+      <div class="ipimg"><img src="/images/amazon-B0GXV36GJK.webp" alt="AMZCHEF espresso machine with grinder, temperature control, 44 grind settings" width="800" height="800" loading="lazy" decoding="async"></div>
+      <div>
+        <h3>AMZCHEF Espresso Machine With Grinder</h3>
+        <p>Middle of the pack on ownership cost: the built-in grinder with 44 settings adds a second motor that can eventually need service, but temperature control across a range means less strain forcing water through improperly heated boiler sections, which is one of the ways scale accumulates faster. Bean-to-cup also means no pre-ground coffee purchase, folding a small saving back into the beans line.</p>
+        <span class="ipp">$199.99</span> &nbsp; <a class="buy" href="https://www.amazon.com/dp/B0GXV36GJK?tag=best-espressomach-20" rel="nofollow sponsored noopener" target="_blank">Check price →</a>
+      </div>
+    </div>
+
+    <div class="inline-pick">
+      <div class="ipimg"><img src="/images/amazon-B0CWCHHDK5.webp" alt="De'Longhi Magnifica Start automatic espresso machine with milk frother" width="800" height="800" loading="lazy" decoding="async"></div>
+      <div>
+        <h3>De'Longhi Magnifica Start</h3>
+        <p>Highest sticker price and the most complex plumbing of the three — a super-automatic grinds, doses and brews behind one button, which is more internal machinery for scale to reach. It's also the machine most likely to have a real repair path if something does go wrong, because De'Longhi's service network and parts supply are established. Budget for descaling here more than anywhere else on this list; the internal complexity is exactly what a missed cycle punishes hardest.</p>
+        <span class="ipp">$716.86</span> &nbsp; <a class="buy" href="https://www.amazon.com/dp/B0CWCHHDK5?tag=best-espressomach-20" rel="nofollow sponsored noopener" target="_blank">Check price →</a>
+      </div>
+    </div>
+
+    <p>Put plainly: the cheapest machine to buy and the cheapest machine to run are often the same machine, provided you actually descale it — and the most expensive machine to buy has the deepest repair infrastructure behind it if you don't. Neither position is a free pass. If you're still deciding which of these fits your kitchen rather than your spreadsheet, our <a href="/best-espresso-machines-with-grinders">built-in grinder guide</a> and the <a href="/best-espresso-machines-under-100">under-$100 guide</a> cover the buying decision in more depth than cost of ownership alone.</p>
+
+    <h2 id="threeyear">Cost per cup over three years</h2>
+    <p>Put the whole article into one table. Assumptions: one double shot a day (365/year, 1,095 over three years), a $12 average bag of beans at 18 doubles per bag, electricity at the $0.01/shot figure calculated above, descaler and filters at the moderate $80/year estimate, and the machine's own purchase price amortized over three years with no repair included — repairs are the variable nobody can price in advance, which is the entire point of the earlier section.</p>
+    <div class="tablewrap"><table>
+      <thead><tr><th>Machine</th><th>Price</th><th>Beans (3 yr)</th><th>Power (3 yr)</th><th>Descaler/filters (3 yr)</th><th>Cost per cup (3 yr)</th></tr></thead>
+      <tbody>
+        <tr class="win"><td class="name"><span class="thumb"><img src="/images/amazon-B0GY74JMX3.webp" alt="" width="46" height="46" loading="lazy" decoding="async"></span><span>AERCANA 20 Bar</span></td><td class="price">$159.99</td><td>$730</td><td>$11</td><td>$240</td><td class="price">$1.03</td></tr>
+        <tr><td class="name"><span class="thumb"><img src="/images/amazon-B0GXV36GJK.webp" alt="" width="46" height="46" loading="lazy" decoding="async"></span><span>AMZCHEF with Grinder</span></td><td class="price">$199.99</td><td>$730</td><td>$11</td><td>$240</td><td class="price">$1.08</td></tr>
+        <tr><td class="name"><span class="thumb"><img src="/images/amazon-B0CWCHHDK5.webp" alt="" width="46" height="46" loading="lazy" decoding="async"></span><span>De'Longhi Magnifica Start</span></td><td class="price">$716.86</td><td>$730</td><td>$14</td><td>$240</td><td class="price">$1.55</td></tr>
+      </tbody>
+    </table></div>
+    <p>The spread between the cheapest and most expensive machine on this list is about <strong>52 cents per cup</strong> over three years once running costs are included — far narrower than the roughly $557 gap in sticker price would suggest, because beans dominate all three rows equally. Compare any of those to a café double shot at $4–6 and the home numbers look the same regardless of which machine you buy: the decision to make espresso at home saves money before you've picked a specific model. The decision of which model to buy should be about grinder, milk system and counter space, with cost of ownership as a tiebreaker rather than the headline. Our <a href="/espresso-machine-vs-pod-machine">espresso machine vs. pod machine cost comparison</a> runs the same three-year math against capsule coffee, where the story is different because pods don't get cheaper per cup at scale the way beans do.</p>
+
+    <h2 id="honest">How we compared these</h2>
+    <p>We compare published specifications, typical U.S. grocery and specialty coffee pricing, U.S. average residential electricity rates, and manufacturer-recommended descaling intervals — and we state every assumption inline rather than presenting a single number as gospel. <strong>We do not physically test these machines, we do not run a testing lab, and we do not publish ratings we cannot verify</strong>: Amazon's product data returns no rating and no review count for the machines on this site, so there are no stars and no invented scores anywhere on this page.</p>
+    <p>The bean, electricity and descaling costs here are general category math applied consistently across all three machines, not manufacturer-published operating-cost figures — none of these manufacturers publish one. Where we've made a judgment call, such as which descaling frequency to assume or which bean price to treat as a midpoint, we've said so in the text so you can substitute your own numbers. The general facts used throughout (residential electricity rates, coffee-to-water ratios, descaling chemistry) are standard background rather than product-specific claims. The rest of our method sits on <a href="/">our main espresso machine guide</a>.</p>
+
+    <h2 id="faq">Frequently asked questions</h2>
+    <div class="panel faq" style="margin-top:22px">
+      <details open><summary>How much does it cost to run an espresso machine per year?</summary><p>For a moderate habit of about one double shot a day, expect roughly $230–320 a year in total, with beans making up 85–90 percent of that figure. A daily two-double-shot habit using specialty beans can push bean cost alone toward $685 a year. Electricity is around $7–9 a year for typical use; descaler and filters run $60–100 a year on a real schedule.</p></details>
+      <details><summary>How much electricity does an espresso machine actually use?</summary><p>Far less than the wattage rating on the box suggests, because that number describes the boiler's peak draw, not continuous use. One shot, including warm-up and brew cycle, uses roughly 0.05–0.08 kWh — about a penny at typical U.S. residential electricity rates. Two shots a day for a year comes to roughly $7–9 in electricity, making it the smallest line item in the whole running-cost picture.</p></details>
+      <details><summary>How often do I really need to descale my espresso machine?</summary><p>Manufacturers generally recommend every one to three months depending on your water hardness — more often with hard water, less with soft. Descaling solution costs about $10–15 a bottle, and budgeting for four cycles a year runs roughly $48 annually. Skipping it doesn't cause an immediate failure; it causes slow mineral buildup that shows up years later as a stalled valve or a boiler that won't heat, often as an expensive repair rather than a cheap one.</p></details>
+      <details><summary>Is a cheaper espresso machine actually cheaper to own?</summary><p>Often yes for running costs, since a simpler machine has fewer components for hard-water scale to damage and heats a smaller boiler for less electricity. The trade-off is repair infrastructure: budget machines are typically priced to be replaced rather than serviced, so a hard-water failure a few years in may cost more to repair than to replace, while an established brand's machine is more likely to have parts and service available at a real repair price.</p></details>
+    </div>
+
+    <h2 id="keep">Keep reading</h2>
+    <div class="keep">
+      <a href="/espresso-machine-water-quality-and-descaling"><span class="kt">Water quality and descaling</span><span class="kd">The cheapest way to double your machine's life.</span></a>
+      <a href="/espresso-machine-vs-pod-machine"><span class="kt">Espresso machine vs. pod machine</span><span class="kd">The real cost per cup, compared honestly.</span></a>
+      <a href="/best-espresso-machines-with-grinders"><span class="kt">Best espresso machines with built-in grinders</span><span class="kd">Where the bean-cost math changes.</span></a>
+      <a href="/best-espresso-machines-under-100"><span class="kt">Best espresso machines under $100</span><span class="kd">Lowest sticker price, and what it means for upkeep.</span></a>
+      <a href="/espresso-machine-pressure-9-bar-explained"><span class="kt">Why 9 bar matters, and 20 bar doesn't</span><span class="kd">The pressure number on the box, decoded.</span></a>
+      <a href="/guides"><span class="kt">All espresso guides</span><span class="kd">Choosing, dialling in and living with a machine.</span></a>
+    </div>
+
+  </div>
+</div>
+
+<footer class="site"><div class="wrap">
+  <div class="fbrand">Best Espresso Machines</div>
+  <p>Independent, research-based comparisons of home espresso machines, grinders and the gear around them.</p>
+  <p style="margin:.5rem 0 0"><a href="/about">About</a> · <a href="/guides">All guides</a> · <a href="/contact">Contact</a> · <a href="/privacy">Privacy</a></p>
+  <p>Reader-supported: we may earn a commission when you buy through our links, at no additional cost to you. Comparisons are based on published specifications and pricing; we do not physically test products and we do not publish ratings we cannot verify. Prices change frequently — confirm the current price on Amazon. As an Amazon Associate, we earn from qualifying purchases. © 2026 Best Espresso Machines.</p>
+</div></footer>
+
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Article",
+ "headline":"What an Espresso Machine Really Costs to Run",
+ "description":"Beans, power, descaler, filters, and the repair nobody budgets for. The honest yearly figure.",
+ "image":"https://best-espresso-machines.com/images/hero-what-an-espresso-machine-costs-to-run.webp",
+ "author":{"@type":"Person","name":"Ilane Tall"},
+ "publisher":{"@type":"Organization","name":"Best Espresso Machines"},
+ "datePublished":"2026-09-06","dateModified":"2026-09-06",
+ "mainEntityOfPage":{"@type":"WebPage","@id":"https://best-espresso-machines.com/what-an-espresso-machine-costs-to-run"},
+ "articleSection":"Guide"}
+</script>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"ItemList","name":"Espresso machines by cost of ownership","itemListElement":[
+ {"@type":"ListItem","position":1,"item":{"@type":"Product","name":"AERCANA Espresso Machine 20 Bar","brand":{"@type":"Brand","name":"AERCANA"},"offers":{"@type":"Offer","price":"159.99","priceCurrency":"USD","availability":"https://schema.org/InStock","url":"https://www.amazon.com/dp/B0GY74JMX3?tag=best-espressomach-20"}}},
+ {"@type":"ListItem","position":2,"item":{"@type":"Product","name":"AMZCHEF Espresso Machine With Grinder","brand":{"@type":"Brand","name":"AMZCHEF"},"offers":{"@type":"Offer","price":"199.99","priceCurrency":"USD","availability":"https://schema.org/InStock","url":"https://www.amazon.com/dp/B0GXV36GJK?tag=best-espressomach-20"}}},
+ {"@type":"ListItem","position":3,"item":{"@type":"Product","name":"De'Longhi Magnifica Start Automatic Espresso Machine","brand":{"@type":"Brand","name":"De'Longhi"},"offers":{"@type":"Offer","price":"716.86","priceCurrency":"USD","availability":"https://schema.org/InStock","url":"https://www.amazon.com/dp/B0CWCHHDK5?tag=best-espressomach-20"}}}
+]}
+</script>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[
+ {"@type":"Question","name":"How much does it cost to run an espresso machine per year?","acceptedAnswer":{"@type":"Answer","text":"For a moderate habit of about one double shot a day, expect roughly $230-320 a year in total, with beans making up 85-90 percent of that figure. A daily two-double-shot habit using specialty beans can push bean cost alone toward $685 a year. Electricity is around $7-9 a year for typical use; descaler and filters run $60-100 a year on a real schedule."}},
+ {"@type":"Question","name":"How much electricity does an espresso machine actually use?","acceptedAnswer":{"@type":"Answer","text":"Far less than the wattage rating on the box suggests, because that number describes the boiler's peak draw, not continuous use. One shot, including warm-up and brew cycle, uses roughly 0.05-0.08 kWh, about a penny at typical U.S. residential electricity rates. Two shots a day for a year comes to roughly $7-9 in electricity, making it the smallest line item in the whole running-cost picture."}},
+ {"@type":"Question","name":"How often do I really need to descale my espresso machine?","acceptedAnswer":{"@type":"Answer","text":"Manufacturers generally recommend every one to three months depending on your water hardness, more often with hard water, less with soft. Descaling solution costs about $10-15 a bottle, and budgeting for four cycles a year runs roughly $48 annually. Skipping it doesn't cause an immediate failure; it causes slow mineral buildup that shows up years later as a stalled valve or a boiler that won't heat, often as an expensive repair rather than a cheap one."}},
+ {"@type":"Question","name":"Is a cheaper espresso machine actually cheaper to own?","acceptedAnswer":{"@type":"Answer","text":"Often yes for running costs, since a simpler machine has fewer components for hard-water scale to damage and heats a smaller boiler for less electricity. The trade-off is repair infrastructure: budget machines are typically priced to be replaced rather than serviced, so a hard-water failure a few years in may cost more to repair than to replace, while an established brand's machine is more likely to have parts and service available at a real repair price."}}
+]}
+</script>
+
+<script src="/site.js" defer></script>
+</body>
+</html>
