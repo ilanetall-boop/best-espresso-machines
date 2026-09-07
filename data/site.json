@@ -275,6 +275,16 @@
       "minutes": 14,
       "date": "2026-09-06",
       "featured": true
+    },
+    {
+      "slug": "why-your-espresso-tastes-bitter",
+      "title": "Why Your Espresso Tastes Bitter (and How to Fix It)",
+      "description": "Bitterness is usually over-extraction, and over-extraction is usually one of four things.",
+      "category": "Guide",
+      "hero": "hero-why-your-espresso-tastes-bitter",
+      "minutes": 14,
+      "date": "2026-09-07",
+      "featured": true
     }
   ]
 }

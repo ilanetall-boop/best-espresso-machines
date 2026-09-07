@@ -28,6 +28,7 @@ We start from every espresso machine we can source through Amazon's official pro
 ## Guides
 
 <!--LLMS-GUIDES:START-->
+- [Why Your Espresso Tastes Bitter (and How to Fix It)](https://best-espresso-machines.com/why-your-espresso-tastes-bitter): Bitterness is usually over-extraction, and over-extraction is usually one of four things.
 - [What an Espresso Machine Really Costs to Run](https://best-espresso-machines.com/what-an-espresso-machine-costs-to-run): Beans, power, descaler, filters, and the repair nobody budgets for. The honest yearly figure.
 - [Portafilter and Basket Sizes: 51mm, 54mm, 58mm](https://best-espresso-machines.com/espresso-portafilter-and-basket-sizes): The number decides which accessories fit for the life of the machine. Nobody mentions it on the box.
 - [How to Froth Milk at Home (and Why Yours Goes Flat)](https://best-espresso-machines.com/how-to-froth-milk-at-home): Temperature, angle, and the fifteen seconds that decide whether you get microfoam or bubbles.
