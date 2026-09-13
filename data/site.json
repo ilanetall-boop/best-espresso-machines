@@ -285,6 +285,16 @@
       "minutes": 14,
       "date": "2026-09-07",
       "featured": true
+    },
+    {
+      "slug": "espresso-machine-warm-up-time-and-shot-consistency",
+      "title": "Warm-Up Time: Why Your First Shot Is Never the Good One",
+      "description": "A machine that says ready in 30 seconds is telling you about its heater, not about its group head.",
+      "category": "Guide",
+      "hero": "hero-espresso-machine-warm-up-time-and-shot-consistency",
+      "minutes": 14,
+      "date": "2026-09-13",
+      "featured": true
     }
   ]
 }

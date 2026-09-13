@@ -28,6 +28,7 @@ We start from every espresso machine we can source through Amazon's official pro
 ## Guides
 
 <!--LLMS-GUIDES:START-->
+- [Warm-Up Time: Why Your First Shot Is Never the Good One](https://best-espresso-machines.com/espresso-machine-warm-up-time-and-shot-consistency): A machine that says ready in 30 seconds is telling you about its heater, not about its group head.
 - [Why Your Espresso Tastes Bitter (and How to Fix It)](https://best-espresso-machines.com/why-your-espresso-tastes-bitter): Bitterness is usually over-extraction, and over-extraction is usually one of four things.
 - [What an Espresso Machine Really Costs to Run](https://best-espresso-machines.com/what-an-espresso-machine-costs-to-run): Beans, power, descaler, filters, and the repair nobody budgets for. The honest yearly figure.
 - [Portafilter and Basket Sizes: 51mm, 54mm, 58mm](https://best-espresso-machines.com/espresso-portafilter-and-basket-sizes): The number decides which accessories fit for the life of the machine. Nobody mentions it on the box.
