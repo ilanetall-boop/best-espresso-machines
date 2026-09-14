@@ -28,6 +28,7 @@ We start from every espresso machine we can source through Amazon's official pro
 ## Guides
 
 <!--LLMS-GUIDES:START-->
+- [Steam Wand or Automatic Frother: Which Milk System to Buy](https://best-espresso-machines.com/steam-wand-vs-automatic-milk-frother): One gives you control and a learning curve. The other gives you the same drink every morning. The choice is about you, not the machine.
 - [Warm-Up Time: Why Your First Shot Is Never the Good One](https://best-espresso-machines.com/espresso-machine-warm-up-time-and-shot-consistency): A machine that says ready in 30 seconds is telling you about its heater, not about its group head.
 - [Why Your Espresso Tastes Bitter (and How to Fix It)](https://best-espresso-machines.com/why-your-espresso-tastes-bitter): Bitterness is usually over-extraction, and over-extraction is usually one of four things.
 - [What an Espresso Machine Really Costs to Run](https://best-espresso-machines.com/what-an-espresso-machine-costs-to-run): Beans, power, descaler, filters, and the repair nobody budgets for. The honest yearly figure.

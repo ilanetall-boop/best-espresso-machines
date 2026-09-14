@@ -295,6 +295,16 @@
       "minutes": 14,
       "date": "2026-09-13",
       "featured": true
+    },
+    {
+      "slug": "steam-wand-vs-automatic-milk-frother",
+      "title": "Steam Wand or Automatic Frother: Which Milk System to Buy",
+      "description": "One gives you control and a learning curve. The other gives you the same drink every morning. The choice is about you, not the machine.",
+      "category": "Guide",
+      "hero": "hero-steam-wand-vs-automatic-milk-frother",
+      "minutes": 15,
+      "date": "2026-09-14",
+      "featured": true
     }
   ]
 }
