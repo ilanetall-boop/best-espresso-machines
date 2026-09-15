@@ -305,6 +305,16 @@
       "minutes": 15,
       "date": "2026-09-14",
       "featured": true
+    },
+    {
+      "slug": "best-espresso-machines-under-1000",
+      "title": "The Best Espresso Machines Under $1,000",
+      "description": "The tier where a real portafilter, a proper steam wand and temperature control stop being extras.",
+      "category": "Roundup",
+      "hero": "hero-best-espresso-machines-under-1000",
+      "minutes": 16,
+      "date": "2026-09-15",
+      "featured": true
     }
   ]
 }
