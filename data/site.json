@@ -315,6 +315,16 @@
       "minutes": 16,
       "date": "2026-09-15",
       "featured": true
+    },
+    {
+      "slug": "best-espresso-machines-with-cold-brew-mode",
+      "title": "The Best Espresso Machines With a Cold Brew Mode",
+      "description": "A handful of machines now build in a dedicated cold-brew or cold-extraction setting. Which ones do it well, and what actually changes about the process.",
+      "category": "Picks",
+      "hero": "hero-best-espresso-machines-with-cold-brew-mode",
+      "minutes": 15,
+      "date": "2026-09-16",
+      "featured": true
     }
   ]
 }
