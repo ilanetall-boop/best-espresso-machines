@@ -325,6 +325,16 @@
       "minutes": 15,
       "date": "2026-09-16",
       "featured": true
+    },
+    {
+      "slug": "espresso-machine-grind-settings-explained",
+      "title": "10, 20, 30 or 44 Grind Settings: How Many Do You Actually Need",
+      "description": "The step count on a built-in grinder ranges from 10 to 44 across this catalogue. What the number really buys you, and where it stops mattering.",
+      "category": "Buying advice",
+      "hero": "hero-espresso-machine-grind-settings-explained",
+      "minutes": 15,
+      "date": "2026-09-17",
+      "featured": true
     }
   ]
 }

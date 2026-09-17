@@ -28,6 +28,7 @@ We start from every espresso machine we can source through Amazon's official pro
 ## Guides
 
 <!--LLMS-GUIDES:START-->
+- [10, 20, 30 or 44 Grind Settings: How Many Do You Actually Need](https://best-espresso-machines.com/espresso-machine-grind-settings-explained): The step count on a built-in grinder ranges from 10 to 44 across this catalogue. What the number really buys you, and where it stops mattering.
 - [The Best Espresso Machines With a Cold Brew Mode](https://best-espresso-machines.com/best-espresso-machines-with-cold-brew-mode): A handful of machines now build in a dedicated cold-brew or cold-extraction setting. Which ones do it well, and what actually changes about the process.
 - [The Best Espresso Machines Under $1,000](https://best-espresso-machines.com/best-espresso-machines-under-1000): The tier where a real portafilter, a proper steam wand and temperature control stop being extras.
 - [Steam Wand or Automatic Frother: Which Milk System to Buy](https://best-espresso-machines.com/steam-wand-vs-automatic-milk-frother): One gives you control and a learning curve. The other gives you the same drink every morning. The choice is about you, not the machine.
