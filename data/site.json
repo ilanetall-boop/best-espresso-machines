@@ -335,6 +335,16 @@
       "minutes": 15,
       "date": "2026-09-17",
       "featured": true
+    },
+    {
+      "slug": "espresso-machine-pre-infusion-explained",
+      "title": "Pre-Infusion: What It Actually Does to a Shot",
+      "description": "A handful of machines add a low-pressure soak before the real extraction. What it changes in the cup, and which machines here have it.",
+      "category": "Guide",
+      "hero": "hero-espresso-machine-pre-infusion-explained",
+      "minutes": 14,
+      "date": "2026-09-18",
+      "featured": true
     }
   ]
 }
