@@ -28,6 +28,7 @@ We start from every espresso machine we can source through Amazon's official pro
 ## Guides
 
 <!--LLMS-GUIDES:START-->
+- [Touchscreen or Dial: How Espresso Machine Controls Actually Differ](https://best-espresso-machines.com/espresso-machine-touchscreen-vs-manual-controls): From a single steam knob to a full LED touchscreen, control style changes daily use more than most spec sheets let on.
 - [Pre-Infusion: What It Actually Does to a Shot](https://best-espresso-machines.com/espresso-machine-pre-infusion-explained): A handful of machines add a low-pressure soak before the real extraction. What it changes in the cup, and which machines here have it.
 - [10, 20, 30 or 44 Grind Settings: How Many Do You Actually Need](https://best-espresso-machines.com/espresso-machine-grind-settings-explained): The step count on a built-in grinder ranges from 10 to 44 across this catalogue. What the number really buys you, and where it stops mattering.
 - [The Best Espresso Machines With a Cold Brew Mode](https://best-espresso-machines.com/best-espresso-machines-with-cold-brew-mode): A handful of machines now build in a dedicated cold-brew or cold-extraction setting. Which ones do it well, and what actually changes about the process.

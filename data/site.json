@@ -345,6 +345,16 @@
       "minutes": 14,
       "date": "2026-09-18",
       "featured": true
+    },
+    {
+      "slug": "espresso-machine-touchscreen-vs-manual-controls",
+      "title": "Touchscreen or Dial: How Espresso Machine Controls Actually Differ",
+      "description": "From a single steam knob to a full LED touchscreen, control style changes daily use more than most spec sheets let on.",
+      "category": "Comparison",
+      "hero": "hero-espresso-machine-touchscreen-vs-manual-controls",
+      "minutes": 14,
+      "date": "2026-09-19",
+      "featured": true
     }
   ]
 }
