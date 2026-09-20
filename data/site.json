@@ -355,6 +355,16 @@
       "minutes": 14,
       "date": "2026-09-19",
       "featured": true
+    },
+    {
+      "slug": "espresso-machine-double-boiler-vs-single-boiler",
+      "title": "Double Boiler vs Single Boiler: Is Brewing and Steaming at Once Worth It?",
+      "description": "Only one machine here truly brews and froths at the same time. What a second boiler buys you, and what it costs.",
+      "category": "Honest take",
+      "hero": "hero-espresso-machine-double-boiler-vs-single-boiler",
+      "minutes": 16,
+      "date": "2026-09-20",
+      "featured": true
     }
   ]
 }
