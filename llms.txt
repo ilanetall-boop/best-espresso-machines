@@ -28,6 +28,7 @@ We start from every espresso machine we can source through Amazon's official pro
 ## Guides
 
 <!--LLMS-GUIDES:START-->
+- [The Best Espresso Machines at $1,000 and Up](https://best-espresso-machines.com/best-espresso-machines-1000-and-up): Just below $1,000 to just under $2,000 — the tier where dual boilers, PID control and gram-accurate dosing stop being upgrades and start being the standard spec.
 - [Double Boiler vs Single Boiler: Is Brewing and Steaming at Once Worth It?](https://best-espresso-machines.com/espresso-machine-double-boiler-vs-single-boiler): Only one machine here truly brews and froths at the same time. What a second boiler buys you, and what it costs.
 - [Touchscreen or Dial: How Espresso Machine Controls Actually Differ](https://best-espresso-machines.com/espresso-machine-touchscreen-vs-manual-controls): From a single steam knob to a full LED touchscreen, control style changes daily use more than most spec sheets let on.
 - [Pre-Infusion: What It Actually Does to a Shot](https://best-espresso-machines.com/espresso-machine-pre-infusion-explained): A handful of machines add a low-pressure soak before the real extraction. What it changes in the cup, and which machines here have it.
