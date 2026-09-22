@@ -375,6 +375,16 @@
       "minutes": 16,
       "date": "2026-09-21",
       "featured": true
+    },
+    {
+      "slug": "espresso-machine-weight-based-dosing-vs-timer",
+      "title": "Weight-Based Dosing vs a Timer: How the Best Machines Measure a Shot",
+      "description": "Two machines in this catalogue weigh the coffee to a stated 0.2g. Most others just guess by the clock. Here's what the difference actually changes in the cup.",
+      "category": "Guide",
+      "hero": "hero-espresso-machine-weight-based-dosing-vs-timer",
+      "minutes": 14,
+      "date": "2026-09-22",
+      "featured": true
     }
   ]
 }
