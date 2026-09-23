@@ -385,6 +385,16 @@
       "minutes": 14,
       "date": "2026-09-22",
       "featured": true
+    },
+    {
+      "slug": "espresso-machines-with-a-hot-water-spout",
+      "title": "Espresso Machines With a Built-In Hot Water Spout: Americanos Without a Kettle",
+      "description": "A separate hot water outlet, a menu preset, or a dual-function steam wand — three different ways a machine skips the kettle for tea and Americanos.",
+      "category": "Guide",
+      "hero": "hero-espresso-machines-with-a-hot-water-spout",
+      "minutes": 13,
+      "date": "2026-09-23",
+      "featured": true
     }
   ]
 }
