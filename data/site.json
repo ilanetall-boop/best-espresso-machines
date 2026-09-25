@@ -405,6 +405,16 @@
       "minutes": 14,
       "date": "2026-09-24",
       "featured": true
+    },
+    {
+      "slug": "espresso-machine-self-clean-and-auto-descale-cycles",
+      "title": "Self-Clean and Auto-Descale Cycles: What They Actually Automate",
+      "description": "A self-clean brew cycle, one-touch descaling, and a dishwasher-safe milk system are three different promises. None of them means you can skip maintenance entirely.",
+      "category": "How-to",
+      "hero": "hero-espresso-machine-self-clean-and-auto-descale-cycles",
+      "minutes": 13,
+      "date": "2026-09-25",
+      "featured": true
     }
   ]
 }
