@@ -419,6 +419,16 @@
       "minutes": 13,
       "date": "2026-09-25",
       "featured": true
+    },
+    {
+      "slug": "espresso-machine-adjustable-opv-pressure-valve",
+      "title": "Adjustable Pressure Valves: The One Machine Here You Can Actually Tune",
+      "description": "Most machines set their over-pressure valve at the factory and never let you touch it. One in this catalogue lets you turn it by hand. What that changes, honestly.",
+      "category": "Honest take",
+      "hero": "hero-espresso-machine-adjustable-opv-pressure-valve",
+      "minutes": 12,
+      "date": "2026-09-28",
+      "featured": true
     }
   ]
 }
