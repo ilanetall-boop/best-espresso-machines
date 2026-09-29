@@ -429,6 +429,16 @@
       "minutes": 12,
       "date": "2026-09-28",
       "featured": true
+    },
+    {
+      "slug": "espresso-machine-wattage-and-circuit-draw",
+      "title": "Watts and Amps: What an Espresso Machine Actually Draws From Your Outlet",
+      "description": "Spec sheets across this catalogue run from 1,350W to 1,650W. On a shared 15-amp kitchen circuit, that number decides what else you can run at the same time.",
+      "category": "Guide",
+      "hero": "hero-espresso-machine-wattage-and-circuit-draw",
+      "minutes": 13,
+      "date": "2026-09-29",
+      "featured": true
     }
   ]
 }
