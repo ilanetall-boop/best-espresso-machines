@@ -449,6 +449,16 @@
       "minutes": 14,
       "date": "2026-10-01",
       "featured": true
+    },
+    {
+      "slug": "best-delonghi-espresso-machines-compared",
+      "title": "Best De'Longhi Espresso Machines Compared (2026)",
+      "description": "Four De'Longhi machines, four different automation levels and prices. What separates the Magnifica line from the Classic line.",
+      "category": "Comparison",
+      "hero": "hero-best-delonghi-espresso-machines-compared",
+      "minutes": 15,
+      "date": "2026-10-02",
+      "featured": true
     }
   ]
 }
