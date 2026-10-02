@@ -459,6 +459,16 @@
       "minutes": 15,
       "date": "2026-10-02",
       "featured": true
+    },
+    {
+      "slug": "best-breville-espresso-machines-compared",
+      "title": "Best Breville Espresso Machines Compared (2026)",
+      "description": "From the $250 Bambino to the $1,600 Dual Boiler, six current Breville machines and what actually changes as the price climbs.",
+      "category": "Comparison",
+      "hero": "hero-best-breville-espresso-machines-compared",
+      "minutes": 15,
+      "date": "2026-10-03",
+      "featured": true
     }
   ]
 }
