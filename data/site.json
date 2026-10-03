@@ -469,6 +469,16 @@
       "minutes": 15,
       "date": "2026-10-03",
       "featured": true
+    },
+    {
+      "slug": "espresso-machine-water-tank-size-and-refill-frequency",
+      "title": "Water Tank Size and Refill Frequency: What the Ounces Actually Mean",
+      "description": "Tanks in this catalogue run from a 4-cup reservoir to 68 ounces. What that difference means for a household of one versus a family kitchen.",
+      "category": "Guide",
+      "hero": "hero-espresso-machine-water-tank-size-and-refill-frequency",
+      "minutes": 14,
+      "date": "2026-10-04",
+      "featured": true
     }
   ]
 }

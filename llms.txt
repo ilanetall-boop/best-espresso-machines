@@ -28,6 +28,7 @@ We start from every espresso machine we can source through Amazon's official pro
 ## Guides
 
 <!--LLMS-GUIDES:START-->
+- [Water Tank Size and Refill Frequency: What the Ounces Actually Mean](https://best-espresso-machines.com/espresso-machine-water-tank-size-and-refill-frequency): Tanks in this catalogue run from a 4-cup reservoir to 68 ounces. What that difference means for a household of one versus a family kitchen.
 - [Best Breville Espresso Machines Compared (2026)](https://best-espresso-machines.com/best-breville-espresso-machines-compared): From the $250 Bambino to the $1,600 Dual Boiler, six current Breville machines and what actually changes as the price climbs.
 - [Best De'Longhi Espresso Machines Compared (2026)](https://best-espresso-machines.com/best-delonghi-espresso-machines-compared): Four De'Longhi machines, four different automation levels and prices. What separates the Magnifica line from the Classic line.
 - [The Best Espresso Machines for Oat Milk and Other Plant Milks](https://best-espresso-machines.com/best-espresso-machines-for-oat-milk-and-plant-milk): Oat, soy and almond milk foam differently than dairy. The steam wands and frothers that still texture them well, and the ones that struggle.
