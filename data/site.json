@@ -479,6 +479,16 @@
       "minutes": 14,
       "date": "2026-10-04",
       "featured": true
+    },
+    {
+      "slug": "espresso-machine-noise-levels-what-to-expect",
+      "title": "How Loud Is an Espresso Machine, Really?",
+      "description": "Vibration pumps, rotary pumps and grinder motors all sound different. What to expect before a machine lands on a shared kitchen counter.",
+      "category": "Guide",
+      "hero": "hero-espresso-machine-noise-levels-what-to-expect",
+      "minutes": 14,
+      "date": "2026-10-05",
+      "featured": true
     }
   ]
 }
