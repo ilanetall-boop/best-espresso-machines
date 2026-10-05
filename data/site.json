@@ -489,6 +489,16 @@
       "minutes": 14,
       "date": "2026-10-05",
       "featured": true
+    },
+    {
+      "slug": "what-comes-in-the-box-with-an-espresso-machine",
+      "title": "What Actually Comes in the Box With an Espresso Machine",
+      "description": "A tamper, two baskets and a scoop is the bare minimum. What machines at four price points actually include, and what you will need to buy separately.",
+      "category": "Guide",
+      "hero": "hero-what-comes-in-the-box-with-an-espresso-machine",
+      "minutes": 14,
+      "date": "2026-10-06",
+      "featured": true
     }
   ]
 }
