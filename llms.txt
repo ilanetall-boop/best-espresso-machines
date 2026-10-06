@@ -28,6 +28,7 @@ We start from every espresso machine we can source through Amazon's official pro
 ## Guides
 
 <!--LLMS-GUIDES:START-->
+- [Espresso Machine Buying Mistakes First-Time Buyers Make](https://best-espresso-machines.com/espresso-machine-buying-mistakes-first-time-buyers-make): Overbuying, underbuying, and the spec that gets ignored until week three. The patterns behind most regretted purchases.
 - [What Actually Comes in the Box With an Espresso Machine](https://best-espresso-machines.com/what-comes-in-the-box-with-an-espresso-machine): A tamper, two baskets and a scoop is the bare minimum. What machines at four price points actually include, and what you will need to buy separately.
 - [How Loud Is an Espresso Machine, Really?](https://best-espresso-machines.com/espresso-machine-noise-levels-what-to-expect): Vibration pumps, rotary pumps and grinder motors all sound different. What to expect before a machine lands on a shared kitchen counter.
 - [Water Tank Size and Refill Frequency: What the Ounces Actually Mean](https://best-espresso-machines.com/espresso-machine-water-tank-size-and-refill-frequency): Tanks in this catalogue run from a 4-cup reservoir to 68 ounces. What that difference means for a household of one versus a family kitchen.
