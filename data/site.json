@@ -509,6 +509,16 @@
       "minutes": 17,
       "date": "2026-10-07",
       "featured": true
+    },
+    {
+      "slug": "dialing-in-dark-roast-vs-light-roast-espresso",
+      "title": "Dialing In Dark Roast vs Light Roast Espresso at Home",
+      "description": "The same grind setting rarely works for both. How roast level changes dose, time and temperature on a home machine.",
+      "category": "How-to",
+      "hero": "hero-dialing-in-dark-roast-vs-light-roast-espresso",
+      "minutes": 16,
+      "date": "2026-10-08",
+      "featured": true
     }
   ]
 }

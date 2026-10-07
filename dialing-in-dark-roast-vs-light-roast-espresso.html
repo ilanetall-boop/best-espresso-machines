@@ -1,0 +1,479 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Dialing In Dark Roast vs Light Roast Espresso at Home</title>
+<meta name="description" content="The same grind setting rarely works for both. How roast level changes dose, time and temperature on a home machine.">
+<link rel="canonical" href="https://best-espresso-machines.com/dialing-in-dark-roast-vs-light-roast-espresso">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Best Espresso Machines">
+<meta property="og:title" content="Dialing In Dark Roast vs Light Roast Espresso at Home">
+<meta property="og:description" content="The same grind setting rarely works for both. How roast level changes dose, time and temperature on a home machine.">
+<meta property="og:url" content="https://best-espresso-machines.com/dialing-in-dark-roast-vs-light-roast-espresso">
+<meta property="og:image" content="https://best-espresso-machines.com/images/hero-dialing-in-dark-roast-vs-light-roast-espresso.webp">
+<meta name="theme-color" content="#1A100C">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png">
+<link rel="alternate icon" href="/favicon.ico">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<style>
+  /* premium-editorial-v1 — palette: coffee / amber / copper.
+     NOTE: the --aqua* variable names are inherited from the network template;
+     on this site they carry the copper accent. Do not rename (tools/rebuild-site.js
+     and every article file reference them). */
+  :root{
+    --ground:#F7F3EE; --surface:#FFFFFF; --surface-2:#F0E8DF;
+    --ink:#1F1410; --ink-soft:#43302A; --muted:#7A655A; --line:#E6DACE;
+    --aqua:#B4622A; --aqua-deep:#8F4A18; --aqua-tint:#F8EAE0;
+    --brass:#A9803A; --brass-lite:#DFBB78; --brass-tint:#F6EEDF;
+    --dark:#1A100C; --dark-2:#2C1C14; --on-dark:#F4EAE1; --on-dark-mute:#B69C8B;
+    --star:#D9A400;
+    --shadow:0 1px 2px rgba(31,20,16,.05),0 22px 48px -26px rgba(31,20,16,.30);
+    --shadow-sm:0 1px 2px rgba(31,20,16,.05),0 10px 24px -16px rgba(31,20,16,.24);
+    --radius:20px; --radius-sm:12px; --maxw:1120px;
+    --serif:"Iowan Old Style","Palatino Linotype",Palatino,Georgia,"Times New Roman",serif;
+    --sans:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  }
+  @media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+    --ground:#140C09; --surface:#1F1410; --surface-2:#2A1B15;
+    --ink:#F4EAE1; --ink-soft:#DCC9BC; --muted:#AF9788; --line:#3A2720;
+    --aqua:#E08B4E; --aqua-deep:#F0A96E; --aqua-tint:#2A1B12;
+    --brass:#DFBB78; --brass-lite:#EDD4A0; --brass-tint:#2A200F;
+    --shadow:0 1px 2px rgba(0,0,0,.4),0 24px 52px -28px rgba(0,0,0,.7);
+    --shadow-sm:0 1px 2px rgba(0,0,0,.4),0 12px 26px -18px rgba(0,0,0,.6);
+  }}
+  :root[data-theme="dark"]{
+    --ground:#140C09; --surface:#1F1410; --surface-2:#2A1B15;
+    --ink:#F4EAE1; --ink-soft:#DCC9BC; --muted:#AF9788; --line:#3A2720;
+    --aqua:#E08B4E; --aqua-deep:#F0A96E; --aqua-tint:#2A1B12;
+    --brass:#DFBB78; --brass-lite:#EDD4A0; --brass-tint:#2A200F;
+    --shadow:0 1px 2px rgba(0,0,0,.4),0 24px 52px -28px rgba(0,0,0,.7);
+    --shadow-sm:0 1px 2px rgba(0,0,0,.4),0 12px 26px -18px rgba(0,0,0,.6);
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{margin:0;background:var(--ground);color:var(--ink);font-family:var(--sans);
+    font-size:18px;line-height:1.6;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
+  .wrap{max-width:var(--maxw);margin:0 auto;padding:0 26px}
+  a{color:inherit}
+  h1,h2,h3{margin:0;line-height:1.08;letter-spacing:-.01em;text-wrap:balance}
+  .serif{font-family:var(--serif)}
+  p{margin:0 0 1rem}
+  .eyebrow{font-family:var(--sans);font-size:.72rem;font-weight:700;letter-spacing:.22em;text-transform:uppercase}
+  .tnum{font-variant-numeric:tabular-nums}
+  .stars{color:var(--star);letter-spacing:2px}
+
+  /* ---------- header ---------- */
+  header.site{position:sticky;top:0;z-index:30;background:color-mix(in srgb,var(--ground) 82%,transparent);
+    backdrop-filter:saturate(1.3) blur(12px);border-bottom:1px solid var(--line)}
+  .bar{display:flex;align-items:center;justify-content:space-between;height:64px}
+  .brand{display:inline-flex;align-items:center;gap:11px;text-decoration:none;color:var(--ink);font-weight:700;letter-spacing:-.01em}
+  .brand .bn{font-family:var(--serif);font-size:1.16rem}
+  nav.site a{color:var(--muted);text-decoration:none;font-size:.86rem;font-weight:600;letter-spacing:.01em;margin-left:22px;transition:color .2s}
+  nav.site a:hover{color:var(--ink)}
+  @media (max-width:660px){nav.site{display:none}}
+
+  /* ---------- hero (immersive dark, roast bloom) ---------- */
+  .hero{position:relative;background:radial-gradient(120% 90% at 80% -10%,var(--dark-2),var(--dark) 60%);color:var(--on-dark);overflow:hidden;isolation:isolate}
+  .caustic{position:absolute;inset:-30%;z-index:0;opacity:.5;pointer-events:none;filter:blur(30px);
+    background:
+      radial-gradient(28% 40% at 22% 30%,rgba(224,139,78,.26),transparent 60%),
+      radial-gradient(24% 34% at 74% 24%,rgba(223,187,120,.22),transparent 60%),
+      radial-gradient(30% 42% at 60% 78%,rgba(180,98,42,.26),transparent 62%);
+    animation:drift 22s ease-in-out infinite alternate}
+  .caustic.b{opacity:.34;animation-duration:30s;animation-direction:alternate-reverse;
+    background:
+      radial-gradient(26% 36% at 40% 60%,rgba(240,169,110,.22),transparent 60%),
+      radial-gradient(22% 30% at 85% 70%,rgba(169,128,58,.20),transparent 60%)}
+  @keyframes drift{0%{transform:translate3d(-2%,-1%,0) scale(1)}50%{transform:translate3d(3%,2%,0) scale(1.08)}100%{transform:translate3d(-1%,3%,0) scale(1.04)}}
+  .hero .wrap{position:relative;z-index:1;padding:74px 26px 88px}
+  .hero .eyebrow{color:var(--brass-lite)}
+  .hero h1{font-family:var(--serif);font-weight:600;font-size:clamp(2.5rem,1.4rem+4.6vw,4.7rem);letter-spacing:-.02em;max-width:15ch;margin:.5rem 0 0}
+  .hero h1 em{font-style:italic;color:var(--brass-lite)}
+  .hero .lede{font-size:1.24rem;line-height:1.55;color:var(--on-dark-mute);max-width:52ch;margin-top:1.3rem}
+  .hero .meta{display:flex;flex-wrap:wrap;gap:10px 26px;margin-top:26px;font-size:.86rem;color:var(--on-dark-mute)}
+  .hero .meta b{color:var(--on-dark)}
+  .rule{height:1px;background:linear-gradient(90deg,var(--brass),transparent);border:0;margin:26px 0 0;max-width:220px}
+
+  /* ---------- #1 feature (the centerpiece) ---------- */
+  .feature{position:relative;z-index:2;margin:-56px 0 0}
+  .feature .card{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);
+    display:grid;grid-template-columns:1.1fr 1fr;overflow:hidden}
+  .feature .left{padding:38px}
+  .feature .kick{display:inline-flex;align-items:center;gap:9px;color:var(--brass-text);font-weight:700;font-size:.74rem;letter-spacing:.16em;text-transform:uppercase}
+  .feature .kick::before{content:"";width:26px;height:1px;background:var(--brass)}
+  .feature h2{font-family:var(--serif);font-weight:600;font-size:clamp(1.8rem,1.2rem+2vw,2.7rem);margin:.5rem 0 .2rem}
+  .feature .verdict{color:var(--ink-soft);font-size:1.06rem;margin:.4rem 0 1rem;max-width:44ch}
+  .feature .rl{display:flex;align-items:center;flex-wrap:wrap;gap:8px 10px;font-size:.92rem;color:var(--muted);margin-bottom:1.2rem}
+  .feature .rl b{color:var(--ink)}
+  .btn{display:inline-flex;align-items:center;gap:9px;background:var(--aqua);color:#fff;font-weight:700;
+    padding:14px 26px;border-radius:12px;text-decoration:none;box-shadow:var(--shadow-sm);transition:transform .15s,background .2s}
+  .btn:hover{background:var(--aqua-deep);transform:translateY(-1px)}
+  .btn .arw{transition:transform .2s}.btn:hover .arw{transform:translateX(3px)}
+  .feature .right{background:linear-gradient(160deg,var(--dark-2),var(--dark));color:var(--on-dark);padding:38px;display:flex;flex-direction:column;justify-content:center;gap:6px;position:relative}
+  .feature .right .lab{font-size:.72rem;letter-spacing:.18em;text-transform:uppercase;color:var(--on-dark-mute)}
+  .feature .bigprice{font-family:var(--serif);font-size:clamp(3rem,2rem+4vw,4.4rem);font-weight:600;line-height:1;color:var(--brass-lite)}
+  .feature .bigprice sup{font-size:.4em;top:-1.2em;color:var(--on-dark)}
+  .feature .right .note{color:var(--on-dark-mute);font-size:.92rem;margin-top:6px;max-width:30ch}
+  .feature .right .mono{margin-top:16px;font-family:var(--serif);font-size:1.05rem;color:var(--on-dark)}
+  @media (max-width:820px){.feature .card{grid-template-columns:1fr}.feature .right{order:-1}}
+
+  /* ---------- generic section ---------- */
+  section{padding:44px 0}
+  .kicker{display:flex;align-items:center;gap:14px;margin-bottom:6px}
+  .kicker .eyebrow{color:var(--aqua-deep)}
+  .kicker::after{content:"";flex:1;height:1px;background:var(--line)}
+  .h2{font-family:var(--serif);font-weight:600;font-size:clamp(1.7rem,1.2rem+1.7vw,2.5rem);letter-spacing:-.01em}
+  .sub{color:var(--muted);max-width:62ch;margin:.6rem 0 0}
+
+  .notes{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--line);border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;margin-top:24px}
+  .notes .n{background:var(--surface);padding:24px}
+  .notes .num{font-family:var(--serif);font-size:1.5rem;color:var(--brass-text);line-height:1}
+  .notes h3{font-size:1.02rem;font-weight:750;margin:.5rem 0 .35rem}
+  .notes p{font-size:.9rem;color:var(--muted);margin:0}
+  @media (max-width:820px){.notes{grid-template-columns:1fr 1fr}}
+  @media (max-width:520px){.notes{grid-template-columns:1fr}}
+
+  /* honesty band */
+  .band{background:var(--brass-tint);border:1px solid var(--line);border-left:3px solid var(--brass);
+    border-radius:var(--radius-sm);padding:22px 24px;margin-top:26px}
+  .band h3{font-family:var(--serif);font-weight:600;font-size:1.16rem;margin-bottom:.5rem}
+  .band p{color:var(--ink-soft);font-size:.95rem;margin:0}
+  .band p+p{margin-top:.6rem}
+
+  /* comparison */
+  .tablewrap{overflow-x:auto;border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow-sm);background:var(--surface);margin-top:22px}
+  table{border-collapse:collapse;width:100%;min-width:740px;font-size:.94rem}
+  thead th{background:var(--surface-2);text-align:left;padding:16px;font-size:.7rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);border-bottom:1px solid var(--line)}
+  td{padding:15px 16px;border-bottom:1px solid var(--line);vertical-align:middle}
+  tbody tr:last-child td{border-bottom:0}
+  tbody tr:hover{background:var(--surface-2)}
+  td.name{font-family:var(--serif);font-weight:600;font-size:1.05rem}
+  .win td{background:var(--brass-tint)}
+  .win td.name{color:var(--brass-text)}
+  .win td:first-child{box-shadow:inset 3px 0 0 var(--brass)}
+  .price{font-weight:800;font-variant-numeric:tabular-nums}
+  .rev{color:var(--muted);font-size:.82rem}
+  .tget{display:inline-block;background:var(--ink);color:var(--surface);font-weight:700;font-size:.8rem;padding:8px 14px;border-radius:9px;text-decoration:none;white-space:nowrap;transition:background .2s}
+  .tget:hover{background:var(--aqua-deep);color:#fff}
+
+  /* picks (editorial cards) */
+  .picks{display:flex;flex-direction:column;gap:26px;margin-top:26px}
+  .pick{display:grid;grid-template-columns:96px 1fr auto;gap:26px;align-items:start;
+    background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow-sm);padding:28px}
+  .pick .rank{font-family:var(--serif);font-size:2.6rem;color:var(--brass-text);line-height:.9;font-weight:600}
+  .pick .rank small{display:block;font-family:var(--sans);font-size:.6rem;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);font-weight:700;margin-top:8px}
+  .pick h3{font-family:var(--serif);font-weight:600;font-size:1.44rem}
+  .pick .who{color:var(--aqua-deep);font-weight:700;font-size:.9rem;margin:.25rem 0 .5rem}
+  .pick .rl2{display:flex;align-items:center;flex-wrap:wrap;gap:6px 8px;font-size:.86rem;color:var(--muted);margin-bottom:.7rem}
+  .pick .rl2 b{color:var(--ink)}
+  .pick p.body{margin:.2rem 0 0;color:var(--ink-soft)}
+  .quote{border-left:2px solid var(--brass);padding-left:14px;margin:.9rem 0 0;font-family:var(--serif);color:var(--ink);font-size:1.02rem}
+  .quote b{font-family:var(--sans);font-size:.74rem;letter-spacing:.14em;text-transform:uppercase;color:var(--brass-text);display:block;margin-bottom:.2rem;font-weight:700}
+  .aside{display:flex;flex-direction:column;align-items:flex-end;gap:12px;text-align:right;min-width:150px}
+  .aside .pr{font-family:var(--serif);font-size:2rem;font-weight:600;font-variant-numeric:tabular-nums;line-height:1}
+  .aside .tag{font-size:.72rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+  .buy{display:inline-flex;align-items:center;gap:8px;background:var(--aqua);color:#fff;font-weight:700;padding:11px 20px;border-radius:10px;text-decoration:none;transition:background .2s,transform .15s;font-size:.92rem}
+  .buy:hover{background:var(--aqua-deep);transform:translateY(-1px)}
+  @media (max-width:820px){.pick{grid-template-columns:64px 1fr}.aside{grid-column:1/-1;flex-direction:row;justify-content:space-between;align-items:center;text-align:left;border-top:1px solid var(--line);padding-top:16px}}
+
+  /* method / faq */
+  .cols{display:grid;grid-template-columns:1fr 1fr;gap:26px;margin-top:22px}
+  @media (max-width:760px){.cols{grid-template-columns:1fr}}
+  .panel{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:28px;box-shadow:var(--shadow-sm)}
+  .panel .eyebrow{color:var(--aqua-deep)}
+  .panel h3{font-family:var(--serif);font-weight:600;font-size:1.3rem;margin:.5rem 0 .5rem}
+  .panel p{color:var(--muted);margin:0}
+  .faq details{border-top:1px solid var(--line);padding:16px 0}
+  .faq details:first-of-type{border-top:0}
+  .faq summary{cursor:pointer;font-family:var(--serif);font-size:1.12rem;list-style:none;display:flex;justify-content:space-between;gap:14px;color:var(--ink)}
+  .faq summary::-webkit-details-marker{display:none}
+  .faq summary::after{content:"+";color:var(--brass-text);font-family:var(--sans);font-weight:700}
+  .faq details[open] summary::after{content:"–"}
+  .faq p{margin:.8rem 0 0;color:var(--muted)}
+
+  footer.site{margin-top:20px;background:var(--dark);color:var(--on-dark-mute)}
+  footer .wrap{padding:40px 26px}
+  footer .fbrand{font-family:var(--serif);color:var(--on-dark);font-size:1.2rem}
+  footer p{font-size:.84rem;margin:.6rem 0 0;max-width:80ch}
+  footer a{color:var(--brass-lite)}
+  /* imagery */
+  .hero .wrap{display:grid;grid-template-columns:1.12fr .88fr;gap:48px;align-items:center}
+  .hero .himg{border-radius:20px;border:1px solid rgba(223,187,120,.4);box-shadow:0 30px 60px -30px rgba(0,0,0,.55);width:100%;height:auto;display:block}
+  @media (max-width:860px){.hero .wrap{grid-template-columns:1fr;gap:30px}}
+  .fpimg{background:#fff;border-radius:14px;padding:14px;box-shadow:0 12px 28px -14px rgba(0,0,0,.5);width:min(230px,70%);margin-bottom:16px}
+  .fpimg img{width:100%;height:auto;display:block}
+  .aside .pimg{width:150px;height:150px;background:#fff;border:1px solid var(--line);border-radius:12px;padding:10px;display:flex;align-items:center;justify-content:center}
+  .aside .pimg img{max-width:100%;max-height:100%;display:block}
+  @media (max-width:820px){.aside .pimg{width:96px;height:96px;padding:6px}}
+  td.name{display:flex;align-items:center;gap:12px}
+  .thumb{width:46px;height:46px;flex:0 0 auto;background:#fff;border:1px solid var(--line);border-radius:9px;padding:4px}
+  .thumb img{width:100%;height:100%;object-fit:contain;display:block}
+  :focus-visible{outline:2px solid var(--aqua);outline-offset:3px;border-radius:5px}
+  @media (prefers-reduced-motion:reduce){*{animation:none!important;scroll-behavior:auto!important}.btn:hover,.buy:hover{transform:none}}
+</style>
+<style id="a11y">:root{--brass-text:#7A5A20;--star:#B07E00}@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--brass-text:#EDD4A0;--star:#E8B84B}}:root[data-theme="dark"]{--brass-text:#EDD4A0;--star:#E8B84B}nav.site a{color:var(--ink-soft)}.stars{color:var(--star)}thead th{color:var(--ink-soft)}.rev{color:var(--ink-soft)}.kick{color:var(--brass-text)}.win td.name{color:var(--brass-text)}a.btn,a.buy,.btn,.buy{background:#8F4A18 !important;color:#fff !important;text-decoration:none !important}a.btn:hover,a.buy:hover,.btn:hover,.buy:hover{background:#6E3810 !important}@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) a.btn,:root:not([data-theme="light"]) a.buy,:root:not([data-theme="light"]) .btn,:root:not([data-theme="light"]) .buy{background:#E08B4E !important;color:#24120A !important}:root:not([data-theme="light"]) .btn:hover,:root:not([data-theme="light"]) .buy:hover{background:#F0A96E !important}}:root[data-theme="dark"] a.btn,:root[data-theme="dark"] a.buy,:root[data-theme="dark"] .btn,:root[data-theme="dark"] .buy{background:#E08B4E !important;color:#24120A !important}</style>
+<style id="article">
+  .art{max-width:var(--maxw);margin:0 auto;padding:0 26px}
+  .arthead{padding:52px 0 0;max-width:760px}
+  .arthead h1{font-family:var(--serif);font-weight:600;font-size:clamp(2.1rem,1.3rem+3.1vw,3.5rem);margin:.5rem 0 0}
+  .arthead .lede{font-size:1.18rem;line-height:1.55;color:var(--ink-soft);margin-top:1.1rem}
+  .byline{font-size:.88rem;color:var(--muted);margin-top:1.1rem}
+  .byline b{color:var(--ink)}
+  .disclose{font-size:.82rem;color:var(--muted);border-left:2px solid var(--brass);padding-left:12px;margin-top:1rem;max-width:70ch}
+  .artimg{width:100%;height:auto;display:block;border-radius:var(--radius);border:1px solid var(--line);box-shadow:var(--shadow);margin:30px 0 8px}
+  .prose{max-width:68ch;margin:0 auto}
+  .prose h2{font-family:var(--serif);font-weight:600;font-size:clamp(1.55rem,1.15rem+1.3vw,2.1rem);margin:2.4rem 0 .8rem}
+  .prose h3{font-family:var(--serif);font-weight:600;font-size:1.24rem;margin:1.7rem 0 .6rem}
+  .prose p{color:var(--ink-soft)}
+  .prose a{color:var(--aqua-deep);font-weight:600;text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:2px}
+  .prose strong{color:var(--ink)}
+  .toc{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius-sm);padding:20px 24px;margin:26px 0 0;box-shadow:var(--shadow-sm)}
+  .toc .eyebrow{color:var(--aqua-deep);display:block;margin-bottom:.6rem}
+  .toc ol{margin:0;padding-left:1.2rem;color:var(--ink-soft);font-size:.94rem}
+  .toc li{margin-bottom:.3rem}
+  .toc a{color:var(--ink-soft);text-decoration:none}
+  .toc a:hover{color:var(--aqua-deep)}
+  .inline-pick{display:grid;grid-template-columns:120px 1fr;gap:20px;align-items:center;background:var(--surface);
+    border:1px solid var(--line);border-radius:var(--radius-sm);box-shadow:var(--shadow-sm);padding:20px;margin:1.6rem 0}
+  .inline-pick .ipimg{width:120px;height:120px;background:#fff;border:1px solid var(--line);border-radius:10px;padding:8px;display:flex;align-items:center;justify-content:center}
+  .inline-pick .ipimg img{max-width:100%;max-height:100%;display:block}
+  .inline-pick h3{font-family:var(--serif);font-weight:600;font-size:1.2rem;margin:0 0 .25rem}
+  .inline-pick p{font-size:.92rem;color:var(--muted);margin:0 0 .7rem}
+  .inline-pick .ipp{font-weight:800;font-variant-numeric:tabular-nums;color:var(--ink)}
+  @media (max-width:620px){.inline-pick{grid-template-columns:1fr}.inline-pick .ipimg{width:96px;height:96px}}
+  .keep{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:22px}
+  .keep a{display:block;background:var(--surface);border:1px solid var(--line);border-radius:var(--radius-sm);
+    padding:18px 20px;text-decoration:none;box-shadow:var(--shadow-sm);transition:transform .15s,border-color .2s}
+  .keep a:hover{transform:translateY(-2px);border-color:var(--brass)}
+  .keep .kt{font-family:var(--serif);font-size:1.06rem;color:var(--ink);display:block;margin-bottom:.25rem}
+  .keep .kd{font-size:.86rem;color:var(--muted)}
+  @media (max-width:620px){.keep{grid-template-columns:1fr}}
+</style>
+<script type="text/javascript">
+(function(c,l,a,r,i,t,y){
+    c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+    t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+    y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+})(window, document, "clarity", "script", "y1k89atvk0");
+</script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W5VH76R0QB"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());gtag('config', 'G-W5VH76R0QB');</script>
+</head>
+<body>
+<header class="site"><div class="wrap bar">
+  <a class="brand" href="/" aria-label="Best Espresso Machines">
+    <svg class="logomark" width="36" height="36" viewBox="0 0 40 40" aria-hidden="true">
+      <defs><radialGradient id="lm" cx="34%" cy="26%" r="86%"><stop offset="0" stop-color="#C2703C"/><stop offset=".68" stop-color="#5A2F16"/><stop offset="1" stop-color="#2A1A10"/></radialGradient></defs>
+      <circle cx="20" cy="20" r="19" fill="url(#lm)"/>
+      <circle cx="20" cy="20" r="18.4" fill="none" stroke="#DFBB78" stroke-width="1.1" stroke-opacity=".92"/>
+      <circle cx="20" cy="20" r="15.3" fill="none" stroke="#F4EAE1" stroke-width=".6" stroke-opacity=".22"/>
+      <path d="M13.2 17.6h11.1v4.9a5.55 5.55 0 0 1-5.55 5.55h0A5.55 5.55 0 0 1 13.2 22.5v-4.9Z" fill="#F9F3EC"/>
+      <path d="M24.6 18.9h1.6a2.5 2.5 0 0 1 0 5h-1.6" fill="none" stroke="#F9F3EC" stroke-width="1.5" stroke-linecap="round"/>
+      <path d="M12 29.4h14.6" stroke="#DFBB78" stroke-width="1.3" stroke-linecap="round" stroke-opacity=".9"/>
+      <path d="M17.4 14.4c1.5-1.2-1.1-2.5.4-4.1M21.4 14.4c1.5-1.2-1.1-2.5.4-4.1" fill="none" stroke="#F4EAE1" stroke-width="1.3" stroke-linecap="round" stroke-opacity=".75"/>
+    </svg>
+    <span class="bn">Best&thinsp;Espresso&thinsp;Machines</span>
+  </a>
+  <nav class="site" aria-label="Primary">
+    <a href="/#feature">Top pick</a><a href="/#compare">Compare</a><a href="/#picks">The eight</a><a href="/#how">Method</a><a href="/#faq">FAQ</a>
+  <a href="/guides">All guides</a></nav>
+</div></header>
+
+<div class="art">
+  <div class="arthead">
+    <span class="eyebrow" style="color:var(--aqua-deep)">How-to</span>
+    <h1>Dialing In Dark Roast vs Light Roast Espresso at Home</h1>
+    <p class="lede">The same grind setting rarely works for both. Oil content and bean density change between roast levels, and that changes grind size, shot time and brew temperature — so a dial-in that nails a dark roast can run a light roast sour and thin, and vice versa. Here is what actually moves, and a routine for finding the setting that works on each.</p>
+    <p class="byline">By <b>Ilane Tall</b> · Updated October 8, 2026 · Research-based.</p>
+    <p class="disclose">Reader-supported: we may earn a commission if you buy through our links, at no extra cost to you. Prices are the ones we recorded and they move constantly — confirm the live price before buying.</p>
+  </div>
+
+  <img class="artimg" src="/images/hero-dialing-in-dark-roast-vs-light-roast-espresso.webp" width="1600" height="900" loading="eager" fetchpriority="high" decoding="async" alt="Two espresso portafilters side by side, one with dark roast grounds and one with light roast grounds, on a home espresso machine">
+
+  <div class="prose">
+
+    <div class="toc" role="navigation" aria-label="On this page">
+      <span class="eyebrow">On this page</span>
+      <ol>
+        <li><a href="#short">The short answer</a></li>
+        <li><a href="#why">Why oil and density change the grind</a></li>
+        <li><a href="#dark">Dark roast: coarser, shorter, cooler</a></li>
+        <li><a href="#light">Light roast: finer, longer, and why it fights back</a></li>
+        <li><a href="#picks">The picks, and their grind range</a></li>
+        <li><a href="#reading">Reading the shot: the tells that differ by roast</a></li>
+        <li><a href="#routine">A two-roast dial-in routine on the same machine</a></li>
+        <li><a href="#honest">How we compared these</a></li>
+        <li><a href="#faq">FAQ</a></li>
+      </ol>
+    </div>
+
+    <h2 id="short">The short answer</h2>
+    <p>Dark roast beans are more brittle and more oily, so they shatter into finer particles at a given grinder setting and need to be ground coarser than you'd expect to keep the shot from choking. Light roast beans are denser and drier, so they need a finer grind than you'd expect — and even then they often run fast and sour, because density and lower sugar development both push the shot toward under-extraction.</p>
+    <p>That means moving from one roast to the other on the same <strong>burr grinder</strong> is rarely a one-click adjustment. Expect to move several steps on a stepped grinder, re-check your shot time, and in some cases reach for the one other lever available on a home machine: brew temperature, where the machine offers it.</p>
+    <p>None of this is a scoring exercise — we have no rating data for the machines we name below and we don't invent any. It's mechanics: how a burr interacts with bean structure, and how that structure changes with roast.</p>
+
+    <h2 id="why">Why oil content and density change grind size between roasts</h2>
+    <p>Roasting drives moisture out of a bean and builds pressure inside it as sugars caramelize and cell walls break down. The longer and hotter the roast, the more that structure opens up: cell walls fracture, oils that were bound inside migrate toward the surface, and the bean becomes measurably less dense. A dark roast bean is lighter for its size than a light roast bean from the same origin, and it's more brittle — it shatters rather than crushes.</p>
+    <p>That matters at the burr. A conical or flat burr grinder works by pulling beans into a narrowing gap and fracturing them until the pieces are small enough to pass through. A brittle, oily dark-roast bean fractures more easily and produces a higher proportion of fine particles and dust at any given gap setting than a dense light-roast bean ground at the same setting. More fines means more surface area blocking water's path through the puck — the shot resists flow more than the dial-in number alone would suggest.</p>
+    <p>Light roast beans are the opposite case: denser, with sugars that haven't fully caramelized and cell structure that's still largely intact. They resist the burr more, which sounds like it should produce coarser output, but the practical result for most home grinders is that a light roast at the same numeric setting as a dark roast tends to run <em>faster</em> through the puck, not slower — the particles are more uniform and there are fewer fines clogging the bed. To get the resistance you want, you generally have to grind finer than the dark-roast setting, not coarser.</p>
+    <p>There's a second factor layered on top: oil on the bean surface acts as a light lubricant inside the grinder's burr chamber and the portafilter basket, which is part of why dark roast grounds can clump and why a dark-roast puck can look glossy within minutes of sitting. None of this is unique to any one machine — it's bean chemistry, and it plays out on any burr grinder, built-in or standalone.</p>
+
+    <h2 id="dark">Dark roast: coarser grind, shorter time, lower temperature</h2>
+    <p>Three adjustments pull in the same direction for dark roast, and it helps to understand why each one exists rather than just copying numbers.</p>
+    <p><strong>Grind coarser than you think you need to.</strong> Because dark roast fractures into more fines at a given setting, the practical fix is to open the burr gap — move toward coarser on the dial — until the shot runs in a normal window again. Going in blind at a "medium" setting that works for a light roast will typically choke a dark roast: the shot drips in fits, runs long, and tastes bitter and ashy rather than sweet.</p>
+    <p><strong>Target the shorter end of the shot-time window.</strong> A conventional double starts around 18 grams of dry coffee in and roughly 36 grams of liquid out, aiming for about 25 to 30 seconds of extraction. Dark roast sugars are already heavily caramelized and some flavor compounds are already pushed toward bitter and burnt notes by the roast itself — over-extracting on top of that just adds more bitterness with no offsetting sweetness. So where a light roast might reasonably run toward 30 seconds, a dark roast is usually better pulled toward 22 to 26 seconds, with the coarser grind making that shorter time naturally achievable.</p>
+    <p><strong>Lower the brew temperature if your machine allows it.</strong> General espresso brew-water temperature guidance sits around 195–205°F. Darker roasts extract their soluble compounds more readily — there's simply more broken-down, water-soluble material in a dark roast bean — so brewing at the lower end of that range, or the lowest setting your machine offers, reduces the risk of pulling out the harsh, ashy notes that dark roast is already prone to. Not every home machine exposes a temperature dial; where one doesn't, grind and time are your only two levers, and they're usually enough.</p>
+    <p>The <a href="/best-delonghi-espresso-machines-compared">De'Longhi Magnifica Start</a> and other super-automatics with adjustable strength settings give you an indirect way to push in this direction without a dedicated temperature dial — a lower strength setting generally means a shorter brew time by default, which is the direction dark roast wants.</p>
+
+    <h2 id="light">Light roast: finer grind, longer time, and why it fights back</h2>
+    <p>Light roast is where most dial-ins go wrong, and the trouble is less about any single setting and more about how denser beans interact with everything downstream.</p>
+    <p><strong>Grind finer than feels intuitive.</strong> A dense, less-fractured light roast bean needs a smaller burr gap to create enough resistance for proper extraction. Home baristas moving from a dark roast bag to a light roast one commonly leave the grinder where it was and get a shot that runs in 15 seconds, tastes sharp and sour, and looks thin and pale in the cup — the signature of under-extraction. The fix is almost always to grind meaningfully finer, not to tweak the dose or the tamp.</p>
+    <p><strong>Accept, and target, a longer shot time.</strong> Where dark roast wants the shorter end of the 25–30 second window, light roast generally wants the longer end — sometimes pushing toward 32 to 35 seconds — because the sugars need more contact time with water to caramelize-in-cup what the roast didn't caramelize in the drum. This is the single most common reason a "properly dialed" light roast still tastes thin: the shot was stopped on a stopwatch habit carried over from dark roast, not on what the cup actually needed.</p>
+    <p><strong>Why it fights back even after you adjust.</strong> Light roast is simply less forgiving. The window between "sour and thin" and "bitter and harsh" is narrower than with dark roast, because there's less margin on either side — less caramelization to lean on if you under-extract, and less of the ashy bitterness that dark roast can partially mask over-extraction with. That means small grind changes produce bigger taste swings, and a setting that's perfect on Monday's bag can taste off on a fresh bag of the same bean a week later as it degasses further. Expect to make smaller, more frequent adjustments with light roast than you ever needed with dark.</p>
+    <p>Higher brew temperature, at the top of the 195–205°F range or the highest setting available, also helps here: light roast has less already-soluble material, so more heat helps pull out what sweetness and acidity the roast left intact, rather than leaving the shot tasting grassy or underdeveloped.</p>
+
+    <p>A dual or double-boiler machine, like the <strong>JustSmart Deluxe</strong> below, has a practical edge for this kind of back-and-forth dial-in: a separate boiler for brewing and steaming means the brew side can hold a stable temperature through several adjustment shots in a row, instead of recovering heat between them.</p>
+
+    <h2 id="picks">The picks, and their grind range</h2>
+    <p>A wide, fine-grained grind range matters more for this specific problem than almost any other spec, because dark and light roast need to sit at genuinely different points on the dial, not adjacent clicks. These three all put a grinder on the machine itself, which keeps the roast-switching workflow — grind, check, adjust, re-grind — on one appliance instead of two.</p>
+
+    <div class="inline-pick">
+      <div class="ipimg"><img src="/images/amazon-B0HC3CQMGR.webp" alt="JustSmart Deluxe espresso machine with double boiler and built-in burr grinder" width="800" height="800" loading="lazy" decoding="async"></div>
+      <div>
+        <h3>JustSmart Deluxe Espresso Machine with Double Boiler, Built-in Burr Grinder</h3>
+        <p>Semi-automatic, with a built-in burr grinder feeding the portafilter directly and a double-boiler design that keeps brew and steam temperatures independent. We don't have a published number of discrete grind settings for this unit — check the current Amazon listing for the exact step count before you buy if that figure matters to your decision. At $148.99 it's the lowest-priced of the three with an integrated grinder, which makes it a reasonable place to start if you're moving between roasts often and don't want to also own and calibrate a second standalone grinder.</p>
+        <span class="ipp">$148.99</span> &nbsp; <a class="buy" href="https://www.amazon.com/dp/B0HC3CQMGR?tag=best-espressomach-20" rel="nofollow sponsored noopener" target="_blank">Check price →</a>
+      </div>
+    </div>
+
+    <div class="inline-pick">
+      <div class="ipimg"><img src="/images/amazon-B0FP2WMQPY.webp" alt="AIRMSEN espresso machine with burr grinder, 20 bar pump and steam wand" width="800" height="800" loading="lazy" decoding="async"></div>
+      <div>
+        <h3>AIRMSEN Espresso Machines with Burr Grinder, 20 Bar</h3>
+        <p>A 20-bar pump, burr grinder and steam wand combined for milk drinks, at $179.99. As with any "20 bar" claim, that's the pump's maximum rating rather than brew pressure — espresso brews at roughly 9 bar at the puck regardless of what the pump can reach, so the number doesn't tell you anything about how it handles roast changes. What matters for this topic is the grinder being built in and adjustable; we don't have the step count published, so again, check the listing.</p>
+        <span class="ipp">$179.99</span> &nbsp; <a class="buy" href="https://www.amazon.com/dp/B0FP2WMQPY?tag=best-espressomach-20" rel="nofollow sponsored noopener" target="_blank">Check price →</a>
+      </div>
+    </div>
+
+    <div class="inline-pick">
+      <div class="ipimg"><img src="/images/amazon-B0DB5KLFWL.webp" alt="Hanrose espresso machine with built-in grinder, milk frother and ULKA pump" width="800" height="800" loading="lazy" decoding="async"></div>
+      <div>
+        <h3>Hanrose Espresso Machine with Grinder and Milk Frother, 20 Bar ULKA Pump</h3>
+        <p>At $255.83, this pairs a built-in grinder with a named pump component — the ULKA pump — and a milk frother. Measuring 12.99 by 13.23 by 16.54 inches, it's the largest footprint of the three above it, worth checking against your counter and cabinet clearance before ordering, especially if the hopper needs top clearance to refill.</p>
+        <span class="ipp">$255.83</span> &nbsp; <a class="buy" href="https://www.amazon.com/dp/B0DB5KLFWL?tag=best-espressomach-20" rel="nofollow sponsored noopener" target="_blank">Check price →</a>
+      </div>
+    </div>
+
+    <div class="inline-pick">
+      <div class="ipimg"><img src="/images/amazon-B0FKT8NDP7.webp" alt="Gevi dual boiler espresso machine with grinder and 58mm portafilter" width="800" height="800" loading="lazy" decoding="async"></div>
+      <div>
+        <h3>Gevi Dual Boiler Espresso Machine With Grinder &amp; 58mm Portafilter</h3>
+        <p>At $349.99, the Gevi steps up to a 58&nbsp;mm portafilter — the commercial-standard size, larger than the 54&nbsp;mm basket on many prosumer machines — and a dual-boiler layout, measuring 16.61 by 15.66 by 18.85 inches. A dual boiler means brew and steam heat independently and simultaneously, which is the same practical benefit as the JustSmart's double boiler: a dial-in session that involves pulling several back-to-back test shots won't have to wait on the boiler to recover or re-stabilize between them.</p>
+        <span class="ipp">$349.99</span> &nbsp; <a class="buy" href="https://www.amazon.com/dp/B0FKT8NDP7?tag=best-espressomach-20" rel="nofollow sponsored noopener" target="_blank">Check price →</a>
+      </div>
+    </div>
+
+    <h2 id="reading">Reading the shot: the tells that differ by roast</h2>
+    <p>The visual and taste signals that tell you which direction to adjust aren't identical between roasts, and reading them with the wrong roast's expectations is a common way dial-ins stall out.</p>
+    <p><strong>Color and flow.</strong> A dark roast shot pulled correctly runs a deep reddish-brown, thinning toward blonde near the end of the pour — the "blonding" that signals the easily-extracted compounds are mostly gone. Because dark roast has more soluble material overall, blonding tends to arrive a bit earlier in a correctly-dialed shot than it does with light roast. If a dark roast shot never blondes and just keeps running dark the whole time, that's often a sign it's running too fast — too coarse — rather than something to celebrate as "strong."</p>
+    <p><strong>Taste at the extremes.</strong> For dark roast, the over-extraction tell is ashy, burnt, and flatly bitter with no redeeming sweetness underneath — distinct from the roast's own intentional bitterness, which should still have body behind it. The under-extraction tell for dark roast is surprisingly similar to over-extraction in bitterness terms, which is part of why dark roast dial-in is confusing: a too-fast, under-extracted dark shot can taste hollow and bitter at once, not sour.</p>
+    <p>For light roast, the tells are more textbook. Under-extracted light roast tastes sharply sour — lemon-pith, vinegary — and looks thin and watery with little crema. Over-extracted light roast tastes astringent and grips the back of the tongue, sometimes with a grassy or papery note, well before it tastes "burnt" the way an over-extracted dark roast does. Light roast essentially never tastes ashy; if you're getting ash notes, you're likely tasting old grounds or a dirty group, not a roast problem.</p>
+    <p><strong>Crema.</strong> Dark roast typically produces a thicker, more persistent, darker crema, partly because of the oil content discussed earlier — oil helps crema form and hold. Light roast crema is usually thinner and lighter, and a thin crema on a light roast shot isn't a defect the way it might read on a dark roast; it's closer to normal. Judging light roast by dark-roast crema expectations is another common false alarm.</p>
+
+    <h2 id="routine">A simple two-roast dial-in routine using the same machine</h2>
+    <p>This is a repeatable sequence for anyone keeping both a dark and a light roast bag in rotation on one machine, rather than two separate ad-hoc guesses each time you switch bags.</p>
+    <p><strong>1. Weigh and log your dose.</strong> Start both roasts from the same 18-gram-in target so the only variable you're chasing is grind and time, not dose drift. Write down the grind setting and shot time for each roast as you land on them — a sticky note on the machine works fine. Without a log, every bag swap starts from zero.</p>
+    <p><strong>2. Pull a baseline shot at your current setting.</strong> Whatever setting worked for the last bag of this roast, start there. If you're dialing in a roast for the first time on this machine, start at the manufacturer's suggested middle setting and expect to move from there.</p>
+    <p><strong>3. Time the shot and taste it.</strong> Note whether it ran faster or slower than the 25–30 second reference window, and taste for sour-and-thin versus bitter-and-harsh using the roast-specific tells above — remember dark and light roast show different symptoms for the same underlying problem.</p>
+    <p><strong>4. Adjust grind first, in one direction, by one step.</strong> Running fast and sour: grind finer. Running slow and bitter or choking: grind coarser. Change only the grind between test shots — changing grind and dose at the same time makes it impossible to tell which adjustment fixed (or broke) the shot.</p>
+    <p><strong>5. Re-check time after each grind change, and repeat.</strong> Each grind adjustment shifts the shot time, so re-time before judging taste again. Most dial-ins converge within three to five test shots once you're in the right neighborhood.</p>
+    <p><strong>6. If your machine has a temperature setting, use it as the second lever, not the first.</strong> Once grind and time are in a reasonable window, nudge temperature down for dark roast or up for light roast if the cup still tastes slightly off in the expected direction. Temperature is a finishing adjustment here, not the main fix — grind size does most of the work.</p>
+    <p><strong>7. Log the final setting against the roast and the specific bag.</strong> Different light roasts from different roasters can still need different settings from each other, since roast curves vary — but your logged dark-roast and light-roast settings from the same machine are usually a faster starting point than guessing from zero on the next bag.</p>
+    <p>For the mechanics of the pull itself — tamping pressure, pre-infusion, and what a normal shot looks like start to finish — our <a href="/what-comes-in-the-box-with-an-espresso-machine">guide to what comes in the box</a> covers the baseline gear this routine assumes you already have, and our piece on <a href="/espresso-machine-buying-mistakes-first-time-buyers-make">buying mistakes first-time buyers make</a> covers the grinder-related mistakes that make this whole routine harder than it needs to be.</p>
+
+    <div class="band">
+      <h3 class="serif">One thing not to do</h3>
+      <p>Don't judge a roast switch off a single shot. The first shot on a new setting tells you a direction to move, not a verdict on the bean or the machine. Give yourself the three-to-five-shot budget above before deciding a light roast "just doesn't work" on your setup — it usually means the grind hasn't caught up to the bean yet.</p>
+    </div>
+
+    <h2 id="honest">How we compared these</h2>
+    <p>We compare published specifications, what ships in the box, machine class, footprint and live pricing. <strong>We do not physically test these machines, we do not run a testing lab, and we do not publish ratings we cannot verify</strong> — we have no rating or review-count data for the machines named on this page, so there are no stars and no invented scores anywhere here. The roast-and-extraction mechanics described above — bean density and oil content changing under the burr, the 25–30 second reference window, the 195–205°F temperature range, blonding and crema behavior — are standard, general coffee-science background rather than claims about any specific product, and they apply the same way regardless of which machine or grinder you use.</p>
+    <p>Where we describe a trade-off as a judgment call — that temperature should be a finishing adjustment rather than a first move, for instance — we've said so in our own voice so you can weigh it against your own results. Prices for the machines above are the ones we recorded and move constantly on Amazon; confirm the current price before buying. For the broader buying picture beyond grind and roast, <a href="/">our main espresso machine guide</a> covers the rest of the decision.</p>
+
+    <h2 id="faq">Frequently asked questions</h2>
+    <div class="panel faq" style="margin-top:22px">
+      <details open><summary>Do I need to change the grind every time I switch between a dark roast and a light roast bag?</summary><p>Usually yes, at least a few steps on a stepped grinder. Dark roast beans are more brittle and oily and fracture into more fine particles at a given setting, so they typically need a coarser grind than light roast to avoid choking the shot. Light roast beans are denser and need a finer grind to create enough resistance. The exact number of steps depends on your specific grinder and beans, which is why logging your settings per roast saves time on every future bag swap.</p></details>
+      <details><summary>Why does my light roast espresso taste sour even after I adjusted the grind finer?</summary><p>Sourness is the classic under-extraction tell, and with light roast it often takes a bigger grind change than expected because dense, less-fractured beans resist the burr more. It also helps to target a longer shot time with light roast — often 32 to 35 seconds rather than the 25-to-30-second window that works for dark roast — since the sugars need more contact time with water. If it's still sour after both changes, try the higher end of the 195–205°F brew temperature range if your machine allows it.</p></details>
+      <details><summary>Should I brew dark roast and light roast at different temperatures?</summary><p>If your machine lets you adjust brew temperature, yes, as a secondary adjustment after grind and shot time. Dark roast has more easily-dissolved compounds from the roasting process, so a lower temperature in the 195–205°F range helps avoid pulling out extra bitterness. Light roast has less already-soluble material, so a higher temperature in that same range helps extract more sweetness and body. Not every home machine exposes this control, and grind plus time alone are usually enough to get a good result either way.</p></details>
+      <details><summary>Is crema a reliable way to judge if a shot is good, regardless of roast?</summary><p>No — crema volume isn't directly comparable across roasts. Dark roast produces more crema partly because of its higher oil content, so a thick, dark crema is normal there. Light roast naturally produces a thinner, lighter crema, and that thinness isn't a defect the way it might look if you're used to judging by dark-roast crema. Taste and shot time are more reliable indicators than crema volume for either roast.</p></details>
+    </div>
+
+    <h2 id="keep">Keep reading</h2>
+    <div class="keep">
+      <a href="/what-comes-in-the-box-with-an-espresso-machine"><span class="kt">What actually comes in the box with an espresso machine</span><span class="kd">The baseline gear this dial-in routine assumes you have.</span></a>
+      <a href="/espresso-machine-buying-mistakes-first-time-buyers-make"><span class="kt">Espresso machine buying mistakes first-time buyers make</span><span class="kd">Grinder-related mistakes that make dial-in harder than it should be.</span></a>
+      <a href="/best-delonghi-espresso-machines-compared"><span class="kt">Best De'Longhi espresso machines compared (2026)</span><span class="kd">Super-automatics and the strength settings that stand in for a temperature dial.</span></a>
+      <a href="/best-breville-espresso-machines-compared"><span class="kt">Best Breville espresso machines compared (2026)</span><span class="kd">Where built-in grinders sit across the Breville line.</span></a>
+      <a href="/best-espresso-machines-for-oat-milk-and-plant-milk"><span class="kt">Best espresso machines for oat milk and plant milk</span><span class="kd">A different variable, same honest-spec approach.</span></a>
+      <a href="/guides"><span class="kt">All espresso guides</span><span class="kd">Choosing, dialling in and living with a machine.</span></a>
+    </div>
+
+  </div>
+</div>
+
+<footer class="site"><div class="wrap">
+  <div class="fbrand">Best Espresso Machines</div>
+  <p>Independent, research-based comparisons of home espresso machines, grinders and the gear around them.</p>
+  <p style="margin:.5rem 0 0"><a href="/about">About</a> · <a href="/guides">All guides</a> · <a href="/contact">Contact</a> · <a href="/privacy">Privacy</a></p>
+  <p>Reader-supported: we may earn a commission when you buy through our links, at no additional cost to you. Comparisons are based on published specifications and pricing; we do not physically test products and we do not publish ratings we cannot verify. Prices change frequently — confirm the current price on Amazon. As an Amazon Associate, we earn from qualifying purchases. © 2026 Best Espresso Machines.</p>
+</div></footer>
+
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Article",
+ "headline":"Dialing In Dark Roast vs Light Roast Espresso at Home",
+ "description":"The same grind setting rarely works for both. How roast level changes dose, time and temperature on a home machine.",
+ "image":"https://best-espresso-machines.com/images/hero-dialing-in-dark-roast-vs-light-roast-espresso.webp",
+ "author":{"@type":"Person","name":"Ilane Tall"},
+ "publisher":{"@type":"Organization","name":"Best Espresso Machines"},
+ "datePublished":"2026-10-08","dateModified":"2026-10-08",
+ "mainEntityOfPage":{"@type":"WebPage","@id":"https://best-espresso-machines.com/dialing-in-dark-roast-vs-light-roast-espresso"},
+ "articleSection":"How-to"}
+</script>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"HowTo",
+ "name":"A two-roast espresso dial-in routine using the same machine",
+ "description":"A repeatable sequence for dialing in both dark roast and light roast espresso on one home machine.",
+ "step":[
+  {"@type":"HowToStep","name":"Weigh and log your dose","text":"Start both roasts from the same 18-gram-in dose and log the grind setting and shot time for each roast as you land on them."},
+  {"@type":"HowToStep","name":"Pull a baseline shot","text":"Start at the last working setting for that roast, or the manufacturer's suggested middle setting if dialing in for the first time."},
+  {"@type":"HowToStep","name":"Time the shot and taste it","text":"Compare the shot time against the 25-30 second reference window and taste for sour-and-thin versus bitter-and-harsh using roast-specific tells."},
+  {"@type":"HowToStep","name":"Adjust grind first, by one step","text":"Grind finer if running fast and sour; grind coarser if running slow and bitter or choking. Change only one variable at a time."},
+  {"@type":"HowToStep","name":"Re-check time after each change","text":"Each grind adjustment shifts shot time, so re-time before judging taste again. Most dial-ins converge within three to five test shots."},
+  {"@type":"HowToStep","name":"Use temperature as a secondary lever","text":"If the machine allows it, nudge brew temperature down for dark roast or up for light roast once grind and time are close."},
+  {"@type":"HowToStep","name":"Log the final setting","text":"Record the grind setting and shot time against the roast and specific bag for a faster start next time."}
+ ]}
+</script>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"ItemList","name":"Espresso machines referenced for dark roast vs light roast dial-in","itemListElement":[
+ {"@type":"ListItem","position":1,"item":{"@type":"Product","name":"JustSmart Deluxe Espresso Machine with Double Boiler, Built-in Burr Grinder","brand":{"@type":"Brand","name":"JustSmart"},"offers":{"@type":"Offer","price":"148.99","priceCurrency":"USD","availability":"https://schema.org/InStock","url":"https://www.amazon.com/dp/B0HC3CQMGR?tag=best-espressomach-20"}}},
+ {"@type":"ListItem","position":2,"item":{"@type":"Product","name":"AIRMSEN Espresso Machines with Burr Grinder, 20 Bar","brand":{"@type":"Brand","name":"AIRMSEN"},"offers":{"@type":"Offer","price":"179.99","priceCurrency":"USD","availability":"https://schema.org/InStock","url":"https://www.amazon.com/dp/B0FP2WMQPY?tag=best-espressomach-20"}}},
+ {"@type":"ListItem","position":3,"item":{"@type":"Product","name":"Hanrose Espresso Machine with Grinder and Milk Frother, 20 Bar ULKA Pump","brand":{"@type":"Brand","name":"Hanrose"},"offers":{"@type":"Offer","price":"255.83","priceCurrency":"USD","availability":"https://schema.org/InStock","url":"https://www.amazon.com/dp/B0DB5KLFWL?tag=best-espressomach-20"}}},
+ {"@type":"ListItem","position":4,"item":{"@type":"Product","name":"Gevi Dual Boiler Espresso Machine With Grinder & 58mm Portafilter","brand":{"@type":"Brand","name":"Gevi"},"offers":{"@type":"Offer","price":"349.99","priceCurrency":"USD","availability":"https://schema.org/InStock","url":"https://www.amazon.com/dp/B0FKT8NDP7?tag=best-espressomach-20"}}}
+]}
+</script>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[
+ {"@type":"Question","name":"Do I need to change the grind every time I switch between a dark roast and a light roast bag?","acceptedAnswer":{"@type":"Answer","text":"Usually yes, at least a few steps on a stepped grinder. Dark roast beans are more brittle and oily and fracture into more fine particles at a given setting, so they typically need a coarser grind than light roast to avoid choking the shot. Light roast beans are denser and need a finer grind to create enough resistance. Logging your settings per roast saves time on every future bag swap."}},
+ {"@type":"Question","name":"Why does my light roast espresso taste sour even after I adjusted the grind finer?","acceptedAnswer":{"@type":"Answer","text":"Sourness is the classic under-extraction tell, and with light roast it often takes a bigger grind change than expected because dense, less-fractured beans resist the burr more. It also helps to target a longer shot time with light roast, often 32 to 35 seconds, since the sugars need more contact time with water. If it is still sour, try the higher end of the 195-205F brew temperature range if your machine allows it."}},
+ {"@type":"Question","name":"Should I brew dark roast and light roast at different temperatures?","acceptedAnswer":{"@type":"Answer","text":"If your machine lets you adjust brew temperature, yes, as a secondary adjustment after grind and shot time. Dark roast has more easily-dissolved compounds, so a lower temperature in the 195-205F range helps avoid extra bitterness. Light roast has less already-soluble material, so a higher temperature in that range helps extract more sweetness. Grind and time alone are usually enough even without this control."}},
+ {"@type":"Question","name":"Is crema a reliable way to judge if a shot is good, regardless of roast?","acceptedAnswer":{"@type":"Answer","text":"No, crema volume is not directly comparable across roasts. Dark roast produces more crema partly because of higher oil content, so a thick, dark crema is normal there. Light roast naturally produces a thinner, lighter crema, and that thinness is not a defect. Taste and shot time are more reliable indicators than crema volume for either roast."}}
+]}
+</script>
+
+<script src="/site.js" defer></script>
+</body>
+</html>
