@@ -28,6 +28,7 @@ We start from every espresso machine we can source through Amazon's official pro
 ## Guides
 
 <!--LLMS-GUIDES:START-->
+- [Cup Clearance: Fitting a Tall Travel Mug Under Your Espresso Machine](https://best-espresso-machines.com/espresso-machine-drip-tray-and-cup-clearance-for-tall-mugs): A removable drip tray can add real inches, but not every compact machine has one. What to check before a travel mug won't fit.
 - [Espresso Machines for a Shared Office: What Actually Matters](https://best-espresso-machines.com/espresso-machine-for-the-office-what-to-look-for): Fast recovery, a big tank and one-touch drinks beat a manual wand when six people share one machine. What to look for before buying for a break room.
 - [Dialing In Dark Roast vs Light Roast Espresso at Home](https://best-espresso-machines.com/dialing-in-dark-roast-vs-light-roast-espresso): The same grind setting rarely works for both. How roast level changes dose, time and temperature on a home machine.
 - [Espresso Machine Buying Mistakes First-Time Buyers Make](https://best-espresso-machines.com/espresso-machine-buying-mistakes-first-time-buyers-make): Overbuying, underbuying, and the spec that gets ignored until week three. The patterns behind most regretted purchases.
