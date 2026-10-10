@@ -539,6 +539,16 @@
       "minutes": 13,
       "date": "2026-10-10",
       "featured": true
+    },
+    {
+      "slug": "espresso-machine-anti-clog-grinder-explained",
+      "title": "Anti-Clog Grinder Systems: What the Claim Actually Means",
+      "description": "A handful of built-in grinders now advertise an anti-clog design. What that mechanism actually does, and where beans still jam anyway.",
+      "category": "Guide",
+      "hero": "hero-espresso-machine-anti-clog-grinder-explained",
+      "minutes": 13,
+      "date": "2026-10-11",
+      "featured": true
     }
   ]
 }

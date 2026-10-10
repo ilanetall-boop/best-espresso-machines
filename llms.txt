@@ -28,6 +28,7 @@ We start from every espresso machine we can source through Amazon's official pro
 ## Guides
 
 <!--LLMS-GUIDES:START-->
+- [Anti-Clog Grinder Systems: What the Claim Actually Means](https://best-espresso-machines.com/espresso-machine-anti-clog-grinder-explained): A handful of built-in grinders now advertise an anti-clog design. What that mechanism actually does, and where beans still jam anyway.
 - [Cup Clearance: Fitting a Tall Travel Mug Under Your Espresso Machine](https://best-espresso-machines.com/espresso-machine-drip-tray-and-cup-clearance-for-tall-mugs): A removable drip tray can add real inches, but not every compact machine has one. What to check before a travel mug won't fit.
 - [Espresso Machines for a Shared Office: What Actually Matters](https://best-espresso-machines.com/espresso-machine-for-the-office-what-to-look-for): Fast recovery, a big tank and one-touch drinks beat a manual wand when six people share one machine. What to look for before buying for a break room.
 - [Dialing In Dark Roast vs Light Roast Espresso at Home](https://best-espresso-machines.com/dialing-in-dark-roast-vs-light-roast-espresso): The same grind setting rarely works for both. How roast level changes dose, time and temperature on a home machine.
