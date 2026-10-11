@@ -549,6 +549,16 @@
       "minutes": 13,
       "date": "2026-10-11",
       "featured": true
+    },
+    {
+      "slug": "best-gevi-espresso-machines-compared",
+      "title": "Best Gevi Espresso Machines Compared (2026)",
+      "description": "One brand, four very different machines — a basic grinder model, an anti-static burr grinder, and two dual-boiler machines up to 58mm. What actually separates them.",
+      "category": "Comparison",
+      "hero": "hero-best-gevi-espresso-machines-compared",
+      "minutes": 15,
+      "date": "2026-10-12",
+      "featured": true
     }
   ]
 }
