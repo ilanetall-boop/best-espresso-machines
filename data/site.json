@@ -589,6 +589,16 @@
       "minutes": 16,
       "date": "2026-10-15",
       "featured": true
+    },
+    {
+      "slug": "best-airmsen-espresso-machines-compared",
+      "title": "Best AIRMSEN Espresso Machines Compared (2026)",
+      "description": "Three AIRMSEN machines priced within $70 of each other, built for three different mornings — cold brew, dual-boiler speed, and a straightforward grinder-plus-wand setup.",
+      "category": "Comparison",
+      "hero": "hero-best-airmsen-espresso-machines-compared",
+      "minutes": 15,
+      "date": "2026-10-16",
+      "featured": true
     }
   ]
 }
