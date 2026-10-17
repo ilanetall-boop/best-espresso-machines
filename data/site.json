@@ -609,6 +609,16 @@
       "minutes": 13,
       "date": "2026-10-17",
       "featured": true
+    },
+    {
+      "slug": "legacy-brand-vs-direct-to-consumer-espresso-machines",
+      "title": "Legacy Brand or Direct-to-Consumer: What You're Really Paying For",
+      "description": "A Breville or De'Longhi costs more than a DTC machine with a similar spec sheet. Comparing four grinder-equipped machines on paper to see where the premium goes.",
+      "category": "Honest take",
+      "hero": "hero-legacy-brand-vs-direct-to-consumer-espresso-machines",
+      "minutes": 15,
+      "date": "2026-10-18",
+      "featured": true
     }
   ]
 }
