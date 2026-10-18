@@ -619,6 +619,16 @@
       "minutes": 15,
       "date": "2026-10-18",
       "featured": true
+    },
+    {
+      "slug": "breville-barista-express-vs-barista-pro-vs-barista-touch",
+      "title": "Breville Barista Express vs Barista Pro vs Barista Touch: Where the Money Actually Goes",
+      "description": "Three Breville tiers, $130 and then $170 apart. A spec-for-spec look at what each step up actually changes versus what simply carries over.",
+      "category": "Comparison",
+      "hero": "hero-breville-barista-express-vs-barista-pro-vs-barista-touch",
+      "minutes": 12,
+      "date": "2026-10-19",
+      "featured": true
     }
   ]
 }
