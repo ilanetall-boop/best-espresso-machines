@@ -28,6 +28,7 @@ We start from every espresso machine we can source through Amazon's official pro
 ## Guides
 
 <!--LLMS-GUIDES:START-->
+- [Nespresso Vertuo Pop+ vs a Nespresso-Capsule Hybrid: Two Very Different Machines That Both Take Pods](https://best-espresso-machines.com/nespresso-pod-machine-vs-nespresso-compatible-hybrid): Same capsule format, a $180 price gap, and almost nothing else in common. What a dedicated pod machine does well that a pump-driven hybrid does not, and the reverse.
 - [Breville Barista Express vs Barista Pro vs Barista Touch: Where the Money Actually Goes](https://best-espresso-machines.com/breville-barista-express-vs-barista-pro-vs-barista-touch): Three Breville tiers, $130 and then $170 apart. A spec-for-spec look at what each step up actually changes versus what simply carries over.
 - [Legacy Brand or Direct-to-Consumer: What You're Really Paying For](https://best-espresso-machines.com/legacy-brand-vs-direct-to-consumer-espresso-machines): A Breville or De'Longhi costs more than a DTC machine with a similar spec sheet. Comparing four grinder-equipped machines on paper to see where the premium goes.
 - [Espresso Machine and Grinder Bundles: Is the Matched Pair Worth It?](https://best-espresso-machines.com/espresso-machine-and-grinder-bundles-worth-it): A factory-matched machine-and-grinder bundle costs more than buying separately. From a $349.99 Gevi to a $1,999 Meraki, what the matching actually buys you.

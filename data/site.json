@@ -629,6 +629,16 @@
       "minutes": 12,
       "date": "2026-10-19",
       "featured": true
+    },
+    {
+      "slug": "nespresso-pod-machine-vs-nespresso-compatible-hybrid",
+      "title": "Nespresso Vertuo Pop+ vs a Nespresso-Capsule Hybrid: Two Very Different Machines That Both Take Pods",
+      "description": "Same capsule format, a $180 price gap, and almost nothing else in common. What a dedicated pod machine does well that a pump-driven hybrid does not, and the reverse.",
+      "category": "Comparison",
+      "hero": "hero-nespresso-pod-machine-vs-nespresso-compatible-hybrid",
+      "minutes": 13,
+      "date": "2026-10-21",
+      "featured": true
     }
   ]
 }
