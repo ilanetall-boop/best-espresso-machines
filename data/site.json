@@ -639,6 +639,16 @@
       "minutes": 13,
       "date": "2026-10-21",
       "featured": true
+    },
+    {
+      "slug": "delonghi-la-specialista-arte-evo-vs-magnifica-evo",
+      "title": "De'Longhi La Specialista Arte Evo vs Magnifica Evo: Grind It Yourself or Let the Machine Decide",
+      "description": "Two De'Longhi machines at very different price points and very different philosophies — a manual grinder machine with its own cold-extraction mode against the brand's priciest full automatic.",
+      "category": "Comparison",
+      "hero": "hero-delonghi-la-specialista-arte-evo-vs-magnifica-evo",
+      "minutes": 13,
+      "date": "2026-10-22",
+      "featured": true
     }
   ]
 }

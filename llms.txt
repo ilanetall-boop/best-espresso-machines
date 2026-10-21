@@ -28,6 +28,7 @@ We start from every espresso machine we can source through Amazon's official pro
 ## Guides
 
 <!--LLMS-GUIDES:START-->
+- [De'Longhi La Specialista Arte Evo vs Magnifica Evo: Grind It Yourself or Let the Machine Decide](https://best-espresso-machines.com/delonghi-la-specialista-arte-evo-vs-magnifica-evo): Two De'Longhi machines at very different price points and very different philosophies — a manual grinder machine with its own cold-extraction mode against the brand's priciest full automatic.
 - [Nespresso Vertuo Pop+ vs a Nespresso-Capsule Hybrid: Two Very Different Machines That Both Take Pods](https://best-espresso-machines.com/nespresso-pod-machine-vs-nespresso-compatible-hybrid): Same capsule format, a $180 price gap, and almost nothing else in common. What a dedicated pod machine does well that a pump-driven hybrid does not, and the reverse.
 - [Breville Barista Express vs Barista Pro vs Barista Touch: Where the Money Actually Goes](https://best-espresso-machines.com/breville-barista-express-vs-barista-pro-vs-barista-touch): Three Breville tiers, $130 and then $170 apart. A spec-for-spec look at what each step up actually changes versus what simply carries over.
 - [Legacy Brand or Direct-to-Consumer: What You're Really Paying For](https://best-espresso-machines.com/legacy-brand-vs-direct-to-consumer-espresso-machines): A Breville or De'Longhi costs more than a DTC machine with a similar spec sheet. Comparing four grinder-equipped machines on paper to see where the premium goes.
