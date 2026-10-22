@@ -649,6 +649,16 @@
       "minutes": 13,
       "date": "2026-10-22",
       "featured": true
+    },
+    {
+      "slug": "espresso-machines-that-say-made-in-italy",
+      "title": "The One Machine Here That Says 'Made in Italy': Does the Label Change Anything?",
+      "description": "One listing in this catalogue states its country of manufacture outright. Two similarly built direct-to-consumer machines do not mention it at all. A look at what the label does and doesn't tell you.",
+      "category": "Honest take",
+      "hero": "hero-espresso-machines-that-say-made-in-italy",
+      "minutes": 14,
+      "date": "2026-10-23",
+      "featured": true
     }
   ]
 }
