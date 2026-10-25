@@ -669,6 +669,16 @@
       "minutes": 16,
       "date": "2026-10-24",
       "featured": true
+    },
+    {
+      "slug": "espresso-machine-automatic-pressure-relief-valve",
+      "title": "Automatic Pressure Relief: The Safety Valve Feature Most Listings Don't Mention",
+      "description": "One machine's listing describes an added solenoid valve that releases pressure automatically during and after extraction. Two similarly priced grinder machines describe no such thing. What that difference means in a home kitchen.",
+      "category": "Guide",
+      "hero": "hero-espresso-machine-automatic-pressure-relief-valve",
+      "minutes": 14,
+      "date": "2026-10-25",
+      "featured": true
     }
   ]
 }
