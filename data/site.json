@@ -689,6 +689,16 @@
       "minutes": 14,
       "date": "2026-10-26",
       "featured": true
+    },
+    {
+      "slug": "best-mr-coffee-espresso-machines-compared",
+      "title": "Best Mr. Coffee Espresso Machines Compared (2026)",
+      "description": "A $55 steam machine and a $240 pump machine share one name. What four times the price actually buys in a Mr. Coffee machine.",
+      "category": "Comparison",
+      "hero": "hero-best-mr-coffee-espresso-machines-compared",
+      "minutes": 12,
+      "date": "2026-10-27",
+      "featured": true
     }
   ]
 }
