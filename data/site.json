@@ -719,6 +719,16 @@
       "minutes": 14,
       "date": "2026-10-29",
       "featured": true
+    },
+    {
+      "slug": "best-shardor-espresso-machines-compared",
+      "title": "Best SHARDOR Espresso Machines Compared (2026)",
+      "description": "A $98.99 touchscreen machine and a $199.99 model with a built-in grinder. What doubling the price actually adds to a SHARDOR machine.",
+      "category": "Comparison",
+      "hero": "hero-best-shardor-espresso-machines-compared",
+      "minutes": 13,
+      "date": "2026-10-30",
+      "featured": true
     }
   ]
 }
