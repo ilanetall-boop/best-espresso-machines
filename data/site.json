@@ -749,6 +749,16 @@
       "minutes": 13,
       "date": "2026-11-01",
       "featured": true
+    },
+    {
+      "slug": "best-espresso-machines-between-250-and-350",
+      "title": "The Best Espresso Machines Between $250 and $350",
+      "description": "Above the budget tier and below semi-commercial pricing — the band where a built-in grinder, a second boiler or a wider portafilter start showing up together.",
+      "category": "Buying guide",
+      "hero": "hero-best-espresso-machines-between-250-and-350",
+      "minutes": 14,
+      "date": "2026-11-02",
+      "featured": true
     }
   ]
 }
