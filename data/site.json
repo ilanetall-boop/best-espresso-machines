@@ -779,6 +779,16 @@
       "minutes": 15,
       "date": "2026-11-04",
       "featured": true
+    },
+    {
+      "slug": "philips-2200-vs-2300-series-espresso-machines",
+      "title": "Philips 2200 Series vs 2300 Series: What the Extra $300 Actually Buys",
+      "description": "Both are fully automatic with a ceramic grinder. The 2300 Series adds LatteGo milk and costs $310 more. A spec-for-spec look at where the money goes.",
+      "category": "Comparison",
+      "hero": "hero-philips-2200-vs-2300-series-espresso-machines",
+      "minutes": 13,
+      "date": "2026-11-05",
+      "featured": true
     }
   ]
 }
