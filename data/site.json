@@ -789,6 +789,16 @@
       "minutes": 13,
       "date": "2026-11-05",
       "featured": true
+    },
+    {
+      "slug": "rancilio-silvia-pro-x-vs-diletta-alto",
+      "title": "Rancilio Silvia Pro X vs Diletta Alto: Two Prosumer Dual Boilers Over $2,000",
+      "description": "Both are PID-controlled dual boilers built for daily espresso at a near-commercial level. $304 apart, and the differences are all in the details.",
+      "category": "Honest take",
+      "hero": "hero-rancilio-silvia-pro-x-vs-diletta-alto",
+      "minutes": 13,
+      "date": "2026-11-06",
+      "featured": true
     }
   ]
 }
