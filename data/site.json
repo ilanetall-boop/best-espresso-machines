@@ -809,6 +809,16 @@
       "minutes": 14,
       "date": "2026-11-07",
       "featured": true
+    },
+    {
+      "slug": "breville-oracle-vs-dual-boiler-espresso-machine",
+      "title": "Breville Oracle vs Dual Boiler: Is Automatic Grinding and Tamping Worth $1,340 More?",
+      "description": "Both are manual-strength dual boilers. Only the Oracle grinds, doses and tamps for you. What that automation adds to the price, and what it still leaves you to do by hand.",
+      "category": "Comparison",
+      "hero": "hero-breville-oracle-vs-dual-boiler-espresso-machine",
+      "minutes": 13,
+      "date": "2026-11-08",
+      "featured": true
     }
   ]
 }
