@@ -819,6 +819,16 @@
       "minutes": 13,
       "date": "2026-11-08",
       "featured": true
+    },
+    {
+      "slug": "espresso-machines-with-a-built-in-scale",
+      "title": "Espresso Machines With a Built-In Scale: Dosing by Weight Without Buying One Separately",
+      "description": "Four machines from $449.99 to $1,999.00 that weigh the dose, the yield, or both automatically — what a built-in scale actually saves you from measuring by hand.",
+      "category": "Picks",
+      "hero": "hero-espresso-machines-with-a-built-in-scale",
+      "minutes": 16,
+      "date": "2026-11-09",
+      "featured": true
     }
   ]
 }

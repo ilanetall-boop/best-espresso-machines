@@ -28,6 +28,7 @@ We start from every espresso machine we can source through Amazon's official pro
 ## Guides
 
 <!--LLMS-GUIDES:START-->
+- [Espresso Machines With a Built-In Scale: Dosing by Weight Without Buying One Separately](https://best-espresso-machines.com/espresso-machines-with-a-built-in-scale): Four machines from $449.99 to $1,999.00 that weigh the dose, the yield, or both automatically — what a built-in scale actually saves you from measuring by hand.
 - [Breville Oracle vs Dual Boiler: Is Automatic Grinding and Tamping Worth $1,340 More?](https://best-espresso-machines.com/breville-oracle-vs-dual-boiler-espresso-machine): Both are manual-strength dual boilers. Only the Oracle grinds, doses and tamps for you. What that automation adds to the price, and what it still leaves you to do by hand.
 - [Best Electactic Espresso Machines Compared (2026)](https://best-espresso-machines.com/best-electactic-espresso-machines-compared): Two Electactic machines, 76 cents apart, built around different problems — one solves grinder clogging, the other adds a milk frother. Which one actually fits your morning.
 - [Rancilio Silvia Pro X vs Diletta Alto: Two Prosumer Dual Boilers Over $2,000](https://best-espresso-machines.com/rancilio-silvia-pro-x-vs-diletta-alto): Both are PID-controlled dual boilers built for daily espresso at a near-commercial level. $304 apart, and the differences are all in the details.
