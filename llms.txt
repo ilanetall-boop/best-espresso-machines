@@ -28,6 +28,7 @@ We start from every espresso machine we can source through Amazon's official pro
 ## Guides
 
 <!--LLMS-GUIDES:START-->
+- [Gemilai G3028A in White vs. Grey: Is There Any Functional Difference at the Same Price](https://best-espresso-machines.com/gemilai-g3028a-white-vs-grey): Same 15-bar pump, same dual-PID 550ml boiler, same $699.99 price. Two color listings of one machine, and what, if anything, actually separates them.
 - [Best Espresso Machines Under $150 With a Built-In Grinder](https://best-espresso-machines.com/best-espresso-machines-under-150-with-a-grinder): Four grinder-equipped machines between $79.99 and $148.99 — where the grind-setting count and boiler design actually differ once the price drops below $150.
 - [Espresso Machines With a Visible Bean Hopper: How Much Coffee They Actually Hold](https://best-espresso-machines.com/espresso-machines-with-a-visible-bean-hopper): EUHOMY states an exact 200g bean hopper; Reemix's fixed-setting hopper is sized for exactly two shots at a time. Between them, two adjustable 44-setting grinders show what capacity buys once you can actually change it.
 - [Espresso Machines With a Built-In Scale: Dosing by Weight Without Buying One Separately](https://best-espresso-machines.com/espresso-machines-with-a-built-in-scale): Four machines from $449.99 to $1,999.00 that weigh the dose, the yield, or both automatically — what a built-in scale actually saves you from measuring by hand.

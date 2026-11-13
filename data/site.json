@@ -849,6 +849,16 @@
       "minutes": 16,
       "date": "2026-11-12",
       "featured": true
+    },
+    {
+      "slug": "gemilai-g3028a-white-vs-grey",
+      "title": "Gemilai G3028A in White vs. Grey: Is There Any Functional Difference at the Same Price",
+      "description": "Same 15-bar pump, same dual-PID 550ml boiler, same $699.99 price. Two color listings of one machine, and what, if anything, actually separates them.",
+      "category": "Honest take",
+      "hero": "hero-gemilai-g3028a-white-vs-grey",
+      "minutes": 14,
+      "date": "2026-11-13",
+      "featured": true
     }
   ]
 }
