@@ -28,6 +28,7 @@ We start from every espresso machine we can source through Amazon's official pro
 ## Guides
 
 <!--LLMS-GUIDES:START-->
+- [Best 58mm-Portafilter Espresso Machines Under $300](https://best-espresso-machines.com/best-58mm-portafilter-espresso-machines-under-300): A 58mm portafilter is the commercial-cafe standard, and four machines bring it under $300 — from a $185.99 HIBREW to a $299.00 dual-boiler Tuni — without the accessory drought that usually comes with oddball basket sizes.
 - [Thermoblock vs. Boiler Espresso Machines: What Actually Changes Between Shots](https://best-espresso-machines.com/thermoblock-vs-boiler-espresso-machines): Three De'Longhi Classic-line machines between $149.95 and $225.99 use Thermoblock technology instead of a boiler — faster heat-up, but a real cost in back-to-back shot consistency.
 - [Espresso Machines With a Cup Warming Tray: Does Preheating the Cup Change the Shot](https://best-espresso-machines.com/espresso-machines-with-a-cup-warming-tray): Four budget machines between $98.99 and $155.99 build a warming tray into the top panel — what a warm cup actually changes about an espresso that cools in under five minutes anyway.
 - [Gemilai G3028A in White vs. Grey: Is There Any Functional Difference at the Same Price](https://best-espresso-machines.com/gemilai-g3028a-white-vs-grey): Same 15-bar pump, same dual-PID 550ml boiler, same $699.99 price. Two color listings of one machine, and what, if anything, actually separates them.
