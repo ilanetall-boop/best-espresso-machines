@@ -889,6 +889,16 @@
       "minutes": 18,
       "date": "2026-11-16",
       "featured": true
+    },
+    {
+      "slug": "rancilio-silvia-vs-silvia-pro-x",
+      "title": "Rancilio Silvia vs. Silvia Pro X: What $1,200 Buys on the Same Name",
+      "description": "The original Silvia is a $995, 0.3-liter manual machine with an iron frame and stainless steel side panels; the Pro X costs $2,195 and is sold as its direct successor. The price gap isolates what Rancilio changed between a two-decade cult classic and its modern replacement.",
+      "category": "Comparison",
+      "hero": "hero-rancilio-silvia-vs-silvia-pro-x",
+      "minutes": 15,
+      "date": "2026-11-17",
+      "featured": true
     }
   ]
 }
