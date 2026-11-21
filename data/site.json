@@ -929,6 +929,16 @@
       "minutes": 13,
       "date": "2026-11-20",
       "featured": true
+    },
+    {
+      "slug": "hibrew-h5a-vs-h10-portafilter-size",
+      "title": "HIBREW H5A vs. H10: 51mm Portafilter or 58mm, for $100 Less or More",
+      "description": "The H5A is a $119.99 semi-automatic machine built around a 51mm portafilter; the H10 costs $219.99 and moves up to a customizable 58mm group with one-touch pressure release. The $100 gap is mostly about basket size and what fits it afterward.",
+      "category": "Comparison",
+      "hero": "hero-hibrew-h5a-vs-h10-portafilter-size",
+      "minutes": 13,
+      "date": "2026-11-21",
+      "featured": true
     }
   ]
 }
