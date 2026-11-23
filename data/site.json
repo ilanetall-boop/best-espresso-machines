@@ -949,6 +949,16 @@
       "minutes": 16,
       "date": "2026-11-22",
       "featured": true
+    },
+    {
+      "slug": "espresso-machines-with-a-visible-pressure-gauge-under-130",
+      "title": "Espresso Machines With a Visible Pressure Gauge, Under $130",
+      "description": "Three machines under $130 put an analog pressure gauge on the front panel, from a $79.99 20-bar AYCHIRO to a $129.99 15-bar Neretva. The gauge shows pump output, not what's actually happening down at the puck.",
+      "category": "Buying guide",
+      "hero": "hero-espresso-machines-with-a-visible-pressure-gauge-under-130",
+      "minutes": 14,
+      "date": "2026-11-23",
+      "featured": true
     }
   ]
 }
