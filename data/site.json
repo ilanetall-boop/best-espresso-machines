@@ -959,6 +959,16 @@
       "minutes": 14,
       "date": "2026-11-23",
       "featured": true
+    },
+    {
+      "slug": "ninja-luxe-cafe-mini-vs-mini-plus",
+      "title": "Ninja Luxe Café Mini vs. Mini Plus: A Manual Wand or $100 for AutoFroth",
+      "description": "Both shrink the Luxe Café line to a one-or-two-cup footprint with a built-in burr grinder and precision scale. The Mini keeps a manual steam wand at $399.99; the Mini Plus adds hands-free AutoFroth for $499.99.",
+      "category": "Comparison",
+      "hero": "hero-ninja-luxe-cafe-mini-vs-mini-plus",
+      "minutes": 13,
+      "date": "2026-11-24",
+      "featured": true
     }
   ]
 }
