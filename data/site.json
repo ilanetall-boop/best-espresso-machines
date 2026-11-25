@@ -969,6 +969,16 @@
       "minutes": 13,
       "date": "2026-11-24",
       "featured": true
+    },
+    {
+      "slug": "casabrews-5418-basic-vs-pro",
+      "title": "CASABREWS 5418 Basic vs. 5418 Pro: What $63 and Flashheat Technology Buys",
+      "description": "The Basic is a $98 steam-wand espresso machine built for beginners. The Pro costs $161 and adds Flashheat heating that reaches brew temperature in under 5 seconds plus a 3-second steam switch. A look at whether the speed is worth the jump.",
+      "category": "Comparison",
+      "hero": "hero-casabrews-5418-basic-vs-pro",
+      "minutes": 14,
+      "date": "2026-11-25",
+      "featured": true
     }
   ]
 }
