@@ -1,4 +1,4 @@
-/* Best Bidet Seats - site.js: analytics + outbound amazon click tracking.
+/* Best Espresso Machines - site.js: analytics + outbound amazon click tracking.
    Ids come from data/blogs-registry.json via scripts/premium-analytics-sync.js — do not hand-edit. */
 (function(){
   var GA_ID = "G-W5VH76R0QB";
