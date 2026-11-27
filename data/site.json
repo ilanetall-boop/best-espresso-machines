@@ -989,6 +989,16 @@
       "minutes": 12,
       "date": "2026-11-26",
       "featured": true
+    },
+    {
+      "slug": "shardor-pressure-gauge-vs-lcd-vs-grinder-models",
+      "title": "SHARDOR's Pressure Gauge, LCD and Grinder Models: Three Ways the Brand Prices a Machine",
+      "description": "SHARDOR sells the same 20-bar foundation three different ways: a $79.99 model with a pressure gauge and touchscreen, a $169.99 model with an LCD display and cup warmer, and a $199.99 model that adds a built-in grinder with 45 settings and PID control.",
+      "category": "Buying guide",
+      "hero": "hero-shardor-pressure-gauge-vs-lcd-vs-grinder-models",
+      "minutes": 16,
+      "date": "2026-11-27",
+      "featured": true
     }
   ]
 }
