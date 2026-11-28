@@ -999,6 +999,16 @@
       "minutes": 16,
       "date": "2026-11-27",
       "featured": true
+    },
+    {
+      "slug": "nespresso-vertuo-pop-plus-vs-pop-plus-deluxe",
+      "title": "Nespresso Vertuo Pop+ vs. Pop+ Deluxe: What $60 and a Bigger Tank Buys",
+      "description": "Both run on the same Vertuo capsule system with one-touch brewing. The Deluxe costs $60 more and states a larger 37-ounce side tank plus automatic capsule ejection, against the standard Pop+'s 25-ounce tank. Whether that's worth it.",
+      "category": "Comparison",
+      "hero": "hero-nespresso-vertuo-pop-plus-vs-pop-plus-deluxe",
+      "minutes": 12,
+      "date": "2026-11-28",
+      "featured": true
     }
   ]
 }
